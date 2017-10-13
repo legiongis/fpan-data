@@ -165,7 +165,7 @@
                     "edgeid": "e23b3c55-9720-11e7-93c1-94659cf754d0", 
                     "graph_id": "9f81527d-8cc2-11e7-883c-06ed184dc22c", 
                     "name": null, 
-                    "ontologyproperty": "P87_is_identified_by", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by", 
                     "rangenode_id": "e23b3c53-9720-11e7-b239-94659cf754d0"
                 }, 
                 {
@@ -174,7 +174,7 @@
                     "edgeid": "e23b3c56-9720-11e7-89aa-94659cf754d0", 
                     "graph_id": "9f81527d-8cc2-11e7-883c-06ed184dc22c", 
                     "name": null, 
-                    "ontologyproperty": "P89_falls_within", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within", 
                     "rangenode_id": "e23b3c50-9720-11e7-a39e-94659cf754d0"
                 }, 
                 {
@@ -183,7 +183,7 @@
                     "edgeid": "f8e8a5fb-9725-11e7-9847-94659cf754d0", 
                     "graph_id": "9f81527d-8cc2-11e7-883c-06ed184dc22c", 
                     "name": null, 
-                    "ontologyproperty": "P2_has_type", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
                     "rangenode_id": "f8e8a5f7-9725-11e7-afac-94659cf754d0"
                 }, 
                 {
@@ -192,7 +192,7 @@
                     "edgeid": "f8e8a5fc-9725-11e7-9e53-94659cf754d0", 
                     "graph_id": "9f81527d-8cc2-11e7-883c-06ed184dc22c", 
                     "name": null, 
-                    "ontologyproperty": "P140_assigned_attribute_to", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to", 
                     "rangenode_id": "f8e8a5f0-9725-11e7-bd74-94659cf754d0"
                 }, 
                 {
@@ -201,7 +201,7 @@
                     "edgeid": "f8e8a5fd-9725-11e7-b338-94659cf754d0", 
                     "graph_id": "9f81527d-8cc2-11e7-883c-06ed184dc22c", 
                     "name": null, 
-                    "ontologyproperty": "P1i_identifies", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies", 
                     "rangenode_id": "f8e8a5f6-9725-11e7-9338-94659cf754d0"
                 }, 
                 {
@@ -210,7 +210,7 @@
                     "edgeid": "f8e8a5fe-9725-11e7-90cb-94659cf754d0", 
                     "graph_id": "9f81527d-8cc2-11e7-883c-06ed184dc22c", 
                     "name": null, 
-                    "ontologyproperty": "P140i_was_attributed_by", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by", 
                     "rangenode_id": "f8e8a5f3-9725-11e7-9c4a-94659cf754d0"
                 }
             ], 
@@ -299,8 +299,8 @@
                     "name": "Location (simple)", 
                     "nodegroup_id": "e23b3c50-9720-11e7-a39e-94659cf754d0", 
                     "nodeid": "e23b3c50-9720-11e7-a39e-94659cf754d0", 
-                    "ontologyclass": "E53_Place", 
-                    "parentproperty": "P89_falls_within"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P89_falls_within"
                 }, 
                 {
                     "config": {
@@ -336,8 +336,8 @@
                     "name": "Geospatial Coordinates", 
                     "nodegroup_id": "e23b3c50-9720-11e7-a39e-94659cf754d0", 
                     "nodeid": "e23b3c53-9720-11e7-b239-94659cf754d0", 
-                    "ontologyclass": "E47_Spatial_Coordinates", 
-                    "parentproperty": "P87_is_identified_by"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by"
                 }, 
                 {
                     "config": null, 
@@ -350,8 +350,8 @@
                     "name": "Name", 
                     "nodegroup_id": "f8e8a5f0-9725-11e7-bd74-94659cf754d0", 
                     "nodeid": "f8e8a5f0-9725-11e7-bd74-94659cf754d0", 
-                    "ontologyclass": "E48_Place_Name", 
-                    "parentproperty": "P140_assigned_attribute_to"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E48_Place_Name", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to"
                 }, 
                 {
                     "config": null, 
@@ -364,8 +364,8 @@
                     "name": "FMSF Identification", 
                     "nodegroup_id": "f8e8a5f3-9725-11e7-9c4a-94659cf754d0", 
                     "nodeid": "f8e8a5f3-9725-11e7-9c4a-94659cf754d0", 
-                    "ontologyclass": "E15_Identifier_Assignment", 
-                    "parentproperty": "P140i_was_attributed_by"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140i_was_attributed_by"
                 }, 
                 {
                     "config": null, 
@@ -378,8 +378,8 @@
                     "name": "Site ID", 
                     "nodegroup_id": "f8e8a5f0-9725-11e7-bd74-94659cf754d0", 
                     "nodeid": "f8e8a5f6-9725-11e7-9338-94659cf754d0", 
-                    "ontologyclass": "E1_CRM_Entity", 
-                    "parentproperty": "P1i_identifies"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies"
                 }, 
                 {
                     "config": {
@@ -394,8 +394,8 @@
                     "name": "Name Type", 
                     "nodegroup_id": "f8e8a5f0-9725-11e7-bd74-94659cf754d0", 
                     "nodeid": "f8e8a5f7-9725-11e7-afac-94659cf754d0", 
-                    "ontologyclass": "E55_Type", 
-                    "parentproperty": "P2_has_type"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
                 }, 
                 {
                     "config": null, 
@@ -408,7 +408,7 @@
                     "name": "Top Node", 
                     "nodegroup_id": null, 
                     "nodeid": "9f81527c-8cc2-11e7-883c-06ed184dc22c", 
-                    "ontologyclass": "E27_Site", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E27_Site", 
                     "parentproperty": ""
                 }
             ], 
