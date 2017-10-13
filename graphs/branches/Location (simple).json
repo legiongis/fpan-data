@@ -71,7 +71,7 @@
                     "edgeid": "578474dc-9321-11e7-883c-06ed184dc22c", 
                     "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
                     "name": null, 
-                    "ontologyproperty": "P87_is_identified_by", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by", 
                     "rangenode_id": "578474db-9321-11e7-883c-06ed184dc22c"
                 }
             ], 
@@ -127,8 +127,8 @@
                     "name": "Geospatial Coordinates", 
                     "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
                     "nodeid": "578474db-9321-11e7-883c-06ed184dc22c", 
-                    "ontologyclass": "E47_Spatial_Coordinates", 
-                    "parentproperty": "P87_is_identified_by"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by"
                 }, 
                 {
                     "config": null, 
@@ -141,7 +141,7 @@
                     "name": "Location (simple)", 
                     "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
                     "nodeid": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
-                    "ontologyclass": "E53_Place", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
                     "parentproperty": ""
                 }
             ], 
@@ -160,7 +160,7 @@
                 "name": "Location (simple)", 
                 "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
                 "nodeid": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
-                "ontologyclass": "E53_Place"
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place"
             }, 
             "subtitle": "", 
             "version": ""

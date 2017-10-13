@@ -110,7 +110,7 @@
                     "edgeid": "6f6f87e3-9316-11e7-883c-06ed184dc22c", 
                     "graph_id": "4bfedf3b-89dd-11e7-883c-06ed184dc22c", 
                     "name": null, 
-                    "ontologyproperty": "P2_has_type", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
                     "rangenode_id": "6f6f87e2-9316-11e7-883c-06ed184dc22c"
                 }, 
                 {
@@ -119,7 +119,7 @@
                     "edgeid": "6f6f87e4-9316-11e7-883c-06ed184dc22c", 
                     "graph_id": "4bfedf3b-89dd-11e7-883c-06ed184dc22c", 
                     "name": null, 
-                    "ontologyproperty": "P140_assigned_attribute_to", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to", 
                     "rangenode_id": "6f6f87df-9316-11e7-883c-06ed184dc22c"
                 }, 
                 {
@@ -128,7 +128,7 @@
                     "edgeid": "e598eea0-9712-11e7-b17d-94659cf754d0", 
                     "graph_id": "4bfedf3b-89dd-11e7-883c-06ed184dc22c", 
                     "name": null, 
-                    "ontologyproperty": "P1i_identifies", 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies", 
                     "rangenode_id": "e598ee9f-9712-11e7-bdea-94659cf754d0"
                 }
             ], 
@@ -167,8 +167,8 @@
                     "name": "Name", 
                     "nodegroup_id": "6f6f87df-9316-11e7-883c-06ed184dc22c", 
                     "nodeid": "6f6f87df-9316-11e7-883c-06ed184dc22c", 
-                    "ontologyclass": "E48_Place_Name", 
-                    "parentproperty": "P140_assigned_attribute_to"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E48_Place_Name", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to"
                 }, 
                 {
                     "config": null, 
@@ -181,7 +181,7 @@
                     "name": "FMSF Identification", 
                     "nodegroup_id": "4bfedf3a-89dd-11e7-883c-06ed184dc22c", 
                     "nodeid": "4bfedf3a-89dd-11e7-883c-06ed184dc22c", 
-                    "ontologyclass": "E15_Identifier_Assignment", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment", 
                     "parentproperty": ""
                 }, 
                 {
@@ -195,8 +195,8 @@
                     "name": "Site ID", 
                     "nodegroup_id": "6f6f87df-9316-11e7-883c-06ed184dc22c", 
                     "nodeid": "e598ee9f-9712-11e7-bdea-94659cf754d0", 
-                    "ontologyclass": "E1_CRM_Entity", 
-                    "parentproperty": "P1i_identifies"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies"
                 }, 
                 {
                     "config": {
@@ -211,8 +211,8 @@
                     "name": "Name Type", 
                     "nodegroup_id": "6f6f87df-9316-11e7-883c-06ed184dc22c", 
                     "nodeid": "6f6f87e2-9316-11e7-883c-06ed184dc22c", 
-                    "ontologyclass": "E55_Type", 
-                    "parentproperty": "P2_has_type"
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -230,7 +230,7 @@
                 "name": "FMSF Identification", 
                 "nodegroup_id": "4bfedf3a-89dd-11e7-883c-06ed184dc22c", 
                 "nodeid": "4bfedf3a-89dd-11e7-883c-06ed184dc22c", 
-                "ontologyclass": "E15_Identifier_Assignment"
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment"
             }, 
             "subtitle": "", 
             "version": ""
