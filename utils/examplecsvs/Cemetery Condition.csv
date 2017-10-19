@@ -1,0 +1,7 @@
+3394,"Well Maintained","Well maintained","WLMT",3393,1,0,0,1,1
+3395,"Some Areas Maintained","Some areas maintained, other areas neglected","SMMT",3393,2,0,0,1,1
+3396,"Poorly Maintained","Poorly maintained","PRMT",3393,3,0,0,1,1
+3397,"Not Maintained, But Easily Identifiable","Not maintained, but can identify","NMCN",3393,4,0,0,1,1
+3398,"Not Maintained, Hard to Identify","Not maintained, hard to identify","NMHD",3393,5,0,0,1,1
+3399,"Unspecified","Unspecified by surveyor","UNSP",3393,6,1,0,1,1
+3400,"Not Identifiable, But Known to Exist","Not identifiable, but known to exist","EXST",3393,7,0,0,1,1

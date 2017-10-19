@@ -1,0 +1,186 @@
+1866,"Log boat","Log Boat - Historic or Prehistoric","ABOB",1865,10,0,0,1,1
+1867,"Agriculture/farm","Agriculture/Farm structure","AGRI",1865,20,1,0,1,1
+4125,"Aircraft Wreckage","Aircraft Wreckage/Crash Site","AIRC",1865,25,0,0,1,1
+1868,"Anchorage midden-underwater","Anchorage midden-underwater","UANC",1865,30,0,0,1,1
+1869,"Artifact scatter-low density","Artifact scatter-low density (< 2 per sq meter)","SCAR",1865,40,0,0,1,1
+1870,"Bridge Remains","Bridge Remains","BRID",1865,50,0,0,1,1
+1871,"Burial mound (prehistoric)","Prehistoric burial mound(s)","MDBU",1865,60,0,0,1,0
+1872,"Burials-historic","Historic burial(s)","BURH",1865,70,0,0,1,1
+1873,"Burials-prehistoric","Prehistoric burial(s)","BURP",1865,80,0,0,1,1
+1874,"Campsite (prehistoric)","Campsite (prehistoric)","CAMP",1865,90,0,0,1,1
+1875,"Canal","Canal","CANA",1865,100,0,0,1,1
+1876,"Canoe/watercraft-Log","Log Boat - Historic or Prehistoric","ABOB",1865,110,0,0,1,0
+1877,"Careening midden-underwater","Careening midden-underwater","UCAR",1865,120,0,0,1,1
+1878,"Cave/rockshelter","Cave or rockshelter","CAVE",1865,130,0,0,1,1
+1879,"CCC camp (forest)","CCC camp (forest)","CCCC",1865,140,0,0,1,1
+1880,"Cemetery-historic","Historic burial(s)","BURH",1865,150,0,0,1,0
+1881,"Cemetery-prehistoric","Prehistoric burial(s)","BURP",1865,160,0,0,1,0
+1882,"Ceramic scatter","Ceramic scatter","SCCE",1865,170,0,0,1,1
+1883,"Cistern","Cistern","CIST",1865,180,0,0,1,1
+1884,"Cistern well","Cistern","CIST",1865,190,0,0,1,0
+1885,"Clay pit","Clay pit","CLAY",1865,200,1,0,1,1
+1886,"Commercial","Industrial","INDU",1865,210,1,0,1,0
+1887,"Destroyed (totally)","Destroyed","DEST",1865,220,1,0,1,1
+1888,"Dock(s)","Wharf / Dock / Pier","WHAR",1865,230,0,0,1,0
+1889,"Earthworks (historic)","Historic earthworks","HEAR",1865,240,0,0,1,1
+1890,"Earthworks (prehistoric)","Prehistoric earthworks","WKER",1865,250,0,0,1,0
+1891,"Field-old (historic)","Old field (historic)","FIEL",1865,260,0,0,1,0
+1892,"Fort (historic)","Historic fort","FORT",1865,270,0,0,1,0
+1893,"Graves-prehistoric","Prehistoric burial(s)","BURP",1865,280,0,0,1,0
+1894,"Graveyard-historic","Historic burial(s)","BURH",1865,290,0,0,1,0
+1895,"Grist mill","Grist mill","MLGR",1865,300,0,0,1,1
+1896,"Habitation (prehistoric)","Habitation (prehistoric)","HABI",1865,310,0,0,1,1
+1897,"Historic earthworks","Historic earthworks","HEAR",1865,320,0,0,1,0
+1898,"Historic fort","Historic fort","FORT",1865,330,0,0,1,1
+1899,"Historic mission","Mission of Spanish Colonial heritage","MISS",1865,340,0,0,1,0
+1900,"Historic refuse","Historic refuse / dump","REFU",1865,350,0,0,1,1
+1901,"Historic road segment","Historic road segment","ROAD",1865,360,0,0,1,1
+1902,"Historic shipwreck","Historic shipwreck","WREC",1865,370,0,0,1,1
+1903,"Historic town","Historic town","TOWN",1865,380,0,0,1,1
+1904,"Historic well","Historic well","WELL",1865,390,0,0,1,1
+4342,"Historic mine","Historic mine, phosphate or other","MINE",1865,400,0,0,1,1
+1906,"House","House","HOUS",1865,410,0,0,1,1
+1907,"Indeterminate","Indeterminate","INDE",1865,420,1,0,1,1
+1908,"Industrial","Industrial","INDU",1865,430,1,0,1,1
+1909,"Inundated land site","Inundated land site","INUN",1865,440,0,0,1,1
+1910,"Single Artifact","Single artifact or isolated find","SING",1865,450,0,0,1,0
+1911,"Limited activity (prehistoric)","Campsite (prehistoric)","CAMP",1865,460,0,0,1,0
+1912,"Lithic Scatter/quarry","Lithic scatter/quarry (prehistoric: no ceramics)","SCLI",1865,470,0,0,1,0
+1913,"Prehistoric Lithic quarry","Prehistoric quarry","QUAR",1865,480,0,0,1,0
+1914,"Lumber mill","Lumber mill","MLLU",1865,490,0,0,1,1
+1915,"Midden-prehistoric","Prehistoric midden(s)","MIDD",1865,500,0,0,1,0
+1916,"Midden-shell","Prehistoric shell midden","MDSH",1865,510,0,0,1,0
+1917,"Military unspecified","Military","MILI",1865,520,1,0,1,1
+1918,"Mill unspecified","Mill of unspecified function","MILL",1865,530,0,0,1,1
+1919,"Mill-grist","Grist mill","MLGR",1865,540,0,0,1,0
+1920,"Mill-lumber","Lumber mill","MLLU",1865,550,0,0,1,0
+1921,"Mill-sugar","Sugar mill","MLSU",1865,560,0,0,1,0
+1922,"Mission","Mission of Spanish Colonial heritage","MISS",1865,570,0,0,1,1
+1923,"Mound (prehistoric)","Prehistoric mound(s)","MOUN",1865,580,0,0,1,0
+1924,"Mound-burial","Prehistoric burial mound(s)","MDBU",1865,590,0,0,1,0
+1925,"Mound-platform or temple","Platform mound (prehistoric)","MDPL",1865,600,0,0,1,0
+1926,"Naval stores","Naval stores-related","NVST",1865,610,1,0,1,1
+1927,"Old field (historic)","Old field (historic)","FIEL",1865,620,0,0,1,1
+1928,"Paleontological also","Paleontological in addition to cultural evidence","PALE",1865,630,0,0,1,1
+1929,"Pier(s)","Wharf / Dock / Pier","WHAR",1865,640,0,0,1,0
+1930,"Plantation","Plantation","PLAN",1865,650,0,0,1,1
+1931,"Platform mound-prehistoric","Platform mound (prehistoric)","MDPL",1865,660,0,0,1,1
+1932,"Prehistoric burial(s)","Prehistoric burial(s)","BURP",1865,670,0,0,1,0
+1933,"Prehistoric earthworks","Prehistoric earthworks","WKER",1865,680,0,0,1,1
+1934,"Prehistoric lithics-non-quarry","Prehistoric lithics only, but not quarry","SCNQ",1865,690,0,0,1,1
+1935,"Prehistoric midden(s)","Prehistoric midden(s)","MIDD",1865,700,0,0,1,1
+1936,"Prehistoric mound(s)","Prehistoric mound(s)","MOUN",1865,710,0,0,1,1
+1937,"Prehistoric shell midden","Prehistoric shell midden","MDSH",1865,720,0,0,1,1
+1938,"Prehistoric shell ring","Prehistoric shell ring","RING",1865,730,0,0,1,1
+1939,"Prehistoric shell scatter","Prehistoric shell scatter","SCSH",1865,740,0,0,1,1
+1940,"Prehistoric shell works","Prehistoric shell mound(s)","WKSH",1865,750,0,0,1,1
+1941,"Prehistoric burial mounds","Prehistoric burial mound(s)","MDBU",1865,760,0,0,1,1
+1942,"Prehistoric quarry","Prehistoric quarry","QUAR",1865,770,0,0,1,1
+1943,"Lithic Scatter","Lithic scatter/quarry (prehistoric: no ceramics)","SCLI",1865,780,0,0,1,1
+1944,"Quarry-prehistoric","Prehistoric quarry","QUAR",1865,790,0,0,1,0
+1945,"Railroad grade segmt","Railroad grade segment","RAIL",1865,800,0,0,1,1
+1946,"Redeposited site","Redeposited site (to this location)","REDE",1865,810,0,0,1,1
+1947,"Refuse (historic)","Historic refuse / Dump","REFU",1865,820,0,0,1,0
+1948,"Relict shell ridge","Shell ridge (relict)","RIDG",1865,830,0,0,1,1
+1949,"Ring-shell (prehistoric)","Prehistoric shell ring","RING",1865,840,0,0,1,0
+1950,"Road segment (historic)","Historic road segment","ROAD",1865,850,0,0,1,0
+1951,"Saltworks","Saltworks","SALT",1865,860,0,0,1,1
+1952,"Sawmill","Lumber mill","MLLU",1865,870,0,0,1,0
+1953,"Scatter-artifact-low density","Artifact scatter-low density (< 2 per sq meter)","SCAR",1865,880,0,0,1,0
+1954,"Scatter-ceramics","Ceramic scatter","SCCE",1865,890,0,0,1,0
+1955,"Scatter-shell","Prehistoric shell scatter","SCSH",1865,900,0,0,1,0
+1956,"Shell midden (prehistoric)","Prehistoric shell midden","MDSH",1865,910,0,0,1,0
+1957,"Shell ridge (relict)","Shell ridge (relict)","RIDG",1865,920,0,0,1,0
+1958,"Shell ring (prehistoric)","Prehistoric shell ring","RING",1865,930,0,0,1,0
+1959,"Shell scatter (prehistoric)","Prehistoric shell scatter","SCSH",1865,940,0,0,1,0
+1960,"Shell works (prehistoric)","Prehistoric shell mound(s)","WKSH",1865,950,0,0,1,0
+1961,"Shipwreck (historic)","Historic shipwreck","WREC",1865,960,0,0,1,0
+1962,"Shrine","Shrine","SHRI",1865,970,1,0,1,1
+1963,"Isolated Find","Single artifact or isolated find","SING",1865,980,0,0,1,1
+1964,"Still for liquor","Still for distilling alcoholic spirits","STIL",1865,990,0,0,1,1
+1965,"Stone wall","Wall","WALL",1865,1000,0,0,1,0
+1966,"Store site or ruin","Store site or ruin","STOR",1865,1010,0,0,1,1
+1967,"Submerged land site","Inundated land site","INUN",1865,1020,0,0,1,0
+1968,"Sugar mill","Sugar mill","MLSU",1865,1030,0,0,1,1
+1969,"Temple mound (prehistoric)","Platform mound (prehistoric)","MDPL",1865,1040,0,0,1,0
+1970,"Town (historic)","Historic town","TOWN",1865,1050,0,0,1,0
+1971,"Trading post","Store site or ruin","STOR",1865,1060,0,0,1,0
+1972,"Turpentine camp","Turpentine camp","TURP",1865,1070,0,0,1,1
+1973,"Underwater disposal midden","Underwater disposal midden","UDIS",1865,1080,0,0,1,1
+1974,"Underwater land site","Inundated land site","INUN",1865,1090,0,0,1,0
+1975,"Underwater midden-anchorage","Anchorage midden-underwater","UANC",1865,1100,0,0,1,0
+1976,"Underwater midden-careen","Careening midden-underwater","UCAR",1865,1110,0,0,1,0
+1977,"Underwater midden-wharf","Wharf midden-underwater","UWHF",1865,1120,0,0,1,0
+1978,"Underwater refuse from land","Underwater disposal midden","UDIS",1865,1130,0,0,1,0
+1979,"Underwater-shipwreck","Historic shipwreck","WREC",1865,1140,0,0,1,0
+1980,"Unknown","Unknown","UNKN",1865,1150,0,0,1,1
+1981,"Village (prehistoric)","Habitation (prehistoric)","HABI",1865,1160,0,0,1,0
+1982,"Wall","Wall","WALL",1865,1170,0,0,1,1
+1983,"Well (historic)","Historic well","WELL",1865,1180,0,0,1,0
+1984,"Wharf midden-underwater","Wharf midden-underwater","UWHF",1865,1190,0,0,1,1
+1985,"Wharf / Dock / Pier","Wharf / Dock / Pier","WHAR",1865,1200,0,0,1,1
+1986,"Wreck of ship","Historic shipwreck","WREC",1865,1210,0,0,1,0
+1987,"Other","Other","OTHR",1865,1220,0,0,1,1
+1988,"Lighthouse","Lighthouse","LGTH",1865,1230,0,0,1,1
+1989,"Underwater-unspecified","Underwater","UUNS",1865,1240,0,0,1,1
+1990,"Cotton mill","Cotton mill","MLCO",1865,1250,0,0,1,1
+1991,"Mill-cotton","Cotton mill","MLCO",1865,1260,0,0,1,0
+1992,"Undwater-freshwater","Freshwater submerged site","UFRE",1865,1270,0,0,1,0
+1993,"Freshwater submerged","Freshwater submerged site","UFRE",1865,1280,0,0,1,1
+1994,"Underwater-saltwater","Saltwater submerged site","USAL",1865,1290,0,0,1,0
+1995,"Saltwater submerged","Saltwater submerged site","USAL",1865,1300,0,0,1,1
+1996,"Building Remains","Building remains","BLDG",1865,1310,0,0,1,1
+1997,"Foundation-historic structure","Building remains","BLDG",1865,1320,0,0,1,0
+1998,"Chimney ruin","Building remains","BLDG",1865,1330,0,0,1,0
+1999,"Rockshelter/cave","Cave or rockshelter","CAVE",1865,1340,0,0,1,0
+2000,"Non-artifactual site","Nonartifactual site: no definite artifacts seen","NARF",1865,1350,0,0,1,1
+2001,"Unspecified on form","Unspecified by the recorder","UNSP",1865,1360,1,0,1,1
+2002,"Farmstead","Farmstead","FARM",1865,1370,0,0,1,1
+2003,"Square, historic","Historic Square","SQAR",1865,1380,0,0,1,1
+2004,"Plaza, historic","Historic park or plaza","PARK",1865,1390,0,0,1,0
+2005,"Dam/water control structure","Water control structure or dam","WCON",1865,1400,0,0,1,1
+2006,"Dike","Water control structure or dam","WCON",1865,1410,0,0,1,0
+2007,"Water control structure/dam","Water control structure or dam","WCON",1865,1420,0,0,1,0
+2008,"Unknown, not blank","Unknown","UNKN",1865,1430,0,0,1,0
+2009,"Informant info only-no fieldwork","No field investigation--record based on informant","NOFI",1865,1440,0,0,1,1
+2010,"Remote sensing only-no fieldwork","No field investigation--reported by remote sensing","NOFR",1865,1450,0,0,1,1
+2011,"Government","Government-related","GOVT",1865,1460,0,0,1,1
+2012,"Domiciliary mound","Domiciliary mound--platform for a house","MDDO",1865,1470,0,0,1,1
+2013,"Mound-domiciliary","Domiciliary mound--platform for a house","MDDO",1865,1480,0,0,1,0
+2014,"Extractive site","Specialized site for procurement of raw materials","EXTR",1865,1490,0,0,1,1
+2015,"Prehistoric shell mound","Prehistoric shell mound(s)","WKSH",1865,1500,0,0,1,0
+2016,"Shell mounds (prehistoric)","Prehistoric shell mound(s)","WKSH",1865,1510,0,0,1,0
+2017,"Noncultural","Noncultural","NONC",1865,1520,1,0,1,1
+2018,"Kiln (ceramic)","Kiln for firing ceramics","KILN",1865,1530,0,0,1,1
+2019,"Artifact scatter - dense","Artifact scatter-dense (> 2 per sq meter)","SCDE",1865,1540,0,0,1,1
+2020,"Scatter--dense","Artifact scatter-dense (> 2 per sq meter)","SCDE",1865,1550,0,0,1,0
+2021,"Artifact scatter-variable density","Variable density scatter of artifacts","VADE",1865,1560,0,0,1,1
+2022,"Features-subsurface","Subsurface features are present","FEAT",1865,1570,0,0,1,0
+2023,"Subsurface features","Subsurface features are present","FEAT",1865,1580,0,0,1,1
+2024,"Military battlegrnd","Military battleground","BATL",1865,1590,0,0,1,1
+2025,"Military encampment","Military encampment","ENCP",1865,1600,0,0,1,1
+2026,"Human remains observed","Human remains noted at site","HREM",1865,1610,1,0,1,1
+2027,"Documents-historic","Recorded from historic maps/documents only","DOCU",1865,1620,0,0,1,1
+2028,"Scatter-lithic or quarry","Lithic scatter/quarry (prehistoric: no ceramics)","SCLI",1865,1630,0,0,1,0
+2029,"Land-terrestrial","Land-terrestrial","LAND",1865,1640,0,0,1,1
+2030,"Cave/Sink-terrestrial","Cave/Sink-subterranean-terrestrial","CSST",1865,1650,0,0,1,1
+2031,"Cave/Sink-aquatic","Cave/Sink-subterranean-aquatic","CSSA",1865,1660,0,0,1,0
+2032,"Cave/Sink-sometimes flooded","Cave/Sink-subterranean-intermittently flooded","CSSI",1865,1670,0,0,1,1
+4017,"Wetland","Wetland","WETL",1865,1680,0,0,1,0
+3766,"Wetland-usually flooded","Wetland-palustrine-sometimes flooded","WETS",1865,1690,0,0,1,1
+3765,"Wetland-usually dry","Wetland-palustrine-usually dry","WETD",1865,1700,0,0,1,1
+3764,"Lake/Pond","Lake/Pond-lacustrine","LAKE",1865,1710,0,0,1,1
+3763,"River/Stream/Creek","River/Stream/Creek-riverine","RIVE",1865,1720,0,0,1,1
+3762,"Tidal-estuarine","Tidal-estuarine","TIDE",1865,1730,0,0,1,1
+2041,"Prehistoric Petroglyph","Prehist. Petrogylph-carving or inscription on rock","PETP",1865,1760,0,0,1,1
+2042,"Historic Petroglyph","Historic Petrogylph-carving or inscription on rock","PETH",1865,1770,0,0,1,1
+2043,"Sink/Cave-aquatic","Cave/Sink-subterranean-aquatic","CSSA",1865,1780,0,0,1,1
+2044,"Sink/Cave-sometimes flooded","Cave/Sink-subterranean-intermittently flooded","CSSI",1865,1790,0,0,1,0
+2045,"Sink/Cave-terrestial","Cave/Sink-subterranean-terrestrial","CSST",1865,1800,0,0,1,0
+3761,"Marine/saltwater high energy","Saltwater-marine-""high energy""","USAH",1865,1810,0,0,1,1
+3760,"Marine/saltwater low energy","Saltwater-marine-""low energy""","USAW",1865,1820,0,0,1,1
+2050,"Redeposited site","Redeposited site (from this location)","RFTL",1865,1850,0,0,1,1
+2051,"Park, historic","Historic park or plaza","PARK",1865,1860,0,0,1,0
+2052,"Historic plaza","Historic park or plaza","PARK",1865,1870,0,0,1,0
+2053,"Historic park/plaza","Historic park or plaza","PARK",1865,1880,0,0,1,1
+1905,"Homestead","Homestead","HOME",1865,1890,0,0,1,1

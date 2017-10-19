@@ -1,0 +1,10 @@
+1255,"YES","Eligible for NRHP","YES ",1254,1,0,0,1,1
+1256,"NO","Ineligible for NRHP","NO  ",1254,2,0,0,1,1
+1257,"LIKELY","Likely NRHP Eligible","LIKE",1254,3,1,0,1,1
+1258,"INSUFF. INFO","Insufficient Information","INSF",1254,4,0,0,1,1
+1259,"UNSP","Not Evaluated by Recorder","UNSP",1254,5,1,0,1,1
+1260,"More Work Recommended","More Work Recommended","WKYE",1254,6,1,0,1,1
+1261,"No Further Work Recommd","No Further Work Recommended","WKNO",1254,7,1,0,1,1
+1262,"Preservation Recommended","Preservation Recommended","PRYE",1254,8,1,0,1,1
+1263,"Presrvtn Not Recommended","Preservation Not Recommended","PRNO",1254,9,1,0,1,1
+3831,"Not Evaluated","Not Evaluated by Recorder","NOEV",1254,10,1,0,0,1

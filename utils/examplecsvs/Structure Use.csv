@@ -1,0 +1,285 @@
+4162,"_","NULL VALUE","NULL",1430,0,0,0,1,1
+1431,"Abandoned/Vacant","Abandoned or vacant","VACA",1430,10,0,0,1,0
+1432,"Agricultural","Agricultural","AGRI",1430,20,0,0,1,1
+1433,"Air/Bus/Rail terminal or depot","Terminal, Air/Bus/Rail","TERM",1430,30,0,0,1,0
+1434,"Airport","Airport","AIRP",1430,40,0,0,1,1
+1435,"Animal shelter/Kennel/Pound","Animal shelter","KENN",1430,50,0,0,1,1
+1436,"Apartment","Apartment","APTM",1430,60,0,0,1,1
+1682,"Apartment, garage","Garage apartment","GAPT",1430,70,0,0,1,0
+1437,"Apartments & commercial","Commercial and apartments","CMAP",1430,80,0,0,1,0
+1689,"Arched entryway","Gateway/gatehouse/arched entryway","GATE",1430,90,0,0,0,0
+1438,"Armory","Armory","ARMO",1430,100,0,0,1,1
+1439,"Air Force/Army/Navy/Military base","Military","MILI",1430,110,0,0,1,0
+1685,"Art gallery/Museum/Planetarium","Museum/art gallery/planetarium","MUSE",1430,120,0,0,1,0
+1680,"Auto dealership","Automobile dealership","AUTO",1430,130,0,0,1,1
+1440,"Auto repair/Gas station","Service station","GAST",1430,140,0,0,1,1
+1441,"Bakery","Bakery shop","BAKE",1430,150,0,0,1,1
+1442,"Band shell","Band shell","BDSH",1430,160,0,0,1,1
+1443,"Bank","Bank","BANK",1430,170,0,0,1,1
+1444,"Bar","Bar","BAR ",1430,180,0,0,1,1
+1445,"Barber/Salon/Beauty shop","Barber/Beauty shop","SBEA",1430,190,0,0,1,0
+1446,"Barn","Barn","BARN",1430,200,0,0,1,1
+1447,"Beauty shop/Salon/Barber","Barber/Beauty shop","SBEA",1430,210,0,0,1,0
+1710,"Bed & Breakfast","Bed & Breakfast","BEDB",1430,220,0,0,1,1
+1448,"Belltower/Clocktower/Tower","Tower","TOWR",1430,230,0,0,1,0
+1449,"Blacksmith/Smithy","Smithy","SBLK",1430,240,0,0,1,0
+1450,"Blockhouse/Fortification","Fortification","FORT",1430,250,0,0,1,0
+1451,"Boardinghouse","Boardinghouse","ROOM",1430,260,0,0,1,1
+1709,"Boat Ramp","Boat ramp","BOMP",1430,270,0,0,1,1
+1708,"Boat Slip","Boat slip","SLIP",1430,280,0,0,1,1
+1452,"Boathouse","Boathouse","BOAT",1430,290,0,0,1,1
+1698,"Boatworks","Boatworks, repairs and service","BOAW",1430,300,0,0,1,1
+1453,"Bridge","Bridge","BRID",1430,310,0,0,1,1
+3693,"Brothel","House of prostitution","HPRO",1430,320,0,0,1,0
+1454,"Bus terminal","Terminal, Air/Bus/Rail","TERM",1430,330,0,0,1,0
+1455,"Cabin","Private residence","RESI",1430,340,0,0,0,0
+1456,"Cafeteria/Restaurant/Diner","Restaurant","REST",1430,350,0,0,1,0
+1457,"Cafeteria, not retail","Dining hall","DINI",1430,360,0,0,0,0
+1458,"Cemetery","Cemetery","CEME",1430,370,0,0,1,1
+1712,"Cemetery/Church Complex","Church/Cemetery complex","CHCE",1430,380,0,0,1,0
+1459,"Charnel house","Charnel house","CHAR",1430,390,0,0,1,1
+1460,"Child care","Child care","CHIL",1430,400,0,0,1,1
+1461,"Children's home/Orphanage","Orphanage","ORPH",1430,410,0,0,1,0
+1462,"Church/Temple/Synagogue","House of worship","HSEW",1430,420,0,0,1,0
+1711,"Church/Cemetery Complex","Church/Cemetery complex","CHCE",1430,430,0,0,1,1
+1463,"City hall","City hall","CIHL",1430,440,0,0,1,1
+1464,"Civic center","Civic center","CIVI",1430,450,0,0,1,1
+1465,"Clinic/Health center/Outpatient care","Health center","OUTP",1430,460,0,0,1,0
+1466,"Clocktower/Belltower/Tower","Tower","TOWR",1430,470,0,0,1,0
+1467,"Clubhouse","Lodge (club) building","CLUB",1430,480,0,0,1,0
+1468,"College/University/School","School, University, College","SCHO",1430,490,0,0,1,0
+1470,"Commercial & apartments","Commercial and apartments","CMAP",1430,500,0,0,1,1
+1471,"Commercial & residence","Commercial and residence","CMRE",1430,510,0,0,1,1
+1469,"Commercial","Commercial","COMM",1430,520,0,0,1,1
+1472,"Communications-related","Communications-related","CMUN",1430,530,0,0,1,1
+1676,"Community center","Community center (e.g., recreation hall)","BREC",1430,540,0,0,1,1
+1473,"Control tower","Control tower for air traffic","CTOW",1430,550,0,0,1,1
+1474,"Convent/Monastery","Convent, Monastery","CONV",1430,560,0,0,1,0
+1475,"Correctional facilty","Prison","JAIL",1430,570,0,0,0,0
+1476,"Cottage","Private residence","RESI",1430,580,0,0,0,0
+1477,"Courthouse","Courthouse","COUR",1430,590,0,0,1,1
+1478,"Credit union","Bank","BANK",1430,600,0,0,1,0
+1479,"Dairy","Dairy","DAIR",1430,610,0,0,1,1
+1480,"Dam","Dam","DAM ",1430,620,0,0,1,1
+1481,"Day care","Child care","CHIL",1430,630,0,0,1,0
+1482,"Demolished/Destroyed","Destroyed","DEST",1430,640,0,0,1,0
+1483,"Dentist/Medical/Professional office","Office","OFFI",1430,650,0,0,1,0
+1484,"Department store","Department store","SDEP",1430,660,0,0,1,1
+1485,"Depot","Terminal, Air/Bus/Rail","TERM",1430,670,0,0,1,0
+1486,"Destroyed/Demolished","Destroyed","DEST",1430,680,0,0,1,1
+1487,"Detention center/Jail/Prison","Prison","JAIL",1430,690,0,0,1,0
+1488,"Diner/Restaurant","Restaurant","REST",1430,700,0,0,1,0
+1489,"Dining hall/Cafeteria","Dining hall or Cafeteria, not retail","DINI",1430,710,0,0,1,1
+1693,"Electrical distribution","Transmission structure (electrical)","ELEC",1430,720,0,0,1,0
+1490,"Dock/Pier/Wharf","Pier","PIER",1430,730,0,0,1,0
+1684,"Drugstore/Pharmacy","Pharmacy","PHAR",1430,740,0,0,1,0
+1491,"Duplex","Duplex","DUPL",1430,750,0,0,1,1
+1492,"Educational-related","Education related","EDUC",1430,760,0,0,1,1
+1688,"Electrical plant","Power plant","POWR",1430,770,0,0,1,0
+1692,"Electrical vault","Transmission structure (electrical)","ELEC",1430,780,0,0,1,0
+1493,"Entertainment","Entertainment","ENTE",1430,790,0,0,1,1
+1494,"Factory/Plant/Industrial","Industrial plant","PLNT",1430,800,0,0,1,0
+1495,"Farm","Farm","FARM",1430,810,0,0,1,1
+1496,"Farmers market structure","Market structure","MARK",1430,820,0,0,0,0
+1497,"Farmstead","Farm","FARM",1430,830,0,0,1,0
+1498,"Financial institution","Bank","BANK",1430,840,0,0,1,0
+1499,"Firehouse","Firehouse","FIRE",1430,850,0,0,1,1
+1701,"Fish house","Fish house","FISH",1430,860,0,0,1,1
+1500,"Fitness center/Spa/Gym","Fitness center or spa","GYMN",1430,870,0,0,1,0
+1501,"Fortification/Blockhouse","Fortification","FORT",1430,880,0,0,1,1
+1502,"Fraternal order building","Lodge (club) building","CLUB",1430,890,0,0,1,0
+1675,"Funeral home/Mortuary","Funeral home","MORT",1430,900,0,0,1,1
+1503,"Garage","Garage","GARA",1430,910,0,0,1,1
+1681,"Garage apartment","Garage apartment","GAPT",1430,920,0,0,1,1
+1504,"Gas station","Service station","GAST",1430,930,0,0,1,0
+1505,"Gateway/Gatehouse/Arched entryway","Gateway/gatehouse/arched entryway","GATE",1430,940,0,0,1,1
+1506,"Gazebo","Gazebo","GAZE",1430,950,0,0,1,1
+1507,"Golf course","Golf course","GOLF",1430,960,0,0,1,1
+1508,"Government Offices","Governmental Offices","GOVT",1430,970,0,0,1,0
+1509,"Graveyard","Cemetery","CEME",1430,980,0,0,1,0
+1510,"Greenhouse","Greenhouse","GREE",1430,990,0,0,1,1
+1511,"Grist/Lumber/Sugar mill","Mill","MILL",1430,1000,0,0,1,0
+1512,"Grocery store/Supermarket","Grocery store","SGRO",1430,1010,0,0,1,1
+1513,"Gym/Spa/Fitness center","Fitness center or spa","GYMN",1430,1020,0,0,1,1
+1514,"Hairdresser","Barber/Beauty shop","SBEA",1430,1030,0,0,1,0
+1713,"Hall","Hall","HALL",1430,1040,0,0,1,1
+1515,"Hangar","Hangar","HANG",1430,1050,0,0,1,1
+1516,"Hardware store","Hardware store","SHRD",1430,1060,0,0,1,1
+1517,"Health center/Clinic/Outpatent care","Health center","OUTP",1430,1070,0,0,1,1
+1518,"Historic marker","Monument, Marker, Statue","MONU",1430,1080,0,0,0,0
+1519,"Home","Private residence","RESI",1430,1090,0,0,0,0
+1520,"Hospital","Hospital","HOSP",1430,1110,0,0,1,1
+1521,"Hotel","Hotel, Motel, Inn","HOTL",1430,1120,0,0,1,1
+1522,"House","Private residence","RESI",1430,1130,0,0,0,0
+1523,"House of worship","House of worship","HSEW",1430,1140,0,0,1,1
+1524,"House, charnel","Charnel house","CHAR",1430,1150,0,0,1,0
+1525,"House of prostitution","House of prostitution","HPRO",1430,1160,0,0,1,1
+1526,"Icehouse","Icehouse","ICEH",1430,1170,0,0,1,1
+1528,"Industrial","Industrial plant","PLNT",1430,1180,0,0,0,0
+1527,"Industrial plant","Industrial plant","PLNT",1430,1190,0,0,1,1
+1529,"Inn","Hotel, Motel, Inn","HOTL",1430,1200,0,0,1,0
+1530,"Inpatient care","Hospital","HOSP",1430,1210,0,0,1,0
+1531,"Jail/Prison/Detention Center","Prison","JAIL",1430,1220,0,0,1,1
+1532,"Kennel","Animal shelter","KENN",1430,1230,0,0,1,0
+1533,"Kindergarten","School, University, College","SCHO",1430,1240,0,0,1,0
+1702,"Kitchen","Kitchen","KITC",1430,1250,0,0,1,1
+1534,"Labor/Migrant housing","Migrant housing","LABH",1430,1260,0,0,1,0
+1535,"Laboratory","Laboratory--research","SCIE",1430,1270,0,0,1,1
+1536,"Launch pad","Launch pad","LPAD",1430,1280,0,0,1,1
+1537,"Laundry","Laundry","LAUN",1430,1290,0,0,1,1
+1538,"Library","Library","LIBR",1430,1300,0,0,1,1
+1539,"Lighthouse","Lighthouse","LIGH",1430,1310,0,0,1,1
+1540,"Lock structure, canal","Lock structure-canal","CANL",1430,1320,0,0,1,1
+1541,"Club or Lodge building","Lodge (club) building","CLUB",1430,1330,0,0,1,1
+1542,"Lounge","Bar","BAR ",1430,1340,0,0,1,0
+1543,"Lumber/Sugar/Grist mill","Mill","MILL",1430,1350,0,0,1,0
+1673,"Mall/Shopping center","Shopping center","MALL",1430,1360,0,0,1,1
+1544,"Marker/Monument/Statue","Monument, Marker, Statue","MONU",1430,1370,0,0,1,0
+1545,"Market structure","Market structure","MARK",1430,1380,0,0,1,1
+1546,"Mausoleum","Mausoleum","MAUS",1430,1390,0,0,1,1
+1547,"Medical offices","Office","OFFI",1430,1400,0,0,1,0
+1548,"Medical, general","Medical","MEDI",1430,1410,0,0,1,1
+1549,"Meetinghouse, club","Lodge (club) building","CLUB",1430,1420,0,0,1,0
+1550,"Meetinghouse, religious","Meetinghouse (religious)","CHUR",1430,1430,0,0,0,1
+1551,"Migrant/Labor housing","Migrant housing","LABH",1430,1440,0,0,1,1
+1553,"Military","Military","MILI",1430,1450,0,0,1,1
+1552,"Military base","Military","MILI",1430,1460,0,0,1,0
+1554,"Mill","Mill","MILL",1430,1470,0,0,1,1
+4157,"Mobile Home/Trailer Home","Mobile Home/Trailer Home","MOBH",1430,1475,0,0,1,1
+1555,"Monastery/Convent","Convent, Monastery","CONV",1430,1480,0,0,1,1
+1556,"Monument/Marker/Statue","Monument, Marker, Statue","MONU",1430,1490,0,0,1,1
+1705,"Moonshine still/Still/Distillery","Moonshine Still","MOON",1430,1500,0,0,1,0
+1557,"Mortuary/Funeral home","Funeral home","MORT",1430,1510,0,0,1,0
+1558,"Motel","Hotel, Motel, Inn","HOTL",1430,1520,0,0,1,0
+1559,"Movie theater/Playhouse","Theater","THEA",1430,1530,0,0,1,0
+1560,"Multiple important uses","Multiple important uses, as for a distri","MULT",1430,1550,0,0,1,1
+1561,"Multipurpose public building","Civic center","CIVI",1430,1560,0,0,1,0
+1562,"Municipal building","City hall","CIHL",1430,1570,0,0,1,0
+1563,"Museum/Gallery/Planetarium","Museum/art gallery/planetarium","MUSE",1430,1580,0,0,1,1
+1691,"Not applicable","Not applicable(district or thematic grou","NA  ",1430,1590,0,0,1,1
+1564,"Nursery school","Child care","CHIL",1430,1600,0,0,1,0
+1565,"Nursing home","Nursing home","NURS",1430,1610,0,0,1,1
+1566,"Office","Office","OFFI",1430,1620,0,0,1,1
+1567,"Office building","Office building","BOFF",1430,1630,0,0,1,1
+1568,"Offices, dental","Office","OFFI",1430,1640,0,0,1,0
+1569,"Offices, government","Governmental Offices","GOVT",1430,1650,0,0,1,1
+1570,"Offices, medical","Office","OFFI",1430,1660,0,0,1,0
+1571,"Arena/Stadium","Stadium","STAD",1430,1670,0,0,1,0
+1572,"Orphanage/Childen's home","Orphanage","ORPH",1430,1680,0,0,1,1
+1672,"Other","Other","OTHR",1430,1690,0,0,1,1
+1573,"Outbuilding","Outbuilding","OUTB",1430,1700,0,0,1,1
+1574,"Outhouse/Privy/Restroom","Outhouse","OUTH",1430,1710,0,0,1,1
+1575,"Outpatient care","Health center","OUTP",1430,1720,0,0,1,0
+1576,"Park","Park","PARK",1430,1730,0,0,1,1
+1577,"Parsonage","Private residence","RESI",1430,1740,0,0,0,0
+1578,"Pavilion","Pavilion","PAVI",1430,1750,0,0,1,1
+1579,"Penetentiary","Prison","JAIL",1430,1760,0,0,1,0
+1683,"Pharmacy/Drugstore","Pharmacy","PHAR",1430,1770,0,0,1,1
+1580,"Physician's office","Office","OFFI",1430,1780,0,0,1,0
+1581,"Pier/Dock/Wharf","Pier","PIER",1430,1790,0,0,1,1
+1582,"Planetarium/Gallery/Museum","Museum/art gallery/planetarium","MUSE",1430,1800,0,0,1,0
+1583,"Plant, industrial","Industrial plant","PLNT",1430,1810,0,0,1,0
+1584,"Plantation","Plantation","PLAN",1430,1820,0,0,1,1
+1679,"Plaza/Square","Plaza or square","SQUA",1430,1830,0,0,1,0
+1585,"Police station","Police station","POLI",1430,1840,0,0,1,1
+1586,"Pool, swimming","Swimming pool","POOL",1430,1850,0,0,1,0
+1587,"Post office","Post office","POST",1430,1860,0,0,1,1
+1588,"Pound","Animal shelter","KENN",1430,1870,0,0,1,0
+1687,"Power plant","Power plant","POWR",1430,1880,0,0,1,1
+1589,"Preschool","Child care","CHIL",1430,1890,0,0,1,0
+1590,"Prison/Jail/Detention Center","Prison","JAIL",1430,1900,0,0,1,0
+1591,"Private Residence (House/Cottage/Cabin)","Private residence","RESI",1430,1910,0,0,1,1
+1592,"Privy","Outhouse","OUTH",1430,1920,0,0,1,0
+1594,"Professional","Professional**","PROF",1430,1930,0,0,1,1
+1593,"Professional office","Office","OFFI",1430,1940,0,0,1,0
+1595,"Quadraplex","Apartment","APTM",1430,1950,0,0,1,0
+1596,"Raceway","Raceway","RACE",1430,1960,0,0,1,1
+1597,"Railroad depot","Terminal, Air/Bus/Rail","TERM",1430,1970,0,0,1,0
+1677,"Recreation hall","Community center (e.g., recreation hall)","BREC",1430,1980,0,0,1,0
+1598,"Recreation, building","Community center (e.g., recreation hall)","BREC",1430,1990,0,0,1,0
+1599,"Recreation, non-building","Recreation--nonbuilding","RECN",1430,2000,0,0,1,1
+1600,"Religious","Temple (religious)","RELI",1430,2010,0,0,0,0
+1601,"Research laboratory","Laboratory--research","SCIE",1430,2020,0,0,1,0
+1602,"Residence & commercial","Commercial and residence","CMRE",1430,2030,0,0,1,0
+1603,"Residence, private","Private residence","RESI",1430,2040,0,0,1,0
+1696,"Resort complex/Theme park","Theme park (resort complex)","RESO",1430,2050,0,0,1,1
+1604,"Restaurant","Restaurant","REST",1430,2060,0,0,1,1
+1605,"Restroom","Outhouse","OUTH",1430,2070,0,0,1,0
+1606,"Retail establishment","Retail establishment","STOR",1430,2080,0,0,0,0
+1607,"Road","Road","ROAD",1430,2090,0,0,1,1
+1608,"Rooming house","Boardinghouse","ROOM",1430,2100,0,0,1,0
+1609,"Ruin/Demolished/Destroyed","Destroyed","DEST",1430,2110,0,0,1,0
+1610,"Sailing vessel/Ship/Boat","Vessel--watergoing","VESS",1430,2120,0,0,1,0
+1611,"Salon/Barber/Beauty shop","Barber/Beauty shop","SBEA",1430,2130,0,0,1,1
+1612,"Saloon","Bar","BAR ",1430,2140,0,0,1,0
+1613,"Savings & loan","Bank","BANK",1430,2150,0,0,1,0
+1614,"Saw/Sugar/Grist mill","Mill","MILL",1430,2160,0,0,1,0
+1615,"School","School, University, College","SCHO",1430,2170,0,0,1,1
+1616,"Scientific laboratory","Laboratory--research","SCIE",1430,2180,0,0,1,0
+1617,"Seawall","Seawall","SEAW",1430,2190,0,0,1,1
+1618,"Service station","Service station","GAST",1430,2200,0,0,1,0
+1619,"Sewage treatment/Waterworks","Sewage treatment","WATW",1430,2210,0,0,1,0
+1620,"Shed/Outbuilding","Outbuilding","OUTB",1430,2220,0,0,1,0
+1622,"Ship, sailing","Vessel--watergoing","VESS",1430,2230,0,0,1,0
+1621,"Ship/Sailing vessel","Vessel--watergoing","VESS",1430,2230,0,0,1,0
+1623,"Shoe shop","Shoe shop","SHOE",1430,2240,0,0,1,1
+1624,"Shop","Shop","SHOP",1430,2250,0,0,1,1
+1625,"Shop, auto repair","Service station","GAST",1430,2260,0,0,1,0
+1626,"Shop, bakery","Bakery shop","BAKE",1430,2270,0,0,1,0
+1627,"Shop, beauty","Barber/Beauty shop","SBEA",1430,2280,0,0,1,0
+1628,"Shop, blacksmith","Smithy","SBLK",1430,2290,0,0,1,0
+1629,"Shop, shoe","Shoe shop","SHOE",1430,2300,0,0,1,0
+1674,"Shopping center/Mall","Shopping center","MALL",1430,2310,0,0,1,0
+1630,"Slave quarters","Slave quarters","SLAV",1430,2320,0,0,1,1
+1631,"Smithy","Smithy","SBLK",1430,2330,0,0,1,1
+1632,"Smokehouse","Smokehouse","SMOK",1430,2340,0,0,1,1
+1633,"Spa/Gym/Fitness center","Fitness center or spa","GYMN",1430,2350,0,0,1,0
+1634,"Springhouse","Springhouse","SPRG",1430,2360,0,0,1,1
+1678,"Square/Plaza","Plaza or square","SQUA",1430,2370,0,0,1,1
+1635,"Stable","Stable","STAB",1430,2380,0,0,1,1
+1636,"Stadium/Arena","Stadium","STAD",1430,2390,0,0,1,1
+1637,"Statue/Monument/Marker","Monument, Marker, Statue","MONU",1430,2400,0,0,1,0
+1706,"Still/Distillery","Moonshine Still","MOON",1430,2410,0,0,1,1
+1638,"Storage building","Warehouse","BSTO",1430,2420,0,0,1,0
+1639,"Store","Retail establishment","STOR",1430,2430,0,0,1,1
+1640,"Store, department","Department store","SDEP",1430,2440,0,0,1,0
+1641,"Store, grocery","Grocery store","SGRO",1430,2450,0,0,1,0
+1642,"Store, hardware","Hardware store","SHRD",1430,2460,0,0,1,0
+1643,"Sugar/Lumber/Grist mill","Mill","MILL",1430,2470,0,0,1,0
+1644,"Supermarket","Grocery store","SGRO",1430,2480,0,0,1,0
+1645,"Swimming pool","Swimming pool","POOL",1430,2490,0,0,1,1
+1646,"Synagogue","House of worship","HSEW",1430,2500,0,0,1,0
+1647,"Tavern","Bar","BAR ",1430,2510,0,0,1,0
+1648,"Technical school","School, University, College","SCHO",1430,2520,0,0,1,0
+1649,"Temple (lodge)","Lodge (club) building","CLUB",1430,2530,0,0,1,0
+1650,"Temple (religious)","Temple (religious)","RELI",1430,2540,0,0,0,1
+1651,"Temple, house of worship","House of worship","HSEW",1430,2550,0,0,1,0
+1652,"Temple, social club","Lodge (club) building","CLUB",1430,2560,0,0,1,0
+1653,"Terminal, Air/Bus/Rail","Terminal, Air/Bus/Rail","TERM",1430,2570,0,0,1,1
+1654,"Theater, movie or playhouse","Theater","THEA",1430,2580,0,0,1,1
+1697,"Theme park/Resort complex","Theme park (resort complex)","RESO",1430,2590,0,0,1,0
+1655,"Tower","Tower","TOWR",1430,2600,0,0,1,1
+1656,"Tower, control","Control tower for air traffic","CTOW",1430,2610,0,0,1,0
+1657,"Town hall","City hall","CIHL",1430,2620,0,0,1,0
+1695,"Electrical transmission","Transmission structure (electrical)","ELEC",1430,2630,0,0,1,1
+1658,"Transportation","Transportation","TRAN",1430,2640,0,0,1,1
+1659,"Triplex","Apartment","APTM",1430,2650,0,0,1,0
+1704,"Turpentine Still","Turpentine Still","TURP",1430,2660,0,0,1,1
+1660,"University","School, University, College","SCHO",1430,2670,0,0,1,0
+1661,"Unknown","Unknown","UNKN",1430,2680,0,0,1,1
+1703,"Unspecified","Unspecified by documenter","UNSP",1430,2690,1,0,1,1
+1662,"Unused","Abandoned or vacant","VACA",1430,2700,0,0,1,0
+1663,"Vacant","Abandoned or vacant","VACA",1430,2710,0,0,1,1
+1694,"Vault, electrical","Transmission structure (electrical)","ELEC",1430,2720,0,0,0,0
+1664,"Vehicle, road or rail","Vehicle-road or rail","VEHI",1430,2730,0,0,1,1
+1665,"Vessel, watergoing","Vessel--watergoing","VESS",1430,2740,0,0,1,1
+1666,"Vocational school","School, University, College","SCHO",1430,2750,0,0,1,0
+1667,"Wall","Wall","WALL",1430,2760,0,0,1,1
+1668,"Warehouse","Warehouse","BSTO",1430,2770,0,0,1,1
+1686,"Water fountain","Water fountain","WATF",1430,2780,0,0,1,1
+1699,"Water supply structure/Water tower","Water Tower or Supply Structure","WSUP",1430,2790,0,0,1,0
+1707,"Water tower/Water supply structure","Water Tower or Supply Structure","WSUP",1430,2800,0,0,1,1
+1669,"Waterworks/Sewage treatment","Sewage treatment","WATW",1430,2810,0,0,1,1
+1670,"Wharf/Pier/Dock","Pier","PIER",1430,2820,0,0,1,0
+1671,"Women's club","Lodge (club) building","CLUB",1430,2830,0,0,1,0
+1700,"Zoo","Zoo","ZOO ",1430,2840,0,0,1,1

@@ -1,0 +1,18 @@
+4164,"_","NULL VALUE","NULL",3004,0,0,0,1,1
+3005,"Central Block Symmetric Wings","Central Block-Symm Wings","BLKW",3004,1,0,0,1,1
+3006,"Central Block, 1 wing","Central Block-1 wing","BLK1",3004,2,0,0,1,1
+3007,"Greek cross","Greek Cross","GRCR",3004,3,0,0,1,1
+3008,"Irregular","Irregular","IRRE",3004,4,0,0,1,1
+3009,"L-shaped","L-shaped","LSHP",3004,5,0,0,1,1
+3010,"Latin cross","Latin Cross","LACR",3004,6,0,0,1,1
+3011,"Rectangular","Rectangular","RECT",3004,7,0,0,1,1
+3012,"Square","Square","SQAR",3004,8,0,0,1,1
+3013,"T-shaped","T-shaped","TSHP",3004,9,0,0,1,1
+3014,"U-shaped","U-shaped","USHP",3004,10,0,0,1,1
+3015,"Other","Other","OTHR",3004,11,0,0,1,1
+3016,"E-shaped","E-shaped","ESHP",3004,12,0,0,1,1
+3017,"I-shaped","I-shaped","ISHP",3004,13,0,0,1,1
+3018,"Not applicable","Not Applicable","NA  ",3004,14,1,0,1,1
+3019,"Unspecified","Unspecified","UNSP",3004,15,1,0,1,1
+3020,"Octagonal","Octagonal","OCTA",3004,16,0,0,1,1
+4050,"Circular","Round or Circular","CIRC",3004,17,0,0,1,1

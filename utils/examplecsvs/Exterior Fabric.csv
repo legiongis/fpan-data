@@ -1,0 +1,94 @@
+4165,"_","NULL VALUE","NULL",3021,0,0,0,1,1
+3022,"Aluminum","Aluminum","ALUM",3021,1,0,0,1,1
+3023,"Artbrick, artstone","Pebble dash / Artbrick, artstone","PEDA",3021,2,0,0,1,1
+3024,"Artif masonry veneer","Artificial masonry veneer","AMAV",3021,3,0,0,1,0
+3025,"Asbestos","Asbestos shingles or siding","SHAS",3021,4,0,0,1,0
+3026,"Asphalt-rolled","Rolled asphalt/Composition Roll","ROAS",3021,5,0,0,1,0
+3027,"Beaded weatherboard","Weatherboard, Clapboard","WTBD",3021,6,0,0,1,0
+3028,"BEC ceiling board","BEC ceiling board","BECC",3021,7,0,0,1,1
+3029,"Block-concrete","Concrete block","COBL",3021,8,0,0,1,0
+3030,"Block-concrete-mold","Concrete block-mold","COBM",3021,9,0,0,1,0
+3031,"Block-coquina","Coquina block","COQB",3021,10,0,0,1,0
+3032,"Board and batten","Board and batten","BDBT",3021,11,0,0,1,1
+3033,"Brick","Brick","BRIC",3021,12,0,0,1,1
+3034,"Brick-tabby","Tabby brick","TABB",3021,13,0,0,1,0
+3035,"Carrara glass","Pigmented structural glass","GLPS",3021,14,0,0,1,0
+3036,"Cast iron","Cast iron","CAIR",3021,15,0,0,1,1
+3037,"Caststone","Artificial masonry veneer","AMAV",3021,16,0,0,1,0
+3038,"Cement-mineral fiber","Mineral fiber cement","MFCE",3021,17,0,0,1,0
+3039,"Clapboard","Weatherboard, Clapboard","WTBD",3021,18,0,0,1,0
+3040,"Concrete","Concrete","CONC",3021,19,0,0,1,1
+3041,"Concrete block","Concrete block","COBL",3021,20,0,0,1,1
+3042,"Concrete block-mold","Concrete block-mold","COBM",3021,21,0,0,1,0
+3043,"Concrete-poured","Concrete-poured","COPO",3021,22,0,0,1,1
+3044,"Concrete-pre-cast","Concrete-pre-cast","COPC",3021,23,0,0,1,1
+3045,"Coquina block","Coquina block","COQB",3021,24,0,0,1,1
+3046,"Drop siding","Drop siding","SDDR",3021,25,0,0,1,1
+3047,"Fiberglass","Fiberglass","GLFI",3021,26,0,0,1,1
+3048,"Flush wood siding","Flush wood siding","SDFW",3021,27,0,0,1,1
+3049,"Glass block","Glass block","GLBL",3021,28,0,0,1,1
+3050,"Glass-fiberglass","Fiberglass","GLFI",3021,29,0,0,1,0
+3051,"Glass-pigmentd structural","Pigmented structural glass","GLPS",3021,30,0,0,1,0
+3052,"Glazed masonry","Glazed masonry","MAGL",3021,31,0,0,1,1
+3053,"Hewn log","Hewn log","LGHW",3021,32,0,0,1,1
+3054,"Horizontal plank","Horizontal plank","PLHO",3021,33,0,0,1,1
+3055,"Iron-cast","Cast iron","CAIR",3021,34,0,0,1,0
+3056,"Log-unspecified","Log, not further specified","LOG ",3021,35,0,0,1,1
+3057,"Log-hewn","Hewn log","LGHW",3021,36,0,0,1,0
+3058,"Log-round","Round log","LGRO",3021,37,0,0,1,0
+3059,"Log-split","Split log","LGSP",3021,38,0,0,1,0
+3060,"Masonry veneer-artificial","Artificial masonry veneer","AMAV",3021,39,0,0,1,1
+3061,"Masonry-glazed","Glazed masonry","MAGL",3021,40,0,0,1,0
+3062,"Metal","Metal","META",3021,41,0,0,1,1
+3063,"Metal-pressed","Pressed metal","PRME",3021,42,0,0,1,0
+3064,"Mineral fiber cement","Mineral fiber cement","MFCE",3021,43,0,0,1,1
+3065,"Molded concrete block","Concrete block-mold","COBM",3021,44,0,0,1,1
+3066,"Narrow routed siding","Narrow routed siding","SDNR",3021,45,0,0,1,1
+3067,"Novelty siding","Drop siding","SDDR",3021,46,0,0,1,0
+3068,"Pebble dash","Pebble dash / Artbrick, artstone","PEDA",3021,47,0,0,1,0
+3069,"Pigmented structural glass","Pigmented structural glass","GLPS",3021,48,0,0,1,1
+3070,"Plank-horizontal","Horizontal plank","PLHO",3021,49,0,0,1,0
+3071,"Plank-vertical","Vertical plank","PLVE",3021,50,0,0,1,0
+3072,"Plastic","Plastic","PLAS",3021,51,0,0,1,1
+3073,"Poured concrete","Concrete-poured","COPO",3021,52,0,0,1,0
+3074,"Poured tabby","Poured tabby","TABP",3021,53,0,0,1,1
+3075,"Pre-cast concrete","Concrete-pre-cast","COPC",3021,54,0,0,1,0
+3076,"Pressed metal","Pressed metal","PRME",3021,55,0,0,1,1
+3077,"Pressed stone","Concrete block-mold","COBM",3021,56,0,0,1,0
+3078,"Rolled asphalt","Rolled asphalt/Composition Roll","ROAS",3021,57,0,0,1,0
+3079,"Round log","Round log","LGRO",3021,58,0,0,1,1
+3080,"Shingles-asbestos","Asbestos shingles or siding","SHAS",3021,59,0,0,1,1
+3081,"Shingles-wood","Wood shingles","SHWD",3021,60,0,0,1,0
+3082,"Shiplap","Shiplap","SHIP",3021,61,0,0,1,1
+3083,"Siding-drop","Drop siding","SDDR",3021,62,0,0,1,0
+3084,"Siding-narrow routed","Narrow routed siding","SDNR",3021,63,0,0,1,0
+3085,"Siding-novelty","Drop siding","SDDR",3021,64,0,0,1,0
+3086,"Split log","Split log","LGSP",3021,65,0,0,1,1
+3087,"Steel","Steel","STEE",3021,66,0,0,1,1
+3088,"Stone","Stone","STON",3021,67,0,0,1,1
+3089,"Structural glass-pigmented","Pigmented structural glass","GLPS",3021,68,0,0,1,0
+3090,"Stucco","Stucco","STUC",3021,69,0,0,1,1
+3091,"Tabby brick","Tabby brick","TABB",3021,70,0,0,1,1
+3092,"Tabby-poured","Poured tabby","TABP",3021,71,0,0,1,0
+3093,"Terra cotta","Terra cotta","TECO",3021,72,0,0,1,1
+3094,"Vertical plank","Vertical plank","PLVE",3021,73,0,0,1,1
+3095,"Vinyl","Vinyl","VINY",3021,74,0,0,1,1
+3096,"Weatherboard","Weatherboard, Clapboard","WTBD",3021,75,0,0,1,1
+3097,"Weatherboard-beaded","Weatherboard, Clapboard","WTBD",3021,76,0,0,1,0
+3098,"Window wall","Window wall","WINW",3021,77,0,0,1,1
+3099,"Wood shingles","Wood shingles","SHWD",3021,78,0,0,1,1
+3100,"Wood siding","Wood siding","SDW ",3021,79,0,0,1,1
+3101,"Wood/Plywood","Wood/plywood","WOOD",3021,80,0,0,1,1
+3102,"Other","Other","OTHR",3021,81,0,0,1,1
+3103,"Unknown","Unknown","UNKN",3021,82,0,0,1,1
+3104,"Shingles-unspecified","Shingles, asphalt (or unspecified)","SHIN",3021,83,0,0,1,0
+3105,"Tar paper","Tar paper","TARP",3021,84,0,0,1,1
+3106,"Not applicable","Not applicable","NA  ",3021,85,0,0,1,1
+3107,"Shingles-slate","Slate shingles","SHSL",3021,86,0,0,1,0
+3108,"Slate shingles","Slate shingles","SHSL",3021,87,0,0,1,1
+3109,"Unspecified","Not specified by surveyor","UNSP",3021,88,1,0,1,1
+3110,"Asphalt shingles","Shingles, asphalt (or unspecified)","SHIN",3021,89,0,0,1,1
+3111,"Shingles-asphalt","Shingles, asphalt (or unspecified)","SHIN",3021,90,0,0,1,0
+3112,"Composition Board","Composition Board","COBD",3021,91,0,0,1,1
+3113,"Composition Roll","Rolled asphalt/Composition Roll","ROAS",3021,92,0,0,1,1
+3114,"Random Ashlar","Stone","STON",3021,93,0,0,1,0

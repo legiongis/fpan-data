@@ -1,0 +1,11 @@
+1265,"YES","Potential contributor to NR district","YES ",1264,1,0,0,1,1
+1266,"NO","Ineligible as contributor to NR district","NO  ",1264,2,0,0,1,1
+1267,"LIKELY","Likely contributor to NR district","LIKE",1264,3,1,0,1,1
+1268,"INSUFF. INFO","Insufficient data to judge eligibility","INSF",1264,4,0,0,1,1
+1269,"UNSP","Not Evaluated by Recorder","UNSP",1264,5,1,0,1,1
+1270,"More Work Recommended","More work recommended","WKYE",1264,6,1,0,1,1
+1271,"No Further Work Recommd","No further work recommended","WKNO",1264,7,1,0,1,1
+1272,"Preservation Recommended","Preservation recommended","PRYE",1264,8,1,0,1,1
+1273,"Presrvtn Not Recommended","Preservation not recommended","PRNO",1264,9,1,0,1,1
+3834,"Unknown","Not Evaluated by Recorder","UNKN",1264,10,1,0,0,1
+3835,"Not Evaluated","Not Evaluated by Recorder","NOEV",1264,11,1,0,0,1

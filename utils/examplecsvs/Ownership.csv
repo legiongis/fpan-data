@@ -1,0 +1,16 @@
+2345,"City","City","CITY",2333,10,0,0,1,1
+2346,"County","County","COUN",2333,20,0,0,1,1
+2349,"State","State","STAT",2333,30,0,0,1,1
+2347,"Federal","Federal","FEDE",2333,40,0,0,1,1
+2350,"Other Local Govt","Local government","PULO",2333,50,1,0,1,1
+2339,"Private Individual","Private-individual","PRIV",2333,60,0,0,1,1
+2335,"Private-Corporate-for Profit","Private-corporate-for profit","CORP",2333,70,0,0,1,1
+2336,"Private-Corporate-Non-Profit","Private-corporate-nonprofit","CONP",2333,80,0,0,1,1
+2356,"Foreign","Foreign","FORE",2333,100,0,0,1,1
+2357,"Native American","Native American","NAAM",2333,110,0,0,1,1
+2354,"Multiple Categories","Multiple categories of ownership","MULT",2333,120,0,0,1,1
+2355,"Unspecified","Unspecified by surveyor","UNSP",2333,130,1,0,1,1
+2344,"Public-unspecified","Public-unspecified","PUUN",2333,140,1,0,1,1
+2343,"Private-unspecified","Private-unspecified","PRUN",2333,150,1,0,1,1
+2342,"Other","Other","OTHR",2333,160,0,0,1,1
+2341,"Unknown","Unknown","UNKN",2333,170,0,0,1,1

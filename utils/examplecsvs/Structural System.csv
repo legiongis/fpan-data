@@ -1,0 +1,46 @@
+4169,"_","NULL VALUE","NULL",1714,0,0,0,1,1
+1715,"Balloon wood frame","Balloon wood frame","WFBL",1714,1,0,0,1,1
+1716,"Braced wood frame","Braced wood frame","WFBR",1714,2,0,0,1,1
+1717,"Brick","Brick","BRIC",1714,3,0,0,1,1
+1718,"Butt joint log","Butt joint log","LGBJ",1714,4,0,0,1,1
+1719,"Cast iron skeleton","Cast iron skeleton","SKCI",1714,5,0,0,1,1
+1720,"Cast-in-place concrete","Cast-in-place concrete","CNCP",1714,6,0,0,1,1
+1721,"Concrete","Concrete","CONC",1714,7,0,0,1,1
+1722,"Concrete block","Concrete block","CONB",1714,8,0,0,1,1
+1723,"Coquina block","Coquina block","COQB",1714,9,0,0,1,1
+1724,"Dovetail log","Dovetail log","LGDV",1714,10,0,0,1,1
+1725,"Glued-lam wood/plywood","Glued-laminated wood/plywood","GLUL",1714,11,0,0,1,1
+1726,"Glued-laminated","Glued-laminated wood/plywood","GLUL",1714,12,0,0,1,0
+1727,"Heavy timber","Braced wood frame","WFBR",1714,13,0,0,1,0
+1728,"Hollow clay tile","Structural clay tile","STCT",1714,14,0,0,1,0
+1729,"Laminated Wood","Glued-laminated wood/plywood","GLUL",1714,15,0,0,1,0
+1730,"Lapped log","Lapped log","LGLP",1714,16,0,0,1,1
+1731,"Light wood frame","Light wood frame","WFLT",1714,17,0,0,1,1
+1732,"Log","Log","LG  ",1714,18,0,0,1,1
+1733,"Masonry - General","Masonry","MASO",1714,19,0,0,1,1
+1734,"Metal skeleton","Metal skeleton","SKME",1714,20,0,0,1,1
+1735,"Plank wall","Plank wall","PLKW",1714,21,0,0,1,1
+1736,"Platform wood frame","Platform wood frame","WFPL",1714,22,0,0,1,1
+1737,"Post and beam","Braced wood frame","WFBR",1714,23,0,0,1,0
+1738,"Pre-cast concrete","Pre-cast concrete","CNPC",1714,24,0,0,1,1
+1739,"Reinforced concrete","Reinforced concrete","CNRE",1714,25,0,0,1,1
+1740,"Retaining wall","Retaining wall","RETW",1714,26,0,0,1,1
+1741,"Saddle notched log","Saddle notched log","LGSN",1714,27,0,0,1,1
+1742,"Skeleton-cast iron","Cast iron skeleton","SKCI",1714,28,0,0,1,0
+1743,"Skeleton-metal","Metal skeleton","SKME",1714,29,0,0,1,0
+1744,"Skeleton-steel","Steel skeleton","SKST",1714,30,0,0,1,0
+1745,"Skeleton-wrought iron","Wrought iron skeleton","SKWI",1714,31,0,0,1,0
+1746,"Space frame","Space frame","SPFR",1714,32,0,0,1,1
+1747,"Steel skeleton","Steel skeleton","SKST",1714,33,0,0,1,1
+1748,"Stone","Stone","STON",1714,34,0,0,1,1
+1749,"Structural clay tile","Structural clay tile","STCT",1714,35,0,0,1,1
+1750,"Tabby poured","Tabby poured","TABB",1714,36,0,0,1,1
+1751,"Tensile","Tensile","TENS",1714,37,0,0,1,1
+1752,"Tongue & groove log","Tongue-and-groove log","LGTG",1714,38,0,0,1,1
+1753,"V-notched log","V-notched log","LGVN",1714,39,0,0,1,1
+1754,"Wood frame","Wood frame","WF  ",1714,40,0,0,1,1
+1755,"Wrought iron skeleton","Wrought iron skeleton","SKWI",1714,41,0,0,1,1
+1756,"Other","Other","OTHR",1714,42,0,0,1,1
+1757,"Unknown","Unknown, as specified by documenter","UNKN",1714,43,0,0,1,1
+1758,"Not applicable","Not applicable","NA  ",1714,44,0,0,1,1
+1759,"Unspecified","Not specified by surveyor","UNSP",1714,45,1,0,1,1

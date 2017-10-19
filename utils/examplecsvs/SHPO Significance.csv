@@ -1,0 +1,6 @@
+2082,"YES ","Eligible for NRHP","YES ",2081,1,0,0,1,1
+2083,"NO  ","Ineligible for NRHP","NO  ",2081,2,0,0,1,1
+2084,"LIKE","Potentially Eligible for NRHP","LIKE",2081,3,0,0,0,1
+2085,"INSF","Insufficient Information","INSF",2081,4,0,0,1,1
+2086,"UNSP","Not Evaluated by SHPO","UNSP",2081,5,1,0,1,1
+3830,"NOEV","Not Evaluated by SHPO","NOEV",2081,6,1,0,0,1

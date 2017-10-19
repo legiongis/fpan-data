@@ -1,0 +1,16 @@
+3439,"Community","Community cemetery","COMM",3438,1,0,0,1,1
+3440,"Company Town","Company town cemetery","COMP",3438,2,0,0,1,1
+3441,"Epidemic","Cemetery used for victims of an epidemic","EPID",3438,3,0,0,1,1
+3442,"Family","Family cemetery","FMLY",3438,4,0,0,1,1
+3443,"Fraternal Order","Cemetery used for members of a fraternal order","FRAT",3438,5,0,0,1,1
+3444,"Memorial Park","Cemetery that is also a memorial park","MEMO",3438,6,0,0,1,1
+3445,"Military","Military (not-national) cemetery","MILI",3438,7,0,0,1,1
+3446,"Municipal","Municipal cemetery","MUNI",3438,8,0,0,1,1
+3447,"National","National cemetery","NTNL",3438,9,0,0,1,1
+3448,"Potters Field","Potters Field; cemetery used to bury destitute","POTT",3438,10,0,0,1,1
+3449,"Prison","Prison cemetery","PRIS",3438,11,0,0,1,1
+3450,"Religious","Cemetery associated with a religion or church","RELI",3438,12,0,0,1,1
+3451,"Rural Movement","Cemetery that was a part of the Rural Movement","RURL",3438,13,0,0,1,1
+3452,"Other","Other, please explain in field directly below","OTHR",3438,14,0,0,1,1
+3453,"Unknown","Unknown cemetery type","UNKN",3438,15,0,0,1,1
+3454,"Unspecified","Unspecified by surveyor","UNSP",3438,16,1,0,1,1
