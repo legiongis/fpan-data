@@ -4,6 +4,8 @@ import csv
 import uuid
 import json
 import os
+import argparse
+import ast
 
 def addBindings(graph):
     graph.bind("arches", ARCHES)
@@ -130,23 +132,34 @@ def addCollection(g,name,conceptids,xml_file=False):
 
     return g
     
+parser = argparse.ArgumentParser()
+parser.add_argument("directory",help="path to directory containing csv files")
+parser.add_argument("-m","--mock",action="store_true",help="enable fake uuids"\
+    " to make easier to recognize identifiers that are used throughout the "\
+    "output file. using fake uuids will NOT result in a valid "\
+    "thesaurus file.")
+args = parser.parse_args()
+    
+## acquire input location variable
+csvdir = args.directory
+csvdir_name = os.path.basename(csvdir)
+
+## name the new thesaurus
+new_thesaurus_name = csvdir_name+"-thesaurus"
+    
 ## create some variables for the RDF contents
 ARCHES = Namespace('http://www.archesproject.org/')
 language = 'en'
-new_thesaurus_name = "FPAN-HMS"
 
 ## enable mock_uuids to make easier to recognize identifiers that are used
 ## throughout the output file. setting mock_uuids to True will NOT result in
 ## a valid thesaurus file
-mock_uuids = False
+mock_uuids = args.mock
 
 ## create output location variables
-outdir = os.path.join(os.path.dirname(os.path.dirname(__file__)),"reference_data")
-thesaurusfile = os.path.join(outdir,r"FPAN-thesaurus.xml")
-collectionfile = os.path.join(outdir,"FPAN-collections.xml")
-
-## create input location variable
-csvdir = os.path.join("examplecsvs","csvswithuuids")
+outdir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),"reference_data")
+thesaurusfile = os.path.join(outdir,"concepts",new_thesaurus_name+".xml")
+collectionfile = os.path.join(outdir,"collections",csvdir_name+"-collections.xml")
 
 ## if you want, everything could be added to an existing thesaurus xml
 ## this may not be desirable outside of testing
@@ -171,8 +184,8 @@ sort_these_alphabetically = [
 ## a new concept will be made for each unique entry in the label column
 config = {
     'alpha_sort':False,
-    'uuid_col':-1,
-    'label_col':2,
+    'uuid_col':-1, # look for UUIDs in the last column
+    'label_col':2, # get the prefLabel from the 3rd column
     'header_row':False
 }
 

@@ -1,10 +1,20 @@
 import os
 import uuid
 import csv
+import argparse
 
-indir = "examplecsvs"
-outdir = os.path.join(indir,"csvswithuuids")
+parser = argparse.ArgumentParser()
+parser.add_argument("directory",help="path to directory containing csv files")
+parser.add_argument("-s","--safe",action="store_true",help="overwrite files even if they have UUIDs already")
+args = parser.parse_args()
 
+indir = args.directory
+outdir = indir
+if args.safe:
+    outdir = os.path.join(indir,"csvswithuuids")
+    
+if not os.path.isdir(outdir):
+    os.makedirs(outdir)
 
 def addUUIDColumn(csv_file,outdir,header_row=False):
 
@@ -41,8 +51,7 @@ def addUUIDColumn(csv_file,outdir,header_row=False):
 
     print "  done"
 
-if not os.path.isdir(outdir):
-    os.makedirs(outdir)
+
 
 for f in [i for i in os.listdir(indir) if i.endswith(".csv")]:
     addUUIDColumn(os.path.join(indir,f),outdir)
