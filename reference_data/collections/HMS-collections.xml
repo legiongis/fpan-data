@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <skos:Collection rdf:about="http://www.archesproject.org/2f743664-5286-457a-a346-7fab245e2279">
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/4bac0b65-42b9-4d06-adb2-b852099430f0"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/68418e62-44a1-4d4c-b27b-89cce4e8a667"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "2a114f87-b662-4319-aada-505b31073d63", "value": "Visible Artifacts"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/3cc0e3b0-4b85-461e-94be-ee0447afa564"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/5e29d361-9970-4387-8823-71be4159518f"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/7afcfebc-4e36-4d16-babd-c2a110021c67"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/70863b3d-8141-461a-b73b-9bde1a394db3"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/d2ebdc0f-7ced-49b3-a08d-a4e96cbbdda5"/>
+    </skos:member>
+  </skos:Collection>
+  <skos:Collection rdf:about="http://www.archesproject.org/3c3c9040-8571-4a91-81cb-e2f14957ed40">
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/5249886f-f414-46e8-afb2-1e518587e73a"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/d9fa57e2-ffcf-4e67-bad2-1f868d479059"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/2bde8d30-267c-4252-9845-177eab587a9a"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/e35509c8-cb54-4956-8390-8b940243b042"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/a18c457b-122d-45ac-bb28-1754f6a8e3ae"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/d74082ca-01e0-4f41-bc19-d4cdf5fe73d5"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/b8125062-7e6a-46bf-b85c-36dc64c0ecab"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "9d1f0d84-96e7-43f2-afb1-5a9d728e12d4", "value": "Threats"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/bf92bcd4-f061-4dc8-a875-43b2632b5b6a"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/ffef2f84-7dc6-4406-91ce-498b5e389ff7"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/43033e49-7393-43bc-923a-3fe409e25719"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/c67581b7-03e0-4061-a434-230e9274b844"/>
+    </skos:member>
+  </skos:Collection>
+  <skos:Collection rdf:about="http://www.archesproject.org/8428eb36-fefc-4a7d-93c1-7803f8c63a50">
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/600eec11-d30a-47b2-a1db-4b5e7fa082ce"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "bd57a772-8d8a-4caa-b431-2616d40c693c", "value": "Name Type"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/306abce1-a60a-4cf0-ab0a-2cfd923dc2d1"/>
+    </skos:member>
+  </skos:Collection>
+  <skos:Collection rdf:about="http://www.archesproject.org/340210d8-1bbb-4dc4-9bb4-5759e7a01065">
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/de5548af-fbaf-4c26-9a8c-65046de58891"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/67fe662f-2922-49c6-b1a7-6a3ce9e3e742"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "1766a100-a52d-4c85-a5ca-1a4f7276b9f2", "value": "Overall Site Condition"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/6470753d-c504-4d1e-8082-084339b9587f"/>
+    </skos:member>
+  </skos:Collection>
+  <skos:Collection rdf:about="http://www.archesproject.org/6f04c8eb-d2b3-4927-8bd1-b55bafab6178">
+    <skos:prefLabel xml:lang="en">{"id": "65f8f968-a62a-43e9-9196-ee5855567632", "value": "Visit Type"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/7a489521-0c04-484e-9209-6f85c7ae5c88"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/52eac398-c25e-4f95-87f6-611284ce53d5"/>
+    </skos:member>
+  </skos:Collection>
+  <skos:Collection rdf:about="http://www.archesproject.org/1311450e-ac40-4a95-b5c0-16a4333dc9a1">
+    <skos:prefLabel xml:lang="en">{"id": "0f1217f9-cf16-400e-9d57-75e99a0c77ff", "value": "Priority"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/41185a1a-fae8-41c4-9d00-a25f9293fad6"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/34a98081-4a63-42a7-bf3c-c83e9f1eded5"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/c471c241-23b5-47d2-9143-8f90ed472cf5"/>
+    </skos:member>
+  </skos:Collection>
+  <skos:Collection rdf:about="http://www.archesproject.org/0cac2532-e6fd-42d5-b34f-b8580d6db8e3">
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/e1eb05c8-53f5-4300-896e-c0ddaf1ddabc"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/f2941cb5-564c-4e12-9274-110672adcd71"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/9a7fdfc4-b003-4800-9268-8b860a5e9fa1"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "030b22f5-60b6-42a2-857c-82e1674b15de", "value": "Location Verification"}</skos:prefLabel>
+  </skos:Collection>
+</rdf:RDF>
