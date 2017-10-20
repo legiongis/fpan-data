@@ -32,25 +32,40 @@ as well as the graph itself so more top concepts can be added to it.
     scheme_id = schemes[0].split("/")[-1]
     return scheme_graph,scheme_id
 
-def makeNewThesaurus(thesaurus_name):
+def makeNewThesaurus(thesaurus_name,thesaurus_xml=""):
 
     rdf_graph = Graph()
     rdf_graph = addBindings(rdf_graph)
 
     ## make thesaurus concept scheme
     thesaurus_id = str(uuid.uuid4())
-    if mock_uuids:
-        thesaurus_id = "THESAURUS - UUID"
+    if os.path.isfile(thesaurus_xml):
+        thes = getThesaurusFromXML(thesaurus_xml)
+        thesaurus_id = thes[1]
+
     thesaurus_name = json.dumps({'value': new_thesaurus_name, 'id': str(uuid.uuid4())})
 
     rdf_graph.add((ARCHES[thesaurus_id], DCTERMS.title, Literal(thesaurus_name, lang=language)))
     rdf_graph.add((ARCHES[thesaurus_id], RDF.type, SKOS['ConceptScheme']))
 
     return rdf_graph,thesaurus_id
-
-def makeTopConcept(rdf_graph,top_concept_name,thesaurus_id):
     
+def getTopConceptUUID(name,xml_file):
+
+    g = Graph()
+    g.parse(xml_file)
+    id = False
+    for s, v, o in g.triples((None,SKOS.prefLabel,None)):
+        if ast.literal_eval(o)["value"] == name:
+            id = s.split("/")[-1]
+    return id
+
+def makeTopConcept(rdf_graph,top_concept_name,thesaurus_id,thesaurus_file=""):
+
     topconcept_id = str(uuid.uuid4())
+    if os.path.isfile(thesaurus_file):
+        topconcept_id = getTopConceptUUID(top_concept_name,thesaurus_file)
+        
     if mock_uuids:
         topconcept_id = "TOP CONCEPT - UUID ({})".format(top_concept_name)
         
@@ -64,11 +79,13 @@ def makeTopConcept(rdf_graph,top_concept_name,thesaurus_id):
     return rdf_graph, topconcept_id
 
 def makeConceptsFromCSV(rdf_graph,csvfile,scheme_id,collection_graph,header_row=False,
-                        label_col=0,alpha_sort=False,uuid_col=False):
+                        label_col=0,alpha_sort=False,uuid_col=False,collections_file="",
+                        thesaurus_file=""):
 
-    ## make top concept
+    ## make top concept, find and use an existing uuid if possible
     top_concept_name = os.path.splitext(os.path.basename(csvfile))[0]
-    rdf_graph, topconcept_id = makeTopConcept(rdf_graph,top_concept_name,scheme_id)
+
+    rdf_graph,topconcept_id = makeTopConcept(rdf_graph,top_concept_name,scheme_id,thesaurus_file=thesaurus_file)
 
     unique_labels = []
     labels_uuids = {}
@@ -115,13 +132,26 @@ def makeConceptsFromCSV(rdf_graph,csvfile,scheme_id,collection_graph,header_row=
         rdf_graph.add((ARCHES[concept_id], RDF.type, SKOS['Concept']))
         rdf_graph.add((ARCHES[topconcept_id], SKOS['narrower'], ARCHES[concept_id]))
 
-    collection_graph = addCollection(collection_graph,top_concept_name,labels_uuids.values(),collection_graph)
+    collection_graph = addCollection(collection_graph,top_concept_name,labels_uuids.values(),collections_file)
 
     return rdf_graph,collection_graph
+    
+def getCollectionUUID(name,xml_file):
+
+    g = Graph()
+    g.parse(xml_file)
+    id = False
+    for s, v, o in g.triples((None,SKOS.prefLabel,None)):
+        if ast.literal_eval(o)["value"] == name:
+            id = s.split("/")[-1]
+    return id
 
 def addCollection(g,name,conceptids,xml_file=False):
  
-    collection_id = str(uuid.uuid4())
+    collection_id = getCollectionUUID(name, xml_file)
+    if not collection_id:
+        collection_id = str(uuid.uuid4())
+        
     val = json.dumps({'value': name, 'id': str(uuid.uuid4())})
     g.add((ARCHES[collection_id], RDF.type, SKOS['Collection']))
     g.add((ARCHES[collection_id], SKOS['prefLabel'], Literal(val, lang=language)))
@@ -164,13 +194,14 @@ collectionfile = os.path.join(outdir,"collections",csvdir_name+"-collections.xml
 ## if you want, everything could be added to an existing thesaurus xml
 ## this may not be desirable outside of testing
 ## otherwise, make a new thesaurus (existing files will be overwritten)
+## THIS FUNCTIONALITY NOT TESTED AFTER PATH RECONFIGURATION ON 10/20/17
 use_existing_thesaurus = False
 use_existing_thesaurus_path = ''
 
 if use_existing_thesaurus:
     rdf_graph,thesaurus_id = getThesaurusFromXML(use_existing_thesaurus_path)
 else:
-    rdf_graph,thesaurus_id = makeNewThesaurus(new_thesaurus_name)
+    rdf_graph,thesaurus_id = makeNewThesaurus(new_thesaurus_name,thesaurusfile)
 
 ## list of file names whose contents should be sorted alphabetically
 sort_these_alphabetically = [
@@ -205,7 +236,9 @@ for f in [i for i in os.listdir(csvdir) if i.endswith(".csv")]:
             alpha_sort=csv_conf['alpha_sort'],
             label_col=csv_conf['label_col'],
             uuid_col=csv_conf['uuid_col'],
-            header_row=csv_conf['header_row'])
+            header_row=csv_conf['header_row'],
+            collections_file=collectionfile,
+            thesaurus_file=thesaurusfile)
 
 collection_graph.serialize(destination=collectionfile,format="pretty-xml")
 rdf_graph.serialize(destination=thesaurusfile,format="pretty-xml")

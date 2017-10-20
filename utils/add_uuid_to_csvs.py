@@ -40,8 +40,7 @@ def addUUIDColumn(csv_file,outdir,header_row=False):
                 print "  UUIDs already present in this file"
                 return
             except:
-                pass
-            row.append(str(uuid.uuid4()))
+                row.append(str(uuid.uuid4()))
             outrows.append(row)
     
     with open(outfile,'wb') as csvout:
