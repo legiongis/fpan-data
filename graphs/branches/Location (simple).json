@@ -12,6 +12,7 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": null, 
+                    "is_editable": true, 
                     "name": "Location (simple)", 
                     "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
                     "sortorder": null, 
@@ -24,8 +25,8 @@
                     "config": {
                         "basemap": "streets", 
                         "bearing": 0, 
-                        "centerX": "-83.7233838996", 
-                        "centerY": 28.0896447644, 
+                        "centerX": -82.4255718051835, 
+                        "centerY": 27.9863887846045, 
                         "featureColor": "#FF0000", 
                         "featureLineWidth": 1, 
                         "featurePointSize": 3, 
@@ -52,13 +53,39 @@
                         "overlayConfigs": [], 
                         "overlayOpacity": 0, 
                         "pitch": 0, 
-                        "zoom": "5"
+                        "zoom": 4.363456836312682
                     }, 
                     "id": "8016470c-9321-11e7-883c-06ed184dc22c", 
                     "label": "Geospatial Coordinates", 
                     "node_id": "578474db-9321-11e7-883c-06ed184dc22c", 
                     "sortorder": 0, 
                     "widget_id": "10000000-0000-0000-0000-000000000007"
+                }, 
+                {
+                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
+                    "config": {
+                        "label": "Plot Method", 
+                        "options": [], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "45b6f41e-b5dc-11e7-b52c-94659cf754d0", 
+                    "label": "Plot Method", 
+                    "node_id": "e3cfa231-b5d0-11e7-94cc-94659cf754d0", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
+                    "config": {
+                        "label": "Administrative Area", 
+                        "options": [], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "45b67eee-b5dc-11e7-9b16-94659cf754d0", 
+                    "label": "Administrative Area", 
+                    "node_id": "1b1bd290-b5d1-11e7-bda6-94659cf754d0", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 }
             ], 
             "deploymentdate": null, 
@@ -67,19 +94,37 @@
             "edges": [
                 {
                     "description": null, 
+                    "domainnode_id": "578474db-9321-11e7-883c-06ed184dc22c", 
+                    "edgeid": "e3cfa232-b5d0-11e7-9812-94659cf754d0", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "e3cfa231-b5d0-11e7-94cc-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
                     "domainnode_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
                     "edgeid": "578474dc-9321-11e7-883c-06ed184dc22c", 
                     "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
                     "name": null, 
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by", 
                     "rangenode_id": "578474db-9321-11e7-883c-06ed184dc22c"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "edgeid": "1b1bd291-b5d1-11e7-96b4-94659cf754d0", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within", 
+                    "rangenode_id": "1b1bd290-b5d1-11e7-bda6-94659cf754d0"
                 }
             ], 
             "forms": [], 
             "forms_x_cards": [], 
             "functions_x_graphs": [], 
             "graphid": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
-            "iconclass": "fa fa-map-marker", 
+            "iconclass": "fa fa-adjust", 
             "is_editable": true, 
             "isactive": true, 
             "isresource": false, 
@@ -116,12 +161,14 @@
                         "pointColor": "rgba(130, 130, 130, 0.7)", 
                         "pointHaloColor": "rgba(200, 200, 200, 0.5)", 
                         "radius": 2, 
+                        "simplification": 0.3, 
                         "weight": 2
                     }, 
                     "datatype": "geojson-feature-collection", 
                     "description": "Represents a single node in a graph", 
                     "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
                     "is_collector": false, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
                     "name": "Geospatial Coordinates", 
@@ -131,11 +178,14 @@
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by"
                 }, 
                 {
-                    "config": null, 
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
                     "datatype": "semantic", 
                     "description": "", 
                     "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
                     "is_collector": true, 
+                    "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": true, 
                     "name": "Location (simple)", 
@@ -143,6 +193,40 @@
                     "nodeid": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
                     "parentproperty": ""
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "82ce3c3b-c445-4bec-94a9-d2569b8cfa2f"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Administrative Area", 
+                    "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "nodeid": "1b1bd290-b5d1-11e7-bda6-94659cf754d0", 
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D35_Area", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "3c998c55-2eeb-4042-9c82-4dc9af81dde3"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Plot Method", 
+                    "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "nodeid": "e3cfa231-b5d0-11e7-94cc-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
@@ -150,11 +234,14 @@
             "reports": [], 
             "resource_2_resource_constraints": [], 
             "root": {
-                "config": null, 
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
                 "datatype": "semantic", 
                 "description": "", 
                 "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
                 "is_collector": true, 
+                "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
                 "name": "Location (simple)", 
@@ -167,9 +254,9 @@
         }
     ], 
     "metadata": {
-        "db": "PostgreSQL 9.6.3 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.4) 5.4.0 20160609, 64-bit", 
-        "git hash": "fatal: Not a git repository (or any of the parent directories): .git", 
-        "os": "Linux", 
-        "os version": "4.4.0-93-generic"
+        "db": "PostgreSQL 9.6.5, compiled by Visual C++ build 1800, 64-bit", 
+        "git hash": "fatal: ambiguous argument '%ai'': unknown revision or path not in the working tree.", 
+        "os": "Windows", 
+        "os version": "8"
     }
 }

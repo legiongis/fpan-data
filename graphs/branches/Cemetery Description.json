@@ -1,0 +1,93 @@
+{
+    "graph": [
+        {
+            "author": " Legion GIS, LLC", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "3ee66991-b5e7-11e7-bdc3-94659cf754d0", 
+                    "description": "", 
+                    "graph_id": "3ee57f31-b5e7-11e7-bf95-94659cf754d0", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Cemetery Description", 
+                    "nodegroup_id": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "3ee57f31-b5e7-11e7-bf95-94659cf754d0", 
+            "iconclass": "", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Cemetery Description", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "3ee57f31-b5e7-11e7-bf95-94659cf754d0", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Top Node", 
+                    "nodegroup_id": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                    "nodeid": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": ""
+                }
+            ], 
+            "ontology_id": null, 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "3ee57f31-b5e7-11e7-bf95-94659cf754d0", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Top Node", 
+                "nodegroup_id": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                "nodeid": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                "ontologyclass": null
+            }, 
+            "subtitle": "qualitative description for cemeteries", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.5, compiled by Visual C++ build 1800, 64-bit", 
+        "git hash": "fatal: ambiguous argument '%ai'': unknown revision or path not in the working tree.", 
+        "os": "Windows", 
+        "os version": "8"
+    }
+}

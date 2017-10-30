@@ -1,0 +1,263 @@
+{
+    "graph": [
+        {
+            "author": " Legion GIS, LLC", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "0dabc3de-b5b8-11e7-bab7-94659cf754d0", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Arrival Information", 
+                    "nodegroup_id": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "sortorder": null, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "748e87b0-b5b7-11e7-8309-94659cf754d0", 
+                    "description": "Designed to reflect the original FPAN HMS data collection form.", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Scout Report", 
+                    "nodegroup_id": "748deb70-b5b7-11e7-b4bc-94659cf754d0", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "Designed to reflect the original FPAN HMS data collection form.", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "edgeid": "162e4330-b5b8-11e7-85c4-94659cf754d0", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "162e432f-b5b8-11e7-b70b-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "35671f12-b5b8-11e7-abfd-94659cf754d0", 
+                    "edgeid": "f6dabdf0-b5b8-11e7-888b-94659cf754d0", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "f6da96e2-b5b8-11e7-b9c6-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "748deb70-b5b7-11e7-b4bc-94659cf754d0", 
+                    "edgeid": "f35424b2-b5b7-11e7-9134-94659cf754d0", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "f35424b1-b5b7-11e7-a851-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "edgeid": "35671f13-b5b8-11e7-ac37-94659cf754d0", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "35671f12-b5b8-11e7-abfd-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "edgeid": "f5282160-b5b7-11e7-ada3-94659cf754d0", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "f528215f-b5b7-11e7-8545-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "edgeid": "1dd14281-b5b9-11e7-931c-94659cf754d0", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "1dd14280-b5b9-11e7-b4d6-94659cf754d0"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+            "iconclass": "fa fa-binoculars", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Scout Report", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "748deb70-b5b7-11e7-b4bc-94659cf754d0", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "parentnodegroup_id": "748deb70-b5b7-11e7-b4bc-94659cf754d0"
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Location Notes", 
+                    "nodegroup_id": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "nodeid": "f6da96e2-b5b8-11e7-b9c6-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Time", 
+                    "nodegroup_id": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "nodeid": "162e432f-b5b8-11e7-b70b-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Scout Report", 
+                    "nodegroup_id": "748deb70-b5b7-11e7-b4bc-94659cf754d0", 
+                    "nodeid": "748deb70-b5b7-11e7-b4bc-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Arrival Information", 
+                    "nodegroup_id": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "nodeid": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "0cac2532-e6fd-42d5-b34f-b8580d6db8e3"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Location Verification", 
+                    "nodegroup_id": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "nodeid": "35671f12-b5b8-11e7-abfd-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Date", 
+                    "nodegroup_id": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "nodeid": "f528215f-b5b7-11e7-8545-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "6f04c8eb-d2b3-4927-8bd1-b55bafab6178"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Visit Type", 
+                    "nodegroup_id": "f35424b1-b5b7-11e7-a851-94659cf754d0", 
+                    "nodeid": "1dd14280-b5b9-11e7-b4d6-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }
+            ], 
+            "ontology_id": null, 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "748deb71-b5b7-11e7-802e-94659cf754d0", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Scout Report", 
+                "nodegroup_id": "748deb70-b5b7-11e7-b4bc-94659cf754d0", 
+                "nodeid": "748deb70-b5b7-11e7-b4bc-94659cf754d0", 
+                "ontologyclass": null
+            }, 
+            "subtitle": "Report filled out by scouts in the field", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.5, compiled by Visual C++ build 1800, 64-bit", 
+        "git hash": "fatal: ambiguous argument '%ai'': unknown revision or path not in the working tree.", 
+        "os": "Windows", 
+        "os version": "8"
+    }
+}
