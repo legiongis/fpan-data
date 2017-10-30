@@ -59,13 +59,33 @@ def getTopConceptUUID(name,xml_file):
         if ast.literal_eval(o)["value"] == name:
             id = s.split("/")[-1]
     return id
+    
+def getUUIDByPrefLabel(name,xml_file):
+
+    id = str(uuid.uuid4())
+    if not os.path.isfile(xml_file):
+        return id
+
+    old_id = ""
+    g = Graph()
+    g.parse(xml_file)
+    for s, v, o in g.triples((None,SKOS.prefLabel,None)):
+        if ast.literal_eval(o)["value"] == name:
+            old_id = s.split("/")[-1]
+    
+    try:
+        val = uuid.UUID(old_id, version=4)
+        id = old_id
+    except ValueError:
+        pass
+        
+    return id
 
 def makeTopConcept(rdf_graph,top_concept_name,thesaurus_id,thesaurus_file=""):
 
-    topconcept_id = str(uuid.uuid4())
-    if os.path.isfile(thesaurus_file):
-        topconcept_id = getTopConceptUUID(top_concept_name,thesaurus_file)
-        
+    topconcept_id = getUUIDByPrefLabel(top_concept_name,thesaurus_file)
+    print "top concept:",top_concept_name,"id:",topconcept_id
+
     if mock_uuids:
         topconcept_id = "TOP CONCEPT - UUID ({})".format(top_concept_name)
         
@@ -82,7 +102,7 @@ def makeConceptsFromCSV(rdf_graph,csvfile,scheme_id,collection_graph,header_row=
                         label_col=0,alpha_sort=False,uuid_col=False,collections_file="",
                         thesaurus_file=""):
 
-    ## make top concept, find and use an existing uuid if possible
+    ## make top concept
     top_concept_name = os.path.splitext(os.path.basename(csvfile))[0]
 
     rdf_graph,topconcept_id = makeTopConcept(rdf_graph,top_concept_name,scheme_id,thesaurus_file=thesaurus_file)
@@ -135,23 +155,12 @@ def makeConceptsFromCSV(rdf_graph,csvfile,scheme_id,collection_graph,header_row=
     collection_graph = addCollection(collection_graph,top_concept_name,labels_uuids.values(),collections_file)
 
     return rdf_graph,collection_graph
-    
-def getCollectionUUID(name,xml_file):
-
-    g = Graph()
-    g.parse(xml_file)
-    id = False
-    for s, v, o in g.triples((None,SKOS.prefLabel,None)):
-        if ast.literal_eval(o)["value"] == name:
-            id = s.split("/")[-1]
-    return id
 
 def addCollection(g,name,conceptids,xml_file=False):
  
-    collection_id = getCollectionUUID(name, xml_file)
-    if not collection_id:
-        collection_id = str(uuid.uuid4())
-        
+    collection_id = getUUIDByPrefLabel(name, xml_file)
+    print "collection:",name,"id:",collection_id
+
     val = json.dumps({'value': name, 'id': str(uuid.uuid4())})
     g.add((ARCHES[collection_id], RDF.type, SKOS['Collection']))
     g.add((ARCHES[collection_id], SKOS['prefLabel'], Literal(val, lang=language)))
