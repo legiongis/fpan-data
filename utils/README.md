@@ -36,7 +36,7 @@ very importantly, if the thesaurus/collections files exist before the script is 
 
 many improvements possible... these are steps as of 10-30-17
 
-####Inputs
+#### Inputs
 
 3 shapefiles from FMSF: Historic Structures, Historic Cemeteries, Archaeological Sites
     These shapefiles come straight from Chip Birdsong at FMSF.
