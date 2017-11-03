@@ -1351,43 +1351,7 @@
                     "sortorder": 0
                 }
             ], 
-            "functions_x_graphs": [
-                {
-                    "config": {
-                        "spatial_node_id": "b23ffe74-bd93-11e7-989a-94659cf754d0", 
-                        "table_field_one": "fpan_region.name", 
-                        "table_field_two": "", 
-                        "target_node_id_one": "b23ffe76-bd93-11e7-a1f1-94659cf754d0", 
-                        "target_node_id_two": "", 
-                        "triggering_nodegroups": [
-                            "b23ffe70-bd93-11e7-a213-94659cf754d0"
-                        ]
-                    }, 
-                    "function_id": "826b7d00-bda7-11e7-99d2-94659cf754d0", 
-                    "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
-                    "id": "04e971a2-bda9-11e7-9f10-94659cf754d0"
-                }, 
-                {
-                    "config": {
-                        "description": {
-                            "nodegroup_id": "7b405271-b998-11e7-93e0-94659cf754d0", 
-                            "string_template": "<Name> (<Site ID>)"
-                        }, 
-                        "map_popup": {
-                            "nodegroup_id": "7b405271-b998-11e7-93e0-94659cf754d0", 
-                            "string_template": "<Name> (<Site ID>)"
-                        }, 
-                        "name": {
-                            "nodegroup_id": "7b405274-b998-11e7-9ed2-94659cf754d0", 
-                            "string_template": "<Ownership>"
-                        }, 
-                        "triggering_nodegroups": []
-                    }, 
-                    "function_id": "60000000-0000-0000-0000-000000000001", 
-                    "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
-                    "id": "aa336942-b8ef-11e7-9624-94659cf754d0"
-                }
-            ], 
+            "functions_x_graphs": [], 
             "graphid": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
             "iconclass": "fa fa-circle", 
             "is_editable": false, 
