@@ -27,15 +27,6 @@
                 {
                     "description": null, 
                     "domainnode_id": "9b5d2d8f-b5e6-11e7-87f2-94659cf754d0", 
-                    "edgeid": "ddb28822-b5e6-11e7-b36c-94659cf754d0", 
-                    "graph_id": "9b5d2d90-b5e6-11e7-b947-94659cf754d0", 
-                    "name": null, 
-                    "ontologyproperty": null, 
-                    "rangenode_id": "ddb28821-b5e6-11e7-aa6a-94659cf754d0"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "9b5d2d8f-b5e6-11e7-87f2-94659cf754d0", 
                     "edgeid": "0cb7e2a3-b5e7-11e7-86ad-94659cf754d0", 
                     "graph_id": "9b5d2d90-b5e6-11e7-b947-94659cf754d0", 
                     "name": null, 
@@ -45,11 +36,20 @@
                 {
                     "description": null, 
                     "domainnode_id": "9b5d2d8f-b5e6-11e7-87f2-94659cf754d0", 
-                    "edgeid": "fbe2a691-b5e6-11e7-9c6b-94659cf754d0", 
+                    "edgeid": "ddb28822-b5e6-11e7-b36c-94659cf754d0", 
                     "graph_id": "9b5d2d90-b5e6-11e7-b947-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "fbe2a690-b5e6-11e7-ab2d-94659cf754d0"
+                    "rangenode_id": "ddb28821-b5e6-11e7-aa6a-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "9b5d2d8f-b5e6-11e7-87f2-94659cf754d0", 
+                    "edgeid": "ef3cbc51-b5e6-11e7-b9be-94659cf754d0", 
+                    "graph_id": "9b5d2d90-b5e6-11e7-b947-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "ef3cbc50-b5e6-11e7-8151-94659cf754d0"
                 }, 
                 {
                     "description": null, 
@@ -63,11 +63,11 @@
                 {
                     "description": null, 
                     "domainnode_id": "9b5d2d8f-b5e6-11e7-87f2-94659cf754d0", 
-                    "edgeid": "ef3cbc51-b5e6-11e7-b9be-94659cf754d0", 
+                    "edgeid": "fbe2a691-b5e6-11e7-9c6b-94659cf754d0", 
                     "graph_id": "9b5d2d90-b5e6-11e7-b947-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "ef3cbc50-b5e6-11e7-8151-94659cf754d0"
+                    "rangenode_id": "fbe2a690-b5e6-11e7-ab2d-94659cf754d0"
                 }, 
                 {
                     "description": null, 

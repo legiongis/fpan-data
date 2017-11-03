@@ -20,6 +20,21 @@
                 }, 
                 {
                     "active": true, 
+                    "cardid": "51fc29d2-b997-11e7-aa40-94659cf754d0", 
+                    "description": "Represents a node and node type pairing", 
+                    "graph_id": "4bfedf3b-89dd-11e7-883c-06ed184dc22c", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "", 
+                    "is_editable": true, 
+                    "name": "Who is this site assigned to?", 
+                    "nodegroup_id": "51fc29d0-b997-11e7-a130-94659cf754d0", 
+                    "sortorder": 2, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
                     "cardid": "6f6f87e1-9316-11e7-883c-06ed184dc22c", 
                     "description": "Represents a node and node type pairing", 
                     "graph_id": "4bfedf3b-89dd-11e7-883c-06ed184dc22c", 
@@ -53,6 +68,20 @@
                 {
                     "card_id": "6f6f87e1-9316-11e7-883c-06ed184dc22c", 
                     "config": {
+                        "label": "Site Name", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "5cdb7a8d-9317-11e7-883c-06ed184dc22c", 
+                    "label": "Site Name", 
+                    "node_id": "6f6f87df-9316-11e7-883c-06ed184dc22c", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "6f6f87e1-9316-11e7-883c-06ed184dc22c", 
+                    "config": {
                         "label": "Site ID", 
                         "maxLength": null, 
                         "placeholder": "Enter text", 
@@ -61,7 +90,7 @@
                     "id": "b9c6b100-9725-11e7-b4fd-94659cf754d0", 
                     "label": "Site ID", 
                     "node_id": "e598ee9f-9712-11e7-bdea-94659cf754d0", 
-                    "sortorder": 0, 
+                    "sortorder": 2, 
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 }, 
                 {
@@ -99,170 +128,50 @@
                     "id": "5cdb7a8c-9317-11e7-883c-06ed184dc22c", 
                     "label": "Name Type", 
                     "node_id": "6f6f87e2-9316-11e7-883c-06ed184dc22c", 
-                    "sortorder": 2, 
-                    "widget_id": "10000000-0000-0000-0000-000000000009"
-                }, 
-                {
-                    "card_id": "6f6f87e1-9316-11e7-883c-06ed184dc22c", 
-                    "config": {
-                        "label": "Site Name", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "width": "100%"
-                    }, 
-                    "id": "5cdb7a8d-9317-11e7-883c-06ed184dc22c", 
-                    "label": "Site Name", 
-                    "node_id": "6f6f87df-9316-11e7-883c-06ed184dc22c", 
                     "sortorder": 1, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
                 }, 
                 {
                     "card_id": "a2722512-b5e4-11e7-bcb7-94659cf754d0", 
                     "config": {
                         "label": "Ownership", 
-                        "options": [
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "bd25f042-d7d7-489f-a697-72b0312a9a53", 
-                                "id": "225a0735-339c-464c-bcf4-27f33231ad29", 
-                                "sortorder": "000", 
-                                "text": "City"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "ecbbc58e-f355-4a25-9116-cb0b9ab4a2f9", 
-                                "id": "e88bb68e-f4c2-49fd-a5bf-67101831b5f0", 
-                                "sortorder": "001", 
-                                "text": "County"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "7e0a9917-c2a7-4b2f-84db-4cd74cc38c9f", 
-                                "id": "6660d20e-3e5f-41b3-8bd9-27e922eae9d7", 
-                                "sortorder": "002", 
-                                "text": "State"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "e46c1972-bbb6-4579-9b63-7d948a3d67b1", 
-                                "id": "7c19dbe6-4d83-4f14-be4b-a4d063fe642d", 
-                                "sortorder": "003", 
-                                "text": "Federal"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "00aca99d-0380-4106-b8b4-747eaab102ad", 
-                                "id": "5462101e-6628-47cc-aab0-aa909f8bcca9", 
-                                "sortorder": "004", 
-                                "text": "Local government"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "ffba2470-102d-4d8f-a3b6-21a753825d8c", 
-                                "id": "3614989f-a3cc-407d-91ae-824c938c51d7", 
-                                "sortorder": "005", 
-                                "text": "Private-individual"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "d8d4e678-5d78-4643-bc4e-565722fc4265", 
-                                "id": "c357d747-593c-4d02-b338-231b68cb03d8", 
-                                "sortorder": "006", 
-                                "text": "Private-corporate-for profit"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "b8ab03c5-52fa-40c7-9566-3033966fd182", 
-                                "id": "af967411-7adc-45ea-b827-99d839a4acc1", 
-                                "sortorder": "007", 
-                                "text": "Private-corporate-nonprofit"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "75f0bcfb-babd-481c-90cc-6eb69a4ece4b", 
-                                "id": "8dac0cb7-3ce4-4c45-bf85-e616b668e418", 
-                                "sortorder": "008", 
-                                "text": "Foreign"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "88655d1d-9788-429e-bf95-ce2840175e4d", 
-                                "id": "1227251a-df43-47cc-8d14-3a841b5d1958", 
-                                "sortorder": "009", 
-                                "text": "Native American"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "10d10815-ea3a-487b-bff5-4c75b6dc772a", 
-                                "id": "565356ac-ca4c-45b9-a88b-ad7f6cc30abc", 
-                                "sortorder": "010", 
-                                "text": "Multiple categories of ownership"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "db021089-7e26-4d0d-95bd-3de53af94347", 
-                                "id": "c34d30b3-bf7a-4f94-aecc-66981469f84d", 
-                                "sortorder": "011", 
-                                "text": "Unspecified by surveyor"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "7f7ea423-281d-487b-96f1-875a4a68324e", 
-                                "id": "c4c527a6-9a5b-4354-95f7-35cc4e2fe305", 
-                                "sortorder": "012", 
-                                "text": "Public-unspecified"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "c33ca694-7ccd-43d3-b7bf-de0f2ad3c37c", 
-                                "id": "d1396e2e-ee42-4f36-b5f6-6cb62069816d", 
-                                "sortorder": "013", 
-                                "text": "Private-unspecified"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "394e519a-686d-476e-b425-a0a3db4ae3b1", 
-                                "id": "4210de35-48e7-4fa7-bd39-2f1e8bf25511", 
-                                "sortorder": "014", 
-                                "text": "Other"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "7ac3c803-1036-4dcf-bd42-818502cbd5ba", 
-                                "id": "b6ca9bc4-37bb-4b66-8325-75b681b9dffe", 
-                                "sortorder": "015", 
-                                "text": "Unknown"
-                            }
-                        ], 
+                        "options": [], 
                         "placeholder": "Select an option"
                     }, 
-                    "id": "a2722513-b5e4-11e7-94da-94659cf754d0", 
+                    "id": "66c7582e-b997-11e7-8fb6-94659cf754d0", 
                     "label": "Ownership", 
                     "node_id": "a2722510-b5e4-11e7-aefc-94659cf754d0", 
                     "sortorder": 0, 
-                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "51fc29d2-b997-11e7-aa40-94659cf754d0", 
+                    "config": {
+                        "label": "Assigned To", 
+                        "maxLength": null, 
+                        "placeholder": "find a user id", 
+                        "width": "100%"
+                    }, 
+                    "id": "66c8699e-b997-11e7-8af8-94659cf754d0", 
+                    "label": "Assigned To", 
+                    "node_id": "51fc29d0-b997-11e7-a130-94659cf754d0", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ], 
             "deploymentdate": null, 
             "deploymentfile": null, 
             "description": "", 
             "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "4bfedf3a-89dd-11e7-883c-06ed184dc22c", 
+                    "edgeid": "51fc50e0-b997-11e7-925b-94659cf754d0", 
+                    "graph_id": "4bfedf3b-89dd-11e7-883c-06ed184dc22c", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P11_had_participant", 
+                    "rangenode_id": "51fc29d0-b997-11e7-a130-94659cf754d0"
+                }, 
                 {
                     "description": null, 
                     "domainnode_id": "4bfedf3a-89dd-11e7-883c-06ed184dc22c", 
@@ -327,6 +236,12 @@
                     "legacygroupid": null, 
                     "nodegroupid": "a2722510-b5e4-11e7-aefc-94659cf754d0", 
                     "parentnodegroup_id": "4bfedf3a-89dd-11e7-883c-06ed184dc22c"
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "51fc29d0-b997-11e7-a130-94659cf754d0", 
+                    "parentnodegroup_id": "4bfedf3a-89dd-11e7-883c-06ed184dc22c"
                 }
             ], 
             "nodes": [
@@ -344,23 +259,6 @@
                     "nodeid": "6f6f87df-9316-11e7-883c-06ed184dc22c", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E48_Place_Name", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P140_assigned_attribute_to"
-                }, 
-                {
-                    "config": {
-                        "fillColor": "rgba(233,112,111,0.8)"
-                    }, 
-                    "datatype": "semantic", 
-                    "description": "", 
-                    "graph_id": "4bfedf3b-89dd-11e7-883c-06ed184dc22c", 
-                    "is_collector": true, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": true, 
-                    "name": "FMSF Identification", 
-                    "nodegroup_id": "4bfedf3a-89dd-11e7-883c-06ed184dc22c", 
-                    "nodeid": "4bfedf3a-89dd-11e7-883c-06ed184dc22c", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment", 
-                    "parentproperty": ""
                 }, 
                 {
                     "config": {
@@ -382,17 +280,17 @@
                 {
                     "config": null, 
                     "datatype": "string", 
-                    "description": "Represents a single node in a graph", 
+                    "description": "", 
                     "graph_id": "4bfedf3b-89dd-11e7-883c-06ed184dc22c", 
-                    "is_collector": false, 
+                    "is_collector": true, 
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Site ID", 
-                    "nodegroup_id": "6f6f87df-9316-11e7-883c-06ed184dc22c", 
-                    "nodeid": "e598ee9f-9712-11e7-bdea-94659cf754d0", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies"
+                    "name": "Assigned To", 
+                    "nodegroup_id": "51fc29d0-b997-11e7-a130-94659cf754d0", 
+                    "nodeid": "51fc29d0-b997-11e7-a130-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E39_Actor", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P11_had_participant"
                 }, 
                 {
                     "config": {
@@ -410,6 +308,38 @@
                     "nodeid": "a2722510-b5e4-11e7-aefc-94659cf754d0", 
                     "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P15_was_influenced_by"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "4bfedf3b-89dd-11e7-883c-06ed184dc22c", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "FMSF Identification", 
+                    "nodegroup_id": "4bfedf3a-89dd-11e7-883c-06ed184dc22c", 
+                    "nodeid": "4bfedf3a-89dd-11e7-883c-06ed184dc22c", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E15_Identifier_Assignment", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "4bfedf3b-89dd-11e7-883c-06ed184dc22c", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Site ID", 
+                    "nodegroup_id": "6f6f87df-9316-11e7-883c-06ed184dc22c", 
+                    "nodeid": "e598ee9f-9712-11e7-bdea-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P1i_identifies"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 

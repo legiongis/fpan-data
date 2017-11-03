@@ -13,13 +13,52 @@
                     "helptitle": null, 
                     "instructions": null, 
                     "is_editable": true, 
-                    "name": "Location (simple)", 
+                    "name": "Location", 
                     "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
                     "sortorder": null, 
                     "visible": true
                 }
             ], 
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
+                    "config": {
+                        "label": "Plot Method", 
+                        "options": [], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "45b6f41e-b5dc-11e7-b52c-94659cf754d0", 
+                    "label": "Plot Method", 
+                    "node_id": "e3cfa231-b5d0-11e7-94cc-94659cf754d0", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
+                    "config": {
+                        "label": "Administrative Area (read-only)", 
+                        "options": [], 
+                        "placeholder": "(please don't edit, this value should automatically generated)"
+                    }, 
+                    "id": "45b67eee-b5dc-11e7-9b16-94659cf754d0", 
+                    "label": "Administrative Area (read-only)", 
+                    "node_id": "1b1bd290-b5d1-11e7-bda6-94659cf754d0", 
+                    "sortorder": 3, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
+                    "config": {
+                        "label": "HMS-Region (read-only)", 
+                        "options": [], 
+                        "placeholder": "(please don't edit, this value should automatically generated)"
+                    }, 
+                    "id": "10fbbfae-bdaf-11e7-b7b5-94659cf754d0", 
+                    "label": "HMS-Region (read-only)", 
+                    "node_id": "3ca507a1-bd93-11e7-b1e8-94659cf754d0", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                }, 
                 {
                     "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
                     "config": {
@@ -60,32 +99,6 @@
                     "node_id": "578474db-9321-11e7-883c-06ed184dc22c", 
                     "sortorder": 0, 
                     "widget_id": "10000000-0000-0000-0000-000000000007"
-                }, 
-                {
-                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
-                    "config": {
-                        "label": "Plot Method", 
-                        "options": [], 
-                        "placeholder": "Select an option"
-                    }, 
-                    "id": "45b6f41e-b5dc-11e7-b52c-94659cf754d0", 
-                    "label": "Plot Method", 
-                    "node_id": "e3cfa231-b5d0-11e7-94cc-94659cf754d0", 
-                    "sortorder": 2, 
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                }, 
-                {
-                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
-                    "config": {
-                        "label": "Administrative Area", 
-                        "options": [], 
-                        "placeholder": "Select an option"
-                    }, 
-                    "id": "45b67eee-b5dc-11e7-9b16-94659cf754d0", 
-                    "label": "Administrative Area", 
-                    "node_id": "1b1bd290-b5d1-11e7-bda6-94659cf754d0", 
-                    "sortorder": 1, 
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 }
             ], 
             "deploymentdate": null, 
@@ -100,6 +113,15 @@
                     "name": null, 
                     "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
                     "rangenode_id": "e3cfa231-b5d0-11e7-94cc-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "edgeid": "3ca507a2-bd93-11e7-851d-94659cf754d0", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within", 
+                    "rangenode_id": "3ca507a1-bd93-11e7-b1e8-94659cf754d0"
                 }, 
                 {
                     "description": null, 
@@ -128,7 +150,7 @@
             "is_editable": true, 
             "isactive": true, 
             "isresource": false, 
-            "name": "Location (simple)", 
+            "name": "Location", 
             "nodegroups": [
                 {
                     "cardinality": "1", 
@@ -138,6 +160,23 @@
                 }
             ], 
             "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": "9be3ad9d-917f-44b9-a1cd-19ad2a2fe6db"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "HMS-Region", 
+                    "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "nodeid": "3ca507a1-bd93-11e7-b1e8-94659cf754d0", 
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D35_Area", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within"
+                }, 
                 {
                     "config": {
                         "addToMap": false, 
