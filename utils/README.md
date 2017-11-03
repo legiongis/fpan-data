@@ -36,14 +36,14 @@ very importantly, if the thesaurus/collections files exist before the script is 
 
 many improvements possible... these are steps as of 10-30-17
 
-####Inputs
+#### Inputs
 
-3 shapefiles from FMSF: Historic Structures, Historic Cemeteries, Archaeological Sites
-    These shapefiles come straight from Chip Birdsong at FMSF.
-1 csv from FMSF: OwnType
-    This actually comes as an Excel file from Chip, so a quick open in Excel/save to csv must happen.
-1 shapefile for spatial filtering of Historic Structures
-    This has been created ahead of time.
++ 3 shapefiles from FMSF: Historic Structures, Historic Cemeteries, Archaeological Sites
+    + These shapefiles come straight from Chip Birdsong at FMSF.
++ 1 csv from FMSF: OwnType
+    + This actually comes as an Excel file from Chip, so a quick open in Excel/save to csv must happen.
++ 1 shapefile for spatial filtering of Historic Structures
+    + This has been created ahead of time.
 
 ##### Step 1
 
