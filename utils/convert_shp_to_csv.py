@@ -64,6 +64,8 @@ def shp_to_csv(in_file,truncate=0,date_fields=[],concat_fields={}):
     print "~"*60
     print "converting shapefile to csv:", in_file
     out_file = in_file.replace(".shp",".csv")
+    if truncate:
+        out_file = out_file.replace(".csv","_"+str(truncate)+".csv")
     print "output csv:", out_file
 
     ## open shapefile for reading
