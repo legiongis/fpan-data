@@ -26,9 +26,14 @@ def parse_date(value,field_name):
         print "    couldn't parse this date:", clean, "("+field_name+")"
         return ""
 
-def sanitize_row(feature,date_fields=[]):
-    
+def sanitize_row(feature,date_fields=[],concat_fields={}):
+
+    skip_fields = []
+    for k,v in concat_fields.iteritems():
+        skip_fields+=v
+
     row =[]
+    concat_vals = {k:[] for (k,v) in concat_fields.iteritems()}
     for i in range(feature.GetFieldCount()):
         name = feature.GetFieldDefnRef(i).GetName()
         val = feature.GetFieldAsString(name).rstrip()
@@ -36,12 +41,23 @@ def sanitize_row(feature,date_fields=[]):
             val = ""
         if name in date_fields:
             val = parse_date(val,name)
-        row.append(val)
-        
-        
+            
+        if not name in skip_fields:
+            row.append(val)
+            continue
+            
+        for k,v in concat_fields.iteritems():
+            if name in v and not val == "":
+                concat_vals[k].append(val)
+                
+    new_concat = concat_fields.keys()
+    new_concat.sort()
+    for nc in new_concat:
+        row.append(";".join(concat_vals[nc]))
+
     return row
 
-def shp_to_csv(in_file,truncate=0,date_fields=[]):
+def shp_to_csv(in_file,truncate=0,date_fields=[],concat_fields={}):
     '''
     converts a shapefile to a csv that is ready for arches upload
     '''
@@ -64,6 +80,11 @@ def shp_to_csv(in_file,truncate=0,date_fields=[]):
     field_names = [lyr_def.GetFieldDefn(i).GetName() for i in range(lyr_def.GetFieldCount())]
     
     fields = ['ResourceID','geom']+field_names
+    for target,sources in concat_fields.iteritems():
+        fields = [i for i in fields if not i in sources]
+    fs = concat_fields.keys()
+    fs.sort()
+    fields+=fs
     
     ct = 0
     with open(out_file,"wb") as outcsv:
@@ -73,7 +94,7 @@ def shp_to_csv(in_file,truncate=0,date_fields=[]):
             ct+=1
             id = str(uuid.uuid4())
             geom = feat.GetGeometryRef().ExportToWkt()
-            featrow = sanitize_row(feat,date_fields)
+            featrow = sanitize_row(feat,date_fields,concat_fields=concat_fields)
             row = [id]+[geom]+featrow
             writer.writerow(row)
             
@@ -93,11 +114,30 @@ if __name__ == '__main__':
     parser.add_argument("-t","--truncate",type=int,help="make a truncated csv with only this many rows")
     args = parser.parse_args()
     
-    date_fields = ["YEARESTAB","D_NRLISTED"]
+    date_fields = ["YEARESTAB","D_NRLISTED","YEARBUILT"]
+    struct_concat = {
+        'STRUCUSE':['STRUCUSE1','STRUCUSE2','STRUCUSE3'],
+        'STRUCSYS':['STRUCSYS1','STRUCSYS2','STRUCSYS3'],
+        'EXTFABRIC':['EXTFABRIC1','EXTFABRIC2','EXTFABRIC3','EXTFABRIC4']
+    }
+    cem_concat = {
+        'CEMTYPE':['CEMTYPE1','CEMTYPE2'],
+        'ETHNICGRP':['ETHNICGRP1','ETHNICGRP2','ETHNICGRP3','ETHNICGRP4']
+    }
+    site_concat = {
+        'SITETYPE':['SITETYPE1','SITETYPE2','SITETYPE3','SITETYPE4','SITETYPE5','SITETYPE6'],
+        'CULTURE':['CULTURE1','CULTURE2','CULTURE3','CULTURE4','CULTURE5','CULTURE6','CULTURE7','CULTURE8']
+    }
     
     dir = args.input_dir
     for shp in os.listdir(dir):
         if not shp.endswith(".shp"):
             continue
+        if shp == "FloridaSites.shp":
+            concat = site_concat
+        if shp == "FloridaStructures.shp":
+            concat = struct_concat
+        if shp =="HistoricalCemeteries.shp":
+            concat = cem_concat
         shapefile = os.path.join(dir,shp)
-        shp_to_csv(shapefile,truncate=args.truncate,date_fields=date_fields)
+        shp_to_csv(shapefile,truncate=args.truncate,date_fields=date_fields,concat_fields=concat)
