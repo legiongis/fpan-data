@@ -1,0 +1,301 @@
+{
+    "graph": [
+        {
+            "author": " Legion GIS", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
+                    "description": "", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "Location", 
+                    "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
+                    "config": {
+                        "label": "Plot Method", 
+                        "options": [], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "45b6f41e-b5dc-11e7-b52c-94659cf754d0", 
+                    "label": "Plot Method", 
+                    "node_id": "e3cfa231-b5d0-11e7-94cc-94659cf754d0", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
+                    "config": {
+                        "label": "Administrative Area (read-only)", 
+                        "options": [], 
+                        "placeholder": "(please don't edit, this value should automatically generated)"
+                    }, 
+                    "id": "45b67eee-b5dc-11e7-9b16-94659cf754d0", 
+                    "label": "Administrative Area (read-only)", 
+                    "node_id": "1b1bd290-b5d1-11e7-bda6-94659cf754d0", 
+                    "sortorder": 3, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
+                    "config": {
+                        "label": "HMS-Region (read-only)", 
+                        "options": [], 
+                        "placeholder": "(please don't edit, this value should automatically generated)"
+                    }, 
+                    "id": "10fbbfae-bdaf-11e7-b7b5-94659cf754d0", 
+                    "label": "HMS-Region (read-only)", 
+                    "node_id": "3ca507a1-bd93-11e7-b1e8-94659cf754d0", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                }, 
+                {
+                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
+                    "config": {
+                        "basemap": "streets", 
+                        "bearing": 0, 
+                        "centerX": -82.4255718051835, 
+                        "centerY": 27.9863887846045, 
+                        "featureColor": "#FF0000", 
+                        "featureLineWidth": 1, 
+                        "featurePointSize": 3, 
+                        "geocodePlaceholder": "Search", 
+                        "geocodeProvider": "10000000-0000-0000-0000-010000000000", 
+                        "geocoderVisible": true, 
+                        "geometryTypes": [
+                            {
+                                "id": "Point", 
+                                "text": "Point"
+                            }, 
+                            {
+                                "id": "Line", 
+                                "text": "Line"
+                            }, 
+                            {
+                                "id": "Polygon", 
+                                "text": "Polygon"
+                            }
+                        ], 
+                        "label": "Geospatial Coordinates", 
+                        "maxZoom": 20, 
+                        "minZoom": 0, 
+                        "overlayConfigs": [], 
+                        "overlayOpacity": 0, 
+                        "pitch": 0, 
+                        "zoom": 4.363456836312682
+                    }, 
+                    "id": "8016470c-9321-11e7-883c-06ed184dc22c", 
+                    "label": "Geospatial Coordinates", 
+                    "node_id": "578474db-9321-11e7-883c-06ed184dc22c", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000007"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "578474db-9321-11e7-883c-06ed184dc22c", 
+                    "edgeid": "e3cfa232-b5d0-11e7-9812-94659cf754d0", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type", 
+                    "rangenode_id": "e3cfa231-b5d0-11e7-94cc-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "edgeid": "3ca507a2-bd93-11e7-851d-94659cf754d0", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within", 
+                    "rangenode_id": "3ca507a1-bd93-11e7-b1e8-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "edgeid": "578474dc-9321-11e7-883c-06ed184dc22c", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by", 
+                    "rangenode_id": "578474db-9321-11e7-883c-06ed184dc22c"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "edgeid": "1b1bd291-b5d1-11e7-96b4-94659cf754d0", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "name": null, 
+                    "ontologyproperty": "http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within", 
+                    "rangenode_id": "1b1bd290-b5d1-11e7-bda6-94659cf754d0"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+            "iconclass": "fa fa-adjust", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "Location", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "parentnodegroup_id": null
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": "9be3ad9d-917f-44b9-a1cd-19ad2a2fe6db"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "HMS-Region", 
+                    "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "nodeid": "3ca507a1-bd93-11e7-b1e8-94659cf754d0", 
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D35_Area", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within"
+                }, 
+                {
+                    "config": {
+                        "addToMap": false, 
+                        "advancedStyle": "", 
+                        "advancedStyling": false, 
+                        "autoManageCache": false, 
+                        "cacheTiles": false, 
+                        "clusterDistance": 20, 
+                        "clusterMaxZoom": 5, 
+                        "clusterMinPoints": 3, 
+                        "fillColor": "rgba(130, 130, 130, 0.5)", 
+                        "haloRadius": 4, 
+                        "haloWeight": 4, 
+                        "layerActivated": true, 
+                        "layerIcon": "", 
+                        "layerName": "", 
+                        "lineColor": "rgba(130, 130, 130, 0.7)", 
+                        "lineHaloColor": "rgba(200, 200, 200, 0.5)", 
+                        "outlineColor": "rgba(200, 200, 200, 0.7)", 
+                        "outlineWeight": 2, 
+                        "pointColor": "rgba(130, 130, 130, 0.7)", 
+                        "pointHaloColor": "rgba(200, 200, 200, 0.5)", 
+                        "radius": 2, 
+                        "simplification": 0.3, 
+                        "weight": 2
+                    }, 
+                    "datatype": "geojson-feature-collection", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Geospatial Coordinates", 
+                    "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "nodeid": "578474db-9321-11e7-883c-06ed184dc22c", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E47_Spatial_Coordinates", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by"
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Location (simple)", 
+                    "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "nodeid": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place", 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "82ce3c3b-c445-4bec-94a9-d2569b8cfa2f"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Administrative Area", 
+                    "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "nodeid": "1b1bd290-b5d1-11e7-bda6-94659cf754d0", 
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D35_Area", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within"
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "3c998c55-2eeb-4042-9c82-4dc9af81dde3"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Plot Method", 
+                    "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                    "nodeid": "e3cfa231-b5d0-11e7-94cc-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                }
+            ], 
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "Location (simple)", 
+                "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                "nodeid": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E53_Place"
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.5, compiled by Visual C++ build 1800, 64-bit", 
+        "git hash": "fatal: ambiguous argument '%ai'': unknown revision or path not in the working tree.", 
+        "os": "Windows", 
+        "os version": "8"
+    }
+}
