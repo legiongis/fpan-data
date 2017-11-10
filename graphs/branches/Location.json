@@ -23,19 +23,6 @@
                 {
                     "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
                     "config": {
-                        "label": "Plot Method", 
-                        "options": [], 
-                        "placeholder": "Select an option"
-                    }, 
-                    "id": "45b6f41e-b5dc-11e7-b52c-94659cf754d0", 
-                    "label": "Plot Method", 
-                    "node_id": "e3cfa231-b5d0-11e7-94cc-94659cf754d0", 
-                    "sortorder": 1, 
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                }, 
-                {
-                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
-                    "config": {
                         "label": "Administrative Area (read-only)", 
                         "options": [], 
                         "placeholder": "(please don't edit, this value should automatically generated)"
@@ -58,6 +45,19 @@
                     "node_id": "3ca507a1-bd93-11e7-b1e8-94659cf754d0", 
                     "sortorder": 2, 
                     "widget_id": "10000000-0000-0000-0000-000000000012"
+                }, 
+                {
+                    "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
+                    "config": {
+                        "label": "Plot Method", 
+                        "options": [], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "45b6f41e-b5dc-11e7-b52c-94659cf754d0", 
+                    "label": "Plot Method", 
+                    "node_id": "e3cfa231-b5d0-11e7-94cc-94659cf754d0", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
                 }, 
                 {
                     "card_id": "013b6a9f-931d-11e7-883c-06ed184dc22c", 
@@ -146,7 +146,7 @@
             "forms_x_cards": [], 
             "functions_x_graphs": [], 
             "graphid": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
-            "iconclass": "fa fa-adjust", 
+            "iconclass": "fa fa-map-marker", 
             "is_editable": true, 
             "isactive": true, 
             "isresource": false, 
@@ -162,20 +162,20 @@
             "nodes": [
                 {
                     "config": {
-                        "rdmCollection": "9be3ad9d-917f-44b9-a1cd-19ad2a2fe6db"
+                        "rdmCollection": "3c998c55-2eeb-4042-9c82-4dc9af81dde3"
                     }, 
-                    "datatype": "concept-list", 
+                    "datatype": "concept", 
                     "description": "Represents a single node in a graph", 
                     "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
                     "is_collector": false, 
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "HMS-Region", 
+                    "name": "Plot Method", 
                     "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
-                    "nodeid": "3ca507a1-bd93-11e7-b1e8-94659cf754d0", 
-                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D35_Area", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within"
+                    "nodeid": "e3cfa231-b5d0-11e7-94cc-94659cf754d0", 
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
                 }, 
                 {
                     "config": {
@@ -252,20 +252,20 @@
                 }, 
                 {
                     "config": {
-                        "rdmCollection": "3c998c55-2eeb-4042-9c82-4dc9af81dde3"
+                        "rdmCollection": "9be3ad9d-917f-44b9-a1cd-19ad2a2fe6db"
                     }, 
-                    "datatype": "concept", 
+                    "datatype": "concept-list", 
                     "description": "Represents a single node in a graph", 
                     "graph_id": "013b6a9d-931d-11e7-883c-06ed184dc22c", 
                     "is_collector": false, 
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Plot Method", 
+                    "name": "HMS-Region", 
                     "nodegroup_id": "013b6a9c-931d-11e7-883c-06ed184dc22c", 
-                    "nodeid": "e3cfa231-b5d0-11e7-94cc-94659cf754d0", 
-                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E55_Type", 
-                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
+                    "nodeid": "3ca507a1-bd93-11e7-b1e8-94659cf754d0", 
+                    "ontologyclass": "http://www.ics.forth.gr/isl/CRMdig/D35_Area", 
+                    "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P59i_is_located_on_or_within"
                 }
             ], 
             "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd", 
