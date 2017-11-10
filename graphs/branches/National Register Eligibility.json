@@ -1,0 +1,564 @@
+{
+    "graph": [
+        {
+            "author": " Legion GIS, LLC", 
+            "cards": [
+                {
+                    "active": true, 
+                    "cardid": "54eba2d2-c633-11e7-969c-94659cf754d0", 
+                    "description": "Represents a node and node type pairing", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "", 
+                    "is_editable": true, 
+                    "name": "Survey Evaluation", 
+                    "nodegroup_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "sortorder": 0, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "f9dcd343-c633-11e7-9047-94659cf754d0", 
+                    "description": "Represents a node and node type pairing", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "", 
+                    "is_editable": true, 
+                    "name": "NR List Date", 
+                    "nodegroup_id": "f9dcd341-c633-11e7-8977-94659cf754d0", 
+                    "sortorder": 2, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "e2168d52-c633-11e7-9e94-94659cf754d0", 
+                    "description": "Represents a node and node type pairing", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": "", 
+                    "is_editable": true, 
+                    "name": "SHPO Evaluation", 
+                    "nodegroup_id": "e2168d50-c633-11e7-a7e1-94659cf754d0", 
+                    "sortorder": 1, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "0829fa4f-c633-11e7-bbd1-94659cf754d0", 
+                    "description": "", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "helpenabled": false, 
+                    "helptext": null, 
+                    "helptitle": null, 
+                    "instructions": null, 
+                    "is_editable": true, 
+                    "name": "National Register Eligibility", 
+                    "nodegroup_id": "08290ff0-c633-11e7-863e-94659cf754d0", 
+                    "sortorder": null, 
+                    "visible": true
+                }
+            ], 
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "f9dcd343-c633-11e7-9047-94659cf754d0", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "label": "National Register List Date", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "3010b5cf-c634-11e7-97e0-94659cf754d0", 
+                    "label": "National Register List Date", 
+                    "node_id": "f9dcd341-c633-11e7-8977-94659cf754d0", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "54eba2d2-c633-11e7-969c-94659cf754d0", 
+                    "config": {
+                        "label": "Eligibility Recommendation (District)", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "7debaa45-6f25-42c0-8ed8-51f35f1aa238", 
+                                "id": "03c2c21d-c4be-4112-8c69-fcbb363a602f", 
+                                "sortorder": "000", 
+                                "text": "Potential contributor to NR district"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "1f81e930-97ae-4252-b8c9-7dfac3c3f8f2", 
+                                "id": "58e629da-56b1-464c-89f9-98012536ea7b", 
+                                "sortorder": "001", 
+                                "text": "Ineligible as contributor to NR district"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "4d889eb7-4458-4540-9348-bd9a1ad813d8", 
+                                "id": "6a3b488d-9634-49af-b69a-160aa4c270a1", 
+                                "sortorder": "002", 
+                                "text": "Likely contributor to NR district"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "73c0c4b8-9e20-49e9-a9c3-22c119944771", 
+                                "id": "47e18500-e2fd-438c-9aba-85fe03af2e6e", 
+                                "sortorder": "003", 
+                                "text": "Insufficient data to judge eligibility"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "523698b6-26ca-446b-a28a-92e55f69a73e", 
+                                "id": "5933a7f1-2808-4787-a155-008b3c1c9748", 
+                                "sortorder": "004", 
+                                "text": "Not Evaluated by Recorder"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "4617d7f0-9f5f-4d72-b40b-8bac73125d97", 
+                                "id": "32f8a152-2c6a-4a68-b7ce-1386cfc2a6a1", 
+                                "sortorder": "005", 
+                                "text": "More work recommended"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "5b834fa0-2a07-428e-a3ec-17b9170fe62a", 
+                                "id": "714b45b3-0877-4fc9-88f9-d96c65ec4592", 
+                                "sortorder": "006", 
+                                "text": "No further work recommended"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "919fde05-698a-4bc7-ac56-e11a6503fb4c", 
+                                "id": "af7af13f-e124-462e-b2f9-8caff7c2bd47", 
+                                "sortorder": "007", 
+                                "text": "Preservation recommended"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "6686a5f6-91ae-4f21-9433-752a0da7d923", 
+                                "id": "5e3baad9-d14d-482f-8b6c-54ce38155b56", 
+                                "sortorder": "008", 
+                                "text": "Preservation not recommended"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "300f081e-c634-11e7-8ee1-94659cf754d0", 
+                    "label": "Eligibility Recommendation (District)", 
+                    "node_id": "8fb16990-c633-11e7-b96e-94659cf754d0", 
+                    "sortorder": 2, 
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                }, 
+                {
+                    "card_id": "54eba2d2-c633-11e7-969c-94659cf754d0", 
+                    "config": {
+                        "label": "Survey Number", 
+                        "maxLength": "250", 
+                        "placeholder": "", 
+                        "width": "100%"
+                    }, 
+                    "id": "300e6bde-c634-11e7-80e8-94659cf754d0", 
+                    "label": "Survey Number", 
+                    "node_id": "7b2e67c1-c633-11e7-ba08-94659cf754d0", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "54eba2d2-c633-11e7-969c-94659cf754d0", 
+                    "config": {
+                        "label": "Eligibility Recommendation (Individual)", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "1627475a-7024-458f-969a-b5f362e42b7a", 
+                                "id": "bf52abf6-2d87-4f63-aa08-85263e2f20da", 
+                                "sortorder": "000", 
+                                "text": "Eligible for NRHP"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "13f73c4d-0ee5-4ae5-85db-711dfa485eb0", 
+                                "id": "1cab7d2e-ad43-4ae8-8b07-f4c8739b5599", 
+                                "sortorder": "001", 
+                                "text": "Ineligible for NRHP"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "8e3ea7d4-fe97-4730-8bfc-a394b331eaae", 
+                                "id": "8ded7f38-518a-49a5-a408-c87aae6d65f6", 
+                                "sortorder": "002", 
+                                "text": "Likely NRHP Eligible"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "0829d0b9-e5e6-447d-8142-222f2cee9d0b", 
+                                "id": "67f1cc16-89c3-40c8-bdca-c9ebd962fa5b", 
+                                "sortorder": "003", 
+                                "text": "Insufficient Information"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "3efeb161-f641-49a3-9766-165f63b67674", 
+                                "id": "0011a1ef-ab66-48a8-8fdb-8fe99a662a66", 
+                                "sortorder": "004", 
+                                "text": "Not Evaluated by Recorder"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "fc08eb70-76f0-4925-987e-5c5c62bfa8ee", 
+                                "id": "71377cfe-579d-46ad-adee-1787791727b2", 
+                                "sortorder": "005", 
+                                "text": "More Work Recommended"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "74f73031-6492-422b-a61a-93468b174da3", 
+                                "id": "3e4f4741-ef2e-4127-beeb-7c39563795bf", 
+                                "sortorder": "006", 
+                                "text": "No Further Work Recommended"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "a9e8d64c-b898-496f-83f0-1f8d44173805", 
+                                "id": "131c229c-65c9-48de-b8d2-8b23b26b41da", 
+                                "sortorder": "007", 
+                                "text": "Preservation Recommended"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "5cafb5b6-e6d3-4a85-95b7-fac044b16c1a", 
+                                "id": "76cb4ab8-f2ad-49fc-afda-b8e70ae50399", 
+                                "sortorder": "008", 
+                                "text": "Preservation Not Recommended"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "300dcfa1-c634-11e7-a75f-94659cf754d0", 
+                    "label": "Eligibility Recommendation (Individual)", 
+                    "node_id": "54eba2d3-c633-11e7-9af3-94659cf754d0", 
+                    "sortorder": 1, 
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                }, 
+                {
+                    "card_id": "e2168d52-c633-11e7-9e94-94659cf754d0", 
+                    "config": {
+                        "label": "SHPO Evaluation", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "f11dfa12-1d19-4bcc-b4f5-cc8f1393ea38", 
+                                "id": "92ab7b9c-3bd6-4c1b-bc92-7a7dccc610bf", 
+                                "sortorder": "000", 
+                                "text": "Eligible for NRHP"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "c5aee5e5-05fe-4534-a68c-bc66a9354ee7", 
+                                "id": "2d718e7f-5a12-49e4-be9b-02691ba9b1b1", 
+                                "sortorder": "001", 
+                                "text": "Ineligible for NRHP"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "ef40edae-5e22-4d14-8353-bd9a13fc56ca", 
+                                "id": "d8df409d-9f81-4efa-a85e-c6fa7ab21ec9", 
+                                "sortorder": "002", 
+                                "text": "Potentially Eligible for NRHP"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "16e2bafd-60ea-46a0-aadb-be228d0120d6", 
+                                "id": "a76edebc-6762-4040-b0a0-e40911b65b47", 
+                                "sortorder": "003", 
+                                "text": "Insufficient Information"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "106eb144-96a9-42c8-b1c2-1be7c4df173f", 
+                                "id": "3bf9f8e1-7068-49c8-a618-3a2c85c586cc", 
+                                "sortorder": "004", 
+                                "text": "Not Evaluated by SHPO"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "300fcb70-c634-11e7-887c-94659cf754d0", 
+                    "label": "SHPO Evaluation", 
+                    "node_id": "e2168d50-c633-11e7-a7e1-94659cf754d0", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                }
+            ], 
+            "deploymentdate": null, 
+            "deploymentfile": null, 
+            "description": "", 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "edgeid": "7b2e67c2-c633-11e7-b9d9-94659cf754d0", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "7b2e67c1-c633-11e7-ba08-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "08290ff0-c633-11e7-863e-94659cf754d0", 
+                    "edgeid": "f9dcfa50-c633-11e7-938d-94659cf754d0", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "f9dcd341-c633-11e7-8977-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "edgeid": "8fb16991-c633-11e7-baaf-94659cf754d0", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "8fb16990-c633-11e7-b96e-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "08290ff0-c633-11e7-863e-94659cf754d0", 
+                    "edgeid": "e2168d55-c633-11e7-b46c-94659cf754d0", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "e2168d50-c633-11e7-a7e1-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "edgeid": "54ebc9de-c633-11e7-9dfa-94659cf754d0", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "54eba2d3-c633-11e7-9af3-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "08290ff0-c633-11e7-863e-94659cf754d0", 
+                    "edgeid": "54ebc9df-c633-11e7-aafb-94659cf754d0", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "54eba2d0-c633-11e7-b433-94659cf754d0"
+                }
+            ], 
+            "forms": [], 
+            "forms_x_cards": [], 
+            "functions_x_graphs": [], 
+            "graphid": "08290ff1-c633-11e7-b818-94659cf754d0", 
+            "iconclass": "fa fa-flag", 
+            "is_editable": true, 
+            "isactive": true, 
+            "isresource": false, 
+            "name": "National Register Eligibility", 
+            "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "parentnodegroup_id": "08290ff0-c633-11e7-863e-94659cf754d0"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "08290ff0-c633-11e7-863e-94659cf754d0", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "e2168d50-c633-11e7-a7e1-94659cf754d0", 
+                    "parentnodegroup_id": "08290ff0-c633-11e7-863e-94659cf754d0"
+                }, 
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "f9dcd341-c633-11e7-8977-94659cf754d0", 
+                    "parentnodegroup_id": "08290ff0-c633-11e7-863e-94659cf754d0"
+                }
+            ], 
+            "nodes": [
+                {
+                    "config": {
+                        "rdmCollection": "5d303946-4eab-40d2-a581-00e7599a5129"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "SHPO Evaluation", 
+                    "nodegroup_id": "e2168d50-c633-11e7-a7e1-94659cf754d0", 
+                    "nodeid": "e2168d50-c633-11e7-a7e1-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "fillColor": "rgba(233,112,111,0.8)"
+                    }, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "National Register Eligibility", 
+                    "nodegroup_id": "08290ff0-c633-11e7-863e-94659cf754d0", 
+                    "nodeid": "08290ff0-c633-11e7-863e-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": ""
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "cb32d706-1fdf-4507-a5f9-e47964f50916"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Survey Evaluation (District)", 
+                    "nodegroup_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "nodeid": "8fb16990-c633-11e7-b96e-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "173a8088-afd5-49a4-83b0-1cac70210854"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Survey Evaluation", 
+                    "nodegroup_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "nodeid": "54eba2d3-c633-11e7-9af3-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Survey Assessment", 
+                    "nodegroup_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "nodeid": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "National Register List Date", 
+                    "nodegroup_id": "f9dcd341-c633-11e7-8977-94659cf754d0", 
+                    "nodeid": "f9dcd341-c633-11e7-8977-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Survey Number", 
+                    "nodegroup_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "nodeid": "7b2e67c1-c633-11e7-ba08-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }
+            ], 
+            "ontology_id": null, 
+            "relatable_resource_model_ids": [], 
+            "reports": [], 
+            "resource_2_resource_constraints": [], 
+            "root": {
+                "config": {
+                    "fillColor": "rgba(233,112,111,0.8)"
+                }, 
+                "datatype": "semantic", 
+                "description": "", 
+                "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                "is_collector": true, 
+                "isrequired": false, 
+                "issearchable": true, 
+                "istopnode": true, 
+                "name": "National Register Eligibility", 
+                "nodegroup_id": "08290ff0-c633-11e7-863e-94659cf754d0", 
+                "nodeid": "08290ff0-c633-11e7-863e-94659cf754d0", 
+                "ontologyclass": null
+            }, 
+            "subtitle": "", 
+            "version": ""
+        }
+    ], 
+    "metadata": {
+        "db": "PostgreSQL 9.6.5, compiled by Visual C++ build 1800, 64-bit", 
+        "git hash": "fatal: ambiguous argument '%ai'': unknown revision or path not in the working tree.", 
+        "os": "Windows", 
+        "os version": "8"
+    }
+}
