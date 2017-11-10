@@ -2838,23 +2838,6 @@
             "functions_x_graphs": [
                 {
                     "config": {
-                        "inputs": [
-                            {
-                                "table_field": "fpan_region.name", 
-                                "target_node_id": "01197704-c632-11e7-9d71-94659cf754d0"
-                            }
-                        ], 
-                        "spatial_node_id": "01197705-c632-11e7-a2c4-94659cf754d0", 
-                        "triggering_nodegroups": [
-                            "01197701-c632-11e7-815e-94659cf754d0"
-                        ]
-                    }, 
-                    "function_id": "4a1da8f0-c32a-11e7-a700-94659cf754d0", 
-                    "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
-                    "id": "774e1500-c59e-11e7-89df-94659cf754d0"
-                }, 
-                {
-                    "config": {
                         "description": {
                             "nodegroup_id": "0aa0e222-b5ea-11e7-a028-94659cf754d0", 
                             "string_template": "<Survey Number>"
