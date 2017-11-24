@@ -3,493 +3,544 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
+  <skos:Collection rdf:about="http://www.archesproject.org/8a54b8e0-8b5d-4783-b63d-04214b45817d">
+    <skos:prefLabel xml:lang="en">{"id": "c6bd7422-bcac-44db-87b3-42763f8cb252", "value": "Visit Time of Day"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/7dc288f1-33e5-456b-bf66-5320ec257061"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/7d47a14e-046a-4fa2-8b89-2d0d201fb77e"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/044629a8-e965-4fdc-a611-51650d011a09"/>
+    </skos:member>
+  </skos:Collection>
+  <skos:Collection rdf:about="http://www.archesproject.org/3201ba98-7589-4477-a565-05b13a1e9313">
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/e1eb05c8-53f5-4300-896e-c0ddaf1ddabc"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/f2941cb5-564c-4e12-9274-110672adcd71"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "ea426d66-8a77-4ecc-ab24-1ad64b10bad3", "value": "Location Verification"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/9a7fdfc4-b003-4800-9268-8b860a5e9fa1"/>
+    </skos:member>
+  </skos:Collection>
   <skos:Collection rdf:about="http://www.archesproject.org/82ce3c3b-c445-4bec-94a9-d2569b8cfa2f">
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/068f583b-2542-4917-8dbb-caf7243c4604"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/5924d73d-99b3-4e73-8de9-71f64ce5eb3a"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/100be6f8-6e1f-4448-902f-515711a62050"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/4985b599-ff42-4fae-a15f-7a24e3a58cee"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/4b914ea3-c9e8-457f-ac8b-112f09e8fa64"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/4d896590-29b2-4fa1-b487-25e2280bf771"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/3a0a4343-559a-4752-ad67-ffd3ee0cef5a"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/a105b74a-d833-45c6-b384-37a10c5f5b28"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/8a9923ba-d7c4-45b0-95d7-98931f0b1a3b"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/5e2a8d0a-ecec-4e2b-a883-79d211fca942"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/6dc5c419-3945-4739-97c3-00eee9688ef7"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/4a4324a6-0228-4b76-93b8-120e505bc0ab"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/24c9e9ce-52a6-4d3e-a62b-17551670e35e"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/ef56c887-95cb-4d96-8a4d-a22b45ef63f0"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/7bcc26da-a062-41ef-9220-4c4ee416a5df"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/0c3c5128-6e8b-4e35-99b9-0acafbe0ef6d"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/0ea0117d-780a-4c50-8f38-c0f7b33015af"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/c2c739d5-7b32-4aad-9aa0-5d683579a49a"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/f0ff0b24-2776-42f1-87d2-94d71857e5aa"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/9e17a072-c017-4ad2-bacb-e099439e5889"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/c3f77928-af47-4c2e-a4ea-0d52dda9af04"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/e0a02a6e-c6c0-4519-8a04-0a59b212777b"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/dd2af200-c390-45b6-9ef2-ef95892007ee"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/83680f58-7452-41d0-8ef5-9f2d3e60b373"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/8082e810-d018-470f-9828-9ba73345fe9d"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/201c7699-e232-4c5e-8ae5-1dfe967f3995"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/5cec50e3-fd84-4dd5-892d-3055de43fa28"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/15420cad-d7f4-48aa-92c3-fe7e5ffc39b0"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/f31e778f-11f0-4280-81ce-f8d87cdc7468"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/8b6bc038-b019-42a0-8c4a-cc9df6275943"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/7ee82b96-4c2d-46d8-a434-27601c64eceb"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/7beaa079-8c3e-4d52-a24a-720512c26272"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/fbf05e4a-9ea7-4edc-98de-a3184fae201f"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/52feac06-3c54-4ab0-862f-c4257c23c8ec"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/23bec1f9-9d53-4d85-8d20-a229fd3d0f9c"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/5879d079-83d7-440c-8f51-33919228c5cc"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/2394526d-2c08-4054-99f1-fd6afd7a23be"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/44d594f5-5623-4541-a2f3-075a11abca87"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/1cfbd1f2-d367-4da5-ad3a-e5de5759e0dd"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/549616bd-473e-423e-beb5-b87970aa227a"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/23ffaeca-e8d6-4542-adce-ee44458dba2f"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/402c8c2a-9e8b-4834-ab34-5f6c8d581ffb"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/c85cb325-e846-4194-9fd7-cea196131ca6"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/91be2a33-bd65-4567-82b6-aba648d221ee"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/67899ebd-6683-423d-a350-18ff53e666e8"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/d2b11b6f-46d6-42b0-a992-17511a59420d"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/22d7563b-9110-4b60-a07b-308e8fc400ef"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/873ce8ca-17af-4083-ad94-a4134d6e9243"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/422245cf-ce26-4e83-8fec-8a8bf87a6d83"/>
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/68812cd0-be89-43cf-9735-c8399e0c6e27"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/94101d9c-23ea-48c3-a08f-e5efb4c61934"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/3e63a6cd-66ae-4301-bf12-d02ef1d27266"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/ce30d04a-2e60-4b4a-9e34-817633c6d411"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/c6c8e73c-936f-4ea0-9d02-c744a834dfc0"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/b4f41584-c908-445a-815a-fca554ece40f"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/20c82f5a-d489-4a7a-aa97-f3521d8e38b8"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/2dc91fb5-e769-44ba-827f-3cdb7bdbdac6"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/5c23109f-9676-474f-bd84-81b1950525f2"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/b524f10a-359b-44fc-b697-1a0cd591687a"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/1fbeda6e-4e51-42bc-b6e5-6c52d2c595e7"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/1c7745cb-d8ac-4895-b4a9-1ed5f2a7f172"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/3c7203df-3e48-46a6-ba76-84dee7348f13"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/d0d24595-2e31-4b69-9d46-24cb90eab58a"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/6ca6e5a2-02b2-4152-a83d-de5fc58e98d3"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/422245cf-ce26-4e83-8fec-8a8bf87a6d83"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/f7f41070-5aa8-4a11-985f-7a3222fbf67d"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/827ef483-386b-404b-82ad-39103cc5cce7"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/5e787503-18d3-4071-af86-5ee21fbee8ff"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/59f6028a-89d7-462f-9314-40d0ebe1c6cc"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/e49bd801-a670-4f28-a2d0-900efaa15169"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/07228004-e7a7-49ba-884a-875911dd7eb4"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/3572197d-e050-4b4d-a10f-c2930edc2c3b"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/768a3a42-e5ec-4dcd-b651-14d3ab8b36c1"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/14446eed-a415-4edd-b026-fe30eb86cec6"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/746edbb4-2029-4604-af4f-e637ba972694"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/557f78b3-7762-4151-abc5-d4387ca8e7d3"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/7c904981-ad9d-41f7-b398-973eae8170a4"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/0dfe17b0-5653-4605-990c-3f8192441b03"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/613e70e8-3a23-40f8-a82d-867a329657c1"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/2d2935b8-0744-42ca-9062-ad4f242dd76f"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/85dcf74f-346b-49d9-95ec-52f5f0fcce3a"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/5e95729f-3899-4a2b-a1f8-779f9fcd6bd3"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/2f137ff1-8873-4902-abde-629985622c14"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/d93c5e2e-6dbb-48ae-83d9-1cf69cf58927"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/6c0dc0f2-8632-4fef-a084-27cb4f9bed47"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/df08574e-0d2d-4b3d-9737-37d171ed9ba0"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/e767b674-eef0-4b87-8eae-daa22b446aaf"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/b461fa9a-65ac-4242-8e7c-4c4952ecb7eb"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/0045d05c-34d5-45e5-abf8-81e1b62ebe07"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/886138d7-8fde-46e6-9e34-1a549a9badec"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/50bcb923-e59d-43b1-a28f-5284b9c5f941"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/0b8c1566-5e25-4e67-b036-9132a6a0ddc4"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/94f7688b-abcc-48b7-bcca-ccd4878998d9"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/6fca88ee-baf5-4a5c-bc65-6b97681ca659"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/ae29dbb4-61b2-43c6-81b9-e72220393108"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/17353278-d443-45d7-92d1-2a177ab9329e"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/f4e57738-0623-43c7-8386-d9ddb9e7ba7f"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/8c62ab7c-cf47-4c32-9ec0-5deb618de6d8"/>
-    </skos:member>
-    <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/95ef376c-f888-44c9-8a2e-25af1cf679b4"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/b889dda4-50e8-4e03-98d0-5e4d436de4b9"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/dbaad12b-158a-42b7-ac87-6be5e3545879"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/cd18e55e-e623-4b7d-a193-eb99b0bcc101"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/57591bb4-35a5-4e16-8581-d11d838ad4d4"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/a5a6c834-fd14-452d-88ca-03581fbfb8f0"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/a7579ce5-d58c-4456-bd2e-f1ff54672ff9"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/4fe3ebe5-1151-444d-a0fd-36702e8d4715"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/d271cae2-be44-47f1-846a-be5a3776013f"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/de26e6d7-a440-4ab1-90a1-e27b5b7040d2"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/4fa3ccf6-5047-4813-9477-a3e61baaa997"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/9bc4496d-02f9-490d-a74c-99e20f5b31ca"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/d7619a8d-4c26-4f19-8763-94686e4af7a2"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/277c276e-4ea3-46cb-a6c7-e852b023f027"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/885577ad-717c-466f-9315-1207e17a2685"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/a60dfcfa-228f-43c5-bd5b-a384eed0b1c9"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/e6381155-acd7-48a8-88f2-7405b0fd6c6f"/>
-    </skos:member>
-    <skos:prefLabel xml:lang="en">{"id": "3c06d31d-020c-48d1-98b2-cb1a62a7c060", "value": "State Parks"}</skos:prefLabel>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/a0fadc92-28da-4b65-ac60-b4282421ac54"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/28e8efaa-3846-4dd4-8d8e-a78f45f80d83"/>
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/ceb8c245-fb51-4747-86fc-3a61899efd76"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/f01463db-e76c-4f9b-983c-b5935fe1a0a1"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/b461fa9a-65ac-4242-8e7c-4c4952ecb7eb"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/2236bd31-868b-41e7-95d9-513e4e1cdf15"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/e6381155-acd7-48a8-88f2-7405b0fd6c6f"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/03a4d2fe-fa9a-4766-879c-268a7dbe5c53"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/f0ff0b24-2776-42f1-87d2-94d71857e5aa"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/6a9ffdb6-6d83-4f74-9913-bf1758316f12"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/51defce2-4634-480c-85e4-533f3ced7382"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/8e496d08-5458-4609-af6d-711a9a5ba8c5"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/ebe966f6-28db-4c7c-bc56-242748c96756"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/df3b107d-2119-446e-8e5c-582eea4e7bf7"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/c73c7cf0-7c8d-4ff2-9782-4be14f9cc2cd"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/88599f2e-6f66-47b8-9e5f-b01dec1356d9"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/85ab90c7-1fa0-404a-b1c8-0b9306686bed"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/bc71f509-65a0-4614-bb78-0f29f98adb39"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/988a8eaf-1087-4979-a6bd-77ff9c359397"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/5f68448f-eff1-4d84-993f-4caaf907fef5"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/827ef483-386b-404b-82ad-39103cc5cce7"/>
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/56925b2e-c75f-4578-a3f1-2761470c0e1c"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/e694894b-d916-4c6a-a78b-614c43ac1cba"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/0b8c1566-5e25-4e67-b036-9132a6a0ddc4"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/e229d6cf-3f87-41c8-b79b-5f8c7383f0fa"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/5924d73d-99b3-4e73-8de9-71f64ce5eb3a"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/a6867897-9a93-47dd-964c-e2868640628d"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/9bc4496d-02f9-490d-a74c-99e20f5b31ca"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/feb27d17-19e8-417f-9253-a2949ac5cc00"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/0ea0117d-780a-4c50-8f38-c0f7b33015af"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/7bcc26da-a062-41ef-9220-4c4ee416a5df"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/c73c7cf0-7c8d-4ff2-9782-4be14f9cc2cd"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/6a9ffdb6-6d83-4f74-9913-bf1758316f12"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/068f583b-2542-4917-8dbb-caf7243c4604"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/4985b599-ff42-4fae-a15f-7a24e3a58cee"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/8e496d08-5458-4609-af6d-711a9a5ba8c5"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/b524f10a-359b-44fc-b697-1a0cd591687a"/>
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/13cf89fa-e322-40ec-baf9-81bb3526c438"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/d41d1027-54b7-4336-ab04-b910a7380277"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/831815e7-0698-4878-b2c6-6311f6979470"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/0fe03743-d808-4c05-988a-237fca3a38fa"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/746edbb4-2029-4604-af4f-e637ba972694"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/59746051-9d24-46a3-92f0-ae070fd00e56"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/1c7745cb-d8ac-4895-b4a9-1ed5f2a7f172"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/f454e99b-3571-495d-8106-f6f72fb7de85"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/8b6bc038-b019-42a0-8c4a-cc9df6275943"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/40a66767-1647-49d9-98c7-a193654583c0"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/fbf05e4a-9ea7-4edc-98de-a3184fae201f"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/5d88976d-6a91-4a03-828a-57f7592c9feb"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/15420cad-d7f4-48aa-92c3-fe7e5ffc39b0"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/bc71f509-65a0-4614-bb78-0f29f98adb39"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/7ee82b96-4c2d-46d8-a434-27601c64eceb"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/7c904981-ad9d-41f7-b398-973eae8170a4"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/59f6028a-89d7-462f-9314-40d0ebe1c6cc"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/c6c8e73c-936f-4ea0-9d02-c744a834dfc0"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/a0fadc92-28da-4b65-ac60-b4282421ac54"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/df08574e-0d2d-4b3d-9737-37d171ed9ba0"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/100be6f8-6e1f-4448-902f-515711a62050"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/88599f2e-6f66-47b8-9e5f-b01dec1356d9"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/07228004-e7a7-49ba-884a-875911dd7eb4"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/dbaad12b-158a-42b7-ac87-6be5e3545879"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/5cec50e3-fd84-4dd5-892d-3055de43fa28"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/85dcf74f-346b-49d9-95ec-52f5f0fcce3a"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/f4e57738-0623-43c7-8386-d9ddb9e7ba7f"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/94101d9c-23ea-48c3-a08f-e5efb4c61934"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/5e2a8d0a-ecec-4e2b-a883-79d211fca942"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/14446eed-a415-4edd-b026-fe30eb86cec6"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/a7579ce5-d58c-4456-bd2e-f1ff54672ff9"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/67899ebd-6683-423d-a350-18ff53e666e8"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/3eee35df-48b6-4231-81b1-576bced51af6"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/3e63a6cd-66ae-4301-bf12-d02ef1d27266"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/873ce8ca-17af-4083-ad94-a4134d6e9243"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/20c82f5a-d489-4a7a-aa97-f3521d8e38b8"/>
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/6430b302-1d3a-4d54-8338-463130a058cf"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/8ef4b41e-e0b3-4f64-9759-497d0a491676"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/59746051-9d24-46a3-92f0-ae070fd00e56"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/29eb9f21-fc30-4d7a-8712-81c5323b6ba2"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/a6867897-9a93-47dd-964c-e2868640628d"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/c910a925-9d1b-4249-b00b-bc3a10611798"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/ae29dbb4-61b2-43c6-81b9-e72220393108"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/41e0ece2-9f4a-4d20-9a45-865bc9220cac"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/5879d079-83d7-440c-8f51-33919228c5cc"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/831815e7-0698-4878-b2c6-6311f6979470"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/23bec1f9-9d53-4d85-8d20-a229fd3d0f9c"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/3a0a4343-559a-4752-ad67-ffd3ee0cef5a"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/613e70e8-3a23-40f8-a82d-867a329657c1"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/988a8eaf-1087-4979-a6bd-77ff9c359397"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/83680f58-7452-41d0-8ef5-9f2d3e60b373"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/d2b11b6f-46d6-42b0-a992-17511a59420d"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/91be2a33-bd65-4567-82b6-aba648d221ee"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/a60dfcfa-228f-43c5-bd5b-a384eed0b1c9"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/402c8c2a-9e8b-4834-ab34-5f6c8d581ffb"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/3c7203df-3e48-46a6-ba76-84dee7348f13"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/6ca6e5a2-02b2-4152-a83d-de5fc58e98d3"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/4fe3ebe5-1151-444d-a0fd-36702e8d4715"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/2f137ff1-8873-4902-abde-629985622c14"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/57591bb4-35a5-4e16-8581-d11d838ad4d4"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/5d88976d-6a91-4a03-828a-57f7592c9feb"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/51defce2-4634-480c-85e4-533f3ced7382"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/d0d24595-2e31-4b69-9d46-24cb90eab58a"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/4a4324a6-0228-4b76-93b8-120e505bc0ab"/>
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/38c2d714-bf4e-4f91-8144-46f94d010781"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/ff5cae25-f6a1-47d5-a3b0-d17b808aa4a0"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/c3f77928-af47-4c2e-a4ea-0d52dda9af04"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "15b4a0eb-f4cd-40ee-9682-ea3971d7d41f", "value": "State Parks"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/a5a6c834-fd14-452d-88ca-03581fbfb8f0"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/ef80507c-b4f3-420c-9392-a4268b8af465"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/6c0dc0f2-8632-4fef-a084-27cb4f9bed47"/>
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/02b259f1-037d-43dc-81b5-b3622c71731c"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/96382705-8d9c-4a6e-a502-cf645f4ec779"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/4d896590-29b2-4fa1-b487-25e2280bf771"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/fe31a472-6d01-4edb-bd26-1efcfcd680f4"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/6fca88ee-baf5-4a5c-bc65-6b97681ca659"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/549616bd-473e-423e-beb5-b87970aa227a"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/44d594f5-5623-4541-a2f3-075a11abca87"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/8ef4b41e-e0b3-4f64-9759-497d0a491676"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/557f78b3-7762-4151-abc5-d4387ca8e7d3"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/9e17a072-c017-4ad2-bacb-e099439e5889"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/8c62ab7c-cf47-4c32-9ec0-5deb618de6d8"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/0c3c5128-6e8b-4e35-99b9-0acafbe0ef6d"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/40a66767-1647-49d9-98c7-a193654583c0"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/5c23109f-9676-474f-bd84-81b1950525f2"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/e49bd801-a670-4f28-a2d0-900efaa15169"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/2d2935b8-0744-42ca-9062-ad4f242dd76f"/>
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/049a398f-5d5f-4d9b-9f48-fa2b3de21b89"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/3eee35df-48b6-4231-81b1-576bced51af6"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/d41d1027-54b7-4336-ab04-b910a7380277"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/5f68448f-eff1-4d84-993f-4caaf907fef5"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/22d7563b-9110-4b60-a07b-308e8fc400ef"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/28e8efaa-3846-4dd4-8d8e-a78f45f80d83"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/24c9e9ce-52a6-4d3e-a62b-17551670e35e"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/768a3a42-e5ec-4dcd-b651-14d3ab8b36c1"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/17353278-d443-45d7-92d1-2a177ab9329e"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/fe31a472-6d01-4edb-bd26-1efcfcd680f4"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/0045d05c-34d5-45e5-abf8-81e1b62ebe07"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/ce30d04a-2e60-4b4a-9e34-817633c6d411"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/4b914ea3-c9e8-457f-ac8b-112f09e8fa64"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/ef56c887-95cb-4d96-8a4d-a22b45ef63f0"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/f454e99b-3571-495d-8106-f6f72fb7de85"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/ebe966f6-28db-4c7c-bc56-242748c96756"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/1fbeda6e-4e51-42bc-b6e5-6c52d2c595e7"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/50bcb923-e59d-43b1-a28f-5284b9c5f941"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/a105b74a-d833-45c6-b384-37a10c5f5b28"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/885577ad-717c-466f-9315-1207e17a2685"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/e229d6cf-3f87-41c8-b79b-5f8c7383f0fa"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/d271cae2-be44-47f1-846a-be5a3776013f"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/94f7688b-abcc-48b7-bcca-ccd4878998d9"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/d7619a8d-4c26-4f19-8763-94686e4af7a2"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/8a9923ba-d7c4-45b0-95d7-98931f0b1a3b"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/f01463db-e76c-4f9b-983c-b5935fe1a0a1"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/feb27d17-19e8-417f-9253-a2949ac5cc00"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/2394526d-2c08-4054-99f1-fd6afd7a23be"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/f31e778f-11f0-4280-81ce-f8d87cdc7468"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/5e787503-18d3-4071-af86-5ee21fbee8ff"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/c910a925-9d1b-4249-b00b-bc3a10611798"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/7beaa079-8c3e-4d52-a24a-720512c26272"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/277c276e-4ea3-46cb-a6c7-e852b023f027"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/0fe03743-d808-4c05-988a-237fca3a38fa"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/85ab90c7-1fa0-404a-b1c8-0b9306686bed"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/ef80507c-b4f3-420c-9392-a4268b8af465"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/8082e810-d018-470f-9828-9ba73345fe9d"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/e0a02a6e-c6c0-4519-8a04-0a59b212777b"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/201c7699-e232-4c5e-8ae5-1dfe967f3995"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/de26e6d7-a440-4ab1-90a1-e27b5b7040d2"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/e694894b-d916-4c6a-a78b-614c43ac1cba"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/52feac06-3c54-4ab0-862f-c4257c23c8ec"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/df3b107d-2119-446e-8e5c-582eea4e7bf7"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/96382705-8d9c-4a6e-a502-cf645f4ec779"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/ff5cae25-f6a1-47d5-a3b0-d17b808aa4a0"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/2dc91fb5-e769-44ba-827f-3cdb7bdbdac6"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/b4f41584-c908-445a-815a-fca554ece40f"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/c2c739d5-7b32-4aad-9aa0-5d683579a49a"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/29eb9f21-fc30-4d7a-8712-81c5323b6ba2"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/d93c5e2e-6dbb-48ae-83d9-1cf69cf58927"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/3572197d-e050-4b4d-a10f-c2930edc2c3b"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/e767b674-eef0-4b87-8eae-daa22b446aaf"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/5e95729f-3899-4a2b-a1f8-779f9fcd6bd3"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/cd18e55e-e623-4b7d-a193-eb99b0bcc101"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/41e0ece2-9f4a-4d20-9a45-865bc9220cac"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/b889dda4-50e8-4e03-98d0-5e4d436de4b9"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/0dfe17b0-5653-4605-990c-3f8192441b03"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/1cfbd1f2-d367-4da5-ad3a-e5de5759e0dd"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/c85cb325-e846-4194-9fd7-cea196131ca6"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/886138d7-8fde-46e6-9e34-1a549a9badec"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/f7f41070-5aa8-4a11-985f-7a3222fbf67d"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/6dc5c419-3945-4739-97c3-00eee9688ef7"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/03a4d2fe-fa9a-4766-879c-268a7dbe5c53"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/2236bd31-868b-41e7-95d9-513e4e1cdf15"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/4fa3ccf6-5047-4813-9477-a3e61baaa997"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/23ffaeca-e8d6-4542-adce-ee44458dba2f"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/dd2af200-c390-45b6-9ef2-ef95892007ee"/>
     </skos:member>
   </skos:Collection>
   <skos:Collection rdf:about="http://www.archesproject.org/27bc06be-85ce-4cd7-a706-7be73e52be0d">
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/34a98081-4a63-42a7-bf3c-c83e9f1eded5"/>
-    </skos:member>
-    <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/41185a1a-fae8-41c4-9d00-a25f9293fad6"/>
     </skos:member>
-    <skos:prefLabel xml:lang="en">{"id": "22026880-2e14-464f-8b69-c91e6e439a3d", "value": "Priority"}</skos:prefLabel>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/c471c241-23b5-47d2-9143-8f90ed472cf5"/>
     </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "3fc107de-18b6-490f-904d-ee939d643491", "value": "Priority"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/34a98081-4a63-42a7-bf3c-c83e9f1eded5"/>
+    </skos:member>
+  </skos:Collection>
+  <skos:Collection rdf:about="http://www.archesproject.org/5195a002-fe6d-45ba-a13f-982581ba92fe">
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/7afcfebc-4e36-4d16-babd-c2a110021c67"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/4bac0b65-42b9-4d06-adb2-b852099430f0"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/5e29d361-9970-4387-8823-71be4159518f"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/70863b3d-8141-461a-b73b-9bde1a394db3"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "b6733e9b-3b8a-4f4e-bafb-768aec1e1e9e", "value": "Visible Artifacts"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/3cc0e3b0-4b85-461e-94be-ee0447afa564"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/68418e62-44a1-4d4c-b27b-89cce4e8a667"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/d2ebdc0f-7ced-49b3-a08d-a4e96cbbdda5"/>
+    </skos:member>
   </skos:Collection>
   <skos:Collection rdf:about="http://www.archesproject.org/4a153fdd-0a3d-48b2-89f1-d8631027a3fd">
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/c5ebc5fd-c8b2-4241-a363-e0f6c44e4a2a"/>
+    </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/05fbcbc9-0522-451d-aec3-dfedc68fbb94"/>
     </skos:member>
@@ -499,34 +550,55 @@
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/8e506cd2-e4cf-4121-8920-7170366c96ba"/>
     </skos:member>
-    <skos:prefLabel xml:lang="en">{"id": "bba6961c-e891-4141-ab21-43ce7431416e", "value": "Recommendation"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "fa8e57d5-ed5a-4e40-9d69-5d5f90f7adc2", "value": "Recommendation"}</skos:prefLabel>
+  </skos:Collection>
+  <skos:Collection rdf:about="http://www.archesproject.org/9be3ad9d-917f-44b9-a1cd-19ad2a2fe6db">
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/c5ebc5fd-c8b2-4241-a363-e0f6c44e4a2a"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/c4b1c2b8-9741-4eb7-89b4-b63b6dd98a31"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/afba727d-aff9-42a1-9652-71f373f28f23"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/9d61cf2c-1ccc-4ef8-8433-83fe605acd87"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/9d0d6ee3-ebb0-4905-a4aa-e10f9942bed4"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/5db428dc-4c2e-4427-a29a-e2ea7c12d65d"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/6ae1de3d-460b-4ab9-a340-ddf8ad697e04"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "6d1cec76-5897-4325-9c07-7cf1a43fa05b", "value": "Regions"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/0880cc90-e6f8-462f-a317-98486d8f4f7e"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/e7bc0629-5c70-41df-b464-202e23985eb9"/>
     </skos:member>
   </skos:Collection>
   <skos:Collection rdf:about="http://www.archesproject.org/e6da5a33-4d03-4207-845e-2a637e8f0274">
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/bf92bcd4-f061-4dc8-a875-43b2632b5b6a"/>
-    </skos:member>
-    <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/2bde8d30-267c-4252-9845-177eab587a9a"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/e35509c8-cb54-4956-8390-8b940243b042"/>
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/5249886f-f414-46e8-afb2-1e518587e73a"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/43033e49-7393-43bc-923a-3fe409e25719"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/a18c457b-122d-45ac-bb28-1754f6a8e3ae"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/bf92bcd4-f061-4dc8-a875-43b2632b5b6a"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/d9fa57e2-ffcf-4e67-bad2-1f868d479059"/>
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/ffef2f84-7dc6-4406-91ce-498b5e389ff7"/>
     </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/a18c457b-122d-45ac-bb28-1754f6a8e3ae"/>
-    </skos:member>
-    <skos:prefLabel xml:lang="en">{"id": "86ae7388-5ec7-42fd-9fba-4d61ac353308", "value": "Threats"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "f18a5a77-e0ff-40cb-b418-9b240b704e92", "value": "Threats"}</skos:prefLabel>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/c67581b7-03e0-4061-a434-230e9274b844"/>
     </skos:member>
@@ -534,79 +606,13 @@
       <skos:Concept rdf:about="http://www.archesproject.org/d74082ca-01e0-4f41-bc19-d4cdf5fe73d5"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/d9fa57e2-ffcf-4e67-bad2-1f868d479059"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/e35509c8-cb54-4956-8390-8b940243b042"/>
     </skos:member>
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/b8125062-7e6a-46bf-b85c-36dc64c0ecab"/>
     </skos:member>
-  </skos:Collection>
-  <skos:Collection rdf:about="http://www.archesproject.org/8a54b8e0-8b5d-4783-b63d-04214b45817d">
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/7d47a14e-046a-4fa2-8b89-2d0d201fb77e"/>
-    </skos:member>
-    <skos:prefLabel xml:lang="en">{"id": "e6ebd965-51b2-48fd-aad8-7dd685b67b80", "value": "Visit Time of Day"}</skos:prefLabel>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/044629a8-e965-4fdc-a611-51650d011a09"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/7dc288f1-33e5-456b-bf66-5320ec257061"/>
-    </skos:member>
-  </skos:Collection>
-  <skos:Collection rdf:about="http://www.archesproject.org/f0a3ecff-3fb3-4a2b-b91b-58c9e42db872">
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/600eec11-d30a-47b2-a1db-4b5e7fa082ce"/>
-    </skos:member>
-    <skos:prefLabel xml:lang="en">{"id": "9f2d4b68-2497-4239-aa3a-ef7d3c3dfb13", "value": "Name Type"}</skos:prefLabel>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/306abce1-a60a-4cf0-ab0a-2cfd923dc2d1"/>
-    </skos:member>
-  </skos:Collection>
-  <skos:Collection rdf:about="http://www.archesproject.org/5195a002-fe6d-45ba-a13f-982581ba92fe">
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/5e29d361-9970-4387-8823-71be4159518f"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/70863b3d-8141-461a-b73b-9bde1a394db3"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/7afcfebc-4e36-4d16-babd-c2a110021c67"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/3cc0e3b0-4b85-461e-94be-ee0447afa564"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/d2ebdc0f-7ced-49b3-a08d-a4e96cbbdda5"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/68418e62-44a1-4d4c-b27b-89cce4e8a667"/>
-    </skos:member>
-    <skos:prefLabel xml:lang="en">{"id": "240a8d4e-016c-4083-bb11-ce399dfffdc3", "value": "Visible Artifacts"}</skos:prefLabel>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/4bac0b65-42b9-4d06-adb2-b852099430f0"/>
-    </skos:member>
-  </skos:Collection>
-  <skos:Collection rdf:about="http://www.archesproject.org/0712eb28-d7ad-4935-aef8-18903048312d">
-    <skos:prefLabel xml:lang="en">{"id": "554a8b27-8ae5-4a5a-837e-6bff36c38bc8", "value": "Overall Site Condition"}</skos:prefLabel>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/67fe662f-2922-49c6-b1a7-6a3ce9e3e742"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/de5548af-fbaf-4c26-9a8c-65046de58891"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/6470753d-c504-4d1e-8082-084339b9587f"/>
-    </skos:member>
-  </skos:Collection>
-  <skos:Collection rdf:about="http://www.archesproject.org/3201ba98-7589-4477-a565-05b13a1e9313">
-    <skos:prefLabel xml:lang="en">{"id": "c269766d-3ce9-4642-a6b7-c60cf4b20b83", "value": "Location Verification"}</skos:prefLabel>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/f2941cb5-564c-4e12-9274-110672adcd71"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/e1eb05c8-53f5-4300-896e-c0ddaf1ddabc"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/9a7fdfc4-b003-4800-9268-8b860a5e9fa1"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/43033e49-7393-43bc-923a-3fe409e25719"/>
     </skos:member>
   </skos:Collection>
   <skos:Collection rdf:about="http://www.archesproject.org/8594e0ac-9cf0-45cc-8a34-a11a51e5fce0">
@@ -616,36 +622,27 @@
     <skos:member>
       <skos:Concept rdf:about="http://www.archesproject.org/52eac398-c25e-4f95-87f6-611284ce53d5"/>
     </skos:member>
-    <skos:prefLabel xml:lang="en">{"id": "051e7a09-96ca-4ff9-a7dc-32afa994c370", "value": "Visit Type"}</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">{"id": "6e0c6c4f-d688-4db5-9805-eb0f2681a4ff", "value": "Visit Type"}</skos:prefLabel>
   </skos:Collection>
-  <skos:Collection rdf:about="http://www.archesproject.org/9be3ad9d-917f-44b9-a1cd-19ad2a2fe6db">
+  <skos:Collection rdf:about="http://www.archesproject.org/0712eb28-d7ad-4935-aef8-18903048312d">
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/c4b1c2b8-9741-4eb7-89b4-b63b6dd98a31"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/de5548af-fbaf-4c26-9a8c-65046de58891"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/9d61cf2c-1ccc-4ef8-8433-83fe605acd87"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/67fe662f-2922-49c6-b1a7-6a3ce9e3e742"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "9e54f8ad-e416-49bf-aba2-ea2e2e282d27", "value": "Overall Site Condition"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/6470753d-c504-4d1e-8082-084339b9587f"/>
+    </skos:member>
+  </skos:Collection>
+  <skos:Collection rdf:about="http://www.archesproject.org/f0a3ecff-3fb3-4a2b-b91b-58c9e42db872">
+    <skos:prefLabel xml:lang="en">{"id": "c9737b56-19e8-491b-a1ca-f4f1f00ee384", "value": "Name Type"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://www.archesproject.org/306abce1-a60a-4cf0-ab0a-2cfd923dc2d1"/>
     </skos:member>
     <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/9d0d6ee3-ebb0-4905-a4aa-e10f9942bed4"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/e7bc0629-5c70-41df-b464-202e23985eb9"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/52bbcf03-8447-4aae-b1b4-e817bf774146"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/6ae1de3d-460b-4ab9-a340-ddf8ad697e04"/>
-    </skos:member>
-    <skos:prefLabel xml:lang="en">{"id": "f6e7a2d3-e3ab-44dd-b27b-885e606d12e0", "value": "Regions"}</skos:prefLabel>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/afba727d-aff9-42a1-9652-71f373f28f23"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/5db428dc-4c2e-4427-a29a-e2ea7c12d65d"/>
-    </skos:member>
-    <skos:member>
-      <skos:Concept rdf:about="http://www.archesproject.org/0880cc90-e6f8-462f-a317-98486d8f4f7e"/>
+      <skos:Concept rdf:about="http://www.archesproject.org/600eec11-d30a-47b2-a1db-4b5e7fa082ce"/>
     </skos:member>
   </skos:Collection>
 </rdf:RDF>
