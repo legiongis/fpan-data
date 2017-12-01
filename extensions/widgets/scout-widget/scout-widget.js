@@ -1,4 +1,4 @@
-define(['knockout', 'underscore', 'viewmodels/widget', 'jquery', 'fpan'], function (ko, _, WidgetViewModel, $, fpan) {
+define(['knockout', 'underscore', 'viewmodels/widget', 'jquery', 'fpan','bindings/chosen'], function (ko, _, WidgetViewModel, $, fpan, chosen) {
     /**
     * registers a text-widget component for use in forms
     * @function external:"ko.components".text-widget
@@ -15,7 +15,7 @@ define(['knockout', 'underscore', 'viewmodels/widget', 'jquery', 'fpan'], functi
 
             var self = this;
             self.availableScouts = ko.observableArray();
-            self.selectedScout = ko.observable();
+            self.selectedScout = params.value;
             
             $.ajax({
                 url: fpan.urls.scouts_dropdown,
@@ -27,8 +27,10 @@ define(['knockout', 'underscore', 'viewmodels/widget', 'jquery', 'fpan'], functi
                 $.each(data, function() {
                     self.availableScouts.push(this);
                 });
+                // refresh the observable array, necessary because of async ajax
+                self.availableScouts.valueHasMutated();
             });
-
+            
         },
         template: { require: 'text!templates/views/components/widgets/scout-widget.htm' }
     });
