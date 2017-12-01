@@ -5,7 +5,7 @@
             "cards": [
                 {
                     "active": true, 
-                    "cardid": "54eba2d2-c633-11e7-969c-94659cf754d0", 
+                    "cardid": "e2168d52-c633-11e7-9e94-94659cf754d0", 
                     "description": "Represents a node and node type pairing", 
                     "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
                     "helpenabled": false, 
@@ -13,9 +13,9 @@
                     "helptitle": null, 
                     "instructions": "", 
                     "is_editable": true, 
-                    "name": "Survey Evaluation", 
-                    "nodegroup_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
-                    "sortorder": 0, 
+                    "name": "SHPO Evaluation", 
+                    "nodegroup_id": "e2168d50-c633-11e7-a7e1-94659cf754d0", 
+                    "sortorder": 1, 
                     "visible": true
                 }, 
                 {
@@ -35,7 +35,7 @@
                 }, 
                 {
                     "active": true, 
-                    "cardid": "e2168d52-c633-11e7-9e94-94659cf754d0", 
+                    "cardid": "54eba2d2-c633-11e7-969c-94659cf754d0", 
                     "description": "Represents a node and node type pairing", 
                     "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
                     "helpenabled": false, 
@@ -43,9 +43,9 @@
                     "helptitle": null, 
                     "instructions": "", 
                     "is_editable": true, 
-                    "name": "SHPO Evaluation", 
-                    "nodegroup_id": "e2168d50-c633-11e7-a7e1-94659cf754d0", 
-                    "sortorder": 1, 
+                    "name": "Survey Evaluation", 
+                    "nodegroup_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "sortorder": 0, 
                     "visible": true
                 }, 
                 {
@@ -394,14 +394,14 @@
                 {
                     "cardinality": "1", 
                     "legacygroupid": null, 
-                    "nodegroupid": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "nodegroupid": "f9dcd341-c633-11e7-8977-94659cf754d0", 
                     "parentnodegroup_id": "08290ff0-c633-11e7-863e-94659cf754d0"
                 }, 
                 {
                     "cardinality": "1", 
                     "legacygroupid": null, 
-                    "nodegroupid": "08290ff0-c633-11e7-863e-94659cf754d0", 
-                    "parentnodegroup_id": null
+                    "nodegroupid": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "parentnodegroup_id": "08290ff0-c633-11e7-863e-94659cf754d0"
                 }, 
                 {
                     "cardinality": "1", 
@@ -412,8 +412,8 @@
                 {
                     "cardinality": "1", 
                     "legacygroupid": null, 
-                    "nodegroupid": "f9dcd341-c633-11e7-8977-94659cf754d0", 
-                    "parentnodegroup_id": "08290ff0-c633-11e7-863e-94659cf754d0"
+                    "nodegroupid": "08290ff0-c633-11e7-863e-94659cf754d0", 
+                    "parentnodegroup_id": null
                 }
             ], 
             "nodes": [
@@ -431,6 +431,21 @@
                     "name": "SHPO Evaluation", 
                     "nodegroup_id": "e2168d50-c633-11e7-a7e1-94659cf754d0", 
                     "nodeid": "e2168d50-c633-11e7-a7e1-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Survey Assessment", 
+                    "nodegroup_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "nodeid": "54eba2d0-c633-11e7-b433-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": null
                 }, 
@@ -453,23 +468,6 @@
                 }, 
                 {
                     "config": {
-                        "rdmCollection": "cb32d706-1fdf-4507-a5f9-e47964f50916"
-                    }, 
-                    "datatype": "concept", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Survey Evaluation (District)", 
-                    "nodegroup_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
-                    "nodeid": "8fb16990-c633-11e7-b96e-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null
-                }, 
-                {
-                    "config": {
                         "rdmCollection": "173a8088-afd5-49a4-83b0-1cac70210854"
                     }, 
                     "datatype": "concept", 
@@ -486,17 +484,19 @@
                     "parentproperty": null
                 }, 
                 {
-                    "config": null, 
-                    "datatype": "semantic", 
-                    "description": "", 
+                    "config": {
+                        "rdmCollection": "cb32d706-1fdf-4507-a5f9-e47964f50916"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
                     "graph_id": "08290ff1-c633-11e7-b818-94659cf754d0", 
-                    "is_collector": true, 
+                    "is_collector": false, 
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Survey Assessment", 
+                    "name": "Survey Evaluation (District)", 
                     "nodegroup_id": "54eba2d0-c633-11e7-b433-94659cf754d0", 
-                    "nodeid": "54eba2d0-c633-11e7-b433-94659cf754d0", 
+                    "nodeid": "8fb16990-c633-11e7-b96e-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": null
                 }, 

@@ -23,7 +23,35 @@
             "deploymentdate": null, 
             "deploymentfile": null, 
             "description": "", 
-            "edges": [], 
+            "edges": [
+                {
+                    "description": null, 
+                    "domainnode_id": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                    "edgeid": "d4317b72-d51d-11e7-a0eb-94659cf754d0", 
+                    "graph_id": "3ee57f31-b5e7-11e7-bf95-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "d4317b71-d51d-11e7-aade-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                    "edgeid": "f8a17c32-d51d-11e7-bb96-94659cf754d0", 
+                    "graph_id": "3ee57f31-b5e7-11e7-bf95-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "f8a17c31-d51d-11e7-9081-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                    "edgeid": "eaba866f-d51d-11e7-a035-94659cf754d0", 
+                    "graph_id": "3ee57f31-b5e7-11e7-bf95-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "eaba866e-d51d-11e7-a2d8-94659cf754d0"
+                }
+            ], 
             "forms": [], 
             "forms_x_cards": [], 
             "functions_x_graphs": [], 
@@ -44,6 +72,40 @@
             "nodes": [
                 {
                     "config": {
+                        "rdmCollection": "551d9168-00bb-4111-badd-4f01392fb4d8"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "3ee57f31-b5e7-11e7-bf95-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Ethnic Groups Interred", 
+                    "nodegroup_id": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                    "nodeid": "f8a17c31-d51d-11e7-9081-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "a597eb2e-609b-4019-9fce-1fd98ed1128b"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "3ee57f31-b5e7-11e7-bf95-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Cemetery Status", 
+                    "nodegroup_id": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                    "nodeid": "eaba866e-d51d-11e7-a2d8-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
                         "fillColor": "rgba(233,112,111,0.8)"
                     }, 
                     "datatype": "semantic", 
@@ -53,11 +115,28 @@
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": true, 
-                    "name": "Top Node", 
+                    "name": "Cemetery Details", 
                     "nodegroup_id": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
                     "nodeid": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": ""
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "ff9d76fa-ac69-48e7-bde9-412fdbfb6b79"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "3ee57f31-b5e7-11e7-bf95-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Cemetery Type", 
+                    "nodegroup_id": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
+                    "nodeid": "d4317b71-d51d-11e7-aade-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
                 }
             ], 
             "ontology_id": null, 
@@ -75,7 +154,7 @@
                 "isrequired": false, 
                 "issearchable": true, 
                 "istopnode": true, 
-                "name": "Top Node", 
+                "name": "Cemetery Details", 
                 "nodegroup_id": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
                 "nodeid": "3ee57f30-b5e7-11e7-9fe0-94659cf754d0", 
                 "ontologyclass": null

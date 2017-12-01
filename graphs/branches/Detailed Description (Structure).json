@@ -1332,7 +1332,7 @@
             "nodes": [
                 {
                     "config": {
-                        "rdmCollection": "2962a661-7b5c-490e-8d18-51584698c66c"
+                        "rdmCollection": "eae1a08c-8df7-4b70-8b7b-070dfdec43d8"
                     }, 
                     "datatype": "concept", 
                     "description": "Represents a single node in a graph", 
@@ -1341,43 +1341,9 @@
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Style", 
+                    "name": "Exterior Plan", 
                     "nodegroup_id": "9b5d2d8f-b5e6-11e7-87f2-94659cf754d0", 
-                    "nodeid": "e7637550-b5e6-11e7-9d98-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null
-                }, 
-                {
-                    "config": {
-                        "rdmCollection": "9aac7d95-f47d-4422-956b-493731ad0b19"
-                    }, 
-                    "datatype": "concept-list", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "9b5d2d90-b5e6-11e7-b947-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Exterior Fabric", 
-                    "nodegroup_id": "9b5d2d8f-b5e6-11e7-87f2-94659cf754d0", 
-                    "nodeid": "fbe2a690-b5e6-11e7-ab2d-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null
-                }, 
-                {
-                    "config": {
-                        "rdmCollection": "d4eac3a5-687d-4904-8bee-e97c0e2e95ae"
-                    }, 
-                    "datatype": "concept-list", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "9b5d2d90-b5e6-11e7-b947-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Structural System", 
-                    "nodegroup_id": "9b5d2d8f-b5e6-11e7-87f2-94659cf754d0", 
-                    "nodeid": "21fcfbf1-b5e7-11e7-a095-94659cf754d0", 
+                    "nodeid": "ef3cbc50-b5e6-11e7-8151-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": null
                 }, 
@@ -1400,7 +1366,7 @@
                 }, 
                 {
                     "config": {
-                        "rdmCollection": "eae1a08c-8df7-4b70-8b7b-070dfdec43d8"
+                        "rdmCollection": "2962a661-7b5c-490e-8d18-51584698c66c"
                     }, 
                     "datatype": "concept", 
                     "description": "Represents a single node in a graph", 
@@ -1409,9 +1375,43 @@
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Exterior Plan", 
+                    "name": "Style", 
                     "nodegroup_id": "9b5d2d8f-b5e6-11e7-87f2-94659cf754d0", 
-                    "nodeid": "ef3cbc50-b5e6-11e7-8151-94659cf754d0", 
+                    "nodeid": "e7637550-b5e6-11e7-9d98-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "d4eac3a5-687d-4904-8bee-e97c0e2e95ae"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "9b5d2d90-b5e6-11e7-b947-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Structural System", 
+                    "nodegroup_id": "9b5d2d8f-b5e6-11e7-87f2-94659cf754d0", 
+                    "nodeid": "21fcfbf1-b5e7-11e7-a095-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "9aac7d95-f47d-4422-956b-493731ad0b19"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "9b5d2d90-b5e6-11e7-b947-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Exterior Fabric", 
+                    "nodegroup_id": "9b5d2d8f-b5e6-11e7-87f2-94659cf754d0", 
+                    "nodeid": "fbe2a690-b5e6-11e7-ab2d-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": null
                 }, 
