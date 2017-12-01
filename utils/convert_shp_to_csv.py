@@ -112,7 +112,7 @@ def shp_to_csv(in_file,truncate=0,date_fields=[],concat_fields={}):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("input_dir",help="input directory containing shapefiles to which ownership values will be added")
+    parser.add_argument("input",help="input directory containing shapefiles, or single shapefile input")
     parser.add_argument("-t","--truncate",type=int,help="make a truncated csv with only this many rows")
     args = parser.parse_args()
     
@@ -131,15 +131,24 @@ if __name__ == '__main__':
         'CULTURE':['CULTURE1','CULTURE2','CULTURE3','CULTURE4','CULTURE5','CULTURE6','CULTURE7','CULTURE8']
     }
     
-    dir = args.input_dir
-    for shp in os.listdir(dir):
-        if not shp.endswith(".shp"):
+    source = args.input
+    if os.path.isdir(source):
+        files = [os.path.join(source,i) for i in os.listdir(source)]
+    else:
+        if not os.path.isfile(source):
+            print "non-existant file:", source
+            exit()
+        files = [os.path.abspath(source)]
+
+    for path in files:
+        filename = os.path.basename(path)
+        if not filename.endswith(".shp"):
             continue
-        if shp == "FloridaSites.shp":
+        if filename == "FloridaSites.shp":
             concat = site_concat
-        if shp == "FloridaStructures.shp":
+        if filename == "FloridaStructures.shp":
             concat = struct_concat
-        if shp =="HistoricalCemeteries.shp":
+        if filename =="HistoricalCemeteries.shp":
             concat = cem_concat
-        shapefile = os.path.join(dir,shp)
-        shp_to_csv(shapefile,truncate=args.truncate,date_fields=date_fields,concat_fields=concat)
+        shp_to_csv(path,truncate=args.truncate,date_fields=date_fields,concat_fields=concat)
+        
