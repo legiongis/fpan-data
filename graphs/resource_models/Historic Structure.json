@@ -35,17 +35,17 @@
                 }, 
                 {
                     "active": true, 
-                    "cardid": "a7520a04-d524-11e7-aaa8-94659cf754d0", 
+                    "cardid": "abdf8164-d524-11e7-a253-94659cf754d0", 
                     "description": "Represents a node and node type pairing", 
                     "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
                     "helpenabled": false, 
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": "", 
-                    "is_editable": false, 
-                    "name": "SHPO Evaluation", 
-                    "nodegroup_id": "a7520a02-d524-11e7-90ee-94659cf754d0", 
-                    "sortorder": 1, 
+                    "is_editable": true, 
+                    "name": "What did you find?", 
+                    "nodegroup_id": "abdf8162-d524-11e7-9d67-94659cf754d0", 
+                    "sortorder": 2, 
                     "visible": true
                 }, 
                 {
@@ -95,17 +95,17 @@
                 }, 
                 {
                     "active": true, 
-                    "cardid": "abdf8164-d524-11e7-a253-94659cf754d0", 
+                    "cardid": "a7520a04-d524-11e7-aaa8-94659cf754d0", 
                     "description": "Represents a node and node type pairing", 
                     "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
                     "helpenabled": false, 
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": "", 
-                    "is_editable": true, 
-                    "name": "What did you find?", 
-                    "nodegroup_id": "abdf8162-d524-11e7-9d67-94659cf754d0", 
-                    "sortorder": 2, 
+                    "is_editable": false, 
+                    "name": "SHPO Evaluation", 
+                    "nodegroup_id": "a7520a02-d524-11e7-90ee-94659cf754d0", 
+                    "sortorder": 1, 
                     "visible": true
                 }, 
                 {
@@ -192,7 +192,7 @@
                     "helptext": null, 
                     "helptitle": null, 
                     "instructions": "", 
-                    "is_editable": false, 
+                    "is_editable": true, 
                     "name": "Who is this site assigned to?", 
                     "nodegroup_id": "a90dead4-d524-11e7-b4f3-94659cf754d0", 
                     "sortorder": 2, 
@@ -260,6 +260,19 @@
                 }
             ], 
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "aac42658-d524-11e7-bd51-94659cf754d0", 
+                    "config": {
+                        "label": "Managed Area Category (read-only)", 
+                        "options": [], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "aac42663-d524-11e7-ab2c-94659cf754d0", 
+                    "label": "Managed Area Category (read-only)", 
+                    "node_id": "aac4265a-d524-11e7-9500-94659cf754d0", 
+                    "sortorder": 3, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
                 {
                     "card_id": "a6084bf1-d524-11e7-a155-94659cf754d0", 
                     "config": {
@@ -1519,19 +1532,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 }, 
                 {
-                    "card_id": "aac42658-d524-11e7-bd51-94659cf754d0", 
-                    "config": {
-                        "label": "Managed Area Category (read-only)", 
-                        "options": [], 
-                        "placeholder": "Select an option"
-                    }, 
-                    "id": "aac42663-d524-11e7-ab2c-94659cf754d0", 
-                    "label": "Managed Area Category (read-only)", 
-                    "node_id": "aac4265a-d524-11e7-9500-94659cf754d0", 
-                    "sortorder": 3, 
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                }, 
-                {
                     "card_id": "aac42655-d524-11e7-8b37-94659cf754d0", 
                     "config": {
                         "basemap": "streets", 
@@ -2530,12 +2530,12 @@
                 }, 
                 {
                     "description": null, 
-                    "domainnode_id": "a90dead7-d524-11e7-b9e0-94659cf754d0", 
-                    "edgeid": "a90deae4-d524-11e7-8975-94659cf754d0", 
+                    "domainnode_id": "aac42650-d524-11e7-870b-94659cf754d0", 
+                    "edgeid": "aac44d64-d524-11e7-b981-94659cf754d0", 
                     "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "a90dead4-d524-11e7-b4f3-94659cf754d0"
+                    "rangenode_id": "aac42653-d524-11e7-a750-94659cf754d0"
                 }, 
                 {
                     "description": null, 
@@ -2566,12 +2566,12 @@
                 }, 
                 {
                     "description": null, 
-                    "domainnode_id": "aac42650-d524-11e7-870b-94659cf754d0", 
-                    "edgeid": "aac44d64-d524-11e7-b981-94659cf754d0", 
+                    "domainnode_id": "a90dead7-d524-11e7-b9e0-94659cf754d0", 
+                    "edgeid": "a90deae4-d524-11e7-8975-94659cf754d0", 
                     "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "aac42653-d524-11e7-a750-94659cf754d0"
+                    "rangenode_id": "a90dead4-d524-11e7-b4f3-94659cf754d0"
                 }, 
                 {
                     "description": null, 
@@ -3068,7 +3068,7 @@
                     }, 
                     "function_id": "4a1da8f0-c32a-11e7-a700-94659cf754d0", 
                     "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
-                    "id": "e2007a61-d533-11e7-8bf0-94659cf754d0"
+                    "id": "c67b064f-dad5-11e7-a005-94659cf754d0"
                 }, 
                 {
                     "config": {
@@ -3088,7 +3088,7 @@
                     }, 
                     "function_id": "60000000-0000-0000-0000-000000000001", 
                     "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
-                    "id": "e200a170-d533-11e7-9400-94659cf754d0"
+                    "id": "c67b2d61-dad5-11e7-b73c-94659cf754d0"
                 }
             ], 
             "graphid": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
@@ -3696,19 +3696,17 @@
                     "parentproperty": null
                 }, 
                 {
-                    "config": {
-                        "rdmCollection": "22ad43f3-8532-4367-ab26-3cfc31825df0"
-                    }, 
-                    "datatype": "concept", 
-                    "description": "", 
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
                     "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
                     "is_collector": false, 
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Plot Type", 
-                    "nodegroup_id": "aac42653-d524-11e7-a750-94659cf754d0", 
-                    "nodeid": "aac4265b-d524-11e7-9541-94659cf754d0", 
+                    "name": "FMSF ID", 
+                    "nodegroup_id": "a90dc3c1-d524-11e7-97f4-94659cf754d0", 
+                    "nodeid": "a90deadb-d524-11e7-87cf-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": null
                 }, 
@@ -3978,17 +3976,19 @@
                     "parentproperty": null
                 }, 
                 {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "Represents a single node in a graph", 
+                    "config": {
+                        "rdmCollection": "22ad43f3-8532-4367-ab26-3cfc31825df0"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "", 
                     "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
                     "is_collector": false, 
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "FMSF ID", 
-                    "nodegroup_id": "a90dc3c1-d524-11e7-97f4-94659cf754d0", 
-                    "nodeid": "a90deadb-d524-11e7-87cf-94659cf754d0", 
+                    "name": "Plot Type", 
+                    "nodegroup_id": "aac42653-d524-11e7-a750-94659cf754d0", 
+                    "nodeid": "aac4265b-d524-11e7-9541-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": null
                 }, 
@@ -4126,37 +4126,61 @@
                         "a642f200-b8eb-11e7-a49e-94659cf754d0": {
                             "active": true, 
                             "cards": {
-                                "545655c0-c635-11e7-8a94-94659cf754d0": {
+                                "a6084bf1-d524-11e7-a155-94659cf754d0": {
+                                    "cards": {}, 
+                                    "label": "Detailed Description (Structure)", 
+                                    "nodes": {
+                                        "a6084bf2-d524-11e7-9dfb-94659cf754d0": {
+                                            "label": "Exterior Plan"
+                                        }, 
+                                        "a6084bf3-d524-11e7-9399-94659cf754d0": {
+                                            "label": "Style"
+                                        }, 
+                                        "a6084bf4-d524-11e7-a9cf-94659cf754d0": {
+                                            "label": "Structural System"
+                                        }, 
+                                        "a6084bf5-d524-11e7-995a-94659cf754d0": {
+                                            "label": "Exterior Fabric"
+                                        }, 
+                                        "a6084bf6-d524-11e7-9f1d-94659cf754d0": {
+                                            "label": "Structure Use"
+                                        }, 
+                                        "a6084bf7-d524-11e7-9d9f-94659cf754d0": {
+                                            "label": "Architect"
+                                        }
+                                    }
+                                }, 
+                                "a751e2f3-d524-11e7-9848-94659cf754d0": {
                                     "cards": {
-                                        "545655c3-c635-11e7-a89f-94659cf754d0": {
+                                        "a7520a01-d524-11e7-92ef-94659cf754d0": {
                                             "cards": {}, 
                                             "label": "Survey Evaluation", 
                                             "nodes": {
-                                                "545655ca-c635-11e7-a48f-94659cf754d0": {
+                                                "a7520a08-d524-11e7-ba1b-94659cf754d0": {
                                                     "label": "Eligibility Recommendation (District)"
                                                 }, 
-                                                "545655cb-c635-11e7-a386-94659cf754d0": {
+                                                "a7520a09-d524-11e7-af0c-94659cf754d0": {
                                                     "label": "Eligibility Recommendation (Individual)"
                                                 }, 
-                                                "545655cc-c635-11e7-9a22-94659cf754d0": {
+                                                "a7520a0a-d524-11e7-be4b-94659cf754d0": {
                                                     "label": "Survey Number"
                                                 }
                                             }
                                         }, 
-                                        "545655c6-c635-11e7-956f-94659cf754d0": {
+                                        "a7520a04-d524-11e7-aaa8-94659cf754d0": {
                                             "cards": {}, 
                                             "label": "SHPO Evaluation", 
                                             "nodes": {
-                                                "545655c4-c635-11e7-8e2b-94659cf754d0": {
+                                                "a7520a02-d524-11e7-90ee-94659cf754d0": {
                                                     "label": "SHPO Evaluation"
                                                 }
                                             }
                                         }, 
-                                        "545655c9-c635-11e7-8ddb-94659cf754d0": {
+                                        "a7520a07-d524-11e7-99b2-94659cf754d0": {
                                             "cards": {}, 
                                             "label": "NR List Date", 
                                             "nodes": {
-                                                "545655c7-c635-11e7-9068-94659cf754d0": {
+                                                "a7520a05-d524-11e7-9105-94659cf754d0": {
                                                     "label": "National Register List Date"
                                                 }
                                             }
@@ -4165,65 +4189,41 @@
                                     "label": "National Register Eligibility", 
                                     "nodes": {}
                                 }, 
-                                "6313121b-c635-11e7-a7a1-94659cf754d0": {
+                                "a90dead9-d524-11e7-9511-94659cf754d0": {
                                     "cards": {
-                                        "63131212-c635-11e7-b20f-94659cf754d0": {
+                                        "a90dc3c3-d524-11e7-a70c-94659cf754d0": {
                                             "cards": {}, 
                                             "label": "Identification", 
                                             "nodes": {
-                                                "6313121c-c635-11e7-ade6-94659cf754d0": {
+                                                "a90deada-d524-11e7-be73-94659cf754d0": {
                                                     "label": "Site Name"
                                                 }, 
-                                                "6313121d-c635-11e7-adb2-94659cf754d0": {
+                                                "a90deadb-d524-11e7-87cf-94659cf754d0": {
                                                     "label": "Site ID"
                                                 }
                                             }
                                         }, 
-                                        "63131215-c635-11e7-80d9-94659cf754d0": {
-                                            "cards": {}, 
-                                            "label": "Who is this site assigned to?", 
-                                            "nodes": {
-                                                "63131213-c635-11e7-ba7f-94659cf754d0": {
-                                                    "label": "Assigned To"
-                                                }
-                                            }
-                                        }, 
-                                        "63131218-c635-11e7-8918-94659cf754d0": {
+                                        "a90dead3-d524-11e7-b453-94659cf754d0": {
                                             "cards": {}, 
                                             "label": "Who owns this site?", 
                                             "nodes": {
-                                                "63131216-c635-11e7-b095-94659cf754d0": {
+                                                "a90dead1-d524-11e7-935d-94659cf754d0": {
                                                     "label": "Ownership"
+                                                }
+                                            }
+                                        }, 
+                                        "a90dead6-d524-11e7-b12a-94659cf754d0": {
+                                            "cards": {}, 
+                                            "label": "Who is this site assigned to?", 
+                                            "nodes": {
+                                                "a90dead4-d524-11e7-b4f3-94659cf754d0": {
+                                                    "label": "Assigned To"
                                                 }
                                             }
                                         }
                                     }, 
                                     "label": "General Site Information", 
                                     "nodes": {}
-                                }, 
-                                "f91d17a4-c631-11e7-8d62-94659cf754d0": {
-                                    "cards": {}, 
-                                    "label": "Detailed Description (Structure)", 
-                                    "nodes": {
-                                        "f91d17a5-c631-11e7-b57f-94659cf754d0": {
-                                            "label": "Exterior Plan"
-                                        }, 
-                                        "f91d17a6-c631-11e7-8a73-94659cf754d0": {
-                                            "label": "Structural System"
-                                        }, 
-                                        "f91d17a7-c631-11e7-9e60-94659cf754d0": {
-                                            "label": "Exterior Fabric"
-                                        }, 
-                                        "f91d17a8-c631-11e7-8a7a-94659cf754d0": {
-                                            "label": "Structure Use"
-                                        }, 
-                                        "f91d17a9-c631-11e7-b038-94659cf754d0": {
-                                            "label": "Style"
-                                        }, 
-                                        "f91d17aa-c631-11e7-8b2b-94659cf754d0": {
-                                            "label": "Architect"
-                                        }
-                                    }
                                 }
                             }, 
                             "label": "Structure Summary", 
@@ -4232,38 +4232,38 @@
                         "c6f3eef0-b8eb-11e7-8eaf-94659cf754d0": {
                             "active": true, 
                             "cards": {
-                                "095665b9-d152-11e7-bf70-94659cf754d0": {
+                                "aac42652-d524-11e7-a0af-94659cf754d0": {
                                     "cards": {
-                                        "095665b3-d152-11e7-b9d1-94659cf754d0": {
+                                        "aac42655-d524-11e7-8b37-94659cf754d0": {
                                             "cards": {}, 
                                             "label": "Coordinates", 
                                             "nodes": {
-                                                "095665b1-d152-11e7-95e3-94659cf754d0": {
+                                                "aac42653-d524-11e7-a750-94659cf754d0": {
                                                     "label": "Geospatial Coordinates"
                                                 }, 
-                                                "095665bb-d152-11e7-8e8d-94659cf754d0": {
+                                                "aac4265b-d524-11e7-9541-94659cf754d0": {
                                                     "label": "Plot Type (for polygons)"
                                                 }, 
-                                                "095665bf-d152-11e7-a5e6-94659cf754d0": {
-                                                    "label": "Plot Method (for points)"
+                                                "aac4265e-d524-11e7-9186-94659cf754d0": {
+                                                    "label": "Plot Method  (for points)"
                                                 }
                                             }
                                         }, 
-                                        "095665b6-d152-11e7-aeda-94659cf754d0": {
+                                        "aac42658-d524-11e7-bd51-94659cf754d0": {
                                             "cards": {}, 
                                             "label": "Located in...", 
                                             "nodes": {
-                                                "095665ba-d152-11e7-99dc-94659cf754d0": {
-                                                    "label": "HMS-Region"
+                                                "aac42659-d524-11e7-b477-94659cf754d0": {
+                                                    "label": "Managed Area Name (read-only)"
                                                 }, 
-                                                "095665bd-d152-11e7-8795-94659cf754d0": {
-                                                    "label": "Management Area"
+                                                "aac4265a-d524-11e7-9500-94659cf754d0": {
+                                                    "label": "Managed Area Category (read-only)"
                                                 }, 
-                                                "095665be-d152-11e7-ada0-94659cf754d0": {
-                                                    "label": "Management Area Category"
+                                                "aac4265c-d524-11e7-8985-94659cf754d0": {
+                                                    "label": "Managing Agency (read-only)"
                                                 }, 
-                                                "095665c0-d152-11e7-8a0f-94659cf754d0": {
-                                                    "label": "Managing Agency"
+                                                "aac4265d-d524-11e7-b18b-94659cf754d0": {
+                                                    "label": "HMS-Region (read-only)"
                                                 }
                                             }
                                         }
@@ -4277,13 +4277,98 @@
                         }, 
                         "d7ba0fcf-b8eb-11e7-93eb-94659cf754d0": {
                             "active": true, 
-                            "cards": {}, 
+                            "cards": {
+                                "abdf8161-d524-11e7-b777-94659cf754d0": {
+                                    "cards": {
+                                        "abdf8164-d524-11e7-a253-94659cf754d0": {
+                                            "cards": {}, 
+                                            "label": "What did you find?", 
+                                            "nodes": {
+                                                "abdfa876-d524-11e7-8bb5-94659cf754d0": {
+                                                    "label": ""
+                                                }, 
+                                                "abdfa87a-d524-11e7-8d5e-94659cf754d0": {
+                                                    "label": ""
+                                                }, 
+                                                "abdfa87e-d524-11e7-a1bd-94659cf754d0": {
+                                                    "label": "Overall Site Condition"
+                                                }, 
+                                                "abdfa87f-d524-11e7-bf50-94659cf754d0": {
+                                                    "label": "Visible Artifacts (check all that apply)"
+                                                }, 
+                                                "abdfa880-d524-11e7-a01c-94659cf754d0": {
+                                                    "label": "Threats Observed (check all that apply)"
+                                                }, 
+                                                "abdfa882-d524-11e7-8683-94659cf754d0": {
+                                                    "label": "Site Impact Comments"
+                                                }
+                                            }
+                                        }, 
+                                        "abdf8167-d524-11e7-8565-94659cf754d0": {
+                                            "cards": {}, 
+                                            "label": "Arrival Information", 
+                                            "nodes": {
+                                                "abdfa871-d524-11e7-8d84-94659cf754d0": {
+                                                    "label": ""
+                                                }, 
+                                                "abdfa872-d524-11e7-838e-94659cf754d0": {
+                                                    "label": "Your Scout ID"
+                                                }, 
+                                                "abdfa874-d524-11e7-84b2-94659cf754d0": {
+                                                    "label": "Type of Visit"
+                                                }, 
+                                                "abdfa877-d524-11e7-861f-94659cf754d0": {
+                                                    "label": "Location Verification"
+                                                }, 
+                                                "abdfa87b-d524-11e7-8561-94659cf754d0": {
+                                                    "label": "Time of Day"
+                                                }, 
+                                                "abdfa881-d524-11e7-abf5-94659cf754d0": {
+                                                    "label": "Date"
+                                                }
+                                            }
+                                        }, 
+                                        "abdf816a-d524-11e7-8dc2-94659cf754d0": {
+                                            "cards": {}, 
+                                            "label": "Report Evaluation", 
+                                            "nodes": {
+                                                "abdfa878-d524-11e7-8cee-94659cf754d0": {
+                                                    "label": "Site Priority"
+                                                }, 
+                                                "abdfa879-d524-11e7-a72f-94659cf754d0": {
+                                                    "label": "Recommendations"
+                                                }, 
+                                                "abdfa87c-d524-11e7-bd6e-94659cf754d0": {
+                                                    "label": "Final Evaluation Notes"
+                                                }
+                                            }
+                                        }, 
+                                        "abdfa870-d524-11e7-ac53-94659cf754d0": {
+                                            "cards": {}, 
+                                            "label": "Structure Details", 
+                                            "nodes": {
+                                                "abdfa873-d524-11e7-9292-94659cf754d0": {
+                                                    "label": "Current Address"
+                                                }, 
+                                                "abdfa875-d524-11e7-baa8-94659cf754d0": {
+                                                    "label": "Environmental Mitigation Factors at Site"
+                                                }, 
+                                                "abdfa87d-d524-11e7-95ae-94659cf754d0": {
+                                                    "label": "Current Use"
+                                                }
+                                            }
+                                        }
+                                    }, 
+                                    "label": "Scout Report", 
+                                    "nodes": {}
+                                }
+                            }, 
                             "label": "Scout Report", 
                             "sortorder": 2
                         }
                     }, 
                     "graph_id": "c67216bf-8cc2-11e7-883c-06ed184dc22c", 
-                    "name": "Historic Structure", 
+                    "name": "Historic Structure Report", 
                     "reportid": "be2a5b94-9319-11e7-883c-06ed184dc22c", 
                     "template_id": "50000000-0000-0000-0000-000000000002"
                 }
