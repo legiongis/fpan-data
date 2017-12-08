@@ -45,14 +45,14 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "4eda6cd5-d535-11e7-a3bb-94659cf754d0", 
+            "arches_nodeid": "3067ed10-dbaa-11e7-87be-94659cf754d0", 
             "arches_node_name": "Geospatial Coordinates", 
             "file_field_name": "Geospatial Coordinates", 
             "data_type": "geojson-feature-collection", 
             "export": false
         }, 
         {
-            "arches_nodeid": "4eda93e6-d535-11e7-9bc9-94659cf754d0", 
+            "arches_nodeid": "3068142b-dbaa-11e7-8491-94659cf754d0", 
             "arches_node_name": "HMS-Region", 
             "file_field_name": "HMS-Region", 
             "data_type": "concept-list", 
@@ -68,26 +68,24 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "4eda93e3-d535-11e7-ab0b-94659cf754d0", 
+            "arches_nodeid": "30681429-dbaa-11e7-96d7-94659cf754d0", 
             "arches_node_name": "Managed Area Category", 
             "file_field_name": "Managed Area Category", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
+            "data_type": "string", 
             "export": false
         }, 
         {
-            "arches_nodeid": "4eda93e2-d535-11e7-b3ce-94659cf754d0", 
+            "arches_nodeid": "30681427-dbaa-11e7-9597-94659cf754d0", 
             "arches_node_name": "Managed Area Name", 
             "file_field_name": "Managed Area Name", 
             "data_type": "string", 
             "export": false
         }, 
         {
-            "arches_nodeid": "4eda93e5-d535-11e7-95f4-94659cf754d0", 
+            "arches_nodeid": "30681428-dbaa-11e7-98b2-94659cf754d0", 
             "arches_node_name": "Managing Agency", 
             "file_field_name": "Managing Agency", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
+            "data_type": "string", 
             "export": false
         }, 
         {
@@ -113,7 +111,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "4eda93e7-d535-11e7-9485-94659cf754d0", 
+            "arches_nodeid": "3068142c-dbaa-11e7-a50e-94659cf754d0", 
             "arches_node_name": "Plot Method", 
             "file_field_name": "Plot Method", 
             "data_type": "concept", 
@@ -121,7 +119,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "4eda93e4-d535-11e7-88fd-94659cf754d0", 
+            "arches_nodeid": "3068142a-dbaa-11e7-9afc-94659cf754d0", 
             "arches_node_name": "Plot Type", 
             "file_field_name": "Plot Type", 
             "data_type": "concept", 
@@ -239,7 +237,7 @@
             "arches_nodeid": "036462e2-d550-11e7-a492-94659cf754d0", 
             "arches_node_name": "Site Type", 
             "file_field_name": "Site Type", 
-            "data_type": "concept", 
+            "data_type": "concept-list", 
             "concept_export_value": "label", 
             "export": false
         }, 

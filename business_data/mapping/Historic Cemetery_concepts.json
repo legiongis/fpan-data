@@ -1,30 +1,35 @@
 {
     "Ethnic Groups Interred": {
-        "f019d236-0871-430e-b4c1-9346fe6c1c10": "African American", 
-        "bd2dee5c-7d5e-4e48-8344-4a4c0c1b22bf": "Asian", 
-        "245d1032-7318-4d1d-9bf6-8200631292bb": "Caribbean", 
-        "00b0f34b-d6af-4a5c-b0a6-50b5ef4ea966": "Hispanic", 
-        "78244fb5-20df-447a-a680-a1fb49bd5185": "Native American", 
-        "d7f933f1-8bb6-4f4e-a57f-242bb62f4c58": "Other", 
-        "5e14dd1f-d643-4b5b-948c-f4ea9a43f687": "Unknown", 
-        "27560db4-d18c-4afe-a8d1-25f2a885346d": "Unspecified by surveyor", 
-        "73e41d30-f516-4614-8b2f-c32fb5b4ce66": "White, Non-Hispanic"
+        "bd55bf32-bfc0-4461-bc3a-36e19544fedc": "African American", 
+        "6878be25-332c-4dae-8c7c-b697b3280037": "Asian", 
+        "af4cf4b9-4ea4-4460-85e8-d37c64920b17": "Caribbean", 
+        "d0be8bd7-91fd-42ef-b25e-4ef468a23840": "Hispanic", 
+        "2b00e1b8-c243-412f-8e03-cce162f1bd57": "Native American", 
+        "0e3dbda9-b29a-4606-8c72-981323312513": "Other", 
+        "ad32ce77-5529-4fbd-84a4-2739d9459130": "Unknown", 
+        "fc07502e-a111-4fe8-b890-fde5f8c4bfb7": "Unspecified by surveyor", 
+        "c23bdcf0-b39a-40df-a333-fdca0f22254d": "White, Non-Hispanic"
     }, 
     "Priority": {
         "6475fae7-797d-4c40-b7d7-d6070ed38958": "High", 
         "71ecc9bf-1cda-47aa-a5e2-c05ecaf8bb4b": "Low", 
         "3af799ea-5188-4422-8b24-5f341f92c576": "Medium"
     }, 
-    "Managing Agency": {
-        "e6c345a1-fd17-4691-8415-48690cb6380b": "FL Dept. of Agriculture and Consumer Services, Florida Forest Service", 
-        "13988bf3-497a-4ce5-9d34-a50c7fce23fb": "FL Dept. of Environmental Protection, Div. of Recreation and Parks", 
-        "c9d7b1f2-11d3-4452-b2e2-ba8501d2adc8": "FL Dept. of Environmental Protection, Florida Coastal Office", 
-        "9c0ea5ed-7d91-4905-85b3-fc00fb6b275f": "FL Fish and Wildlife Conservation Commission"
+    "Surveyor Evaluation": {
+        "f2e2a90a-3b59-434c-92b3-e7092f7755ba": "Eligible for NRHP", 
+        "66517b97-1c9e-4c1f-9c4b-4da30ae186b9": "Ineligible for NRHP", 
+        "98883116-74d7-4533-9ce3-798098cf60e6": "Insufficient Information", 
+        "ad7e2b77-e0ef-44c6-b776-d06461b4eb08": "Likely NRHP Eligible", 
+        "66885eee-91e3-4cfe-86f3-66cb75166bad": "More Work Recommended", 
+        "8a8c9434-e6fc-4faa-94c2-e6d6e4b2b971": "No Further Work Recommended", 
+        "68242687-a1bd-4725-97bf-b9beeb226b22": "Not Evaluated by Recorder", 
+        "48556455-c28b-4481-869d-9fbf23cbca02": "Preservation Not Recommended", 
+        "a7d2ba07-c58c-4c30-ae46-588e09bb1271": "Preservation Recommended"
     }, 
     "Plot Method": {
-        "c7ca26c7-2835-4fbe-a4a5-0ca6dfd08684": "D", 
-        "7d37c2e8-d8e7-461e-82e5-cb622eb5f8df": "M", 
-        "e55cbcb9-c0e4-47b8-b006-a222923980f4": "X"
+        "43dea8e8-3dd6-494c-b7e2-d7e2e7750b34": "D", 
+        "f21b3330-c64c-460d-b6c7-d28dc7fc91b1": "M", 
+        "2fc96b3a-5874-4aec-bc28-92838b764c9e": "X"
     }, 
     "Threats": {
         "180efc49-4660-4650-b7bb-d9ec6fd1cec9": "Active Erosion", 
@@ -40,14 +45,10 @@
         "6a1c8d3a-159a-4003-9361-f0d379f06698": "Wind"
     }, 
     "Cemetery Status": {
-        "d9127fc5-7207-49a1-a023-f73a4bd01abb": "Abandoned", 
-        "b42e9dbe-f363-4e4c-a9fe-f13e1f364bb1": "Maintained But Not Used", 
-        "e16f5b64-9dfb-4b8b-842b-5195cd621494": "Unspecified by Surveyor", 
-        "88b372f0-2da1-4784-934a-3de0dd92f399": "Used for Burials"
-    }, 
-    "Visit Type": {
-        "395b456e-ee37-486a-aa4d-161502ef1f52": "Follow-up", 
-        "916a56f4-013e-4c61-82b0-9eca1cc20420": "Initial"
+        "4d287eac-69e0-4cf7-a4b6-846c35497e37": "Abandoned", 
+        "ce249008-e55d-42cc-aa4c-800a5dd2fee9": "Maintained But Not Used", 
+        "02d9594e-6c36-4ab5-a0d5-297a5f63304b": "Unspecified by Surveyor", 
+        "d57ae5e7-f9d7-4b9a-bf20-6cb551c3d8af": "Used for Burials"
     }, 
     "Visible Artifacts": {
         "360157b2-162d-4dde-b44c-f401c4acdf85": "Architectural", 
@@ -59,46 +60,33 @@
         "a5581ca6-1da5-4144-a53f-5a066219f6ce": "Shell tool"
     }, 
     "SHPO Significance": {
-        "92ab7b9c-3bd6-4c1b-bc92-7a7dccc610bf": "Eligible for NRHP", 
-        "2d718e7f-5a12-49e4-be9b-02691ba9b1b1": "Ineligible for NRHP", 
-        "a76edebc-6762-4040-b0a0-e40911b65b47": "Insufficient Information", 
-        "3bf9f8e1-7068-49c8-a618-3a2c85c586cc": "Not Evaluated by SHPO", 
-        "d8df409d-9f81-4efa-a85e-c6fa7ab21ec9": "Potentially Eligible for NRHP"
+        "efddfc83-a9a6-4760-8634-4f6d7eb6f950": "Eligible for NRHP", 
+        "ef8642bd-c558-4914-b544-0dd966987e42": "Ineligible for NRHP", 
+        "313bb781-3c7c-456d-9b11-9b0ed980cee7": "Insufficient Information", 
+        "6fdf6bd2-7ad4-4a6e-941d-013a11fc9028": "Not Evaluated by SHPO", 
+        "a9f511f1-ea2b-45fc-85c0-753cd03244fc": "Potentially Eligible for NRHP"
     }, 
     "Cemetery Type": {
-        "dd424288-dbe4-4e13-8ed2-a73bbb01ccdf": "Cemetery associated with a religion or church", 
-        "98b229e0-f44f-4f3a-9ecb-bd401f5d3f8e": "Cemetery that is also a memorial park", 
-        "7fb4cb9f-e1bc-4c14-ad25-fde4c3a7c58a": "Cemetery that was a part of the Rural Movement", 
-        "3f274c62-cdeb-49ec-9e7f-2ee3ba182a1e": "Cemetery used for members of a fraternal order", 
-        "3e3f60e4-1462-4263-bcc2-ed1f223f1763": "Cemetery used for victims of an epidemic", 
-        "7b640d18-d045-4e16-9a6d-1ff3d3c5c7cc": "Community cemetery", 
-        "990f3ce8-77d7-4c60-86b6-010294570d25": "Company town cemetery", 
-        "61f8872e-d2be-4d19-b159-28116ad40817": "Family cemetery", 
-        "8ab059d8-d764-471b-a53b-e7ea3a38a096": "Military (not-national) cemetery", 
-        "b5b73581-0b68-4ccd-a531-d74337223550": "Municipal cemetery", 
-        "91f4393c-8b04-4226-ab1d-b142fe86c155": "National cemetery", 
-        "885c9972-1e78-4aaa-812f-4df2494eb27a": "Other, please explain in field directly below", 
-        "de74b5d2-3b03-4fa3-9757-b9a09a953ed0": "Potters Field; cemetery used to bury destitute", 
-        "8aa05c49-434d-48d0-ad8d-d2b0bb509fe9": "Prison cemetery", 
-        "2d8e5f93-2938-48eb-91c6-e8b978070505": "Unknown cemetery type", 
-        "0ddd7ff4-107f-42f1-a68d-58d65e964e23": "Unspecified by surveyor"
+        "ef8c4144-fe25-45d1-8918-57a3225f0b41": "Community", 
+        "3f18cf58-6890-4202-a399-3e69cf43379a": "Company Town", 
+        "7201c859-2a76-4b05-8035-5e5e01485d5e": "Epidemic", 
+        "f5bc23f1-8040-4ce4-b9ce-e271ea96c54e": "Family", 
+        "226d1eb3-4a45-493b-bd4d-fd4a021fef9a": "Fraternal Order", 
+        "f21cb98b-e3d5-437a-ae37-aac5fe2d8ed8": "Memorial Park", 
+        "915c7fd9-24b2-41a8-bdde-6b82e588e66b": "Military", 
+        "a4092fcd-060c-43c5-b9a3-80fa6488ba78": "Municipal", 
+        "17b12a6b-f485-4071-b805-3d23e291f95c": "National", 
+        "35dc1165-1381-4f27-82c4-7c04d6c8ffd6": "Other", 
+        "47eaa4e6-d4e9-48ca-9657-e8cb8c36fcba": "Potters Field", 
+        "06fa99d2-e4ce-4cfb-8982-9e5f1987529b": "Prison", 
+        "b6263769-1b6e-4345-8dc1-83c0895e5825": "Religious", 
+        "5a403547-157e-4db8-b3af-9ea7cc632905": "Rural Movement", 
+        "9304782a-4e2c-4d6e-bfe6-bc6a6d58bc9d": "Unknown", 
+        "5079966c-d7e1-407c-b87f-c43da4711723": "Unspecified"
     }, 
-    "Managed Area Category": {
-        "91531c69-fa67-40e0-87a2-4521811fdd78": "Aquatic Preserve", 
-        "5defe181-f6ef-41fa-9906-51d4cf8d6e6a": "Fish and Wildlife Conservation Commission", 
-        "868cf814-2870-46e7-b501-7b8f8b42df83": "State Forest", 
-        "e253e5a4-9c82-45e2-9cd1-5b2dc2eae407": "State Parks"
-    }, 
-    "Surveyor Evaluation": {
-        "bf52abf6-2d87-4f63-aa08-85263e2f20da": "Eligible for NRHP", 
-        "1cab7d2e-ad43-4ae8-8b07-f4c8739b5599": "Ineligible for NRHP", 
-        "67f1cc16-89c3-40c8-bdca-c9ebd962fa5b": "Insufficient Information", 
-        "8ded7f38-518a-49a5-a408-c87aae6d65f6": "Likely NRHP Eligible", 
-        "71377cfe-579d-46ad-adee-1787791727b2": "More Work Recommended", 
-        "3e4f4741-ef2e-4127-beeb-7c39563795bf": "No Further Work Recommended", 
-        "0011a1ef-ab66-48a8-8fdb-8fe99a662a66": "Not Evaluated by Recorder", 
-        "76cb4ab8-f2ad-49fc-afda-b8e70ae50399": "Preservation Not Recommended", 
-        "131c229c-65c9-48de-b8d2-8b23b26b41da": "Preservation Recommended"
+    "Visit Type": {
+        "395b456e-ee37-486a-aa4d-161502ef1f52": "Follow-up", 
+        "916a56f4-013e-4c61-82b0-9eca1cc20420": "Initial"
     }, 
     "Location Verification": {
         "b32ddf3e-753b-4c97-b113-dd673b9edaf8": "Mission location verified", 
@@ -116,33 +104,33 @@
         "602d53f7-f371-4603-8e5b-40e2b341cb94": "West Central"
     }, 
     "SurveyorEvaluationDist": {
-        "58e629da-56b1-464c-89f9-98012536ea7b": "Ineligible as contributor to NR district", 
-        "47e18500-e2fd-438c-9aba-85fe03af2e6e": "Insufficient data to judge eligibility", 
-        "6a3b488d-9634-49af-b69a-160aa4c270a1": "Likely contributor to NR district", 
-        "32f8a152-2c6a-4a68-b7ce-1386cfc2a6a1": "More work recommended", 
-        "714b45b3-0877-4fc9-88f9-d96c65ec4592": "No further work recommended", 
-        "5933a7f1-2808-4787-a155-008b3c1c9748": "Not Evaluated by Recorder", 
-        "03c2c21d-c4be-4112-8c69-fcbb363a602f": "Potential contributor to NR district", 
-        "5e3baad9-d14d-482f-8b6c-54ce38155b56": "Preservation not recommended", 
-        "af7af13f-e124-462e-b2f9-8caff7c2bd47": "Preservation recommended"
+        "1a8a46b5-d1c4-497b-b0bb-c7575c77fef0": "Ineligible as contributor to NR district", 
+        "33c34c00-bc75-46f2-af64-9212c8eb3c8d": "Insufficient data to judge eligibility", 
+        "8907ca4c-4a43-4a54-a306-8d3fb29da174": "Likely contributor to NR district", 
+        "a55f91cc-dd64-4c83-9648-3ac005363dbb": "More work recommended", 
+        "d5fd3546-6d04-4dea-ae8c-484ee66f2eb9": "No further work recommended", 
+        "e6c9c220-09f3-4e3b-ad9a-7bb45a91f689": "Not Evaluated by Recorder", 
+        "53247ecf-0e82-414f-8a8f-0af397373f80": "Potential contributor to NR district", 
+        "74c682bb-da01-4de1-b3d5-54832c3c5404": "Preservation not recommended", 
+        "2b8c7210-4349-4b07-88a5-21890ef522cd": "Preservation recommended"
     }, 
     "Ownership": {
-        "225a0735-339c-464c-bcf4-27f33231ad29": "City", 
-        "e88bb68e-f4c2-49fd-a5bf-67101831b5f0": "County", 
-        "7c19dbe6-4d83-4f14-be4b-a4d063fe642d": "Federal", 
-        "8dac0cb7-3ce4-4c45-bf85-e616b668e418": "Foreign", 
-        "5462101e-6628-47cc-aab0-aa909f8bcca9": "Local government", 
-        "565356ac-ca4c-45b9-a88b-ad7f6cc30abc": "Multiple categories of ownership", 
-        "1227251a-df43-47cc-8d14-3a841b5d1958": "Native American", 
-        "4210de35-48e7-4fa7-bd39-2f1e8bf25511": "Other", 
-        "c357d747-593c-4d02-b338-231b68cb03d8": "Private-corporate-for profit", 
-        "af967411-7adc-45ea-b827-99d839a4acc1": "Private-corporate-nonprofit", 
-        "3614989f-a3cc-407d-91ae-824c938c51d7": "Private-individual", 
-        "d1396e2e-ee42-4f36-b5f6-6cb62069816d": "Private-unspecified", 
-        "c4c527a6-9a5b-4354-95f7-35cc4e2fe305": "Public-unspecified", 
-        "6660d20e-3e5f-41b3-8bd9-27e922eae9d7": "State", 
-        "b6ca9bc4-37bb-4b66-8325-75b681b9dffe": "Unknown", 
-        "c34d30b3-bf7a-4f94-aecc-66981469f84d": "Unspecified by surveyor"
+        "bd34e35e-7b2a-46a3-9557-2b764a2a1785": "City", 
+        "c57a4eba-2a25-465d-8760-d720550b47f0": "County", 
+        "04a98be3-d01c-4390-9f8c-dec5504b2159": "Federal", 
+        "00ca9b7e-1c34-452e-ac99-90a9f6a3f394": "Foreign", 
+        "5aac72dc-ae0a-402d-b532-bdaceee83e8e": "Local government", 
+        "8ca351b6-13de-408a-b903-a9822cc6ae0b": "Multiple categories of ownership", 
+        "1fe6e515-2b32-4024-8944-d5e428838851": "Native American", 
+        "164a94cc-165b-4f97-bcff-7b2b7f21144a": "Other", 
+        "a6e13fca-16e4-49bb-ae3d-ab68181d9a97": "Private-corporate-for profit", 
+        "e107fd5d-3097-4140-a703-51c48a9bb65c": "Private-corporate-nonprofit", 
+        "f6fcabaf-b7a8-48eb-85e5-1e70910cfc33": "Private-individual", 
+        "e4553e69-8d32-46a3-86dc-6cc7a6613066": "Private-unspecified", 
+        "a705acba-8e8a-44bb-be42-af007a58d3dc": "Public-unspecified", 
+        "269c96fb-98e1-42fb-8fe2-145757795863": "State", 
+        "8ca643f2-e717-492d-85dd-3272d174b2e8": "Unknown", 
+        "f6c8c171-2af2-42b8-9f70-4658eff57a6a": "Unspecified by surveyor"
     }, 
     "Recommendation": {
         "a29bd7cd-aea6-461d-963b-6cd6d4cae40a": "Defense", 
@@ -164,7 +152,7 @@
         "3da759e4-d185-4a8d-be57-28d517160cfb": "Morning"
     }, 
     "Plot Type": {
-        "02ab5604-22cc-436d-9c0a-91b6a236469c": "GV", 
-        "14f42fb5-3ad4-4541-bee4-96300159ff88": "NORM"
+        "4a8340fa-d0bd-4035-a2a4-2f68a104f1f6": "GV", 
+        "62ac28a5-b628-4c71-9c8d-94bb4fbfdf6d": "NORM"
     }
 }
