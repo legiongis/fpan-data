@@ -53,19 +53,6 @@
                 {
                     "card_id": "49013443-d474-11e7-b6a8-94659cf754d0", 
                     "config": {
-                        "label": "HMS-Region (read-only)", 
-                        "options": [], 
-                        "placeholder": "Select an option"
-                    }, 
-                    "id": "bf96698f-d474-11e7-93a9-94659cf754d0", 
-                    "label": "HMS-Region (read-only)", 
-                    "node_id": "ab1144df-d474-11e7-ac88-94659cf754d0", 
-                    "sortorder": 0, 
-                    "widget_id": "10000000-0000-0000-0000-000000000012"
-                }, 
-                {
-                    "card_id": "49013443-d474-11e7-b6a8-94659cf754d0", 
-                    "config": {
                         "label": "Managed Area Name (read-only)", 
                         "maxLength": null, 
                         "placeholder": "Enter text", 
@@ -78,16 +65,16 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 }, 
                 {
-                    "card_id": "49013443-d474-11e7-b6a8-94659cf754d0", 
+                    "card_id": "0b7d10d2-d474-11e7-b97c-94659cf754d0", 
                     "config": {
-                        "label": "Managed Area Category (read-only)", 
+                        "label": "Plot Type (for polygons)", 
                         "options": [], 
                         "placeholder": "Select an option"
                     }, 
-                    "id": "bf9705cf-d474-11e7-9189-94659cf754d0", 
-                    "label": "Managed Area Category (read-only)", 
-                    "node_id": "767910f1-d474-11e7-9318-94659cf754d0", 
-                    "sortorder": 3, 
+                    "id": "bf98da8f-d474-11e7-a084-94659cf754d0", 
+                    "label": "Plot Type (for polygons)", 
+                    "node_id": "0b7d10d3-d474-11e7-bbee-94659cf754d0", 
+                    "sortorder": 2, 
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 }, 
                 {
@@ -104,16 +91,29 @@
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 }, 
                 {
-                    "card_id": "0b7d10d2-d474-11e7-b97c-94659cf754d0", 
+                    "card_id": "49013443-d474-11e7-b6a8-94659cf754d0", 
                     "config": {
-                        "label": "Plot Type (for polygons)", 
+                        "label": "HMS-Region (read-only)", 
                         "options": [], 
                         "placeholder": "Select an option"
                     }, 
-                    "id": "bf98da8f-d474-11e7-a084-94659cf754d0", 
-                    "label": "Plot Type (for polygons)", 
-                    "node_id": "0b7d10d3-d474-11e7-bbee-94659cf754d0", 
-                    "sortorder": 2, 
+                    "id": "bf96698f-d474-11e7-93a9-94659cf754d0", 
+                    "label": "HMS-Region (read-only)", 
+                    "node_id": "ab1144df-d474-11e7-ac88-94659cf754d0", 
+                    "sortorder": 0, 
+                    "widget_id": "10000000-0000-0000-0000-000000000012"
+                }, 
+                {
+                    "card_id": "49013443-d474-11e7-b6a8-94659cf754d0", 
+                    "config": {
+                        "label": "Managed Area Category (read-only)", 
+                        "options": [], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "bf9705cf-d474-11e7-9189-94659cf754d0", 
+                    "label": "Managed Area Category (read-only)", 
+                    "node_id": "767910f1-d474-11e7-9318-94659cf754d0", 
+                    "sortorder": 3, 
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 }, 
                 {
@@ -367,10 +367,8 @@
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P87_is_identified_by"
                 }, 
                 {
-                    "config": {
-                        "rdmCollection": "82b3bade-0486-4350-ac67-d22397bc2c66"
-                    }, 
-                    "datatype": "concept", 
+                    "config": null, 
+                    "datatype": "string", 
                     "description": "Represents a single node in a graph", 
                     "graph_id": "e5f7a871-d473-11e7-8e45-94659cf754d0", 
                     "is_collector": false, 
@@ -401,10 +399,8 @@
                     "parentproperty": "http://www.cidoc-crm.org/cidoc-crm/P2_has_type"
                 }, 
                 {
-                    "config": {
-                        "rdmCollection": "65e2c5e3-6c30-4c74-b107-f5b7f700dc20"
-                    }, 
-                    "datatype": "concept", 
+                    "config": null, 
+                    "datatype": "string", 
                     "description": "Represents a single node in a graph", 
                     "graph_id": "e5f7a871-d473-11e7-8e45-94659cf754d0", 
                     "is_collector": false, 
