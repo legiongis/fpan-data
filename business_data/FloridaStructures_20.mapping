@@ -40,7 +40,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "aac42653-d524-11e7-a750-94659cf754d0", 
+            "arches_nodeid": "efe6cb5e-dbab-11e7-a327-94659cf754d0", 
             "arches_node_name": "Geospatial Coordinates", 
             "file_field_name": "geom", 
             "data_type": "geojson-feature-collection", 
@@ -62,7 +62,7 @@
             "export": false
         },
         {
-            "arches_nodeid": "aac4265e-d524-11e7-9186-94659cf754d0", 
+            "arches_nodeid": "efe6cb6c-dbab-11e7-a37a-94659cf754d0", 
             "arches_node_name": "Plot Method", 
             "file_field_name": "PLOTMTHD", 
             "data_type": "concept", 
