@@ -1,0 +1,36 @@
+{
+    "Scout": {
+        "cjmorton": {
+            "first_name":"Chet",
+            "middle_initial":"J",
+            "last_name":"Morton",
+            "password":"chet",
+            "regions":["Central","Northeast","East Central"],
+            "site_interests":["Historic"]
+        },
+        "fahardy": {
+            "first_name":"Frank",
+            "middle_initial":"A",
+            "last_name":"Hardy",
+            "password":"frank",
+            "regions":["Southeast","East Central"],
+            "site_interests":["Cemeteries"]
+        },
+        "jfhardy": {
+            "first_name":"Joe",
+            "middle_initial":"F",
+            "last_name":"Hardy",
+            "password":"joe",
+            "regions":["Northwest","Northeast","North Central"],
+            "site_interests":["Prehistoric","Historic"]
+        },
+        "bahooper": {
+            "first_name":"Biff",
+            "middle_initial":"A",
+            "last_name":"Hooper",
+            "password":"biff",
+            "regions":["Southwest","Southeast","East Central"],
+            "site_interests":["Historic","Cemeteries","Prehistoric"]
+        }
+    }
+}
