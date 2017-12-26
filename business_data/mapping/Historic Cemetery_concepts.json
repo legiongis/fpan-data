@@ -50,6 +50,11 @@
         "02d9594e-6c36-4ab5-a0d5-297a5f63304b": "Unspecified by Surveyor", 
         "d57ae5e7-f9d7-4b9a-bf20-6cb551c3d8af": "Used for Burials"
     }, 
+    "Photo Type": {
+        "45e1edf4-7c18-4c1f-8049-26bac2843117": "Close-up", 
+        "0e133db5-611a-48a7-831d-d3b6bb9bfad8": "Overview", 
+        "f5e88003-c6dc-428b-a6e4-e107e1eec38b": "Unique Feature"
+    }, 
     "Visible Artifacts": {
         "360157b2-162d-4dde-b44c-f401c4acdf85": "Architectural", 
         "a3b974b8-16bd-44d3-87d2-c565cdbe4061": "Glass", 

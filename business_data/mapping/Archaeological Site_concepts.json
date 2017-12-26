@@ -33,6 +33,11 @@
         "c1c172a6-c7d8-4806-9957-74c9ebc7f99a": "Prehistoric pottery", 
         "a5581ca6-1da5-4144-a53f-5a066219f6ce": "Shell tool"
     }, 
+    "Photo Type": {
+        "8b3f3c97-408f-4d99-88b9-df9b7b6eb4cf": "Close-up", 
+        "4157929b-6d16-47fd-876f-6b8724a995e8": "Overview", 
+        "fb33287f-8075-4550-97ff-55a1aa131851": "Unique Feature"
+    }, 
     "SurveyorEvaluationDist": {
         "1a8a46b5-d1c4-497b-b0bb-c7575c77fef0": "Ineligible as contributor to NR district", 
         "33c34c00-bc75-46f2-af64-9212c8eb3c8d": "Insufficient data to judge eligibility", 

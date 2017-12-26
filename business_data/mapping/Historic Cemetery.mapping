@@ -26,21 +26,28 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c850e4-d536-11e7-8748-94659cf754d0", 
+            "arches_nodeid": "990c5c53-ea8a-11e7-8abf-94659cf754d0", 
+            "arches_node_name": "Comments", 
+            "file_field_name": "Comments", 
+            "data_type": "string", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "990c5c55-ea8a-11e7-bdac-94659cf754d0", 
             "arches_node_name": "Current Address", 
             "file_field_name": "Current Address", 
             "data_type": "string", 
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c877f5-d536-11e7-afe1-94659cf754d0", 
+            "arches_nodeid": "990c8355-ea8a-11e7-a3d5-94659cf754d0", 
             "arches_node_name": "Current Use", 
             "file_field_name": "Current Use", 
             "data_type": "string", 
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c877f0-d536-11e7-a37b-94659cf754d0", 
+            "arches_nodeid": "990c8350-ea8a-11e7-8179-94659cf754d0", 
             "arches_node_name": "Environmental Mitigation Factors At Site", 
             "file_field_name": "Environmental Mitigation Factors At Site", 
             "data_type": "string", 
@@ -112,7 +119,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c877f2-d536-11e7-ac91-94659cf754d0", 
+            "arches_nodeid": "990c8352-ea8a-11e7-99b9-94659cf754d0", 
             "arches_node_name": "Other Visible Artifacts", 
             "file_field_name": "Other Visible Artifacts", 
             "data_type": "string", 
@@ -123,6 +130,21 @@
             "arches_node_name": "Ownership", 
             "file_field_name": "Ownership", 
             "data_type": "concept", 
+            "concept_export_value": "label", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "990c5c50-ea8a-11e7-a714-94659cf754d0", 
+            "arches_node_name": "Photo", 
+            "file_field_name": "Photo", 
+            "data_type": "file-list", 
+            "export": false
+        }, 
+        {
+            "arches_nodeid": "990c835b-ea8a-11e7-8bb0-94659cf754d0", 
+            "arches_node_name": "Photo Type", 
+            "file_field_name": "Photo Type", 
+            "data_type": "domain-value", 
             "concept_export_value": "label", 
             "export": false
         }, 
@@ -143,28 +165,28 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c877f9-d536-11e7-850c-94659cf754d0", 
+            "arches_nodeid": "990c8359-ea8a-11e7-8c37-94659cf754d0", 
             "arches_node_name": "Scout Visit Date", 
             "file_field_name": "Scout Visit Date", 
             "data_type": "date", 
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c877f4-d536-11e7-b95b-94659cf754d0", 
+            "arches_nodeid": "990c8354-ea8a-11e7-bb37-94659cf754d0", 
             "arches_node_name": "Scout Visit Evaluation Notes", 
             "file_field_name": "Scout Visit Evaluation Notes", 
             "data_type": "string", 
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c850e2-d536-11e7-a37b-94659cf754d0", 
+            "arches_nodeid": "990c835c-ea8a-11e7-bd56-94659cf754d0", 
             "arches_node_name": "Scout Visit Location Notes", 
             "file_field_name": "Scout Visit Location Notes", 
             "data_type": "string", 
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c850e8-d536-11e7-8522-94659cf754d0", 
+            "arches_nodeid": "990c834f-ea8a-11e7-bfb6-94659cf754d0", 
             "arches_node_name": "Scout Visit Location Verification", 
             "file_field_name": "Scout Visit Location Verification", 
             "data_type": "concept", 
@@ -172,7 +194,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c877f6-d536-11e7-9550-94659cf754d0", 
+            "arches_nodeid": "990c8356-ea8a-11e7-86f9-94659cf754d0", 
             "arches_node_name": "Scout Visit Overall Condition", 
             "file_field_name": "Scout Visit Overall Condition", 
             "data_type": "concept", 
@@ -180,7 +202,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c850e6-d536-11e7-a6aa-94659cf754d0", 
+            "arches_nodeid": "990c5c57-ea8a-11e7-88d2-94659cf754d0", 
             "arches_node_name": "Scout Visit Priority Evaluation", 
             "file_field_name": "Scout Visit Priority Evaluation", 
             "data_type": "concept", 
@@ -188,7 +210,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c877f1-d536-11e7-9eef-94659cf754d0", 
+            "arches_nodeid": "990c8351-ea8a-11e7-953f-94659cf754d0", 
             "arches_node_name": "Scout Visit Recommendations", 
             "file_field_name": "Scout Visit Recommendations", 
             "data_type": "concept-list", 
@@ -196,14 +218,14 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c850e7-d536-11e7-9dd6-94659cf754d0", 
+            "arches_nodeid": "990c5c58-ea8a-11e7-8816-94659cf754d0", 
             "arches_node_name": "Scout Visit Threats Note", 
             "file_field_name": "Scout Visit Threats Note", 
             "data_type": "string", 
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c877f8-d536-11e7-9a51-94659cf754d0", 
+            "arches_nodeid": "990c8358-ea8a-11e7-9bac-94659cf754d0", 
             "arches_node_name": "Scout Visit Threats Observed", 
             "file_field_name": "Scout Visit Threats Observed", 
             "data_type": "concept-list", 
@@ -211,7 +233,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c877f3-d536-11e7-9cb6-94659cf754d0", 
+            "arches_nodeid": "990c8353-ea8a-11e7-9600-94659cf754d0", 
             "arches_node_name": "Scout Visit Time of Day", 
             "file_field_name": "Scout Visit Time of Day", 
             "data_type": "concept", 
@@ -219,7 +241,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c850e5-d536-11e7-b178-94659cf754d0", 
+            "arches_nodeid": "990c5c56-ea8a-11e7-9fe0-94659cf754d0", 
             "arches_node_name": "Scout Visit Type", 
             "file_field_name": "Scout Visit Type", 
             "data_type": "concept", 
@@ -235,7 +257,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c877fa-d536-11e7-aa39-94659cf754d0", 
+            "arches_nodeid": "990c835a-ea8a-11e7-b467-94659cf754d0", 
             "arches_node_name": "Site Impact Comments", 
             "file_field_name": "Site Impact Comments", 
             "data_type": "string", 
@@ -265,7 +287,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c877f7-d536-11e7-b1a9-94659cf754d0", 
+            "arches_nodeid": "990c8357-ea8a-11e7-a34f-94659cf754d0", 
             "arches_node_name": "Visible Artifacts", 
             "file_field_name": "Visible Artifacts", 
             "data_type": "concept-list", 
@@ -273,7 +295,7 @@
             "export": false
         }, 
         {
-            "arches_nodeid": "f7c850e3-d536-11e7-b3f7-94659cf754d0", 
+            "arches_nodeid": "990c5c54-ea8a-11e7-ab39-94659cf754d0", 
             "arches_node_name": "Visiting Scout ID", 
             "file_field_name": "Visiting Scout ID", 
             "data_type": "string", 

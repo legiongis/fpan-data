@@ -1,9 +1,4 @@
 {
-    "Priority": {
-        "6475fae7-797d-4c40-b7d7-d6070ed38958": "High", 
-        "71ecc9bf-1cda-47aa-a5e2-c05ecaf8bb4b": "Low", 
-        "3af799ea-5188-4422-8b24-5f341f92c576": "Medium"
-    }, 
     "Style": {
         "2fc0a426-676d-41df-a235-6326dc05b5be": "Art Deco ca. 1920-1940", 
         "0ddb2fe3-9dd1-4bc3-a8b2-5913b38fe555": "Beaux Arts Eclecticism", 
@@ -62,11 +57,6 @@
         "671f54be-1d43-41ef-84e8-d8db0361942a": "Tudor Revival ca. 1890-1940", 
         "03280058-8ae6-46a0-9405-f4e1d9967906": "Unspecified by Surveyor"
     }, 
-    "Plot Method": {
-        "43dea8e8-3dd6-494c-b7e2-d7e2e7750b34": "D", 
-        "f21b3330-c64c-460d-b6c7-d28dc7fc91b1": "M", 
-        "2fc96b3a-5874-4aec-bc28-92838b764c9e": "X"
-    }, 
     "Threats": {
         "180efc49-4660-4650-b7bb-d9ec6fd1cec9": "Active Erosion", 
         "81178803-cfb1-4d23-b7dd-87fd6bc35b39": "Animal disturbance", 
@@ -80,114 +70,6 @@
         "18e9458f-4893-4e79-84d8-01d9b8dca5c2": "Wave action", 
         "6a1c8d3a-159a-4003-9361-f0d379f06698": "Wind"
     }, 
-    "Visible Artifacts": {
-        "360157b2-162d-4dde-b44c-f401c4acdf85": "Architectural", 
-        "a3b974b8-16bd-44d3-87d2-c565cdbe4061": "Glass", 
-        "497e554c-fb93-4d2c-8ec3-a1a4bc28997d": "Historic ceramics", 
-        "caf4fecb-d308-40be-9bda-cbded7109474": "Lithics", 
-        "561f2f7e-92a2-4cf3-bb9d-3264f7390775": "Other (describe below)", 
-        "c1c172a6-c7d8-4806-9957-74c9ebc7f99a": "Prehistoric pottery", 
-        "a5581ca6-1da5-4144-a53f-5a066219f6ce": "Shell tool"
-    }, 
-    "Resource to Resource Relationship Types": {
-        "ac41d9be-79db-4256-b368-2f4559cfbe55": "is related to"
-    }, 
-    "SHPO Significance": {
-        "efddfc83-a9a6-4760-8634-4f6d7eb6f950": "Eligible for NRHP", 
-        "ef8642bd-c558-4914-b544-0dd966987e42": "Ineligible for NRHP", 
-        "313bb781-3c7c-456d-9b11-9b0ed980cee7": "Insufficient Information", 
-        "6fdf6bd2-7ad4-4a6e-941d-013a11fc9028": "Not Evaluated by SHPO", 
-        "a9f511f1-ea2b-45fc-85c0-753cd03244fc": "Potentially Eligible for NRHP"
-    }, 
-    "Exterior Plan": {
-        "80d64d16-7836-4a78-b675-6062d2b85862": "Central Block-1 wing", 
-        "29809631-d097-431a-a512-be24ce4f0483": "Central Block-Symm Wings", 
-        "de81989d-35d3-4c70-bceb-96aef2577e8f": "E-shaped", 
-        "e4a12136-a59c-4722-ac9d-458a4e553d80": "Greek Cross", 
-        "b71c1fcc-870e-4b3d-9f0e-8f579f68a3cf": "I-shaped", 
-        "defe7da2-5674-4c70-ad85-853e5b74de70": "Irregular", 
-        "2cdd096b-edf7-48a5-b745-e2de458ed208": "L-shaped", 
-        "555575fe-7414-4c21-99ff-b64b18f1c983": "Latin Cross", 
-        "fe6c8f23-10e5-40fc-8149-6932be70b6f1": "NULL VALUE", 
-        "8f3bb8d3-9205-4833-837a-d203f700b186": "Not Applicable", 
-        "59306ba6-618c-4f7d-b89c-d3fff451e5e8": "Octagonal", 
-        "a707eba6-608d-4503-8f37-6a7e028b152d": "Other", 
-        "d9c9c5f0-83b1-45ec-b80e-bd673b1ccd8c": "Rectangular", 
-        "be53caee-816c-4a18-9a21-d6eeb0c25d10": "Round or Circular", 
-        "c5a24cf3-4f4c-43b0-a1c7-18945e2982f1": "Square", 
-        "51c51200-8521-475b-b8a4-29f247970168": "T-shaped", 
-        "c9b88089-59f4-49ea-8d2f-b36c919f4596": "U-shaped", 
-        "755f3040-3dc6-4492-84d2-fa06597f631b": "Unspecified"
-    }, 
-    "Visit Type": {
-        "395b456e-ee37-486a-aa4d-161502ef1f52": "Follow-up", 
-        "916a56f4-013e-4c61-82b0-9eca1cc20420": "Initial"
-    }, 
-    "Structural System": {
-        "05a94380-9b23-4f45-9c56-b54a1edb64e4": "Balloon wood frame", 
-        "77f1304f-160d-447a-a8e6-f7ad2709a5a2": "Braced wood frame", 
-        "17fe223b-2040-44d8-8161-8e280db9cfbd": "Brick", 
-        "dd0248a8-1ffe-4113-8015-87bc7250082c": "Butt joint log", 
-        "f9a45298-df1e-4856-ba76-b6d7c9fbd481": "Cast iron skeleton", 
-        "c2ad5ede-e64e-4955-8946-3c59f7d8475f": "Cast-in-place concrete", 
-        "9fd3d54b-96e1-4c02-a8b4-114a98d606be": "Concrete", 
-        "dbece543-fb35-450a-a933-b4dd22cfb049": "Concrete block", 
-        "aaf333fe-9ad1-467f-a154-4c54f7e3f4df": "Coquina block", 
-        "63fa774a-4def-455d-8f4a-fc19f9944c2a": "Dovetail log", 
-        "9ecfbbf6-8dcb-4d4a-874f-c6866ca9728e": "Glued-laminated wood/plywood", 
-        "80cd4efa-9f35-44c7-a176-405ae68ec9bf": "Lapped log", 
-        "cd717790-42e1-45a5-a4f3-37ffe8e3a268": "Light wood frame", 
-        "ad3b77c3-3744-454f-9011-33052532ad2d": "Log", 
-        "b6657d03-c0df-4be7-9e63-537358507985": "Masonry", 
-        "ee64d915-8805-4ce3-b394-555e6eb952e8": "Metal skeleton", 
-        "7aba7fad-926d-4923-8631-f7485bd3fc6e": "NULL VALUE", 
-        "beec22c3-b8aa-4253-8575-e71cfaeaa2cf": "Not applicable", 
-        "45b5ad8e-d58b-407b-b915-088a8601213b": "Not specified by surveyor", 
-        "7247a8bb-df25-48aa-8836-98839aa4e5af": "Other", 
-        "ee6f0292-a241-44da-945b-b3ea567b2232": "Plank wall", 
-        "d702d7fd-f849-48f5-b633-e63352e45159": "Platform wood frame", 
-        "e0924a38-f37e-4035-a56f-678a76be45f6": "Pre-cast concrete", 
-        "1d1bd3eb-56e7-444b-ac7a-3361007b3690": "Reinforced concrete", 
-        "23217549-36f9-4d85-a671-fcee0137418e": "Retaining wall", 
-        "3777ebe8-041b-419f-8e8b-8f00c7d23305": "Saddle notched log", 
-        "0c3c2181-e29b-4d86-a002-503c0690e830": "Space frame", 
-        "3cc1b67e-73f4-460c-8296-478d7d1f4842": "Steel skeleton", 
-        "75ee368f-6976-4fea-a16f-9bb773bb22f5": "Stone", 
-        "bfe06bdc-23ed-428d-b3ec-80b5f27c43da": "Structural clay tile", 
-        "25264b93-bf14-4973-b736-891c437b936c": "Tabby poured", 
-        "ef8739d5-fcd1-4d7b-b382-e2f3acc827e8": "Tensile", 
-        "dd339431-1b6a-497f-a2e7-17315473072a": "Tongue-and-groove log", 
-        "4a30b6d5-48c2-43f5-b4c5-b54b832bcdb6": "Unknown, as specified by documenter", 
-        "b076c842-e211-4a16-a1c9-365fc64e1cc6": "V-notched log", 
-        "794b6c06-f586-4cc5-a3e6-808c5c071a15": "Wood frame", 
-        "d08eda27-03d0-4e2e-a605-d8b5713d10c3": "Wrought iron skeleton"
-    }, 
-    "Location Verification": {
-        "b32ddf3e-753b-4c97-b113-dd673b9edaf8": "Mission location verified", 
-        "66248378-2209-4f3f-930c-2896ae455730": "Site could not be found", 
-        "ef817be4-59d5-49ae-bf4e-d58fb78f3324": "Site found but in different location"
-    }, 
-    "Regions": {
-        "040d91ea-6984-4a56-9e72-64f87834e145": "Central", 
-        "bded0c6f-e2ab-4177-84e1-de69c69cd6e5": "East Central", 
-        "4cc0e31e-bd46-4632-9c36-5f3c2628ef64": "North Central", 
-        "258e213d-a47a-4545-9a94-7ab1449d9f67": "Northeast", 
-        "5c97e64d-8598-482a-bbcd-e61684f34389": "Northwest", 
-        "a74fec7a-75da-4faf-8e56-d8af1ce8d5e6": "Southeast", 
-        "14e1f3bb-d8a6-42fa-a375-c03a0bd89b53": "Southwest", 
-        "602d53f7-f371-4603-8e5b-40e2b341cb94": "West Central"
-    }, 
-    "SurveyorEvaluationDist": {
-        "1a8a46b5-d1c4-497b-b0bb-c7575c77fef0": "Ineligible as contributor to NR district", 
-        "33c34c00-bc75-46f2-af64-9212c8eb3c8d": "Insufficient data to judge eligibility", 
-        "8907ca4c-4a43-4a54-a306-8d3fb29da174": "Likely contributor to NR district", 
-        "a55f91cc-dd64-4c83-9648-3ac005363dbb": "More work recommended", 
-        "d5fd3546-6d04-4dea-ae8c-484ee66f2eb9": "No further work recommended", 
-        "e6c9c220-09f3-4e3b-ad9a-7bb45a91f689": "Not Evaluated by Recorder", 
-        "53247ecf-0e82-414f-8a8f-0af397373f80": "Potential contributor to NR district", 
-        "74c682bb-da01-4de1-b3d5-54832c3c5404": "Preservation not recommended", 
-        "2b8c7210-4349-4b07-88a5-21890ef522cd": "Preservation recommended"
-    }, 
     "Surveyor Evaluation": {
         "f2e2a90a-3b59-434c-92b3-e7092f7755ba": "Eligible for NRHP", 
         "66517b97-1c9e-4c1f-9c4b-4da30ae186b9": "Ineligible for NRHP", 
@@ -199,34 +81,15 @@
         "48556455-c28b-4481-869d-9fbf23cbca02": "Preservation Not Recommended", 
         "a7d2ba07-c58c-4c30-ae46-588e09bb1271": "Preservation Recommended"
     }, 
-    "Ownership": {
-        "bd34e35e-7b2a-46a3-9557-2b764a2a1785": "City", 
-        "c57a4eba-2a25-465d-8760-d720550b47f0": "County", 
-        "04a98be3-d01c-4390-9f8c-dec5504b2159": "Federal", 
-        "00ca9b7e-1c34-452e-ac99-90a9f6a3f394": "Foreign", 
-        "5aac72dc-ae0a-402d-b532-bdaceee83e8e": "Local government", 
-        "8ca351b6-13de-408a-b903-a9822cc6ae0b": "Multiple categories of ownership", 
-        "1fe6e515-2b32-4024-8944-d5e428838851": "Native American", 
-        "164a94cc-165b-4f97-bcff-7b2b7f21144a": "Other", 
-        "a6e13fca-16e4-49bb-ae3d-ab68181d9a97": "Private-corporate-for profit", 
-        "e107fd5d-3097-4140-a703-51c48a9bb65c": "Private-corporate-nonprofit", 
-        "f6fcabaf-b7a8-48eb-85e5-1e70910cfc33": "Private-individual", 
-        "e4553e69-8d32-46a3-86dc-6cc7a6613066": "Private-unspecified", 
-        "a705acba-8e8a-44bb-be42-af007a58d3dc": "Public-unspecified", 
-        "269c96fb-98e1-42fb-8fe2-145757795863": "State", 
-        "8ca643f2-e717-492d-85dd-3272d174b2e8": "Unknown", 
-        "f6c8c171-2af2-42b8-9f70-4658eff57a6a": "Unspecified by surveyor"
+    "Location Verification": {
+        "b32ddf3e-753b-4c97-b113-dd673b9edaf8": "Mission location verified", 
+        "66248378-2209-4f3f-930c-2896ae455730": "Site could not be found", 
+        "ef817be4-59d5-49ae-bf4e-d58fb78f3324": "Site found but in different location"
     }, 
-    "Recommendation": {
-        "a29bd7cd-aea6-461d-963b-6cd6d4cae40a": "Defense", 
-        "25a2868f-bc77-4246-954a-851a271d962b": "FMSF update", 
-        "2455d32d-d1c0-4bd9-b47a-6ba4877c885d": "Other", 
-        "f953f862-4cdd-4564-a0d1-0db9f693db8a": "Repeat visit"
-    }, 
-    "Overall Site Condition": {
-        "5bafbd5f-8e25-4db3-8e23-a730c633d2f7": "Fair = Declining", 
-        "3696827d-9da2-4b0d-a892-7c320f2da9f9": "Good = Stable", 
-        "948ef076-d14c-4cb3-9713-f780463a5a3c": "Poor = Unstable"
+    "Priority": {
+        "6475fae7-797d-4c40-b7d7-d6070ed38958": "High", 
+        "71ecc9bf-1cda-47aa-a5e2-c05ecaf8bb4b": "Low", 
+        "3af799ea-5188-4422-8b24-5f341f92c576": "Medium"
     }, 
     "Exterior Fabric": {
         "5a45ad31-2f1d-4cd7-a0d2-286673748b32": "Aluminum", 
@@ -283,6 +146,118 @@
         "2e43ffaf-a385-41cb-9b26-142ec106073b": "Wood shingles", 
         "82f70fd0-699b-45cc-9299-17a4a9e10727": "Wood siding", 
         "498a2284-2be1-4924-958e-1c2dbd07d8bc": "Wood/plywood"
+    }, 
+    "Photo Type": {
+        "c29a1184-63f0-4669-ad0c-11d680afc765": "Character-defining Feature", 
+        "4406ed80-6195-418d-9b9b-d955784d0c4f": "Close-up", 
+        "be12ae01-9f49-4b2f-9b57-ffb9b308e88a": "Fa\u00e7ade", 
+        "888ae788-4a40-4c87-8aad-3de83fff9c92": "Overview", 
+        "dea0f79f-f6ee-454a-bf0f-f27eb98607df": "Unique Feature"
+    }, 
+    "Exterior Plan": {
+        "80d64d16-7836-4a78-b675-6062d2b85862": "Central Block-1 wing", 
+        "29809631-d097-431a-a512-be24ce4f0483": "Central Block-Symm Wings", 
+        "de81989d-35d3-4c70-bceb-96aef2577e8f": "E-shaped", 
+        "e4a12136-a59c-4722-ac9d-458a4e553d80": "Greek Cross", 
+        "b71c1fcc-870e-4b3d-9f0e-8f579f68a3cf": "I-shaped", 
+        "defe7da2-5674-4c70-ad85-853e5b74de70": "Irregular", 
+        "2cdd096b-edf7-48a5-b745-e2de458ed208": "L-shaped", 
+        "555575fe-7414-4c21-99ff-b64b18f1c983": "Latin Cross", 
+        "fe6c8f23-10e5-40fc-8149-6932be70b6f1": "NULL VALUE", 
+        "8f3bb8d3-9205-4833-837a-d203f700b186": "Not Applicable", 
+        "59306ba6-618c-4f7d-b89c-d3fff451e5e8": "Octagonal", 
+        "a707eba6-608d-4503-8f37-6a7e028b152d": "Other", 
+        "d9c9c5f0-83b1-45ec-b80e-bd673b1ccd8c": "Rectangular", 
+        "be53caee-816c-4a18-9a21-d6eeb0c25d10": "Round or Circular", 
+        "c5a24cf3-4f4c-43b0-a1c7-18945e2982f1": "Square", 
+        "51c51200-8521-475b-b8a4-29f247970168": "T-shaped", 
+        "c9b88089-59f4-49ea-8d2f-b36c919f4596": "U-shaped", 
+        "755f3040-3dc6-4492-84d2-fa06597f631b": "Unspecified"
+    }, 
+    "SurveyorEvaluationDist": {
+        "1a8a46b5-d1c4-497b-b0bb-c7575c77fef0": "Ineligible as contributor to NR district", 
+        "33c34c00-bc75-46f2-af64-9212c8eb3c8d": "Insufficient data to judge eligibility", 
+        "8907ca4c-4a43-4a54-a306-8d3fb29da174": "Likely contributor to NR district", 
+        "a55f91cc-dd64-4c83-9648-3ac005363dbb": "More work recommended", 
+        "d5fd3546-6d04-4dea-ae8c-484ee66f2eb9": "No further work recommended", 
+        "e6c9c220-09f3-4e3b-ad9a-7bb45a91f689": "Not Evaluated by Recorder", 
+        "53247ecf-0e82-414f-8a8f-0af397373f80": "Potential contributor to NR district", 
+        "74c682bb-da01-4de1-b3d5-54832c3c5404": "Preservation not recommended", 
+        "2b8c7210-4349-4b07-88a5-21890ef522cd": "Preservation recommended"
+    }, 
+    "Ownership": {
+        "bd34e35e-7b2a-46a3-9557-2b764a2a1785": "City", 
+        "c57a4eba-2a25-465d-8760-d720550b47f0": "County", 
+        "04a98be3-d01c-4390-9f8c-dec5504b2159": "Federal", 
+        "00ca9b7e-1c34-452e-ac99-90a9f6a3f394": "Foreign", 
+        "5aac72dc-ae0a-402d-b532-bdaceee83e8e": "Local government", 
+        "8ca351b6-13de-408a-b903-a9822cc6ae0b": "Multiple categories of ownership", 
+        "1fe6e515-2b32-4024-8944-d5e428838851": "Native American", 
+        "164a94cc-165b-4f97-bcff-7b2b7f21144a": "Other", 
+        "a6e13fca-16e4-49bb-ae3d-ab68181d9a97": "Private-corporate-for profit", 
+        "e107fd5d-3097-4140-a703-51c48a9bb65c": "Private-corporate-nonprofit", 
+        "f6fcabaf-b7a8-48eb-85e5-1e70910cfc33": "Private-individual", 
+        "e4553e69-8d32-46a3-86dc-6cc7a6613066": "Private-unspecified", 
+        "a705acba-8e8a-44bb-be42-af007a58d3dc": "Public-unspecified", 
+        "269c96fb-98e1-42fb-8fe2-145757795863": "State", 
+        "8ca643f2-e717-492d-85dd-3272d174b2e8": "Unknown", 
+        "f6c8c171-2af2-42b8-9f70-4658eff57a6a": "Unspecified by surveyor"
+    }, 
+    "Structural System": {
+        "05a94380-9b23-4f45-9c56-b54a1edb64e4": "Balloon wood frame", 
+        "77f1304f-160d-447a-a8e6-f7ad2709a5a2": "Braced wood frame", 
+        "17fe223b-2040-44d8-8161-8e280db9cfbd": "Brick", 
+        "dd0248a8-1ffe-4113-8015-87bc7250082c": "Butt joint log", 
+        "f9a45298-df1e-4856-ba76-b6d7c9fbd481": "Cast iron skeleton", 
+        "c2ad5ede-e64e-4955-8946-3c59f7d8475f": "Cast-in-place concrete", 
+        "9fd3d54b-96e1-4c02-a8b4-114a98d606be": "Concrete", 
+        "dbece543-fb35-450a-a933-b4dd22cfb049": "Concrete block", 
+        "aaf333fe-9ad1-467f-a154-4c54f7e3f4df": "Coquina block", 
+        "63fa774a-4def-455d-8f4a-fc19f9944c2a": "Dovetail log", 
+        "9ecfbbf6-8dcb-4d4a-874f-c6866ca9728e": "Glued-laminated wood/plywood", 
+        "80cd4efa-9f35-44c7-a176-405ae68ec9bf": "Lapped log", 
+        "cd717790-42e1-45a5-a4f3-37ffe8e3a268": "Light wood frame", 
+        "ad3b77c3-3744-454f-9011-33052532ad2d": "Log", 
+        "b6657d03-c0df-4be7-9e63-537358507985": "Masonry", 
+        "ee64d915-8805-4ce3-b394-555e6eb952e8": "Metal skeleton", 
+        "7aba7fad-926d-4923-8631-f7485bd3fc6e": "NULL VALUE", 
+        "beec22c3-b8aa-4253-8575-e71cfaeaa2cf": "Not applicable", 
+        "45b5ad8e-d58b-407b-b915-088a8601213b": "Not specified by surveyor", 
+        "7247a8bb-df25-48aa-8836-98839aa4e5af": "Other", 
+        "ee6f0292-a241-44da-945b-b3ea567b2232": "Plank wall", 
+        "d702d7fd-f849-48f5-b633-e63352e45159": "Platform wood frame", 
+        "e0924a38-f37e-4035-a56f-678a76be45f6": "Pre-cast concrete", 
+        "1d1bd3eb-56e7-444b-ac7a-3361007b3690": "Reinforced concrete", 
+        "23217549-36f9-4d85-a671-fcee0137418e": "Retaining wall", 
+        "3777ebe8-041b-419f-8e8b-8f00c7d23305": "Saddle notched log", 
+        "0c3c2181-e29b-4d86-a002-503c0690e830": "Space frame", 
+        "3cc1b67e-73f4-460c-8296-478d7d1f4842": "Steel skeleton", 
+        "75ee368f-6976-4fea-a16f-9bb773bb22f5": "Stone", 
+        "bfe06bdc-23ed-428d-b3ec-80b5f27c43da": "Structural clay tile", 
+        "25264b93-bf14-4973-b736-891c437b936c": "Tabby poured", 
+        "ef8739d5-fcd1-4d7b-b382-e2f3acc827e8": "Tensile", 
+        "dd339431-1b6a-497f-a2e7-17315473072a": "Tongue-and-groove log", 
+        "4a30b6d5-48c2-43f5-b4c5-b54b832bcdb6": "Unknown, as specified by documenter", 
+        "b076c842-e211-4a16-a1c9-365fc64e1cc6": "V-notched log", 
+        "794b6c06-f586-4cc5-a3e6-808c5c071a15": "Wood frame", 
+        "d08eda27-03d0-4e2e-a605-d8b5713d10c3": "Wrought iron skeleton"
+    }, 
+    "Resource to Resource Relationship Types": {
+        "ac41d9be-79db-4256-b368-2f4559cfbe55": "is related to"
+    }, 
+    "Visible Artifacts": {
+        "360157b2-162d-4dde-b44c-f401c4acdf85": "Architectural", 
+        "a3b974b8-16bd-44d3-87d2-c565cdbe4061": "Glass", 
+        "497e554c-fb93-4d2c-8ec3-a1a4bc28997d": "Historic ceramics", 
+        "caf4fecb-d308-40be-9bda-cbded7109474": "Lithics", 
+        "561f2f7e-92a2-4cf3-bb9d-3264f7390775": "Other (describe below)", 
+        "c1c172a6-c7d8-4806-9957-74c9ebc7f99a": "Prehistoric pottery", 
+        "a5581ca6-1da5-4144-a53f-5a066219f6ce": "Shell tool"
+    }, 
+    "Overall Site Condition": {
+        "5bafbd5f-8e25-4db3-8e23-a730c633d2f7": "Fair = Declining", 
+        "3696827d-9da2-4b0d-a892-7c320f2da9f9": "Good = Stable", 
+        "948ef076-d14c-4cb3-9713-f780463a5a3c": "Poor = Unstable"
     }, 
     "Visit Time of Day": {
         "0b2e1622-4a22-4df5-b50d-83a5649317bd": "Afternoon", 
@@ -438,5 +413,37 @@
         "f39ed5bd-f361-47cd-aa2e-21cd4fc0d4d0": "Water Tower or Supply Structure", 
         "660c5c2e-c3a4-4eb0-b4dd-db2c781facb6": "Water fountain", 
         "9627ec32-275c-43d5-9f1f-b260e91998dd": "Zoo"
+    }, 
+    "Regions": {
+        "040d91ea-6984-4a56-9e72-64f87834e145": "Central", 
+        "bded0c6f-e2ab-4177-84e1-de69c69cd6e5": "East Central", 
+        "4cc0e31e-bd46-4632-9c36-5f3c2628ef64": "North Central", 
+        "258e213d-a47a-4545-9a94-7ab1449d9f67": "Northeast", 
+        "5c97e64d-8598-482a-bbcd-e61684f34389": "Northwest", 
+        "a74fec7a-75da-4faf-8e56-d8af1ce8d5e6": "Southeast", 
+        "14e1f3bb-d8a6-42fa-a375-c03a0bd89b53": "Southwest", 
+        "602d53f7-f371-4603-8e5b-40e2b341cb94": "West Central"
+    }, 
+    "Plot Method": {
+        "43dea8e8-3dd6-494c-b7e2-d7e2e7750b34": "D", 
+        "f21b3330-c64c-460d-b6c7-d28dc7fc91b1": "M", 
+        "2fc96b3a-5874-4aec-bc28-92838b764c9e": "X"
+    }, 
+    "SHPO Significance": {
+        "efddfc83-a9a6-4760-8634-4f6d7eb6f950": "Eligible for NRHP", 
+        "ef8642bd-c558-4914-b544-0dd966987e42": "Ineligible for NRHP", 
+        "313bb781-3c7c-456d-9b11-9b0ed980cee7": "Insufficient Information", 
+        "6fdf6bd2-7ad4-4a6e-941d-013a11fc9028": "Not Evaluated by SHPO", 
+        "a9f511f1-ea2b-45fc-85c0-753cd03244fc": "Potentially Eligible for NRHP"
+    }, 
+    "Recommendation": {
+        "a29bd7cd-aea6-461d-963b-6cd6d4cae40a": "Defense", 
+        "25a2868f-bc77-4246-954a-851a271d962b": "FMSF update", 
+        "2455d32d-d1c0-4bd9-b47a-6ba4877c885d": "Other", 
+        "f953f862-4cdd-4564-a0d1-0db9f693db8a": "Repeat visit"
+    }, 
+    "Visit Type": {
+        "395b456e-ee37-486a-aa4d-161502ef1f52": "Follow-up", 
+        "916a56f4-013e-4c61-82b0-9eca1cc20420": "Initial"
     }
 }
