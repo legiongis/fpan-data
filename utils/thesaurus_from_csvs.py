@@ -200,6 +200,10 @@ outdir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))
 thesaurusfile = os.path.join(outdir,"concepts",new_thesaurus_name+".xml")
 collectionfile = os.path.join(outdir,"collections",csvdir_name+"-collections.xml")
 
+print "output files:"
+print "   ",thesaurusfile
+print "   ",collectionfile
+
 ## if you want, everything could be added to an existing thesaurus xml
 ## this may not be desirable outside of testing
 ## otherwise, make a new thesaurus (existing files will be overwritten)
