@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><DataProperties><copyHistory><copy source="C:\arches\fpan\data\shp-ref\AllPublicLandsFL" dest="\\DESKTOP-6B427OV\C$\arches\fpan\data\shp-ref\from_julie\AllPublicLandsFL" date="20171023" time="11390200"/></copyHistory><itemProps><itemName Sync="TRUE">flma_201706</itemName><nativeExtBox><westBL Sync="TRUE">65060.633600</westBL><eastBL Sync="TRUE">793311.990300</eastBL><southBL Sync="TRUE">33530.097700</southBL><northBL Sync="TRUE">780277.875000</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">64.998</itemSize><itemLocation><linkage Sync="TRUE">file://\\DESKTOP-6B427OV\C$\arches\fpan\data\shp-ref\from_julie\AllPublicLandsFL</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><imsContentType Sync="TRUE" export="False">002</imsContentType></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">NAD_1983_HARN_Florida_GDL_Albers</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.3'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_HARN_Florida_GDL_Albers&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983_HARN&amp;quot;,DATUM[&amp;quot;D_North_American_1983_HARN&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,400000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-84.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,24.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,31.5],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,24.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,3087]]&lt;/WKT&gt;&lt;XOrigin&gt;-19550100&lt;/XOrigin&gt;&lt;YOrigin&gt;-7526400&lt;/YOrigin&gt;&lt;XYScale&gt;225743210.67916927&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;3087&lt;/WKID&gt;&lt;LatestWKID&gt;3087&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><SyncDate>20170616</SyncDate><SyncTime>16232700</SyncTime><ModDate>20170616</ModDate><ModTime>16232700</ModTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISProfile>FGDC</ArcGISProfile><SyncOnce>FALSE</SyncOnce><CreaDate>20171021</CreaDate><CreaTime>16221100</CreaTime><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><scaleRange><minScale>150000000</minScale><maxScale>5000</maxScale></scaleRange></Esri><mdLang><languageCode value="eng"/><countryCode value="USA"/></mdLang><mdChar><CharSetCd value="004"/></mdChar><mdHrLv><ScopeCd value="005"/></mdHrLv><mdContact xmlns=""><rpIndName>Nathan Pasco</rpIndName><rpOrgName>Florida Natural Areas Inventory</rpOrgName><rpPosName>Conservation Data Analyst</rpPosName><role><RoleCd value="007"/></role><rpCntInfo xmlns=""><cntAddress addressType="both"><delPoint>1018 Thomasville Road, Suite 200-C</delPoint><city>Tallahassee</city><adminArea>Florida</adminArea><postCode>32303</postCode><eMailAdd>npasco@fnai.fsu.edu</eMailAdd><country>US</country></cntAddress><cntPhone><voiceNum tddtty="">850-224-8207 x216</voiceNum></cntPhone></rpCntInfo></mdContact><distInfo xmlns=""><distTranOps xmlns=""><onLineSrc xmlns=""><linkage>http://www.fnai.org</linkage></onLineSrc><transSize>61.495</transSize></distTranOps><distFormat xmlns=""><formatVer>ArcGIS 10.3</formatVer><formatName Sync="TRUE">Shapefile</formatName></distFormat></distInfo><dataIdInfo><idCitation xmlns=""><citRespParty xmlns=""><rpOrgName>Florida Natural Areas Inventory</rpOrgName><role><RoleCd value="006"/></role></citRespParty><resEdDate>20170612</resEdDate><date><createDate>2017-06-12T00:00:00</createDate><pubDate>2017-06-12T00:00:00</pubDate></date><resEd>June 2017</resEd><presForm xmlns=""><PresFormCd value="005"/></presForm><resTitle Sync="FALSE">Florida Managed Areas - June 2017</resTitle></idCitation><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;FLORIDA CONSERVATION LANDS (layer name FLMA): This is a polygon data layer for public (and some private) lands that the Florida Natural Areas Inventory (FNAI) has identified as having natural resource value and that are being managed at least partially for conservation purposes. The term "Managed Area" refers to a managed conservation land.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idPurp>To prepare a comprehensive statewide dataset on managed conservation lands by compiling data from diverse sources, and to make this data set available for public use.</idPurp><idCredit>Florida Natural Areas Inventory</idCredit><idStatus><ProgCd value="001"/></idStatus><resMaint xmlns=""><maintFreq><MaintFreqCd value="006"/></maintFreq></resMaint><placeKeys xmlns=""><keyword>Florida</keyword></placeKeys><themeKeys xmlns=""><keyword>FNAI</keyword><keyword>conservation lands</keyword><keyword>managed areas</keyword></themeKeys><searchKeys><keyword>Florida</keyword><keyword>FNAI</keyword><keyword>conservation lands</keyword><keyword>managed areas</keyword></searchKeys><dataLang><languageCode value="eng"/><countryCode value="USA"/></dataLang><dataChar><CharSetCd value="004"/></dataChar><spatRpType><SpatRepTypCd value="001"/></spatRpType><dataExt xmlns=""><geoEle xmlns=""><GeoBndBox esriExtentType="search"><exTypeCode>1</exTypeCode><westBL Sync="TRUE">-87.509056</westBL><eastBL Sync="TRUE">-79.879813</eastBL><northBL Sync="TRUE">31.030878</northBL><southBL Sync="TRUE">24.246904</southBL></GeoBndBox></geoEle></dataExt><idPoC xmlns=""><editorSource>external</editorSource><editorDigest>618d578b756e243661fbdb1788b9810</editorDigest><rpIndName>Nathan Pasco</rpIndName><rpOrgName>Florida Natural Areas Inventory</rpOrgName><rpPosName>Conservation Data Analyst</rpPosName><rpCntInfo xmlns=""><cntAddress addressType="both"><delPoint>1018 Thomasville Road, Suite 200-C</delPoint><city>Tallahassee</city><adminArea>Florida</adminArea><postCode>32303</postCode><eMailAdd>npasco@fnai.fsu.edu</eMailAdd><country>US</country></cntAddress><cntPhone><voiceNum tddtty="">850-224-8207 x216</voiceNum></cntPhone></rpCntInfo><editorSave>True</editorSave><displayName>Nathan Pasco</displayName><role><RoleCd value="007"/></role></idPoC><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1.4959</envirDesc><resConst><Consts xmlns=""><useLimit>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;Use of this data should be accompanied by proper citation of FNAI. Available for free download at: http://www.fnai.org/gis_data.cfm&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;&lt;/DIV&gt;</useLimit></Consts></resConst></dataIdInfo><mdMaint xmlns=""><maintFreq><MaintFreqCd value="006"/></maintFreq><maintNote>Last metadata review date: 20170612</maintNote></mdMaint><dqInfo xmlns=""><dqScope><scpLvl><ScopeCd value="005"/></scpLvl></dqScope><dataLineage><prcStep xmlns=""><stepDesc>This GIS data layer was generated by the Florida Natural Areas Inventory (FNAI) using ArcGIS v 10.3.2. Information in the FLMA data layer was provided to FNAI by the individual managing agencies. Boundary information on managed areas was originally in either digital format or on paper source maps at varying scales. New digital boundary files were integrated into FLMA by FNAI staff. In the case of paper source maps, boundaries were digitized by FNAI staff in GIS using ancillary information such as USGS topographic quadrangles, the latest digital aerial ortho-imagery, and property appraiser parcel data. The attribute item DIG_COM in the FLMA layer provides details on the derivation of boundaries for individual managed areas. When digital boundaries from one source overlapped with digital boundaries from another source, the boundaries were adjusted by FNAI staff to eliminate the overlapping areas. Adjustments were made based on the best known information about the source of the boundaries. All overlaps greater than 0.001 meters were removed using this process.</stepDesc><stepDateTm>2017-06-12T00:00:00</stepDateTm></prcStep></dataLineage></dqInfo><refSysInfo><RefSystem><refSysID><identCode code="3087"/><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.6.2</idVersion></refSysID></RefSystem></refSysInfo><eainfo><detailed Name="flma_201706" xmlns=""><enttyp><enttypl Sync="TRUE">flma_201706</enttypl><enttypd>Entity Type</enttypd><enttypds>ESRI</enttypds><enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">2501</enttypc></enttyp><attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>AREA</attrlabl><attrdef>Area in square meters.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">AREA</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>PERIMETER</attrlabl><attrdef>Perimeter in meters.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">PERIMETER</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MA_ID</attrlabl><attrdef>Managed Area ID, designed by NatureServe.  Unique identifier for each Managed Area.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">MA_ID</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MACODE_BCD</attrlabl><attrdef>Managed Area Code, designed by The Nature Conservancy.  Unique identifier for each Managed Area, beginning with "M.USFLHP*".</attrdef><attrdefs>The Nature Conservancy</attrdefs><attalias Sync="TRUE">MACODE_BCD</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MANAME</attrlabl><attrdef>Official name of the Managed Area (conservation land), as determined by the managing agency.  Note that in some cases a Managed Area is contained within a larger Managed Area (see MAJORMA below).  To select all of the polygons for a Managed Area that contains one or more smaller Managed Areas, query on both MANAME and MAJORMA.</attrdef><attrdefs>The managing agency of the Managed Area</attrdefs><attalias Sync="TRUE">MANAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MAJORMA</attrlabl><attrdef>Official name of the Major Managed Area.  Major Managed Area refers to a larger Managed Area that contains the Managed Area in question.  For example, Abe Trull Research Natural Area is contained within St. Marks National Wildlife Refuge.  For Abe Trull RNA, St. Marks NWR is the Major Managed Area and the MAJORMA is St. Marks NWR.  When the Managed Area is not part of a larger Managed Area, this attribute item appears as "ZZ".  To select all of the polygons for a Managed Area that contains one or more smaller Managed Areas, query on both MANAME and MAJORMA.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">MAJORMA</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MATYPE</attrlabl><attrdef>
+Code for the Managed Area by lead managing agency. Each Managed Area has been coded as
+
+1st byte = Managing Agency Category:
+F=Federal, S=State, L=Local, P=Private
+
+2nd and 3rd bytes = Managing Agency: (e.g., AF= US Air Force)
+
+4th and 5th bytes = Managed Area Unit Type (e.g., AB= Air Force Base)
+
+If a managing agency has only one type of MA Unit, the MA Unit Type code can be the managing agency code repeated (e.g., for State Agency for Persons with Disabilities, the code is SPDPD).
+
+FEDERAL
+
+Managing Agency codes (bytes 2 and 3):
+AF  -  US Dept. of Defense, Air Force
+BL  -  US Dept. of the Interior, Bureau of Land Management
+CG  -  US Dept. of Homeland Security, Coast Guard
+DA  -  US Dept. of Agriculture (unspecified)
+DC  -  US Dept. of Commerce
+FS  -  US Dept. of Agriculture, Forest Service
+FW  -  US Dept. of the Interior, Fish &amp; Wildlife Service
+MC  -  US Dept. of Defense, Marine Corps
+NP  -  US Dept. of the Interior, National Park Service
+NR  -  US Dept. of Agriculture, Natural Resources Conservation Service
+NS  -  National Aeronautics and Space Administration
+NV  -  US Dept. of Defense, Navy
+
+Managed Area Unit Type codes (bytes 4 and 5):
+
+U.S. Air Force (FAF..)
+AB  -  Air Force Base
+AR  -  Air Force Range
+AS  -  Air Station
+RB  -  Reserve Base
+SI  -  Special Interest Area
+TS  -  Test Site
+
+U.S. Dept. of Agriculture (FDA..)
+AR  -  Agricultural Research Station
+HR  -  Horticultural Research Station
+PC  -  Plant Materials Center
+
+U.S. Coast Guard (FCG..)
+CS  - Communication Station
+
+U.S. Dept. of Interior, Bureau of Land Management (FBL..)
+AC  -  Area of Critical Environmental Concern
+
+U.S. Forest Service (FFS..)
+CE  -  Conservation Easement
+EF  -  Experimental Forest
+HS  -  Historic Site
+NF  -  National Forest
+RN  -  Research Natural Area
+ST  -  Scenic Trail
+
+U.S. Fish &amp; Wildlife Service (FFW..)
+CE  -  Conservation Easement
+FH  -  Fish Hatchery
+PN  -  Public Use Natural Area
+RN  -  Research Natural Area
+WR  -  National Wildlife Refuge
+
+U.S. Marine Corps (FMC..)
+SF  -  Support Facility
+
+National Park Service (FNP..)
+CE  -  Conservation Easement
+NM  -  National Memorial or National Monument
+NP  -  National Park or National Preserve
+NS  -  National Seashore
+
+U.S. Dept. of Agriculture, Natural Resources Conservation Service (FNR..)
+CE  -  Conservation Easement
+
+U.S. Navy (FNV..)
+BT  -  Bomb Target
+NF  -  Naval Field
+NS  -  Naval Air Station or Naval Station
+NT  -  Naval Training Center
+RA  -  Recreation Area
+TF  -  Testing Facility
+
+(If MA unit type is unknown, managing agency code is repeated.)
+
+STATE
+
+Managing Agency codes (bytes 2 and 3):
+AH  -  Florida Agriculture Center and Horse Park Authority
+CA  -  Dept. of Environmental Protection, Florida Coastal Office
+DF  -  Dept. Agriculture &amp; Consumer Services, Florida Forest Service
+DM  -  Dept. of Management Services, Div. of Real Estate, Development, and Management
+FA  -  Florida Atlantic University
+FI  -  Florida International University
+FW  -  Fish and Wildlife Conservation Commission
+GT  -  Dept. of Environmental Protection, Office of Greenways &amp; Trails
+MA  -  Dept. of Military Affairs
+ND  -  Florida Inland Navigation District
+NW  -  Dept. of Environmental Protection, Northwest District
+PD  -  State Agency for Persons with Disabilities
+RM  -  Dept. of Environmental Protection, Div. of Water Resource Management, Bureau of Mining and Minerals Regulation
+RP  -  Dept. of Environmental Protection, Div. of Recreation &amp; Parks
+SF  -  University of South Florida
+SL  -  Dept. of Environmental Protection, Div. of State Lands
+UC  -  University of Central Florida
+UF  -  University of Florida
+UN  -  University of North Florida
+UU  -  Undesignated State Land (not currently assigned to a managing agency)
+WJ  -  St. Johns River Water Management District
+WN  -  Northwest Florida Water Management District
+WS  -  South Florida Water Management District
+WU  -  Suwannee River Water Management District
+WW  -  Southwest Florida Water Management District
+
+Managed Area Unit Type codes (bytes 4 and 5):
+
+FL Dept. of Environmental Protection, Florida Coastal Office (SCA..)
+EC  -  Ecological Reserve
+ER  -  Estuarine Research Reserve
+MS  -  Marine Sanctuary
+PR  -  Memorial Preserve
+SB  -  State Buffer Preserve
+SN  -  Sanctuary
+SR  -  State Reserve
+UL  -  Unspecified Land (managed by Florida Coastal Office)
+
+FL Dept. of Agriculture and Consumer Services, Florida Forest Service (SDF..)
+SF  -  State Forest
+PR  -  Preserve
+CE  -  Conservation Easement
+
+FL Fish and Wildlife Conservation Commission (SFW..)
+AS  -  Archaeological Site
+CE  -  Conservation Easement
+DU  -  Designation Undetermined
+FM  -  Fish Management Area
+GR  -  Gopher Tortoise Recipient Site
+MI  -  Mitigation Parcel
+MP  -  Mitigation Park
+PA  -  Production Area
+PW  -  Public Waterfowl Area
+SR  -  Shooting Range
+WE  -  Wildlife &amp; Environmental Area
+WM  -  Wildlife Management Area
+
+FL Dept. of Environmental Protection, Northwest District (SNW..)
+CE  -  Conservation Easement
+
+FL Dept. of Military Affairs (SMA..)
+MR  -  Military Reservation
+
+FL Dept. of Environmental Protection, Div. of Recreation &amp; Parks (SRP..)
+AS  -  State Archeological Site
+BS  -  State Botanical Site
+CC  -  State Folk Culture Center
+CS  -  State Cultural Site
+DU  -  Designation Undetermined
+FP  -  State Fishing Pier
+GS  -  State Geological Site
+HS  -  State Historic Site
+RA  -  State Recreation Area
+RC  -  State Recreation and Conservation Area
+SG  -  State Garden
+SM  -  State Museum
+SN  -  Sanctuary
+SP  -  State Park
+SR  -  State Reserve
+ST  -  State Trail
+SV  -  State Preserve
+
+FL Dept. of Environmental Protection, Div. of State Lands (SSL..)
+CE  -  Conservation Easement
+
+FL Dept. of Environmental Protection, Div. of Water Resource Management, Bureau of Mine Reclamation (SRM..)
+CE  -  Conservation Easement
+CS  -  Coastal Settlement Land
+
+FL Dept. of Management Services, Div. of Real Estate, Development, &amp; Management (SDM..)
+CA  -  Conservation Area
+
+Undesignated State Land (SUU..)
+UU  -  Undesignated State Land (not currently assigned to a managing agency)
+
+Universities (S....)
+CE  -  Conservation Easement
+LE  -  Life Estate
+MF  -  Memorial Forest
+
+Water Management Districts (SW...)
+CA  -  Conservation Area
+CE  -  Conservation Easement
+FD  -  Flood Detention Area
+FE  - Flowage Easement
+PR  -  Preserve
+RC  -  Riverine Corridor
+RT  -  Restoration Area
+UW  -  Unspecified Water Management Land
+WR  -  Water Resource Project
+
+(If MA unit type is unknown, managing agency code is repeated.)
+
+LOCAL
+
+Managing Agency Codes (bytes 2 and 3):
+
+County Managed Areas - Code is 2 letter abbreviation for particular county  (e.g. LAL = Alachua Co.). See list of "County Two Letter
+
+Abbreviations" below.
+
+City Managed Areas - County 2 letter abbreviation followed by  "MU" (4th and 5th bytes).
+
+COUNTY TWO LETTER ABBREVIATIONS
+AL  -  Alachua
+BK  -  Baker
+BY  -  Bay
+BA  -  Bradford
+BV  -  Brevard
+BR  -  Broward
+CA  -  Calhoun
+CH  -  Charlotte
+CI  -  Citrus
+CL  -  Clay
+CO  -  Collier
+CU  -  Columbia
+DA  -  Miami-Dade
+DE  -  DeSoto
+DI  -  Dixie
+DU  -  Duval
+ES  -  Escambia
+FL  -  Flagler
+FR  -  Franklin
+GA  -  Gadsden
+GI  -  Gilchrist
+GL  -  Glades
+GU  -  Gulf
+HM  -  Hamilton
+HD  -  Hardee
+HN  -  Hendry
+HR  -  Hernando
+HG  -  Highlands
+HL  -  Hillsborough
+HO  -  Holmes
+IN  -  Indian River
+JA  -  Jackson
+JE  -  Jefferson
+LF  -  Lafayette
+LK  -  Lake
+LE  -  Lee
+LO  -  Leon
+LV  -  Levy
+LI  -  Liberty
+MD  -  Madison
+MN  -  Manatee
+MR  -  Marion
+MT  -  Martin
+MO  -  Monroe
+NA  -  Nassau
+OA  -  Okaloosa
+OE  -  Okeechobee
+OR  -  Orange
+OS  -  Osceola
+PM  -  Palm Beach
+PA  -  Pasco
+PI  -  Pinellas
+PO  -  Polk
+PU  -  Putnam
+SN  -  Santa Rosa
+SR  -  Sarasota
+SE  -  Seminole
+SJ  -  St Johns
+SL  -  St Lucie
+SM  -  Sumter
+SW  -  Suwannee
+TA  -  Taylor
+UN  -  Union
+VO  -  Volusia
+WK  -  Wakulla
+WL  -  Walton
+WS  -  Washington
+
+Managed Area Unit Type codes (bytes 4 and 5):
+CE  -  Conservation Easement
+EU  -  Emerald Coast Utilities Authority
+HC  -  Hillsborough Community College
+MC  -  Mosquito Control District (e.g., LINMC = Indian River Mosquito Control District)
+MU  -  City Managed Area (See "COMMENTS" attribute to identify name of city that is managing the property)
+RG  -  Registry Site
+TB  -  Tampa Bay Watch
+WA  -  Water Authority (e.g., LLKWA = Lake County Water Authority)
+WC  -  Water Control District (e.g., LLEWC = Lee County East County Water Control District)
+
+(For all other MA unit types, 2 letter abbreviation for county is repeated - e.g., LALAL = Alachua County)
+
+PRIVATE
+
+Managing Agency Codes (bytes 2 and 3):
+
+AC  -  Apalachee Land Conservancy
+AE  -  Archbold Expeditions, Inc.
+AS  -  Ashton Biodiversity Research and Preservation Institute, Inc.
+BA  -  Bay County Audubon Society, Inc.
+BC  -  Bay County Conservancy, Inc.
+BR  -  Babcock Ranch Management, LLC
+CF  -  The Conservation Fund
+CH  -  Charlotte Harbor Environmental Center
+CM  -  Crowley Museum and Nature Center
+CN  -  Calusa Nature Center and Planetarium
+CP  -  Coastal Plains Institute
+DV  -  Duval Audubon Society, Inc.
+FA  -  Florida Audubon Society, Inc.
+FH  -  FL Trust for Historic Preservation
+FN  -  Foundation (unspecified)
+FP  -  FL Power &amp; Light Company
+GS  -  Girl Scouts of America
+IN  -  Private Individual
+JE  -  JEA
+KB  -  Key West Botanical Garden Society, Inc.
+LB  -  Lemon Bay Conservancy
+LO  -  Lake Okeechobee Habitat Alliance, Inc.
+LT  -  Land Trust (unspecified)
+LU  -  Lynn University, Inc.
+MA  -  Manatee Audubon Society
+MB  -  Mitigation Bank
+MC  -  Audubon of Martin County, Inc.
+MF  -  Mosaic Fertilizer, LLC
+NA  -  National Audubon Society, Inc.
+NC  -  The Nature Conservancy
+NK  -  Nokuse Plantation, Inc.
+NS  -  National Speleological Society
+OB  -  Ormond Beach Historical Trust Inc.
+ON  -  Oakland Nature Preserve, Inc.
+PD  -  PRIDE Enterprises, Inc.
+PE  -  Peace River Audubon Society
+RC  -  Institute for Regional Conservation
+SC  -  Sierra Club
+SG  -  Marie Selby Botanical Gardens
+SH  -  Florida Institute for Saltwater Heritage
+TA  -  Tropical Audubon Society
+TH  -  Tree Hill, Inc.
+TL  -  Trout Lake Nature Center, Inc.
+TT  -  Tall Timbers Research, Inc.
+UM  -  University of Miami
+YM  -  YMCA
+
+Managed Area Unit Type codes (bytes 4 and 5):
+CA  -  Conservation Area
+CE  -  Conservation Easement
+EC  -  Environmental Center
+PR  -  Preserve
+RG  -  Registry Site
+RS  -  Research Station
+SN  -  Sanctuary
+
+(If MA unit type is unknown, managing agency code is repeated.)
+</attrdef><attrdefs>The Nature Conservancy and the Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">MATYPE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MANAGING_A</attrlabl><attrdef>Name of the lead managing agency for the Managed Area.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">MANAGING_A</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MATYPE2</attrlabl><attrdef>Code for Managed Area by managing agency category.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attrdomv><edom><edomv>F</edomv><edomvd>Federal Government</edomvd><edomvds>The Nature Conservancy and the Florida Natural Areas Inventory</edomvds></edom></attrdomv><attrdomv><edom><edomv>S</edomv><edomvd>State Government</edomvd><edomvds>The Nature Conservancy and the Florida Natural Areas Inventory</edomvds></edom></attrdomv><attrdomv><edom><edomv>L</edomv><edomvd>Local Government</edomvd><edomvds>The Nature Conservancy and the Florida Natural Areas Inventory</edomvds></edom></attrdomv><attrdomv><edom><edomv>P</edomv><edomvd>Private Organization or Individual</edomvd><edomvds>The Nature Conservancy and the Florida Natural Areas Inventory</edomvds></edom></attrdomv><attalias Sync="TRUE">MATYPE2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>OWNER</attrlabl><attrdef>Name of the main owner of the Managed Area. Additional owners, if any, are listed in COOWNERs.  Note that for some Managed Areas, the managing agency is different from the owner.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">OWNER</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>COOWNERS</attrlabl><attrdef>Name(s) of additional owner(s) of the managed area (i.e., in addition to the agency listed in OWNER, these agencies own a portion of the managed area).</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">COOWNERS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>TOTACRES</attrlabl><attrdef>Total number of acres within the Managed Area.  Figures are not GIS calculated (i.e., not polygon-based) unless specified in COMMENTS 1(2).  Managed Area acreage figures are obtained directly from the managing agencies. -999 = no acreage provided</attrdef><attrdefs>The managing agency of the Managed Area</attrdefs><attalias Sync="TRUE">TOTACRES</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>LTF_ACRES</attrlabl><attrdef>Number of acres within the Managed Area that are in less-than-fee ownership.  Figures are not GIS calculated (i.e., not polygon-based) unless specified in COMMENTS 1(2).  Acreage figures are obtained directly from the managing agencies.</attrdef><attrdefs>The managing agency of the Managed Area</attrdefs><attalias Sync="TRUE">LTF_ACRES</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>COUNTY</attrlabl><attrdef>Abbreviation (the first four letters of the county name) for the county or counties where the Managed Area is located (exception: DADE = Miami-Dade County).</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">COUNTY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>PROTSTAT</attrlabl><attrdef>Protection Status.</attrdef><attrdefs>The Nature Conservancy and the Florida Natural Areas Inventory</attrdefs><attrdomv><edom><edomv>1</edomv><edomvd>Category I. This is the highest protection and reserved for lands that are specifically and judiciously managed for biodiversity protection.  This category includes lands owned by private entities that are managed for biodiversity conservation, and lands administered by public agencies that are specially designated for biodiversity conservation through legislative action where natural events proceed without interference or are mimicked through management.  The governmental agency acting alone cannot change these designations without legislative action and public involvement.  Examples include The Nature Conservancy preserves and other private preserves committed to biodiversity conservation, preserves that are state-owned and managed, some national parks, federal wilderness areas, and some local preserves.  For FNAI purposes, this designation will generally apply to the following:  private sanctuaries and preserves, state preserves and botanical sites,  many local preserves purchased and managed as environmentally sensitive lands, most national parks and seashores, national marine sanctuaries, and federal research natural areas.</edomvd></edom></attrdomv><attrdomv><edom><edomv>2</edomv><edomvd>Category II. This second category applies to lands that are generally managed for their natural values but that may incur additional uses such as habitat manipulation for game species and/or some recreation infrastructure.  These activities will likely degrade the quality of natural communities locally but the majority of the land will be managed for biodiversity protection.  It also includes public lands with administrative designations for biodiversity conservation.  Examples include private preserves managed for game species, national wildlife refuges, BLM areas of critical environmental concern, and state parks.  For FNAI purposes, this designation will generally apply to the following: state parks, state reserves, state geological sites, state buffer preserves and aquatic preserves, wildlife and environmental areas, national wildlife refuges, some national park lands, and many locally managed lands purchased for natural resource protection.</edomvd></edom></attrdomv><attrdomv><edom><edomv>3</edomv><edomvd>Category III. This category applies to lands maintained for multiple uses, including consumptive or recreational values, and not specifically or wholly dedicated to biodiversity conservation.  It also includes lands with restricted development rights.  Unrestricted public access is one criterion that may cause a property to be placed into this category.  Examples include most nondesignated (i.e., multiple-use) public lands administered by the U.S. Department of Agriculture Forest Service and Bureau of Land Management, Department of Defense lands, state forests, regional and large local parks and open space, and private lands protected from subdivision by conservation easements and other title restrictions.  For FNAI purposes, this designation will apply to state recreation areas, state gardens and trails, state forests, wildlife management areas, mitigation parks, lands managed by FL DEP Office of Greenways and Trails, most water management district properties, national forests, most Department of Defense lands, many local parks, and conservation easements on private properties.  It also includes lands tracked primarily for administrative reasons, such as state historic and archaeological sites, state museums, fish management areas, national memorials, and national fish hatcheries.</edomvd></edom></attrdomv><attalias Sync="TRUE">PROTSTAT</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MANAGER</attrlabl><attrdef>Name and/or official job title of the current manager of the Managed Area.</attrdef><attrdefs>The managing agency of the Managed Area</attrdefs><attalias Sync="TRUE">MANAGER</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MGRINST</attrlabl><attrdef>Manager Institution.  Part of the manager's address.</attrdef><attrdefs>The managing agency of the Managed Area</attrdefs><attalias Sync="TRUE">MGRINST</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MGRCITY</attrlabl><attrdef>Manager City.  City where the manager works.  Part of the manger's address.</attrdef><attrdefs>The managing agency of the Managed Area</attrdefs><attalias Sync="TRUE">MGRCITY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MGRPHONE</attrlabl><attrdef>Manager Phone.  Area code and phone number of the manager.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">MGRPHONE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>DESC1</attrlabl><attrdef>General description of the Managed Area, focusing on natural communities and rare species found within the Managed Area.  This attribute has been split into two parts because of the shapefile text field limitation.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">DESC1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>DESC2</attrlabl><attrdef>Description, continued from DESC1.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">DESC2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>COMMENTS1</attrlabl><attrdef>General comments concerning a Managed Area. This attribute has been split into two parts because of the shapefile text field limitation.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">COMMENTS1</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>COMMENTS2</attrlabl><attrdef>Comments, continued from COMMENTS1.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">COMMENTS2</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>DIG_COM</attrlabl><attrdef>Source of the digital boundaries and date. Indicates whether GIS boundaries were provided by an outside agency (e.g., "DIGITAL BOUNDARIES PROVIDED BY SOUTHWEST FLORIDA WATER MANAGEMENT DISTRICT") or were transcribed and digitized by FNAI staff as described earlier (i.e., "FNAI MAPPING AND DIGITIZING"). Includes date (month/year) digital boundary file was received by FNAI and/or revisions were made by FNAI staff.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">DIG_COM</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MANAME_AB</attrlabl><attrdef>A shortened (abbreviated) name of the Managed Area (used primarily for map labeling).</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">MANAME_AB</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>MA_WEBSITE</attrlabl><attrdef>Managed Area Web Site. Web address for the web site of the managing agency of the Managed Area.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">MA_WEBSITE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>OWNERTYPES</attrlabl><attrdef>Owner Types. Code(s) for owner(s) of Managed Area by category. F = Federal, S = State, L = Local, P = Private</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">OWNERTYPES</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl>ESMT_HOLD</attrlabl><attrdef>Easement Holder. Entity that holds title to the easement on the property.</attrdef><attrdefs>Florida Natural Areas Inventory</attrdefs><attalias Sync="TRUE">ESMT_HOLD</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed><overview xmlns=""><eaover>
+ZZ = Not applicable or data not available.
+
+When performing statistical analyses on the TOTACRES field (i.e., using ArcView or ArcGIS to calculate total acreages for a group of Managed Areas), subtract all Managed Areas that are a part of a major Managed Area (i.e., Managed Areas that have a MAJOR_MA).  This is necessary to avoid duplication of acreages since the TOTACRES field for a major Managed Area includes the acreage(s) of smaller Managed Area(s) nested within it.
+</eaover></overview></eainfo><mdHrLvName Sync="TRUE">dataset</mdHrLvName><spatRepInfo><VectSpatRep><geometObjs Name="flma_201706"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">2501</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><spdoinfo><ptvctinf><esriterm Name="flma_201706"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">2501</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo><mdDateSt Sync="TRUE">20170616</mdDateSt></metadata>
