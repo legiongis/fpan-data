@@ -1,4 +1,9 @@
-utils/fmsf-migration
+*.mxd
+utils/business_data/fmsf-data
+utils/business_data/ogr_workflow/fmsf-migration/
+utils/business_data/arcgis_workflow/input_fmsf/*
+utils/business_data/arcgis_workflow/processing_shp/*
+utils/business_data/arcgis_workflow/output_csv/*
 business_data/local
 
 # Byte-compiled / optimized / DLL files
