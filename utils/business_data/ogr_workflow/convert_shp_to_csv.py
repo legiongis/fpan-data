@@ -144,7 +144,7 @@ if __name__ == '__main__':
         filename = os.path.basename(path)
         if not filename.endswith(".shp"):
             continue
-        if filename == "FloridaSites.shp":
+        if filename.startswith("FloridaSites"):
             concat = site_concat
         if filename == "FloridaStructures.shp":
             concat = struct_concat
