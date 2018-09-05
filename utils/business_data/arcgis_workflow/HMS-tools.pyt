@@ -368,10 +368,12 @@ class ConvertToCSV(object):
                 continue
             if f.startswith("FloridaSites"):
                 concat = site_concat
-            if f == "FloridaStructures.shp":
+            elif f == "FloridaStructures.shp":
                 concat = struct_concat
-            if f =="HistoricalCemeteries.shp":
+            elif f =="HistoricalCemeteries.shp":
                 concat = cem_concat
+            else:
+                concat = {}
 
             path = os.path.join(shp_dir,f)
 
