@@ -1,3 +1,4 @@
+*.sr.lock
 *.mxd
 utils/business_data/fmsf-data
 utils/business_data/ogr_workflow/fmsf-migration/
