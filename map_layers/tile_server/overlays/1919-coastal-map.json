@@ -1,0 +1,16 @@
+{
+	"type": "raster",
+	"layers": [{
+        "id": "wms-layer2",
+        "type": "raster",
+        "minzoom": 0,
+        "maxzoom": 22
+     }],
+    "config": {
+      "provider":
+      {
+        "name": "url template", 
+        "template": "https://db.legiongis.com/geoserver/wms?request=GetMap&service=WMS&version=1.1.1&layers=fpan:1919-coastal-map&styles=&srs=EPSG:3857&transparent=true&format=image/png&bbox=$xmin,$ymin,$xmax,$ymax&width=$width&height=$height&bboxSR=3857&size=$width,$height&imageSR=3857&f=image"
+      }
+    }
+}
