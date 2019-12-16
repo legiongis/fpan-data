@@ -5,56 +5,38 @@
             "cards": [
                 {
                     "active": true, 
+                    "cardid": "a69c4c64-bd5d-11e9-8b6b-94659cf754d0", 
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea", 
+                    "config": null, 
+                    "cssclass": null, 
+                    "description": "", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "helpenabled": true, 
+                    "helptext": "<p><big>This section records your evaluation of the site based on&nbsp;the observations you made during your visit.&nbsp;See below for helpful information about each section:</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Priority:</strong>&nbsp;Select the priority that best describes your site from the three options listed below. This question will help to determine the frequency of future visits.</big></p>\n\n<p><big><em>High:</em>&nbsp;High priority sites are in immediate danger or may be in danger of changing based on a specific threat (you may notice that continued recreational activity is impacting the site, etc.).</big></p>\n\n<p><big><em>Medium:</em> Many of the sites you visit will fall into this category. These sites have a moderate risk of impact and should be monitored annually or after storm events</big></p>\n\n<p><big><em>Low:</em> Low priority sites are at minimal risk and should be monitored after storm events or every five years.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Recommendations:</strong>&nbsp;This area allows you to offer your recommendation for the site. Remember to base your recommendations on observations that you made in the field. Feel free to add as much detail from your visit as you&rsquo;d like, particularly anything that you would like the next scout who visits the site to know. Recommendation options include:<br />\n&bull; Repeat visit<br />\n&bull; Defense<br />\n&bull; FMSF update<br />\n&bull; Other observations</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Final Evaluation Notes:</strong>&nbsp;This area allows you to capture any additional information you would like to provide about the site and your visit.</big></p>\n\n<p>&nbsp;</p>\n\n<h3><em>For more information on this section, please see the HMS Florida Site Assessment Instructions pdf.</em></h3>\n", 
+                    "helptitle": "Scout Visit Evaluation Help", 
+                    "instructions": "Please fill in your evaluation of the site and any summary comments you have.  Once you complete this page, please click \"Add\". If you  are submitting a scout report for a Structure, move on to Step 5. If you are submitting a scout report for an archaeological site or cemetery and have photos from your visit, skip to Step 6. ", 
+                    "is_editable": false, 
+                    "name": "Step 4: Scout Visit Evaluation", 
+                    "nodegroup_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
+                    "sortorder": 3, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
                     "cardid": "a4261c43-bd5d-11e9-bd21-94659cf754d0", 
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea", 
                     "config": null, 
                     "cssclass": null, 
                     "description": "", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "helpenabled": false, 
-                    "helptext": null, 
-                    "helptitle": null, 
-                    "instructions": "", 
+                    "helpenabled": true, 
+                    "helptext": "<p><big>This section allows you to attach additional information that you gathered during your visit to a Historic Structure.&nbsp;See below for helpful information about each section:</big></p>\n\n<p>&nbsp;</p>\n\n<p><strong><big>Current Use: </big></strong><big>Please fill in any information you have on the current use of the building. Does the building now house a museum or business? Is it used for storage? Is it preserved as part of a historic park? Is it abandoned? </big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Environmental Mitigation Factors At Site:</strong> Please fill in any environmental mitigation factors you observed during your visit. Environmental mitigation factors include stabilization strategies. These may either be successful or failed attempts such as rip-rap, fencing, sea walls or drainage trenches, etc. </big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Current Address:</strong> The current address of the structure.</big></p>\n", 
+                    "helptitle": "Additional Information for Structures Help", 
+                    "instructions": "If you are submitting a scout report for a historic structure, please fill in the information below. Once you complete this page, please click \"Add\" and move to Step 6 to submit photos from your monitoring visit.", 
                     "is_editable": false, 
-                    "name": "Extra Info for Structures", 
+                    "name": "Step 5: (STRUCTURES ONLY) Additional Information  for Structures", 
                     "nodegroup_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
                     "sortorder": 4, 
-                    "visible": true
-                }, 
-                {
-                    "active": true, 
-                    "cardid": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea", 
-                    "config": null, 
-                    "cssclass": null, 
-                    "description": "", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "helpenabled": false, 
-                    "helptext": null, 
-                    "helptitle": null, 
-                    "instructions": "", 
-                    "is_editable": false, 
-                    "name": "Scout Visit Condition Assessment", 
-                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
-                    "sortorder": 2, 
-                    "visible": true
-                }, 
-                {
-                    "active": true, 
-                    "cardid": "a103e691-bf7f-11e9-a1e5-94659cf754d0", 
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea", 
-                    "config": null, 
-                    "cssclass": null, 
-                    "description": null, 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "helpenabled": false, 
-                    "helptext": null, 
-                    "helptitle": null, 
-                    "instructions": null, 
-                    "is_editable": false, 
-                    "name": "FMSF Site ID", 
-                    "nodegroup_id": "a103e68f-bf7f-11e9-aa39-94659cf754d0", 
-                    "sortorder": 0, 
                     "visible": true
                 }, 
                 {
@@ -65,14 +47,32 @@
                     "cssclass": null, 
                     "description": "", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "helpenabled": false, 
-                    "helptext": null, 
-                    "helptitle": null, 
-                    "instructions": "", 
+                    "helpenabled": true, 
+                    "helptext": "<p><big>Please attach all the photos you would like to submit for your site visit here. </big></p>\n\n<p>&nbsp;</p>\n\n<p>***<big><strong>If you are attaching photos with unique descriptions or of different Photo Types:</strong>&nbsp;Please follow all of the steps below for <em><strong>each</strong>&nbsp;</em>photo submission. To attach a new photo or batch of photos, click on the &quot;+&quot; sign that is next to the &quot;Step 6: Photo Submission&quot; heading in the Scout Report tree to the left. This will open a new blank window for you to submit your next photo. Please remember to click &quot;Add&quot; after attaching and filling in the description for&nbsp;<em><strong>each</strong></em> photo or batch of photos&nbsp;to finalize your submissions. You will notice that each individual submission will show up as a new dropdown page below the&nbsp;&quot;Step 6: Photo Submission&quot; heading in the Scout Report tree to the left. These new pages are named for the Photo Type you chose.</big></p>\n\n<p>&nbsp;</p>\n\n<p><strong><big>To Submit a Photo:&nbsp;</big></strong><big>You must first decide if you are&nbsp;attaching each photo with its own description or if you are attaching a batch of photos all with the same description. It is more helpful if each photo has its own Photo Type and description.</big></p>\n\n<p><strong><big>Select the Photo Type:</big></strong></p>\n\n<p><big><em>Overview</em>: These photos are of large areas of the site to show context. They give a general sense of the site, show large features, or are taken from the&nbsp;cardinal directions.</big></p>\n\n<p><big><em>Close-up</em>: These photos are detail photos of&nbsp;artifacts, damage, or small features like gopher tortoise or looter holes.</big></p>\n\n<p><big><em>Unique Feature</em>: Select this Photo Type if you take a photo of something that is unique or that you are unsure of what it is or how the damage was caused.</big></p>\n\n<p><big><em>Character-defining Feature (Historic Structures only)</em>: These photos show parts of the structure that aid in defining&nbsp;the architectural style or period which best describes the structure.&nbsp;Character defining&nbsp;aspects of a&nbsp;historic building&nbsp;include its materials,&nbsp;features, craftsmanship, decorative details, interior spaces, and&nbsp;features, as well as its site and environment.</big></p>\n\n<p><big><em>Facade (Historic Structures only)</em>: These photos are of the facade or&nbsp;face of a building, especially the principal front that looks onto a street or open space. </big></p>\n\n<p>&nbsp;</p>\n\n<p><strong><big>Attach Images:&nbsp;</big></strong><big>After selecting the photo type, click the green &quot;Add files&quot; button to navigate to your images on your computer. In your computer&#39;s file explorer, select the image(s) that you would like to attach and click &quot;Open&quot;. A thumbnail of the image(s) will show up below the green &quot;Add files&quot; button. </big></p>\n\n<p>&nbsp;</p>\n\n<p><strong><big>Comments:</big></strong><big>&nbsp;After attaching images,&nbsp;write out a description of the photo(s). Please describe what the image is showing, is it of damage to the site&nbsp;or the threats you observed such as erosion, wave action, or visitor traffic? Is the image showing an interesting artifact you encountered? Or is the photo just an overall view of the site for scale?&nbsp;Helpful information also includes the direction the photo was taken from, if you used any landmarks to take the photo, and if the image is a close-up view&nbsp;if there is an overall photo that compliments it. After attaching an individual photo or batch of photos, please click &quot;Add&quot; to finalize the photo submission.</big></p>\n\n<p>&nbsp;</p>\n\n<p><em>For more information on this section and to see examples of the Photo Types listed above, please see the HMS Florida Site Assessment Instructions pdf.</em></p>\n", 
+                    "helptitle": "Photo Submission Help", 
+                    "instructions": "Please submit any photos you have for your monitoring visit here. You can submit photos in a batch with a single description if the photos are all the same Photo Type. Submit each picture individually if each photo has a unique description or your photos are of multiple Photo Types. Please click \"Add files\" to attach a photo. After each photo (if submitting individually) or batch of photos (if submitting together) is attached, please click \"Add\" to finalize your photo submissions.", 
                     "is_editable": false, 
-                    "name": "Photo", 
+                    "name": "Step 6: Photo Submission", 
                     "nodegroup_id": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
                     "sortorder": 5, 
+                    "visible": true
+                }, 
+                {
+                    "active": true, 
+                    "cardid": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea", 
+                    "config": null, 
+                    "cssclass": null, 
+                    "description": "", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "helpenabled": true, 
+                    "helptext": "<p><big>This section records any site condition information you gathered while visiting a site. See below for helpful information about each section:</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Overall Site Condition:</strong>&nbsp;Select the condition that best describes your site from the three options listed below.&nbsp;Consider the overall site as you make your assessment. One area may be more threatened than the rest of the site, but you are making a general assessment of how the site appears to you based on your training and the references provided.</big></p>\n\n<p><big><em>Good = Stable:</em> The site should be considered good to stable if it falls anywhere in the range of the images below. Sites that are in good to stable condition are structurally stable and do not show any obvious deterioration, nor do they appear to be in danger of predictable deterioration.</big></p>\n\n<p><big><em>Fair = Declining:</em> The site should be considered fair to declining if it falls anywhere in the range of the images below. Sites that are in fair to declining condition exhibit discernible decline, their wholeness or physical integrity is threatened by normal wear.</big></p>\n\n<p><big><em>Poor = Unstable:</em> The site should be considered poor to unstable if it falls anywhere in the range of the images below. Sites that are in poor to unstable condition exhibit palpable, accelerating decline. Their physical integrity is being compromised quickly.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Threats Observed:</strong>&nbsp;Select from the list of threats provided based on your observations that day. In addition to what you observe that day, it&#39;s also fair to look for previous successful or failing stabilization strategies, such as rip-rap or fencing. They may give you clues as to threats occurring at the site over time. Please add any additional threats you observed or comments you may have in the text box.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Visible Artifacts:</strong>&nbsp;Please record any artifacts you encountered on your site visit here. Artifacts are items made and used by people and are often visible on the ground surface or eroding from a&nbsp;site. Add any artifacts you observed that are not explicitly listed&nbsp;in the text box.</big></p>\n\n<p><big>***While out at the site &ndash; <em>Please do not move or remove any artifacts from any site, always leave them in place.</em> Document the artifact by photographing it with a scale in the picture (can be a coin, pen, etc.)&nbsp;and leave it in situ (in place), where it was found.</big></p>\n\n<p><big>****If you encounter unexpected finds such as human remains, immediately halt any activities that might further affect the remains. Immediately notify a FPAN staff member, who will protect the remains from further disturbance and contact the State Archaeologist or local medical examiner to comply with the provisions as outlined in Florida Statutes, Ch. 872.05, Florida&rsquo;s Unmarked Human Remains Law, and when appropriate, Rule 1A-44, F.A.C., until an appropriate course of action is determined.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Site Impact Comments:</strong>&nbsp;Please add here&nbsp;any additional comments or observations you have about the site impacts you witnessed on your visit.&nbsp;This will help staff and future scouts better understand what you observed during your monitoring visit and how you arrived at your assessment.</big></p>\n\n<p>&nbsp;</p>\n\n<h3><em>For more information on this section and to see photo examples of the site condition options and artifacts, please see the HMS Florida Site Assessment Instructions pdf.</em></h3>\n", 
+                    "helptitle": "Scout Visit Condition Assessment Help", 
+                    "instructions": "Please fill in the information you gathered about the site on your visit. Once you complete this page, please click \"Add\" and move on to Step 4.", 
+                    "is_editable": false, 
+                    "name": "Step 3: Scout Visit Condition Assessment", 
+                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
+                    "sortorder": 2, 
                     "visible": true
                 }, 
                 {
@@ -83,141 +83,139 @@
                     "cssclass": null, 
                     "description": "Represents a single node in a graph", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "helpenabled": false, 
-                    "helptext": null, 
-                    "helptitle": null, 
-                    "instructions": null, 
+                    "helpenabled": true, 
+                    "helptext": "<p><big>This page records all the general information about your&nbsp;monitoring visit. Help for each section is listed below: </big></p>\n\n<p>&nbsp;</p>\n\n<p><strong><big>Your Scout ID: </big></strong><big>Please fill in your Scout ID,&nbsp; the same ID you use&nbsp;to log in to this&nbsp;HMS database. This helps us keep track of who monitored each site and filled out the Scout Report. </big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Type of Visit:</strong> Please fill in if this is your first&nbsp;visit and first Scout Report for this site (Initial) or if you have visited this site multiple times and filled out Scout Reports (Follow-up). If you are monitoring a site you visit often, you can monitor it each time you go. Make sure you fill out a new monitoring form each and every time, even if there is no change noted at the site between visits. This allows us to confirm that the site is stable.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Time of Day:</strong> Note if your monitoring visit occurred in the Morning, Afternoon, or Evening. This information helps determine&nbsp;if water levels in your images are based on the tides or storm events. </big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Date:</strong> The date of your visit to the site. This information helps us keep track of all the different Scout visits and creates a timeline of events for each site.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Location Verification:</strong>&nbsp;This is one of the most important steps of the whole process. If we are not sure where a site is located, we are not able to track change over time or help land managers protect the site. Select one of the following location options</big></p>\n\n<p><big><em>Location verified:</em>&nbsp;Choose this option if you found the site and are confident you are in the correct location based on the information you were provided.</big></p>\n\n<p><big><em>Site found, but in different location:</em>&nbsp;Choose this option if the site was not where you expected it to be based on the information you were provided, but you are confident you have located the site</big></p>\n\n<p><big><em>Site could not be found:</em>&nbsp;Choose this option if you were not able to locate the site with the information provided to you. If you choose this option, you will not be able to fill in any site-specific information in the following steps</big></p>\n\n<p><big>Please use the text box to fill in any notes or comments you have about the location of the site or observations you made while locating the site.&nbsp;</big></p>\n\n<p>&nbsp;</p>\n\n<p><em>For more information on this section, please see the HMS Florida Site Assessment Instructions pdf.</em></p>\n", 
+                    "helptitle": "Visit Arrival Information Help", 
+                    "instructions": "Please fill in your monitoring visit arrival information below. Once you complete this page, please click \"Add\" and move on to Step 3.", 
                     "is_editable": false, 
-                    "name": "Visit Arrival Information", 
+                    "name": "Step 2: Visit Arrival Information", 
                     "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
                     "sortorder": 1, 
                     "visible": true
                 }, 
                 {
                     "active": true, 
-                    "cardid": "a69c4c64-bd5d-11e9-8b6b-94659cf754d0", 
+                    "cardid": "a103e691-bf7f-11e9-a1e5-94659cf754d0", 
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea", 
                     "config": null, 
                     "cssclass": null, 
-                    "description": "", 
+                    "description": null, 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "helpenabled": false, 
-                    "helptext": null, 
-                    "helptitle": null, 
-                    "instructions": "", 
+                    "helpenabled": true, 
+                    "helptext": "<p><big>The FMSF Site ID is the Florida Master Site File (FMSF) number that is assigned to an archaeological site when it is recorded at the State. It consists of two letters and five numbers. The letters represent the code for the Florida county the site is located in. The numbers represent the site number within that county. For example, CI00001 represents the first recorded site in Citrus county. SJ00456 represents the 456th site recorded in St. Johns county.</big></p>\n\n<h3><em>You must have the FMSF site number to submit a scout report. If you do not know the FMSF Site ID for the site you visited, please email us at </em><a href=\"mailto:hmsflorida@fpan.us\">hmsflorida@fpan.us</a><em>.</em></h3>\n", 
+                    "helptitle": "FMSF Site ID Help", 
+                    "instructions": "Please fill in the FMSF Site number for the site that you visited.  Once you complete this page, please click \"Add\" and move on to Step 2.", 
                     "is_editable": false, 
-                    "name": "Scout Visit Evaluation", 
-                    "nodegroup_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
-                    "sortorder": 3, 
+                    "name": "Step 1: FMSF Site ID", 
+                    "nodegroup_id": "a103e68f-bf7f-11e9-aa39-94659cf754d0", 
+                    "sortorder": 0, 
                     "visible": true
                 }
             ], 
             "cards_x_nodes_x_widgets": [
                 {
-                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0", 
+                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
                     "config": {
                         "defaultValue": "", 
-                        "label": "Current Use", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "width": "100%"
-                    }, 
-                    "id": "a4261c49-bd5d-11e9-8598-94659cf754d0", 
-                    "label": "Current Use", 
-                    "node_id": "a4261c44-bd5d-11e9-ac1d-94659cf754d0", 
-                    "sortorder": 0, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                }, 
-                {
-                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0", 
-                    "config": {
-                        "defaultValue": "", 
-                        "label": "Time of Day", 
+                        "label": "Threats Observed (check all that apply)", 
                         "options": [
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "7d47a14e-046a-4fa2-8b89-2d0d201fb77e", 
-                                "id": "0b2e1622-4a22-4df5-b50d-83a5649317bd", 
-                                "sortorder": "", 
-                                "text": "Afternoon"
+                                "conceptid": "d9fa57e2-ffcf-4e67-bad2-1f868d479059", 
+                                "id": "180efc49-4660-4650-b7bb-d9ec6fd1cec9", 
+                                "sortorder": "000", 
+                                "text": "Active Erosion"
                             }, 
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "044629a8-e965-4fdc-a611-51650d011a09", 
-                                "id": "5f79916c-315b-4cc6-aff4-487bb9e5bbef", 
-                                "sortorder": "", 
-                                "text": "Evening"
+                                "conceptid": "b8125062-7e6a-46bf-b85c-36dc64c0ecab", 
+                                "id": "f03f8806-2351-423b-b9f0-d98f0a37fafc", 
+                                "sortorder": "001", 
+                                "text": "Storm surge"
                             }, 
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "7dc288f1-33e5-456b-bf66-5320ec257061", 
-                                "id": "3da759e4-d185-4a8d-be57-28d517160cfb", 
-                                "sortorder": "", 
-                                "text": "Morning"
+                                "conceptid": "a18c457b-122d-45ac-bb28-1754f6a8e3ae", 
+                                "id": "6a1c8d3a-159a-4003-9361-f0d379f06698", 
+                                "sortorder": "002", 
+                                "text": "Wind"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "ffef2f84-7dc6-4406-91ce-498b5e389ff7", 
+                                "id": "68e804cf-2bd4-45dc-a0b7-7fb7488ad3c2", 
+                                "sortorder": "003", 
+                                "text": "Flooding"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "d74082ca-01e0-4f41-bc19-d4cdf5fe73d5", 
+                                "id": "18e9458f-4893-4e79-84d8-01d9b8dca5c2", 
+                                "sortorder": "004", 
+                                "text": "Wave action"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "43033e49-7393-43bc-923a-3fe409e25719", 
+                                "id": "813c4266-3309-416b-9031-f4e4d4ad6678", 
+                                "sortorder": "005", 
+                                "text": "Vegetation growth"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "c67581b7-03e0-4061-a434-230e9274b844", 
+                                "id": "81178803-cfb1-4d23-b7dd-87fd6bc35b39", 
+                                "sortorder": "006", 
+                                "text": "Animal disturbance"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "bf92bcd4-f061-4dc8-a875-43b2632b5b6a", 
+                                "id": "a8c78e50-0c8f-46f1-b6a7-50f280cb9c63", 
+                                "sortorder": "007", 
+                                "text": "Visitor traffic"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "5249886f-f414-46e8-afb2-1e518587e73a", 
+                                "id": "371aa906-c034-4e36-9b1b-6677ec31bdc3", 
+                                "sortorder": "008", 
+                                "text": "Vehicle damage"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "e35509c8-cb54-4956-8390-8b940243b042", 
+                                "id": "374974c9-ac1c-4079-a89a-6ab886e044eb", 
+                                "sortorder": "009", 
+                                "text": "Development"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "2bde8d30-267c-4252-9845-177eab587a9a", 
+                                "id": "f4d226a6-8378-4f52-9bc9-809f344607a3", 
+                                "sortorder": "010", 
+                                "text": "Other (describe below)"
                             }
                         ], 
                         "placeholder": "Select an option"
                     }, 
-                    "id": "a72bbb2c-bd5d-11e9-a171-94659cf754d0", 
-                    "label": "Time of Day", 
-                    "node_id": "a72bbb2a-bd5d-11e9-8993-94659cf754d0", 
-                    "sortorder": 2, 
+                    "id": "a55d15ae-bd5d-11e9-a548-94659cf754d0", 
+                    "label": "Threats Observed (check all that apply)", 
+                    "node_id": "a55d15a7-bd5d-11e9-8572-94659cf754d0", 
+                    "sortorder": 1, 
                     "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000009"
-                }, 
-                {
-                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0", 
-                    "config": {
-                        "dateFormat": "YYYY-MM-DD", 
-                        "defaultValue": "", 
-                        "label": "Date", 
-                        "maxDate": false, 
-                        "minDate": false, 
-                        "placeholder": "Enter date", 
-                        "viewMode": "days"
-                    }, 
-                    "id": "a72bbb30-bd5d-11e9-b399-94659cf754d0", 
-                    "label": "Date", 
-                    "node_id": "a72bbb25-bd5d-11e9-a026-94659cf754d0", 
-                    "sortorder": 3, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000004"
-                }, 
-                {
-                    "card_id": "a69c4c64-bd5d-11e9-8b6b-94659cf754d0", 
-                    "config": {
-                        "defaultValue": "", 
-                        "label": "Final Evaluation Notes", 
-                        "maxLength": null, 
-                        "placeholder": "enter text", 
-                        "width": "100%"
-                    }, 
-                    "id": "a69c4c69-bd5d-11e9-acd6-94659cf754d0", 
-                    "label": "Final Evaluation Notes", 
-                    "node_id": "a69c4c66-bd5d-11e9-835e-94659cf754d0", 
-                    "sortorder": 2, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                }, 
-                {
-                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0", 
-                    "config": {
-                        "defaultValue": "", 
-                        "label": "Current Address", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "width": "100%"
-                    }, 
-                    "id": "a4261c47-bd5d-11e9-af1e-94659cf754d0", 
-                    "label": "Current Address", 
-                    "node_id": "a4261c46-bd5d-11e9-a822-94659cf754d0", 
-                    "sortorder": 2, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "10000000-0000-0000-0000-000000000013"
                 }, 
                 {
                     "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
@@ -238,146 +236,17 @@
                 {
                     "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
                     "config": {
-                        "defaultValue": "", 
-                        "label": "Overall Site Condition", 
-                        "options": [
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "6470753d-c504-4d1e-8082-084339b9587f", 
-                                "id": "5bafbd5f-8e25-4db3-8e23-a730c633d2f7", 
-                                "sortorder": "", 
-                                "text": "Fair = Declining"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "67fe662f-2922-49c6-b1a7-6a3ce9e3e742", 
-                                "id": "3696827d-9da2-4b0d-a892-7c320f2da9f9", 
-                                "sortorder": "", 
-                                "text": "Good = Stable"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "de5548af-fbaf-4c26-9a8c-65046de58891", 
-                                "id": "948ef076-d14c-4cb3-9713-f780463a5a3c", 
-                                "sortorder": "", 
-                                "text": "Poor = Unstable"
-                            }
-                        ], 
-                        "placeholder": "Select an option"
+                        "label": "Site Impact Comments", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
                     }, 
-                    "id": "a55d15ad-bd5d-11e9-99c3-94659cf754d0", 
-                    "label": "Overall Site Condition", 
-                    "node_id": "a55d15a5-bd5d-11e9-8167-94659cf754d0", 
-                    "sortorder": 0, 
+                    "id": "a55d15b0-bd5d-11e9-9517-94659cf754d0", 
+                    "label": "Site Impact Comments", 
+                    "node_id": "a55d15a9-bd5d-11e9-9e9c-94659cf754d0", 
+                    "sortorder": 5, 
                     "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000009"
-                }, 
-                {
-                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
-                    "config": {
-                        "defaultValue": "", 
-                        "label": "Threats Observed (check all that apply)", 
-                        "options": [
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "d9fa57e2-ffcf-4e67-bad2-1f868d479059", 
-                                "id": "180efc49-4660-4650-b7bb-d9ec6fd1cec9", 
-                                "sortorder": "", 
-                                "text": "Active Erosion"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "c67581b7-03e0-4061-a434-230e9274b844", 
-                                "id": "81178803-cfb1-4d23-b7dd-87fd6bc35b39", 
-                                "sortorder": "", 
-                                "text": "Animal disturbance"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "e35509c8-cb54-4956-8390-8b940243b042", 
-                                "id": "374974c9-ac1c-4079-a89a-6ab886e044eb", 
-                                "sortorder": "", 
-                                "text": "Development"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "ffef2f84-7dc6-4406-91ce-498b5e389ff7", 
-                                "id": "68e804cf-2bd4-45dc-a0b7-7fb7488ad3c2", 
-                                "sortorder": "", 
-                                "text": "Flooding"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "2bde8d30-267c-4252-9845-177eab587a9a", 
-                                "id": "f4d226a6-8378-4f52-9bc9-809f344607a3", 
-                                "sortorder": "", 
-                                "text": "Other (describe below)"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "b8125062-7e6a-46bf-b85c-36dc64c0ecab", 
-                                "id": "f03f8806-2351-423b-b9f0-d98f0a37fafc", 
-                                "sortorder": "", 
-                                "text": "Storm surge"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "43033e49-7393-43bc-923a-3fe409e25719", 
-                                "id": "813c4266-3309-416b-9031-f4e4d4ad6678", 
-                                "sortorder": "", 
-                                "text": "Vegetation growth"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "5249886f-f414-46e8-afb2-1e518587e73a", 
-                                "id": "371aa906-c034-4e36-9b1b-6677ec31bdc3", 
-                                "sortorder": "", 
-                                "text": "Vehicle damage"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "bf92bcd4-f061-4dc8-a875-43b2632b5b6a", 
-                                "id": "a8c78e50-0c8f-46f1-b6a7-50f280cb9c63", 
-                                "sortorder": "", 
-                                "text": "Visitor traffic"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "d74082ca-01e0-4f41-bc19-d4cdf5fe73d5", 
-                                "id": "18e9458f-4893-4e79-84d8-01d9b8dca5c2", 
-                                "sortorder": "", 
-                                "text": "Wave action"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "a18c457b-122d-45ac-bb28-1754f6a8e3ae", 
-                                "id": "6a1c8d3a-159a-4003-9361-f0d379f06698", 
-                                "sortorder": "", 
-                                "text": "Wind"
-                            }
-                        ], 
-                        "placeholder": "Select an option"
-                    }, 
-                    "id": "a55d15ae-bd5d-11e9-a548-94659cf754d0", 
-                    "label": "Threats Observed (check all that apply)", 
-                    "node_id": "a55d15a7-bd5d-11e9-8572-94659cf754d0", 
-                    "sortorder": 1, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000013"
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
                 }, 
                 {
                     "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0", 
@@ -396,238 +265,92 @@
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 }, 
                 {
-                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0", 
-                    "config": {
-                        "defaultValue": "", 
-                        "label": "Environmental Mitigation Factors At Site", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "width": "100%"
-                    }, 
-                    "id": "a4261c48-bd5d-11e9-a7b1-94659cf754d0", 
-                    "label": "Environmental Mitigation Factors At Site", 
-                    "node_id": "a4261c45-bd5d-11e9-a135-94659cf754d0", 
-                    "sortorder": 1, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                }, 
-                {
-                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
-                    "config": {
-                        "defaultValue": "", 
-                        "label": "", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "width": "100%"
-                    }, 
-                    "id": "a55d15ab-bd5d-11e9-93a7-94659cf754d0", 
-                    "label": "", 
-                    "node_id": "a55d15a8-bd5d-11e9-bfd0-94659cf754d0", 
-                    "sortorder": 2, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                }, 
-                {
-                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0", 
-                    "config": {
-                        "defaultValue": "", 
-                        "label": "Location Verification", 
-                        "options": [
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "9a7fdfc4-b003-4800-9268-8b860a5e9fa1", 
-                                "id": "66248378-2209-4f3f-930c-2896ae455730", 
-                                "sortorder": "", 
-                                "text": "Site could not be found"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "f2941cb5-564c-4e12-9274-110672adcd71", 
-                                "id": "ef817be4-59d5-49ae-bf4e-d58fb78f3324", 
-                                "sortorder": "", 
-                                "text": "Site found but in different location"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "e1eb05c8-53f5-4300-896e-c0ddaf1ddabc", 
-                                "id": "b32ddf3e-753b-4c97-b113-dd673b9edaf8", 
-                                "sortorder": "", 
-                                "text": "Site location verified"
-                            }
-                        ], 
-                        "placeholder": "Select an option"
-                    }, 
-                    "id": "a72bbb2e-bd5d-11e9-bcc7-94659cf754d0", 
-                    "label": "Location Verification", 
-                    "node_id": "a72bbb29-bd5d-11e9-a7dc-94659cf754d0", 
-                    "sortorder": 4, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000009"
-                }, 
-                {
-                    "card_id": "a7c11d52-bd5d-11e9-8eae-94659cf754d0", 
-                    "config": {
-                        "acceptedFiles": "", 
-                        "label": "Image File(s)", 
-                        "maxFilesize": "20", 
-                        "rerender": true
-                    }, 
-                    "id": "a7c11d56-bd5d-11e9-8aa0-94659cf754d0", 
-                    "label": "Image File(s)", 
-                    "node_id": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
-                    "sortorder": 1, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000019"
-                }, 
-                {
-                    "card_id": "a7c11d52-bd5d-11e9-8eae-94659cf754d0", 
-                    "config": {
-                        "defaultValue": "", 
-                        "label": "Comments", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "width": "100%"
-                    }, 
-                    "id": "a7c11d57-bd5d-11e9-90d9-94659cf754d0", 
-                    "label": "Comments", 
-                    "node_id": "a7c11d53-bd5d-11e9-86bb-94659cf754d0", 
-                    "sortorder": 2, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                }, 
-                {
-                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0", 
-                    "config": {
-                        "defaultValue": "", 
-                        "label": "Your Scout ID", 
-                        "maxLength": null, 
-                        "placeholder": "enter HMS username", 
-                        "width": "100%"
-                    }, 
-                    "id": "a72bbb2f-bd5d-11e9-b036-94659cf754d0", 
-                    "label": "Your Scout ID", 
-                    "node_id": "a72bbb27-bd5d-11e9-9b8f-94659cf754d0", 
-                    "sortorder": 0, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                }, 
-                {
-                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0", 
-                    "config": {
-                        "defaultValue": "", 
-                        "label": "Type of Visit", 
-                        "options": [
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "52eac398-c25e-4f95-87f6-611284ce53d5", 
-                                "id": "395b456e-ee37-486a-aa4d-161502ef1f52", 
-                                "sortorder": "", 
-                                "text": "Follow-up"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "7a489521-0c04-484e-9209-6f85c7ae5c88", 
-                                "id": "916a56f4-013e-4c61-82b0-9eca1cc20420", 
-                                "sortorder": "", 
-                                "text": "Initial"
-                            }
-                        ], 
-                        "placeholder": "Select an option"
-                    }, 
-                    "id": "a72bbb2d-bd5d-11e9-81b9-94659cf754d0", 
-                    "label": "Type of Visit", 
-                    "node_id": "a72bbb28-bd5d-11e9-821e-94659cf754d0", 
-                    "sortorder": 1, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000009"
-                }, 
-                {
-                    "card_id": "a7c11d52-bd5d-11e9-8eae-94659cf754d0", 
-                    "config": {
-                        "defaultValue": "", 
-                        "label": "Photo Type", 
-                        "options": [], 
-                        "placeholder": "Select an option"
-                    }, 
-                    "id": "a7c11d55-bd5d-11e9-804f-94659cf754d0", 
-                    "label": "Photo Type", 
-                    "node_id": "a7c11d54-bd5d-11e9-a39a-94659cf754d0", 
-                    "sortorder": 0, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000002"
-                }, 
-                {
-                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
-                    "config": {
-                        "label": "Site Impact Comments", 
-                        "maxLength": null, 
-                        "placeholder": "Enter text", 
-                        "width": "100%"
-                    }, 
-                    "id": "a55d15b0-bd5d-11e9-9517-94659cf754d0", 
-                    "label": "Site Impact Comments", 
-                    "node_id": "a55d15a9-bd5d-11e9-9e9c-94659cf754d0", 
-                    "sortorder": 5, 
-                    "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000005"
-                }, 
-                {
                     "card_id": "a69c4c64-bd5d-11e9-8b6b-94659cf754d0", 
                     "config": {
                         "defaultValue": "", 
-                        "label": "Site Priority", 
+                        "label": "Final Evaluation Notes", 
+                        "maxLength": null, 
+                        "placeholder": "enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "a69c4c69-bd5d-11e9-acd6-94659cf754d0", 
+                    "label": "Final Evaluation Notes", 
+                    "node_id": "a69c4c66-bd5d-11e9-835e-94659cf754d0", 
+                    "sortorder": 2, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Visible Artifacts (check all that apply)", 
                         "options": [
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "41185a1a-fae8-41c4-9d00-a25f9293fad6", 
-                                "id": "6475fae7-797d-4c40-b7d7-d6070ed38958", 
-                                "sortorder": "", 
-                                "text": "High"
+                                "conceptid": "70863b3d-8141-461a-b73b-9bde1a394db3", 
+                                "id": "c1c172a6-c7d8-4806-9957-74c9ebc7f99a", 
+                                "sortorder": "000", 
+                                "text": "Prehistoric pottery"
                             }, 
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "34a98081-4a63-42a7-bf3c-c83e9f1eded5", 
-                                "id": "71ecc9bf-1cda-47aa-a5e2-c05ecaf8bb4b", 
-                                "sortorder": "", 
-                                "text": "Low"
+                                "conceptid": "5e29d361-9970-4387-8823-71be4159518f", 
+                                "id": "caf4fecb-d308-40be-9bda-cbded7109474", 
+                                "sortorder": "001", 
+                                "text": "Lithics"
                             }, 
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "c471c241-23b5-47d2-9143-8f90ed472cf5", 
-                                "id": "3af799ea-5188-4422-8b24-5f341f92c576", 
-                                "sortorder": "", 
-                                "text": "Medium"
+                                "conceptid": "d2ebdc0f-7ced-49b3-a08d-a4e96cbbdda5", 
+                                "id": "a5581ca6-1da5-4144-a53f-5a066219f6ce", 
+                                "sortorder": "002", 
+                                "text": "Shell tool"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "68418e62-44a1-4d4c-b27b-89cce4e8a667", 
+                                "id": "497e554c-fb93-4d2c-8ec3-a1a4bc28997d", 
+                                "sortorder": "003", 
+                                "text": "Historic ceramics"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "3cc0e3b0-4b85-461e-94be-ee0447afa564", 
+                                "id": "a3b974b8-16bd-44d3-87d2-c565cdbe4061", 
+                                "sortorder": "004", 
+                                "text": "Glass"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "4bac0b65-42b9-4d06-adb2-b852099430f0", 
+                                "id": "360157b2-162d-4dde-b44c-f401c4acdf85", 
+                                "sortorder": "005", 
+                                "text": "Architectural"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "7afcfebc-4e36-4d16-babd-c2a110021c67", 
+                                "id": "561f2f7e-92a2-4cf3-bb9d-3264f7390775", 
+                                "sortorder": "006", 
+                                "text": "Other (describe below)"
                             }
                         ], 
                         "placeholder": "Select an option"
                     }, 
-                    "id": "a69c4c68-bd5d-11e9-ab84-94659cf754d0", 
-                    "label": "Site Priority", 
-                    "node_id": "a69c4c67-bd5d-11e9-974f-94659cf754d0", 
-                    "sortorder": 0, 
+                    "id": "a55d15af-bd5d-11e9-889e-94659cf754d0", 
+                    "label": "Visible Artifacts (check all that apply)", 
+                    "node_id": "a55d15a6-bd5d-11e9-8850-94659cf754d0", 
+                    "sortorder": 3, 
                     "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000009"
-                }, 
-                {
-                    "card_id": "a103e691-bf7f-11e9-a1e5-94659cf754d0", 
-                    "config": {
-                        "label": "FMSF Site ID", 
-                        "placeholder": ""
-                    }, 
-                    "id": "e50199f1-bf7f-11e9-9fbe-94659cf754d0", 
-                    "label": "FMSF Site ID", 
-                    "node_id": "a103e68f-bf7f-11e9-aa39-94659cf754d0", 
-                    "sortorder": null, 
-                    "visible": true, 
-                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                    "widget_id": "10000000-0000-0000-0000-000000000013"
                 }, 
                 {
                     "card_id": "a69c4c64-bd5d-11e9-8b6b-94659cf754d0", 
@@ -678,137 +401,409 @@
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 }, 
                 {
-                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
+                    "card_id": "a103e691-bf7f-11e9-a1e5-94659cf754d0", 
+                    "config": {
+                        "label": "FMSF Site ID", 
+                        "placeholder": ""
+                    }, 
+                    "id": "e50199f1-bf7f-11e9-9fbe-94659cf754d0", 
+                    "label": "FMSF Site ID", 
+                    "node_id": "a103e68f-bf7f-11e9-aa39-94659cf754d0", 
+                    "sortorder": null, 
+                    "visible": true, 
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                }, 
+                {
+                    "card_id": "a69c4c64-bd5d-11e9-8b6b-94659cf754d0", 
                     "config": {
                         "defaultValue": "", 
-                        "label": "Visible Artifacts (check all that apply)", 
+                        "label": "Site Priority", 
                         "options": [
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "4bac0b65-42b9-4d06-adb2-b852099430f0", 
-                                "id": "360157b2-162d-4dde-b44c-f401c4acdf85", 
-                                "sortorder": "", 
-                                "text": "Architectural"
+                                "conceptid": "41185a1a-fae8-41c4-9d00-a25f9293fad6", 
+                                "id": "6475fae7-797d-4c40-b7d7-d6070ed38958", 
+                                "sortorder": "000", 
+                                "text": "High"
                             }, 
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "3cc0e3b0-4b85-461e-94be-ee0447afa564", 
-                                "id": "a3b974b8-16bd-44d3-87d2-c565cdbe4061", 
-                                "sortorder": "", 
-                                "text": "Glass"
+                                "conceptid": "c471c241-23b5-47d2-9143-8f90ed472cf5", 
+                                "id": "3af799ea-5188-4422-8b24-5f341f92c576", 
+                                "sortorder": "001", 
+                                "text": "Medium"
                             }, 
                             {
                                 "children": [], 
                                 "collector": "", 
-                                "conceptid": "68418e62-44a1-4d4c-b27b-89cce4e8a667", 
-                                "id": "497e554c-fb93-4d2c-8ec3-a1a4bc28997d", 
-                                "sortorder": "", 
-                                "text": "Historic ceramics"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "5e29d361-9970-4387-8823-71be4159518f", 
-                                "id": "caf4fecb-d308-40be-9bda-cbded7109474", 
-                                "sortorder": "", 
-                                "text": "Lithics"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "7afcfebc-4e36-4d16-babd-c2a110021c67", 
-                                "id": "561f2f7e-92a2-4cf3-bb9d-3264f7390775", 
-                                "sortorder": "", 
-                                "text": "Other (describe below)"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "70863b3d-8141-461a-b73b-9bde1a394db3", 
-                                "id": "c1c172a6-c7d8-4806-9957-74c9ebc7f99a", 
-                                "sortorder": "", 
-                                "text": "Prehistoric pottery"
-                            }, 
-                            {
-                                "children": [], 
-                                "collector": "", 
-                                "conceptid": "d2ebdc0f-7ced-49b3-a08d-a4e96cbbdda5", 
-                                "id": "a5581ca6-1da5-4144-a53f-5a066219f6ce", 
-                                "sortorder": "", 
-                                "text": "Shell tool"
+                                "conceptid": "34a98081-4a63-42a7-bf3c-c83e9f1eded5", 
+                                "id": "71ecc9bf-1cda-47aa-a5e2-c05ecaf8bb4b", 
+                                "sortorder": "002", 
+                                "text": "Low"
                             }
                         ], 
                         "placeholder": "Select an option"
                     }, 
-                    "id": "a55d15af-bd5d-11e9-889e-94659cf754d0", 
-                    "label": "Visible Artifacts (check all that apply)", 
-                    "node_id": "a55d15a6-bd5d-11e9-8850-94659cf754d0", 
+                    "id": "a69c4c68-bd5d-11e9-ab84-94659cf754d0", 
+                    "label": "Site Priority", 
+                    "node_id": "a69c4c67-bd5d-11e9-974f-94659cf754d0", 
+                    "sortorder": 0, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                }, 
+                {
+                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Current Use", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "a4261c49-bd5d-11e9-8598-94659cf754d0", 
+                    "label": "Current Use", 
+                    "node_id": "a4261c44-bd5d-11e9-ac1d-94659cf754d0", 
+                    "sortorder": 0, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Your Scout ID", 
+                        "maxLength": null, 
+                        "placeholder": "enter HMS username", 
+                        "width": "100%"
+                    }, 
+                    "id": "a72bbb2f-bd5d-11e9-b036-94659cf754d0", 
+                    "label": "Your Scout ID", 
+                    "node_id": "a72bbb27-bd5d-11e9-9b8f-94659cf754d0", 
+                    "sortorder": 0, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Type of Visit", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "7a489521-0c04-484e-9209-6f85c7ae5c88", 
+                                "id": "916a56f4-013e-4c61-82b0-9eca1cc20420", 
+                                "sortorder": "000", 
+                                "text": "Initial"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "52eac398-c25e-4f95-87f6-611284ce53d5", 
+                                "id": "395b456e-ee37-486a-aa4d-161502ef1f52", 
+                                "sortorder": "001", 
+                                "text": "Follow-up"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "a72bbb2d-bd5d-11e9-81b9-94659cf754d0", 
+                    "label": "Type of Visit", 
+                    "node_id": "a72bbb28-bd5d-11e9-821e-94659cf754d0", 
+                    "sortorder": 1, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                }, 
+                {
+                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Time of Day", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "7dc288f1-33e5-456b-bf66-5320ec257061", 
+                                "id": "3da759e4-d185-4a8d-be57-28d517160cfb", 
+                                "sortorder": "000", 
+                                "text": "Morning"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "7d47a14e-046a-4fa2-8b89-2d0d201fb77e", 
+                                "id": "0b2e1622-4a22-4df5-b50d-83a5649317bd", 
+                                "sortorder": "001", 
+                                "text": "Afternoon"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "044629a8-e965-4fdc-a611-51650d011a09", 
+                                "id": "5f79916c-315b-4cc6-aff4-487bb9e5bbef", 
+                                "sortorder": "002", 
+                                "text": "Evening"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "a72bbb2c-bd5d-11e9-a171-94659cf754d0", 
+                    "label": "Time of Day", 
+                    "node_id": "a72bbb2a-bd5d-11e9-8993-94659cf754d0", 
+                    "sortorder": 2, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                }, 
+                {
+                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0", 
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD", 
+                        "defaultValue": "", 
+                        "label": "Date", 
+                        "maxDate": false, 
+                        "minDate": false, 
+                        "placeholder": "Enter date", 
+                        "viewMode": "days"
+                    }, 
+                    "id": "a72bbb30-bd5d-11e9-b399-94659cf754d0", 
+                    "label": "Date", 
+                    "node_id": "a72bbb25-bd5d-11e9-a026-94659cf754d0", 
                     "sortorder": 3, 
                     "visible": true, 
-                    "widget_id": "10000000-0000-0000-0000-000000000013"
+                    "widget_id": "10000000-0000-0000-0000-000000000004"
+                }, 
+                {
+                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Location Verification", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "e1eb05c8-53f5-4300-896e-c0ddaf1ddabc", 
+                                "id": "b32ddf3e-753b-4c97-b113-dd673b9edaf8", 
+                                "sortorder": "000", 
+                                "text": "Site location verified"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "9a7fdfc4-b003-4800-9268-8b860a5e9fa1", 
+                                "id": "66248378-2209-4f3f-930c-2896ae455730", 
+                                "sortorder": "001", 
+                                "text": "Site could not be found"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "f2941cb5-564c-4e12-9274-110672adcd71", 
+                                "id": "ef817be4-59d5-49ae-bf4e-d58fb78f3324", 
+                                "sortorder": "002", 
+                                "text": "Site found but in different location"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "a72bbb2e-bd5d-11e9-bcc7-94659cf754d0", 
+                    "label": "Location Verification", 
+                    "node_id": "a72bbb29-bd5d-11e9-a7dc-94659cf754d0", 
+                    "sortorder": 4, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                }, 
+                {
+                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Environmental Mitigation Factors At Site", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "a4261c48-bd5d-11e9-a7b1-94659cf754d0", 
+                    "label": "Environmental Mitigation Factors At Site", 
+                    "node_id": "a4261c45-bd5d-11e9-a135-94659cf754d0", 
+                    "sortorder": 1, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Current Address", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "a4261c47-bd5d-11e9-af1e-94659cf754d0", 
+                    "label": "Current Address", 
+                    "node_id": "a4261c46-bd5d-11e9-a822-94659cf754d0", 
+                    "sortorder": 2, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
+                    "config": {
+                        "defaultValue": null, 
+                        "label": "Overall Site Condition", 
+                        "options": [
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "67fe662f-2922-49c6-b1a7-6a3ce9e3e742", 
+                                "id": "3696827d-9da2-4b0d-a892-7c320f2da9f9", 
+                                "sortorder": "000", 
+                                "text": "Good = Stable"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "6470753d-c504-4d1e-8082-084339b9587f", 
+                                "id": "5bafbd5f-8e25-4db3-8e23-a730c633d2f7", 
+                                "sortorder": "001", 
+                                "text": "Fair = Declining"
+                            }, 
+                            {
+                                "children": [], 
+                                "collector": "", 
+                                "conceptid": "de5548af-fbaf-4c26-9a8c-65046de58891", 
+                                "id": "948ef076-d14c-4cb3-9713-f780463a5a3c", 
+                                "sortorder": "002", 
+                                "text": "Poor = Unstable"
+                            }
+                        ], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "a55d15ad-bd5d-11e9-99c3-94659cf754d0", 
+                    "label": "Overall Site Condition", 
+                    "node_id": "a55d15a5-bd5d-11e9-8167-94659cf754d0", 
+                    "sortorder": 0, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                }, 
+                {
+                    "card_id": "a7c11d52-bd5d-11e9-8eae-94659cf754d0", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Photo Type", 
+                        "options": [], 
+                        "placeholder": "Select an option"
+                    }, 
+                    "id": "a7c11d55-bd5d-11e9-804f-94659cf754d0", 
+                    "label": "Photo Type", 
+                    "node_id": "a7c11d54-bd5d-11e9-a39a-94659cf754d0", 
+                    "sortorder": 0, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000002"
+                }, 
+                {
+                    "card_id": "a7c11d52-bd5d-11e9-8eae-94659cf754d0", 
+                    "config": {
+                        "acceptedFiles": "", 
+                        "label": "Image File(s)", 
+                        "maxFilesize": "20", 
+                        "rerender": true
+                    }, 
+                    "id": "a7c11d56-bd5d-11e9-8aa0-94659cf754d0", 
+                    "label": "Image File(s)", 
+                    "node_id": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
+                    "sortorder": 1, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000019"
+                }, 
+                {
+                    "card_id": "a7c11d52-bd5d-11e9-8eae-94659cf754d0", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "Comments", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "a7c11d57-bd5d-11e9-90d9-94659cf754d0", 
+                    "label": "Comments", 
+                    "node_id": "a7c11d53-bd5d-11e9-86bb-94659cf754d0", 
+                    "sortorder": 2, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                }, 
+                {
+                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0", 
+                    "config": {
+                        "defaultValue": "", 
+                        "label": "", 
+                        "maxLength": null, 
+                        "placeholder": "Enter text", 
+                        "width": "100%"
+                    }, 
+                    "id": "a55d15ab-bd5d-11e9-93a7-94659cf754d0", 
+                    "label": "", 
+                    "node_id": "a55d15a8-bd5d-11e9-bfd0-94659cf754d0", 
+                    "sortorder": 2, 
+                    "visible": true, 
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 }
             ], 
             "color": null, 
-            "config": {}, 
+            "config": {
+                "nodes": [
+                    "a7c11d50-bd5d-11e9-9317-94659cf754d0"
+                ]
+            }, 
             "deploymentdate": null, 
             "deploymentfile": null, 
             "description": "", 
             "edges": [
                 {
                     "description": null, 
-                    "domainnode_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
-                    "edgeid": "a55d15b6-bd5d-11e9-ae01-94659cf754d0", 
+                    "domainnode_id": "14578900-bd5d-11e9-bac9-94659cf754d0", 
+                    "edgeid": "a55d15b7-bd5d-11e9-8932-94659cf754d0", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "a55d15a9-bd5d-11e9-9e9c-94659cf754d0"
+                    "rangenode_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0"
                 }, 
                 {
                     "description": null, 
-                    "domainnode_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
-                    "edgeid": "a69c4c6b-bd5d-11e9-8221-94659cf754d0", 
+                    "domainnode_id": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
+                    "edgeid": "a7c11d58-bd5d-11e9-98f8-94659cf754d0", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "a69c4c66-bd5d-11e9-835e-94659cf754d0"
+                    "rangenode_id": "a7c11d54-bd5d-11e9-a39a-94659cf754d0"
                 }, 
                 {
                     "description": null, 
-                    "domainnode_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
-                    "edgeid": "a69c4c6c-bd5d-11e9-9bdc-94659cf754d0", 
+                    "domainnode_id": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
+                    "edgeid": "a7c11d59-bd5d-11e9-a030-94659cf754d0", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "a69c4c67-bd5d-11e9-974f-94659cf754d0"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
-                    "edgeid": "a69c4c6d-bd5d-11e9-a6d5-94659cf754d0", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "name": null, 
-                    "ontologyproperty": null, 
-                    "rangenode_id": "a69c4c65-bd5d-11e9-bc2b-94659cf754d0"
+                    "rangenode_id": "a7c11d53-bd5d-11e9-86bb-94659cf754d0"
                 }, 
                 {
                     "description": null, 
                     "domainnode_id": "14578900-bd5d-11e9-bac9-94659cf754d0", 
-                    "edgeid": "a69c4c6e-bd5d-11e9-9bb2-94659cf754d0", 
+                    "edgeid": "a7c11d5a-bd5d-11e9-802e-94659cf754d0", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0"
+                    "rangenode_id": "a7c11d50-bd5d-11e9-9317-94659cf754d0"
                 }, 
                 {
                     "description": null, 
-                    "domainnode_id": "a55d15a6-bd5d-11e9-8850-94659cf754d0", 
-                    "edgeid": "a55d15b2-bd5d-11e9-98c6-94659cf754d0", 
+                    "domainnode_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
+                    "edgeid": "a55d15b4-bd5d-11e9-bfc8-94659cf754d0", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "a55d15aa-bd5d-11e9-ab7f-94659cf754d0"
+                    "rangenode_id": "a55d15a6-bd5d-11e9-8850-94659cf754d0"
                 }, 
                 {
                     "description": null, 
@@ -822,11 +817,101 @@
                 {
                     "description": null, 
                     "domainnode_id": "14578900-bd5d-11e9-bac9-94659cf754d0", 
-                    "edgeid": "a55d15b7-bd5d-11e9-8932-94659cf754d0", 
+                    "edgeid": "a69c4c6e-bd5d-11e9-9bb2-94659cf754d0", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0"
+                    "rangenode_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
+                    "edgeid": "a72bbb33-bd5d-11e9-b28d-94659cf754d0", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "a72bbb28-bd5d-11e9-821e-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
+                    "edgeid": "a72bbb36-bd5d-11e9-ad40-94659cf754d0", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "a72bbb25-bd5d-11e9-a026-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
+                    "edgeid": "a69c4c6d-bd5d-11e9-a6d5-94659cf754d0", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "a69c4c65-bd5d-11e9-bc2b-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
+                    "edgeid": "a4261c4a-bd5d-11e9-8b1e-94659cf754d0", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "a4261c46-bd5d-11e9-a822-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
+                    "edgeid": "a69c4c6c-bd5d-11e9-9bdc-94659cf754d0", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "a69c4c67-bd5d-11e9-974f-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
+                    "edgeid": "a69c4c6b-bd5d-11e9-8221-94659cf754d0", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "a69c4c66-bd5d-11e9-835e-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
+                    "edgeid": "a4261c4c-bd5d-11e9-9854-94659cf754d0", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "a4261c44-bd5d-11e9-ac1d-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
+                    "edgeid": "a55d15b6-bd5d-11e9-ae01-94659cf754d0", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "a55d15a9-bd5d-11e9-9e9c-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "14578900-bd5d-11e9-bac9-94659cf754d0", 
+                    "edgeid": "a4261c4d-bd5d-11e9-989b-94659cf754d0", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0"
+                }, 
+                {
+                    "description": null, 
+                    "domainnode_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
+                    "edgeid": "a4261c4b-bd5d-11e9-8171-94659cf754d0", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "name": null, 
+                    "ontologyproperty": null, 
+                    "rangenode_id": "a4261c45-bd5d-11e9-a135-94659cf754d0"
                 }, 
                 {
                     "description": null, 
@@ -840,47 +925,11 @@
                 {
                     "description": null, 
                     "domainnode_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
-                    "edgeid": "a72bbb32-bd5d-11e9-8909-94659cf754d0", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "name": null, 
-                    "ontologyproperty": null, 
-                    "rangenode_id": "a72bbb27-bd5d-11e9-9b8f-94659cf754d0"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
-                    "edgeid": "a72bbb33-bd5d-11e9-b28d-94659cf754d0", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "name": null, 
-                    "ontologyproperty": null, 
-                    "rangenode_id": "a72bbb28-bd5d-11e9-821e-94659cf754d0"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
-                    "edgeid": "a55d15b4-bd5d-11e9-bfc8-94659cf754d0", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "name": null, 
-                    "ontologyproperty": null, 
-                    "rangenode_id": "a55d15a6-bd5d-11e9-8850-94659cf754d0"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
                     "edgeid": "a72bbb35-bd5d-11e9-81e7-94659cf754d0", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
                     "rangenode_id": "a72bbb2a-bd5d-11e9-8993-94659cf754d0"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
-                    "edgeid": "a72bbb36-bd5d-11e9-ad40-94659cf754d0", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "name": null, 
-                    "ontologyproperty": null, 
-                    "rangenode_id": "a72bbb25-bd5d-11e9-a026-94659cf754d0"
                 }, 
                 {
                     "description": null, 
@@ -902,39 +951,21 @@
                 }, 
                 {
                     "description": null, 
-                    "domainnode_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
-                    "edgeid": "a4261c4a-bd5d-11e9-8b1e-94659cf754d0", 
+                    "domainnode_id": "a55d15a6-bd5d-11e9-8850-94659cf754d0", 
+                    "edgeid": "a55d15b2-bd5d-11e9-98c6-94659cf754d0", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "a4261c46-bd5d-11e9-a822-94659cf754d0"
+                    "rangenode_id": "a55d15aa-bd5d-11e9-ab7f-94659cf754d0"
                 }, 
                 {
                     "description": null, 
-                    "domainnode_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
-                    "edgeid": "a4261c4b-bd5d-11e9-8171-94659cf754d0", 
+                    "domainnode_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
+                    "edgeid": "a72bbb32-bd5d-11e9-8909-94659cf754d0", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
-                    "rangenode_id": "a4261c45-bd5d-11e9-a135-94659cf754d0"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
-                    "edgeid": "a4261c4c-bd5d-11e9-9854-94659cf754d0", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "name": null, 
-                    "ontologyproperty": null, 
-                    "rangenode_id": "a4261c44-bd5d-11e9-ac1d-94659cf754d0"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "14578900-bd5d-11e9-bac9-94659cf754d0", 
-                    "edgeid": "a4261c4d-bd5d-11e9-989b-94659cf754d0", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "name": null, 
-                    "ontologyproperty": null, 
-                    "rangenode_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0"
+                    "rangenode_id": "a72bbb27-bd5d-11e9-9b8f-94659cf754d0"
                 }, 
                 {
                     "description": null, 
@@ -947,39 +978,12 @@
                 }, 
                 {
                     "description": null, 
-                    "domainnode_id": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
-                    "edgeid": "a7c11d59-bd5d-11e9-a030-94659cf754d0", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "name": null, 
-                    "ontologyproperty": null, 
-                    "rangenode_id": "a7c11d53-bd5d-11e9-86bb-94659cf754d0"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
-                    "edgeid": "a7c11d58-bd5d-11e9-98f8-94659cf754d0", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "name": null, 
-                    "ontologyproperty": null, 
-                    "rangenode_id": "a7c11d54-bd5d-11e9-a39a-94659cf754d0"
-                }, 
-                {
-                    "description": null, 
                     "domainnode_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
                     "edgeid": "a72bbb34-bd5d-11e9-83c4-94659cf754d0", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
                     "name": null, 
                     "ontologyproperty": null, 
                     "rangenode_id": "a72bbb29-bd5d-11e9-a7dc-94659cf754d0"
-                }, 
-                {
-                    "description": null, 
-                    "domainnode_id": "14578900-bd5d-11e9-bac9-94659cf754d0", 
-                    "edgeid": "a7c11d5a-bd5d-11e9-802e-94659cf754d0", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "name": null, 
-                    "ontologyproperty": null, 
-                    "rangenode_id": "a7c11d50-bd5d-11e9-9317-94659cf754d0"
                 }, 
                 {
                     "description": null, 
@@ -995,8 +999,8 @@
                 {
                     "config": {
                         "description": {
-                            "nodegroup_id": "", 
-                            "string_template": ""
+                            "nodegroup_id": "a103e68f-bf7f-11e9-aa39-94659cf754d0", 
+                            "string_template": "FMSF Site: <FMSF Site ID>"
                         }, 
                         "map_popup": {
                             "nodegroup_id": "", 
@@ -1010,7 +1014,7 @@
                     }, 
                     "function_id": "60000000-0000-0000-0000-000000000001", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "id": "eab18073-beda-11e9-b814-94659cf754d0"
+                    "id": "b938d839-fe4d-11e9-b88f-0abff18d581c"
                 }
             ], 
             "graphid": "14578901-bd5d-11e9-822a-94659cf754d0", 
@@ -1021,6 +1025,18 @@
             "jsonldcontext": null, 
             "name": "Scout Report", 
             "nodegroups": [
+                {
+                    "cardinality": "1", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
+                    "parentnodegroup_id": null
+                }, 
+                {
+                    "cardinality": "n", 
+                    "legacygroupid": null, 
+                    "nodegroupid": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
+                    "parentnodegroup_id": null
+                }, 
                 {
                     "cardinality": "1", 
                     "legacygroupid": null, 
@@ -1042,19 +1058,7 @@
                 {
                     "cardinality": "1", 
                     "legacygroupid": null, 
-                    "nodegroupid": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
-                    "parentnodegroup_id": null
-                }, 
-                {
-                    "cardinality": "1", 
-                    "legacygroupid": null, 
                     "nodegroupid": "a103e68f-bf7f-11e9-aa39-94659cf754d0", 
-                    "parentnodegroup_id": null
-                }, 
-                {
-                    "cardinality": "n", 
-                    "legacygroupid": null, 
-                    "nodegroupid": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
                     "parentnodegroup_id": null
                 }
             ], 
@@ -1062,56 +1066,22 @@
                 {
                     "config": null, 
                     "datatype": "semantic", 
-                    "description": "", 
+                    "description": "Represents a single node in a graph", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
                     "is_collector": true, 
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Scout Visit Evaluation", 
-                    "nodegroup_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
-                    "nodeid": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 3
-                }, 
-                {
-                    "config": {
-                        "rdmCollection": "897d24ba-e3cd-4fde-a9e7-3d87b09fe995"
-                    }, 
-                    "datatype": "concept-list", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Scout Visit Recommendations", 
-                    "nodegroup_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
-                    "nodeid": "a69c4c65-bd5d-11e9-bc2b-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Scout Visit Evaluation Notes", 
-                    "nodegroup_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
-                    "nodeid": "a69c4c66-bd5d-11e9-835e-94659cf754d0", 
+                    "name": "Visit Arrival Information", 
+                    "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
+                    "nodeid": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": null, 
                     "sortorder": 0
                 }, 
                 {
                     "config": {
-                        "rdmCollection": "34d5bf40-f2cc-42e3-ac93-f33f693c447b"
+                        "rdmCollection": "31e4eef3-9018-46d2-9c81-951f488c642e"
                     }, 
                     "datatype": "concept", 
                     "description": "Represents a single node in a graph", 
@@ -1120,93 +1090,9 @@
                     "isrequired": true, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Scout Visit Priority Evaluation", 
-                    "nodegroup_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
-                    "nodeid": "a69c4c67-bd5d-11e9-974f-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "semantic", 
-                    "description": "", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": true, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Scout Visit Condition Assessment", 
-                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
-                    "nodeid": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 2
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "date", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": true, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Scout Visit Date", 
+                    "name": "Scout Visit Type", 
                     "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
-                    "nodeid": "a72bbb25-bd5d-11e9-a026-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "semantic", 
-                    "description": "", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": true, 
-                    "name": "Scout Report", 
-                    "nodegroup_id": null, 
-                    "nodeid": "14578900-bd5d-11e9-bac9-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": "", 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": {
-                        "rdmCollection": "7f4f8676-3b83-4275-8a9e-4d419e2ddfcf"
-                    }, 
-                    "datatype": "concept-list", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Visible Artifacts", 
-                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
-                    "nodeid": "a55d15a6-bd5d-11e9-8850-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": {
-                        "rdmCollection": "251413e3-8475-4317-ac55-8442b4723264"
-                    }, 
-                    "datatype": "concept-list", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Scout Visit Threats Observed", 
-                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
-                    "nodeid": "a55d15a7-bd5d-11e9-8572-94659cf754d0", 
+                    "nodeid": "a72bbb28-bd5d-11e9-821e-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": null, 
                     "sortorder": 0
@@ -1234,8 +1120,120 @@
                     "sortorder": 0
                 }, 
                 {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Extra Info for Structures", 
+                    "nodegroup_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
+                    "nodeid": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Scout Visit Evaluation", 
+                    "nodegroup_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
+                    "nodeid": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Scout Visit Evaluation Notes", 
+                    "nodegroup_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
+                    "nodeid": "a69c4c66-bd5d-11e9-835e-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Current Use", 
+                    "nodegroup_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
+                    "nodeid": "a4261c44-bd5d-11e9-ac1d-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "semantic", 
+                    "description": "", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": true, 
+                    "name": "Scout Report", 
+                    "nodegroup_id": null, 
+                    "nodeid": "14578900-bd5d-11e9-bac9-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": "", 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Scout Visit Location Notes", 
+                    "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
+                    "nodeid": "a72bbb26-bd5d-11e9-ad1d-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "date", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Scout Visit Date", 
+                    "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
+                    "nodeid": "a72bbb25-bd5d-11e9-a026-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
                     "config": {
-                        "rdmCollection": "31e4eef3-9018-46d2-9c81-951f488c642e"
+                        "rdmCollection": "34d5bf40-f2cc-42e3-ac93-f33f693c447b"
                     }, 
                     "datatype": "concept", 
                     "description": "Represents a single node in a graph", 
@@ -1244,9 +1242,127 @@
                     "isrequired": true, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Scout Visit Type", 
-                    "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
-                    "nodeid": "a72bbb28-bd5d-11e9-821e-94659cf754d0", 
+                    "name": "Scout Visit Priority Evaluation", 
+                    "nodegroup_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
+                    "nodeid": "a69c4c67-bd5d-11e9-974f-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Site Impact Comments", 
+                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
+                    "nodeid": "a55d15a9-bd5d-11e9-9e9c-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "file-list", 
+                    "description": "", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": true, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Photo", 
+                    "nodegroup_id": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
+                    "nodeid": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "7f4f8676-3b83-4275-8a9e-4d419e2ddfcf"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Visible Artifacts", 
+                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
+                    "nodeid": "a55d15a6-bd5d-11e9-8850-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Environmental Mitigation Factors At Site", 
+                    "nodegroup_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
+                    "nodeid": "a4261c45-bd5d-11e9-a135-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "251413e3-8475-4317-ac55-8442b4723264"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Scout Visit Threats Observed", 
+                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
+                    "nodeid": "a55d15a7-bd5d-11e9-8572-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "897d24ba-e3cd-4fde-a9e7-3d87b09fe995"
+                    }, 
+                    "datatype": "concept-list", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Scout Visit Recommendations", 
+                    "nodegroup_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0", 
+                    "nodeid": "a69c4c65-bd5d-11e9-bc2b-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
+                }, 
+                {
+                    "config": null, 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": false, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Scout Visit Threats Note", 
+                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
+                    "nodeid": "a55d15a8-bd5d-11e9-bfd0-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": null, 
                     "sortorder": 0
@@ -1289,104 +1405,6 @@
                 }, 
                 {
                     "config": null, 
-                    "datatype": "semantic", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": true, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Visit Arrival Information", 
-                    "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
-                    "nodeid": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 1
-                }, 
-                {
-                    "config": {
-                        "rdmCollection": "5c648046-7268-4c2b-b714-6729ec57d5c8"
-                    }, 
-                    "datatype": "concept", 
-                    "description": "", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": true, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Scout Visit Overall Condition", 
-                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
-                    "nodeid": "a55d15a5-bd5d-11e9-8167-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Scout Visit Location Notes", 
-                    "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
-                    "nodeid": "a72bbb26-bd5d-11e9-ad1d-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": true, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Visiting Scout ID", 
-                    "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
-                    "nodeid": "a72bbb27-bd5d-11e9-9b8f-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Scout Visit Threats Note", 
-                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
-                    "nodeid": "a55d15a8-bd5d-11e9-bfd0-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Site Impact Comments", 
-                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
-                    "nodeid": "a55d15a9-bd5d-11e9-9e9c-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": null, 
                     "datatype": "string", 
                     "description": "Represents a single node in a graph", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
@@ -1410,41 +1428,9 @@
                     "isrequired": false, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Extra Info for Structures", 
-                    "nodegroup_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
-                    "nodeid": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 4
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Current Use", 
-                    "nodegroup_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
-                    "nodeid": "a4261c44-bd5d-11e9-ac1d-94659cf754d0", 
-                    "ontologyclass": null, 
-                    "parentproperty": null, 
-                    "sortorder": 0
-                }, 
-                {
-                    "config": null, 
-                    "datatype": "string", 
-                    "description": "Represents a single node in a graph", 
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": false, 
-                    "isrequired": false, 
-                    "issearchable": true, 
-                    "istopnode": false, 
-                    "name": "Environmental Mitigation Factors At Site", 
-                    "nodegroup_id": "a4261c41-bd5d-11e9-baa9-94659cf754d0", 
-                    "nodeid": "a4261c45-bd5d-11e9-a135-94659cf754d0", 
+                    "name": "Scout Visit Condition Assessment", 
+                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
+                    "nodeid": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": null, 
                     "sortorder": 0
@@ -1467,19 +1453,37 @@
                 }, 
                 {
                     "config": null, 
-                    "datatype": "file-list", 
-                    "description": "", 
+                    "datatype": "string", 
+                    "description": "Represents a single node in a graph", 
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
-                    "is_collector": true, 
-                    "isrequired": false, 
+                    "is_collector": false, 
+                    "isrequired": true, 
                     "issearchable": true, 
                     "istopnode": false, 
-                    "name": "Photo", 
-                    "nodegroup_id": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
-                    "nodeid": "a7c11d50-bd5d-11e9-9317-94659cf754d0", 
+                    "name": "Visiting Scout ID", 
+                    "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0", 
+                    "nodeid": "a72bbb27-bd5d-11e9-9b8f-94659cf754d0", 
                     "ontologyclass": null, 
                     "parentproperty": null, 
-                    "sortorder": 5
+                    "sortorder": 0
+                }, 
+                {
+                    "config": {
+                        "rdmCollection": "5c648046-7268-4c2b-b714-6729ec57d5c8"
+                    }, 
+                    "datatype": "concept", 
+                    "description": "", 
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0", 
+                    "is_collector": false, 
+                    "isrequired": true, 
+                    "issearchable": true, 
+                    "istopnode": false, 
+                    "name": "Scout Visit Overall Condition", 
+                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0", 
+                    "nodeid": "a55d15a5-bd5d-11e9-8167-94659cf754d0", 
+                    "ontologyclass": null, 
+                    "parentproperty": null, 
+                    "sortorder": 0
                 }, 
                 {
                     "config": null, 
@@ -1536,14 +1540,14 @@
             }, 
             "slug": null, 
             "subtitle": "Scout Report resource model for FPAN-HMS (no ontology)", 
-            "template_id": "50000000-0000-0000-0000-000000000001", 
+            "template_id": "50000000-0000-0000-0000-000000000003", 
             "version": ""
         }
     ], 
     "metadata": {
-        "db": "PostgreSQL 9.6.5, compiled by Visual C++ build 1800, 64-bit", 
-        "git hash": "fatal: ambiguous argument '%ai'': unknown revision or path not in the working tree.", 
-        "os": "Windows", 
-        "os version": "10"
+        "db": "PostgreSQL 11.5 on x86_64-pc-linux-gnu, compiled by gcc (GCC) 4.8.3 20140911 (Red Hat 4.8.3-9), 64-bit", 
+        "git hash": "5f53620 2019-11-13 17:20:08 -0800", 
+        "os": "Linux", 
+        "os version": "4.4.0-1098-aws"
     }
 }
