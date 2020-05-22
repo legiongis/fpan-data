@@ -32,56 +32,7 @@ Note that not all of the options have properly been moved to argparse yet, so yo
 
 very importantly, if the thesaurus/collections files exist before the script is made, then the topconcept uuids and collections uuids will be retrieved from them instead of being regenerated. this is necessary as resources models may reference collection ids so those must remain constant, and if new topconceptids are created, you will double all of your existing top concepts, even if you load the concepts with `-ow overwrite`.
 
-### Quarterly Updates to HMS from FMSF
+### Updates to HMS from FMSF
 
-many improvements possible... these are steps as of 10-30-17
-
-#### Inputs
-
-+ 3 shapefiles from FMSF: Historic Structures, Historic Cemeteries, Archaeological Sites
-    + These shapefiles come straight from Chip Birdsong at FMSF.
-+ 1 csv from FMSF: OwnType
-    + This actually comes as an Excel file from Chip, so a quick open in Excel/save to csv must happen.
-+ 1 shapefile for spatial filtering of Historic Structures
-    + This has been created ahead of time.
-
-##### Step 1
-
-filter historic structures based on predetermined criteria
-
-+ spatial filter applied based on premade shapefile
-+ attribute filter based on whether the structure has been destroyed
-+ attribute filter based on whether the structure is a lighthouse
-
-+ run command
-        python filter_structures.py HistoricStructures.shp --clip clip-shapefile\struct_filter.shp
-
-will produce a filtered shapefile inside of a directory called processed_<today's date>
-
-##### Step 2
-
-manually copy the Historic Cemetery and Archaeological Sites shapefile into this new processed_<today's date> directory.
-
-##### Step 3
-
-add ownership values to each shapefile in this new directory
-
-+ run command
-        python add_ownership_values.py processed_<today's date> OwnType.csv
-
-will modify each shapefile in place, adding a new column called OWNERSHIP if necessary, and copying all of the OwnType values to the appropriate rows.
-
-##### Step 4
-
-+ create csv files from the shapefiles. during this process a fair bit of data sanitization is performed as well.
-    + remove "0" from the values (this is a dataset specific need, may not be a good general rule)
-    + allow for the pre-determination of date fields, and some basic data parsing and cleanup is performed on values in those fields.
-
-+ run command
-        python convert_shp_to_csv.py process_<today's date> [-t int]
-
-will create csv files for each shapefile in the directory. the option -t/--truncate argument can be added to create a smaller version of the csvs for testing. enter -t 10 to process only the first 10 features in each shapefile.
-
-##### Step 5
-
-loading the data can be one file at a time or with the load_package command if the csvs are moved to the appropriate location in the package
+This entire process is now handled with the fmsf2hms QGIS plugin: [legiongis/fmsf2hms](https://github.com/legiongis/fmsf2hms).
+Full documentation for the plugin is [here](https://www.notion.so/legiongis/FMSF-to-HMS-QGIS-Plugin-1a413cd8aa334e9bb2180be8c6841665).
