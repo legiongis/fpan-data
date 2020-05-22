@@ -1,304 +1,151 @@
 {
-    "resource_model_id": "73889292-d536-11e7-b3b3-94659cf754d0", 
-    "resource_model_name": "Historic Cemetery", 
+    "resource_model_id": "73889292-d536-11e7-b3b3-94659cf754d0",
+    "resource_model_name": "Historic Cemetery",
     "nodes": [
         {
-            "arches_nodeid": "f3cc4411-d536-11e7-98d3-94659cf754d0", 
-            "arches_node_name": "Assigned To", 
-            "file_field_name": "Assigned To", 
-            "data_type": "string", 
+            "arches_nodeid": "f3cc4411-d536-11e7-98d3-94659cf754d0",
+            "arches_node_name": "Assigned To",
+            "file_field_name": "Assigned To",
+            "data_type": "string",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "f253fbf3-d536-11e7-9508-94659cf754d0", 
-            "arches_node_name": "Cemetery Status", 
-            "file_field_name": "Cemetery Status", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
+            "arches_nodeid": "f253fbf3-d536-11e7-9508-94659cf754d0",
+            "arches_node_name": "Cemetery Status",
+            "file_field_name": "Cemetery Status",
+            "data_type": "concept",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "f253fbf2-d536-11e7-8045-94659cf754d0", 
-            "arches_node_name": "Cemetery Type", 
-            "file_field_name": "Cemetery Type", 
-            "data_type": "concept-list", 
-            "concept_export_value": "label", 
+            "arches_nodeid": "f253fbf2-d536-11e7-8045-94659cf754d0",
+            "arches_node_name": "Cemetery Type",
+            "file_field_name": "Cemetery Type",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "990c5c53-ea8a-11e7-8abf-94659cf754d0", 
-            "arches_node_name": "Comments", 
-            "file_field_name": "Comments", 
-            "data_type": "string", 
+            "arches_nodeid": "f253fbf4-d536-11e7-8908-94659cf754d0",
+            "arches_node_name": "Ethnic Groups Interred",
+            "file_field_name": "Ethnic Groups Interred",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "990c5c55-ea8a-11e7-bdac-94659cf754d0", 
-            "arches_node_name": "Current Address", 
-            "file_field_name": "Current Address", 
-            "data_type": "string", 
+            "arches_nodeid": "f3cc6b26-d536-11e7-b2da-94659cf754d0",
+            "arches_node_name": "FMSF ID",
+            "file_field_name": "FMSF ID",
+            "data_type": "string",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "990c8355-ea8a-11e7-a3d5-94659cf754d0", 
-            "arches_node_name": "Current Use", 
-            "file_field_name": "Current Use", 
-            "data_type": "string", 
+            "arches_nodeid": "f3cc6b25-d536-11e7-bd99-94659cf754d0",
+            "arches_node_name": "FMSF Name",
+            "file_field_name": "FMSF Name",
+            "data_type": "string",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "990c8350-ea8a-11e7-8179-94659cf754d0", 
-            "arches_node_name": "Environmental Mitigation Factors At Site", 
-            "file_field_name": "Environmental Mitigation Factors At Site", 
-            "data_type": "string", 
+            "arches_nodeid": "210c6341-dbab-11e7-9832-94659cf754d0",
+            "arches_node_name": "Geospatial Coordinates",
+            "file_field_name": "Geospatial Coordinates",
+            "data_type": "geojson-feature-collection",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "f253fbf4-d536-11e7-8908-94659cf754d0", 
-            "arches_node_name": "Ethnic Groups Interred", 
-            "file_field_name": "Ethnic Groups Interred", 
-            "data_type": "concept-list", 
-            "concept_export_value": "label", 
+            "arches_nodeid": "210c634e-dbab-11e7-b4fa-94659cf754d0",
+            "arches_node_name": "HMS-Region",
+            "file_field_name": "HMS-Region",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "f3cc6b26-d536-11e7-b2da-94659cf754d0", 
-            "arches_node_name": "FMSF ID", 
-            "file_field_name": "FMSF ID", 
-            "data_type": "string", 
+            "arches_nodeid": "210c634c-dbab-11e7-99ec-94659cf754d0",
+            "arches_node_name": "Managed Area Category",
+            "file_field_name": "Managed Area Category",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "f3cc6b25-d536-11e7-bd99-94659cf754d0", 
-            "arches_node_name": "FMSF Name", 
-            "file_field_name": "FMSF Name", 
-            "data_type": "string", 
+            "arches_nodeid": "210c634a-dbab-11e7-8103-94659cf754d0",
+            "arches_node_name": "Managed Area Name",
+            "file_field_name": "Managed Area Name",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "210c6341-dbab-11e7-9832-94659cf754d0", 
-            "arches_node_name": "Geospatial Coordinates", 
-            "file_field_name": "Geospatial Coordinates", 
-            "data_type": "geojson-feature-collection", 
+            "arches_nodeid": "210c634b-dbab-11e7-bc77-94659cf754d0",
+            "arches_node_name": "Managing Agency",
+            "file_field_name": "Managing Agency",
+            "data_type": "concept-list",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "210c634e-dbab-11e7-b4fa-94659cf754d0", 
-            "arches_node_name": "HMS-Region", 
-            "file_field_name": "HMS-Region", 
-            "data_type": "concept-list", 
-            "concept_export_value": "label", 
+            "arches_nodeid": "f64affba-d536-11e7-9f20-94659cf754d0",
+            "arches_node_name": "National Register List Date",
+            "file_field_name": "National Register List Date",
+            "data_type": "date",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "210c634c-dbab-11e7-99ec-94659cf754d0", 
-            "arches_node_name": "Managed Area Category", 
-            "file_field_name": "Managed Area Category", 
-            "data_type": "string", 
+            "arches_nodeid": "f3cc6b1f-d536-11e7-927d-94659cf754d0",
+            "arches_node_name": "Ownership",
+            "file_field_name": "Ownership",
+            "data_type": "concept",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "210c634a-dbab-11e7-8103-94659cf754d0", 
-            "arches_node_name": "Managed Area Name", 
-            "file_field_name": "Managed Area Name", 
-            "data_type": "string", 
+            "arches_nodeid": "210c634f-dbab-11e7-9b68-94659cf754d0",
+            "arches_node_name": "Plot Method",
+            "file_field_name": "Plot Method",
+            "data_type": "concept",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "210c634b-dbab-11e7-bc77-94659cf754d0", 
-            "arches_node_name": "Managing Agency", 
-            "file_field_name": "Managing Agency", 
-            "data_type": "string", 
+            "arches_nodeid": "210c634d-dbab-11e7-933c-94659cf754d0",
+            "arches_node_name": "Plot Type",
+            "file_field_name": "Plot Type",
+            "data_type": "concept",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "f64affba-d536-11e7-9f20-94659cf754d0", 
-            "arches_node_name": "National Register List Date", 
-            "file_field_name": "National Register List Date", 
-            "data_type": "date", 
+            "arches_nodeid": "f64affb1-d536-11e7-af0d-94659cf754d0",
+            "arches_node_name": "SHPO Evaluation",
+            "file_field_name": "SHPO Evaluation",
+            "data_type": "concept",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "990c8352-ea8a-11e7-99b9-94659cf754d0", 
-            "arches_node_name": "Other Visible Artifacts", 
-            "file_field_name": "Other Visible Artifacts", 
-            "data_type": "string", 
+            "arches_nodeid": "f64b26c2-d536-11e7-88ff-94659cf754d0",
+            "arches_node_name": "Survey Evaluation",
+            "file_field_name": "Survey Evaluation",
+            "data_type": "concept",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "f3cc6b1f-d536-11e7-927d-94659cf754d0", 
-            "arches_node_name": "Ownership", 
-            "file_field_name": "Ownership", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
+            "arches_nodeid": "f64b26c1-d536-11e7-be85-94659cf754d0",
+            "arches_node_name": "Survey Evaluation (District)",
+            "file_field_name": "Survey Evaluation (District)",
+            "data_type": "concept",
+            "concept_export_value": "label",
             "export": false
-        }, 
+        },
         {
-            "arches_nodeid": "990c5c50-ea8a-11e7-a714-94659cf754d0", 
-            "arches_node_name": "Photo", 
-            "file_field_name": "Photo", 
-            "data_type": "file-list", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c835b-ea8a-11e7-8bb0-94659cf754d0", 
-            "arches_node_name": "Photo Type", 
-            "file_field_name": "Photo Type", 
-            "data_type": "domain-value", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "210c634f-dbab-11e7-9b68-94659cf754d0", 
-            "arches_node_name": "Plot Method", 
-            "file_field_name": "Plot Method", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "210c634d-dbab-11e7-933c-94659cf754d0", 
-            "arches_node_name": "Plot Type", 
-            "file_field_name": "Plot Type", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c8359-ea8a-11e7-8c37-94659cf754d0", 
-            "arches_node_name": "Scout Visit Date", 
-            "file_field_name": "Scout Visit Date", 
-            "data_type": "date", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c8354-ea8a-11e7-bb37-94659cf754d0", 
-            "arches_node_name": "Scout Visit Evaluation Notes", 
-            "file_field_name": "Scout Visit Evaluation Notes", 
-            "data_type": "string", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c835c-ea8a-11e7-bd56-94659cf754d0", 
-            "arches_node_name": "Scout Visit Location Notes", 
-            "file_field_name": "Scout Visit Location Notes", 
-            "data_type": "string", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c834f-ea8a-11e7-bfb6-94659cf754d0", 
-            "arches_node_name": "Scout Visit Location Verification", 
-            "file_field_name": "Scout Visit Location Verification", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c8356-ea8a-11e7-86f9-94659cf754d0", 
-            "arches_node_name": "Scout Visit Overall Condition", 
-            "file_field_name": "Scout Visit Overall Condition", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c5c57-ea8a-11e7-88d2-94659cf754d0", 
-            "arches_node_name": "Scout Visit Priority Evaluation", 
-            "file_field_name": "Scout Visit Priority Evaluation", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c8351-ea8a-11e7-953f-94659cf754d0", 
-            "arches_node_name": "Scout Visit Recommendations", 
-            "file_field_name": "Scout Visit Recommendations", 
-            "data_type": "concept-list", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c5c58-ea8a-11e7-8816-94659cf754d0", 
-            "arches_node_name": "Scout Visit Threats Note", 
-            "file_field_name": "Scout Visit Threats Note", 
-            "data_type": "string", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c8358-ea8a-11e7-9bac-94659cf754d0", 
-            "arches_node_name": "Scout Visit Threats Observed", 
-            "file_field_name": "Scout Visit Threats Observed", 
-            "data_type": "concept-list", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c8353-ea8a-11e7-9600-94659cf754d0", 
-            "arches_node_name": "Scout Visit Time of Day", 
-            "file_field_name": "Scout Visit Time of Day", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c5c56-ea8a-11e7-9fe0-94659cf754d0", 
-            "arches_node_name": "Scout Visit Type", 
-            "file_field_name": "Scout Visit Type", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "f64affb1-d536-11e7-af0d-94659cf754d0", 
-            "arches_node_name": "SHPO Evaluation", 
-            "file_field_name": "SHPO Evaluation", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c835a-ea8a-11e7-b467-94659cf754d0", 
-            "arches_node_name": "Site Impact Comments", 
-            "file_field_name": "Site Impact Comments", 
-            "data_type": "string", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "f64b26c2-d536-11e7-88ff-94659cf754d0", 
-            "arches_node_name": "Survey Evaluation", 
-            "file_field_name": "Survey Evaluation", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "f64b26c1-d536-11e7-be85-94659cf754d0", 
-            "arches_node_name": "Survey Evaluation (District)", 
-            "file_field_name": "Survey Evaluation (District)", 
-            "data_type": "concept", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "f64b26c3-d536-11e7-b836-94659cf754d0", 
-            "arches_node_name": "Survey Number", 
-            "file_field_name": "Survey Number", 
-            "data_type": "string", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c8357-ea8a-11e7-a34f-94659cf754d0", 
-            "arches_node_name": "Visible Artifacts", 
-            "file_field_name": "Visible Artifacts", 
-            "data_type": "concept-list", 
-            "concept_export_value": "label", 
-            "export": false
-        }, 
-        {
-            "arches_nodeid": "990c5c54-ea8a-11e7-ab39-94659cf754d0", 
-            "arches_node_name": "Visiting Scout ID", 
-            "file_field_name": "Visiting Scout ID", 
-            "data_type": "string", 
+            "arches_nodeid": "f64b26c3-d536-11e7-b836-94659cf754d0",
+            "arches_node_name": "Survey Number",
+            "file_field_name": "Survey Number",
+            "data_type": "string",
             "export": false
         }
     ]
