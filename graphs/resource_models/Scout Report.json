@@ -50,32 +50,6 @@
                 },
                 {
                     "active": true,
-                    "cardid": "a55d15a4-bd5d-11e9-9c90-94659cf754d0",
-                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
-                    "config": null,
-                    "constraints": [
-                        {
-                            "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0",
-                            "constraintid": "58d8fbe2-bb79-4fe8-84bb-e6f9dc074c8d",
-                            "nodes": [],
-                            "uniquetoallinstances": false
-                        }
-                    ],
-                    "cssclass": null,
-                    "description": "",
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0",
-                    "helpenabled": true,
-                    "helptext": "<p><big>This section records any site condition information you gathered while visiting a site. See below for helpful information about each section:</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Overall Site Condition:</strong>&nbsp;Select the condition that best describes your site from the three options listed below.&nbsp;Consider the overall site as you make your assessment. One area may be more threatened than the rest of the site, but you are making a general assessment of how the site appears to you based on your training and the references provided.</big></p>\n\n<p><big><em>Good = Stable:</em> The site should be considered good to stable if it falls anywhere in the range of the images below. Sites that are in good to stable condition are structurally stable and do not show any obvious deterioration, nor do they appear to be in danger of predictable deterioration.</big></p>\n\n<p><big><em>Fair = Declining:</em> The site should be considered fair to declining if it falls anywhere in the range of the images below. Sites that are in fair to declining condition exhibit discernible decline, their wholeness or physical integrity is threatened by normal wear.</big></p>\n\n<p><big><em>Poor = Unstable:</em> The site should be considered poor to unstable if it falls anywhere in the range of the images below. Sites that are in poor to unstable condition exhibit palpable, accelerating decline. Their physical integrity is being compromised quickly.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Threats Observed:</strong>&nbsp;Select from the list of threats provided based on your observations that day. In addition to what you observe that day, it&#39;s also fair to look for previous successful or failing stabilization strategies, such as rip-rap or fencing. They may give you clues as to threats occurring at the site over time. Please add any additional threats you observed or comments you may have in the text box.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Visible Artifacts:</strong>&nbsp;Please record any artifacts you encountered on your site visit here. Artifacts are items made and used by people and are often visible on the ground surface or eroding from a&nbsp;site. Add any artifacts you observed that are not explicitly listed&nbsp;in the text box.</big></p>\n\n<p><big>***While out at the site &ndash; <em>Please do not move or remove any artifacts from any site, always leave them in place.</em> Document the artifact by photographing it with a scale in the picture (can be a coin, pen, etc.)&nbsp;and leave it in situ (in place), where it was found.</big></p>\n\n<p><big>****If you encounter unexpected finds such as human remains, immediately halt any activities that might further affect the remains. Immediately notify a FPAN staff member, who will protect the remains from further disturbance and contact the State Archaeologist or local medical examiner to comply with the provisions as outlined in Florida Statutes, Ch. 872.05, Florida&rsquo;s Unmarked Human Remains Law, and when appropriate, Rule 1A-44, F.A.C., until an appropriate course of action is determined.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Site Impact Comments:</strong>&nbsp;Please add here&nbsp;any additional comments or observations you have about the site impacts you witnessed on your visit.&nbsp;This will help staff and future scouts better understand what you observed during your monitoring visit and how you arrived at your assessment.</big></p>\n\n<p>&nbsp;</p>\n\n<h3><em>For more information on this section and to see photo examples of the site condition options and artifacts, please see the HMS Florida Site Assessment Instructions pdf.</em></h3>\n",
-                    "helptitle": "Scout Visit Condition Assessment Help",
-                    "instructions": "Please fill in the information you gathered about the site on your visit. Once you complete this page, please click \"Add\" and move on to Step 4.",
-                    "is_editable": false,
-                    "name": "Step 3: Scout Visit Condition Assessment",
-                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0",
-                    "sortorder": 2,
-                    "visible": true
-                },
-                {
-                    "active": true,
                     "cardid": "a7c11d52-bd5d-11e9-8eae-94659cf754d0",
                     "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
                     "config": null,
@@ -137,9 +111,48 @@
                     "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0",
                     "sortorder": 1,
                     "visible": true
+                },
+                {
+                    "active": true,
+                    "cardid": "a55d15a4-bd5d-11e9-9c90-94659cf754d0",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0",
+                            "constraintid": "58d8fbe2-bb79-4fe8-84bb-e6f9dc074c8d",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": "",
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0",
+                    "helpenabled": true,
+                    "helptext": "<p><big>This section records any site condition information you gathered while visiting a site. See below for helpful information about each section:</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Overall Site Condition:</strong>&nbsp;Select the condition that best describes your site from the three options listed below.&nbsp;Consider the overall site as you make your assessment. One area may be more threatened than the rest of the site, but you are making a general assessment of how the site appears to you based on your training and the references provided.</big></p>\n\n<p><big><em>Good = Stable:</em> The site should be considered good to stable if it falls anywhere in the range of the images below. Sites that are in good to stable condition are structurally stable and do not show any obvious deterioration, nor do they appear to be in danger of predictable deterioration.</big></p>\n\n<p><big><em>Fair = Declining:</em> The site should be considered fair to declining if it falls anywhere in the range of the images below. Sites that are in fair to declining condition exhibit discernible decline, their wholeness or physical integrity is threatened by normal wear.</big></p>\n\n<p><big><em>Poor = Unstable:</em> The site should be considered poor to unstable if it falls anywhere in the range of the images below. Sites that are in poor to unstable condition exhibit palpable, accelerating decline. Their physical integrity is being compromised quickly.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Threats Observed:</strong>&nbsp;Select from the list of threats provided based on your observations that day. In addition to what you observe that day, it&#39;s also fair to look for previous successful or failing stabilization strategies, such as rip-rap or fencing. They may give you clues as to threats occurring at the site over time. Please add any additional threats you observed or comments you may have in the text box.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Visible Artifacts:</strong>&nbsp;Please record any artifacts you encountered on your site visit here. Artifacts are items made and used by people and are often visible on the ground surface or eroding from a&nbsp;site. Add any artifacts you observed that are not explicitly listed&nbsp;in the text box.</big></p>\n\n<p><big>***While out at the site &ndash; <em>Please do not move or remove any artifacts from any site, always leave them in place.</em> Document the artifact by photographing it with a scale in the picture (can be a coin, pen, etc.)&nbsp;and leave it in situ (in place), where it was found.</big></p>\n\n<p><big>****If you encounter unexpected finds such as human remains, immediately halt any activities that might further affect the remains. Immediately notify a FPAN staff member, who will protect the remains from further disturbance and contact the State Archaeologist or local medical examiner to comply with the provisions as outlined in Florida Statutes, Ch. 872.05, Florida&rsquo;s Unmarked Human Remains Law, and when appropriate, Rule 1A-44, F.A.C., until an appropriate course of action is determined.</big></p>\n\n<p>&nbsp;</p>\n\n<p><big><strong>Site Impact Comments:</strong>&nbsp;Please add here&nbsp;any additional comments or observations you have about the site impacts you witnessed on your visit.&nbsp;This will help staff and future scouts better understand what you observed during your monitoring visit and how you arrived at your assessment.</big></p>\n\n<p>&nbsp;</p>\n\n<h3><em>For more information on this section and to see photo examples of the site condition options and artifacts, please see the HMS Florida Site Assessment Instructions pdf.</em></h3>\n",
+                    "helptitle": "Scout Visit Condition Assessment Help",
+                    "instructions": "Please fill in the information you gathered about the site on your visit. Once you complete this page, please click \"Add\" and move on to Step 4.",
+                    "is_editable": false,
+                    "name": "Step 3: Scout Visit Condition Assessment",
+                    "nodegroup_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0",
+                    "sortorder": 2,
+                    "visible": true
                 }
             ],
             "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "a103e691-bf7f-11e9-a1e5-94659cf754d0",
+                    "config": {
+                        "label": "FMSF Site ID",
+                        "placeholder": ""
+                    },
+                    "id": "e50199f1-bf7f-11e9-9fbe-94659cf754d0",
+                    "label": "FMSF Site ID",
+                    "node_id": "a103e68f-bf7f-11e9-aa39-94659cf754d0",
+                    "sortorder": null,
+                    "visible": true,
+                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
+                },
                 {
                     "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0",
                     "config": {
@@ -246,63 +259,19 @@
                     "widget_id": "10000000-0000-0000-0000-000000000013"
                 },
                 {
-                    "card_id": "a103e691-bf7f-11e9-a1e5-94659cf754d0",
-                    "config": {
-                        "label": "FMSF Site ID",
-                        "placeholder": ""
-                    },
-                    "id": "e50199f1-bf7f-11e9-9fbe-94659cf754d0",
-                    "label": "FMSF Site ID",
-                    "node_id": "a103e68f-bf7f-11e9-aa39-94659cf754d0",
-                    "sortorder": null,
-                    "visible": true,
-                    "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
-                },
-                {
-                    "card_id": "a69c4c64-bd5d-11e9-8b6b-94659cf754d0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Final Evaluation Notes",
-                        "maxLength": null,
-                        "placeholder": "enter text",
-                        "width": "100%"
-                    },
-                    "id": "a69c4c69-bd5d-11e9-acd6-94659cf754d0",
-                    "label": "Final Evaluation Notes",
-                    "node_id": "a69c4c66-bd5d-11e9-835e-94659cf754d0",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Current Use",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "a4261c49-bd5d-11e9-8598-94659cf754d0",
-                    "label": "Current Use",
-                    "node_id": "a4261c44-bd5d-11e9-ac1d-94659cf754d0",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
                     "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0",
                     "config": {
                         "defaultValue": "",
                         "label": "",
-                        "maxLength": "250",
-                        "placeholder": "describe other visible artifacts here",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
                         "width": "100%"
                     },
-                    "id": "a55d15ac-bd5d-11e9-883f-94659cf754d0",
+                    "id": "a55d15ab-bd5d-11e9-93a7-94659cf754d0",
                     "label": "",
-                    "node_id": "a55d15aa-bd5d-11e9-ab7f-94659cf754d0",
-                    "sortorder": 4,
+                    "node_id": "a55d15a8-bd5d-11e9-bfd0-94659cf754d0",
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
@@ -320,22 +289,6 @@
                     "sortorder": 5,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000005"
-                },
-                {
-                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "a55d15ab-bd5d-11e9-93a7-94659cf754d0",
-                    "label": "",
-                    "node_id": "a55d15a8-bd5d-11e9-bfd0-94659cf754d0",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0",
@@ -468,86 +421,6 @@
                     "widget_id": "10000000-0000-0000-0000-000000000009"
                 },
                 {
-                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Environmental Mitigation Factors At Site",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "a4261c48-bd5d-11e9-a7b1-94659cf754d0",
-                    "label": "Environmental Mitigation Factors At Site",
-                    "node_id": "a4261c45-bd5d-11e9-a135-94659cf754d0",
-                    "sortorder": 1,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Current Address",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "a4261c47-bd5d-11e9-af1e-94659cf754d0",
-                    "label": "Current Address",
-                    "node_id": "a4261c46-bd5d-11e9-a822-94659cf754d0",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0",
-                    "config": {
-                        "defaultValue": null,
-                        "label": "Overall Site Condition",
-                        "options": [
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "67fe662f-2922-49c6-b1a7-6a3ce9e3e742",
-                                "id": "3696827d-9da2-4b0d-a892-7c320f2da9f9",
-                                "sortorder": "000",
-                                "text": "Good = Stable"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "6470753d-c504-4d1e-8082-084339b9587f",
-                                "id": "5bafbd5f-8e25-4db3-8e23-a730c633d2f7",
-                                "sortorder": "001",
-                                "text": "Fair = Declining"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "de5548af-fbaf-4c26-9a8c-65046de58891",
-                                "id": "948ef076-d14c-4cb3-9713-f780463a5a3c",
-                                "sortorder": "002",
-                                "text": "Poor = Unstable"
-                            },
-                            {
-                                "children": [],
-                                "collector": "",
-                                "conceptid": "e5271673-3e5b-4347-bdc5-000d2668107e",
-                                "id": "c7df26b8-cc40-47f3-842c-d5c32c4fb876",
-                                "sortorder": "003",
-                                "text": "Not applicable = Site not found"
-                            }
-                        ],
-                        "placeholder": "Select an option"
-                    },
-                    "id": "a55d15ad-bd5d-11e9-99c3-94659cf754d0",
-                    "label": "Overall Site Condition",
-                    "node_id": "a55d15a5-bd5d-11e9-8167-94659cf754d0",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000009"
-                },
-                {
                     "card_id": "a7c11d52-bd5d-11e9-8eae-94659cf754d0",
                     "config": {
                         "acceptedFiles": "",
@@ -561,22 +434,6 @@
                     "sortorder": 1,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000019"
-                },
-                {
-                    "card_id": "a7c11d52-bd5d-11e9-8eae-94659cf754d0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Comments",
-                        "maxLength": null,
-                        "placeholder": "Enter text",
-                        "width": "100%"
-                    },
-                    "id": "a7c11d57-bd5d-11e9-90d9-94659cf754d0",
-                    "label": "Comments",
-                    "node_id": "a7c11d53-bd5d-11e9-86bb-94659cf754d0",
-                    "sortorder": 2,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0",
@@ -595,38 +452,6 @@
                     "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
-                },
-                {
-                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "Your Scout ID",
-                        "maxLength": null,
-                        "placeholder": "enter HMS username",
-                        "width": "100%"
-                    },
-                    "id": "a72bbb2f-bd5d-11e9-b036-94659cf754d0",
-                    "label": "Your Scout ID",
-                    "node_id": "a72bbb27-bd5d-11e9-9b8f-94659cf754d0",
-                    "sortorder": 0,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
-                },
-                {
-                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0",
-                    "config": {
-                        "defaultValue": "",
-                        "label": "",
-                        "maxLength": "250",
-                        "placeholder": "please add extra notes on the location verification here",
-                        "width": "100%"
-                    },
-                    "id": "a72bbb2b-bd5d-11e9-85da-94659cf754d0",
-                    "label": "",
-                    "node_id": "a72bbb26-bd5d-11e9-ad1d-94659cf754d0",
-                    "sortorder": 5,
-                    "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
                 },
                 {
                     "card_id": "a69c4c64-bd5d-11e9-8b6b-94659cf754d0",
@@ -721,14 +546,207 @@
                     "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0",
                     "config": {
                         "defaultValue": null,
+                        "label": "Overall Site Condition",
+                        "options": [
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "67fe662f-2922-49c6-b1a7-6a3ce9e3e742",
+                                "id": "3696827d-9da2-4b0d-a892-7c320f2da9f9",
+                                "sortorder": "000",
+                                "text": "Good = Stable"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "6470753d-c504-4d1e-8082-084339b9587f",
+                                "id": "5bafbd5f-8e25-4db3-8e23-a730c633d2f7",
+                                "sortorder": "001",
+                                "text": "Fair = Declining"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "de5548af-fbaf-4c26-9a8c-65046de58891",
+                                "id": "948ef076-d14c-4cb3-9713-f780463a5a3c",
+                                "sortorder": "002",
+                                "text": "Poor = Unstable"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "e5271673-3e5b-4347-bdc5-000d2668107e",
+                                "id": "c7df26b8-cc40-47f3-842c-d5c32c4fb876",
+                                "sortorder": "003",
+                                "text": "Not applicable = Site not found"
+                            }
+                        ],
+                        "placeholder": "Select an option",
+                        "url": "/concepts/dropdown?conceptid=5c648046-7268-4c2b-b714-6729ec57d5c8"
+                    },
+                    "id": "a55d15ad-bd5d-11e9-99c3-94659cf754d0",
+                    "label": "Overall Site Condition",
+                    "node_id": "a55d15a5-bd5d-11e9-8167-94659cf754d0",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                },
+                {
+                    "card_id": "a69c4c64-bd5d-11e9-8b6b-94659cf754d0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Final Evaluation Notes",
+                        "maxLength": null,
+                        "placeholder": "enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "a69c4c69-bd5d-11e9-acd6-94659cf754d0",
+                    "label": "Final Evaluation Notes",
+                    "node_id": "a69c4c66-bd5d-11e9-835e-94659cf754d0",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Current Use",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "a4261c49-bd5d-11e9-8598-94659cf754d0",
+                    "label": "Current Use",
+                    "node_id": "a4261c44-bd5d-11e9-ac1d-94659cf754d0",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Environmental Mitigation Factors At Site",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "a4261c48-bd5d-11e9-a7b1-94659cf754d0",
+                    "label": "Environmental Mitigation Factors At Site",
+                    "node_id": "a4261c45-bd5d-11e9-a135-94659cf754d0",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "a4261c43-bd5d-11e9-bd21-94659cf754d0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Current Address",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "a4261c47-bd5d-11e9-af1e-94659cf754d0",
+                    "label": "Current Address",
+                    "node_id": "a4261c46-bd5d-11e9-a822-94659cf754d0",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "a7c11d52-bd5d-11e9-8eae-94659cf754d0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Comments",
+                        "maxLength": null,
+                        "placeholder": "Enter text",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "a7c11d57-bd5d-11e9-90d9-94659cf754d0",
+                    "label": "Comments",
+                    "node_id": "a7c11d53-bd5d-11e9-86bb-94659cf754d0",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Your Scout ID",
+                        "maxLength": null,
+                        "placeholder": "enter HMS username",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "a72bbb2f-bd5d-11e9-b036-94659cf754d0",
+                    "label": "Your Scout ID",
+                    "node_id": "a72bbb27-bd5d-11e9-9b8f-94659cf754d0",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "a72bbb24-bd5d-11e9-b9ce-94659cf754d0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "",
+                        "maxLength": "250",
+                        "placeholder": "please add extra notes on the location verification here",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "a72bbb2b-bd5d-11e9-85da-94659cf754d0",
+                    "label": "",
+                    "node_id": "a72bbb26-bd5d-11e9-ad1d-94659cf754d0",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "",
+                        "maxLength": "250",
+                        "placeholder": "describe other visible artifacts here",
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "a55d15ac-bd5d-11e9-883f-94659cf754d0",
+                    "label": "",
+                    "node_id": "a55d15aa-bd5d-11e9-ab7f-94659cf754d0",
+                    "sortorder": 4,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "a55d15a4-bd5d-11e9-9c90-94659cf754d0",
+                    "config": {
+                        "defaultValue": null,
                         "label": "Visible Artifacts (check all that apply)",
                         "options": [
                             {
                                 "children": [],
                                 "collector": "",
+                                "conceptid": "54620f94-82ab-45ae-a8af-49e2ca5317c3",
+                                "id": "f3cf7c56-2f96-4513-a073-d60b83331d3f",
+                                "sortorder": "000",
+                                "text": "Shell midden"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
                                 "conceptid": "70863b3d-8141-461a-b73b-9bde1a394db3",
                                 "id": "c1c172a6-c7d8-4806-9957-74c9ebc7f99a",
-                                "sortorder": "000",
+                                "sortorder": "001",
                                 "text": "Prehistoric pottery"
                             },
                             {
@@ -736,7 +754,7 @@
                                 "collector": "",
                                 "conceptid": "5e29d361-9970-4387-8823-71be4159518f",
                                 "id": "caf4fecb-d308-40be-9bda-cbded7109474",
-                                "sortorder": "001",
+                                "sortorder": "002",
                                 "text": "Lithics"
                             },
                             {
@@ -744,23 +762,31 @@
                                 "collector": "",
                                 "conceptid": "d2ebdc0f-7ced-49b3-a08d-a4e96cbbdda5",
                                 "id": "a5581ca6-1da5-4144-a53f-5a066219f6ce",
-                                "sortorder": "002",
+                                "sortorder": "003",
                                 "text": "Shell tool"
                             },
                             {
                                 "children": [],
                                 "collector": "",
-                                "conceptid": "68418e62-44a1-4d4c-b27b-89cce4e8a667",
-                                "id": "497e554c-fb93-4d2c-8ec3-a1a4bc28997d",
-                                "sortorder": "003",
-                                "text": "Historic ceramics"
+                                "conceptid": "2c63543d-7c22-484a-8e50-c784219b1acb",
+                                "id": "cb619d52-99f9-4279-ac82-993de59611e5",
+                                "sortorder": "004",
+                                "text": "Faunal remains"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "d652a3a7-a1ee-4ebe-8252-75ec2f8adb7e",
+                                "id": "220007bb-4fef-4f23-b55f-32e828cc6137",
+                                "sortorder": "005",
+                                "text": "Ship timbers, sheathing, or rigging"
                             },
                             {
                                 "children": [],
                                 "collector": "",
                                 "conceptid": "3cc0e3b0-4b85-461e-94be-ee0447afa564",
                                 "id": "a3b974b8-16bd-44d3-87d2-c565cdbe4061",
-                                "sortorder": "004",
+                                "sortorder": "006",
                                 "text": "Glass"
                             },
                             {
@@ -768,19 +794,44 @@
                                 "collector": "",
                                 "conceptid": "4bac0b65-42b9-4d06-adb2-b852099430f0",
                                 "id": "360157b2-162d-4dde-b44c-f401c4acdf85",
-                                "sortorder": "005",
-                                "text": "Architectural"
+                                "sortorder": "007",
+                                "text": "Architectural (nails, wire, bricks)"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "a80938f8-c21c-4797-99f5-f36d41ec9e27",
+                                "id": "06146b05-b86a-4c58-8739-f7315a88e8ef",
+                                "sortorder": "008",
+                                "text": "Grave markers"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "68418e62-44a1-4d4c-b27b-89cce4e8a667",
+                                "id": "497e554c-fb93-4d2c-8ec3-a1a4bc28997d",
+                                "sortorder": "009",
+                                "text": "Historic ceramics"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "c31e9c45-1ab6-4694-9437-f7d87878f14d",
+                                "id": "5a796e18-cabc-4c2f-afee-63d6e5f2cccd",
+                                "sortorder": "010",
+                                "text": "Ship anchor"
                             },
                             {
                                 "children": [],
                                 "collector": "",
                                 "conceptid": "7afcfebc-4e36-4d16-babd-c2a110021c67",
                                 "id": "561f2f7e-92a2-4cf3-bb9d-3264f7390775",
-                                "sortorder": "006",
+                                "sortorder": "011",
                                 "text": "Other (describe below)"
                             }
                         ],
-                        "placeholder": "Select an option"
+                        "placeholder": "Select an option",
+                        "url": "/concepts/dropdown?conceptid=7f4f8676-3b83-4275-8a9e-4d419e2ddfcf"
                     },
                     "id": "a55d15af-bd5d-11e9-889e-94659cf754d0",
                     "label": "Visible Artifacts (check all that apply)",
@@ -800,6 +851,15 @@
             "deploymentfile": null,
             "description": "",
             "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0",
+                    "edgeid": "a55d15b3-bd5d-11e9-896c-94659cf754d0",
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "a55d15a5-bd5d-11e9-8167-94659cf754d0"
+                },
                 {
                     "description": null,
                     "domainnode_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0",
@@ -928,15 +988,6 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "a55d15a2-bd5d-11e9-a21e-94659cf754d0",
-                    "edgeid": "a55d15b3-bd5d-11e9-896c-94659cf754d0",
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0",
-                    "name": null,
-                    "ontologyproperty": null,
-                    "rangenode_id": "a55d15a5-bd5d-11e9-8167-94659cf754d0"
-                },
-                {
-                    "description": null,
                     "domainnode_id": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0",
                     "edgeid": "a69c4c6b-bd5d-11e9-8221-94659cf754d0",
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0",
@@ -1054,7 +1105,7 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0",
-                    "id": "b938d839-fe4d-11e9-b88f-0abff18d581c"
+                    "id": "dad38634-4f8e-11eb-a070-0800273bb8ef"
                 }
             ],
             "graphid": "14578901-bd5d-11e9-822a-94659cf754d0",
@@ -1084,6 +1135,12 @@
                     "parentnodegroup_id": null
                 },
                 {
+                    "cardinality": "n",
+                    "legacygroupid": null,
+                    "nodegroupid": "a7c11d50-bd5d-11e9-9317-94659cf754d0",
+                    "parentnodegroup_id": null
+                },
+                {
                     "cardinality": "1",
                     "legacygroupid": null,
                     "nodegroupid": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0",
@@ -1093,12 +1150,6 @@
                     "cardinality": "1",
                     "legacygroupid": null,
                     "nodegroupid": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0",
-                    "parentnodegroup_id": null
-                },
-                {
-                    "cardinality": "n",
-                    "legacygroupid": null,
-                    "nodegroupid": "a7c11d50-bd5d-11e9-9317-94659cf754d0",
                     "parentnodegroup_id": null
                 }
             ],
@@ -1197,7 +1248,7 @@
                     "nodeid": "a69c4c62-bd5d-11e9-8c0d-94659cf754d0",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 3
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -1423,7 +1474,7 @@
                     "nodeid": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 1
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1441,7 +1492,7 @@
                     "nodeid": "a55d15a2-bd5d-11e9-a21e-94659cf754d0",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 2
+                    "sortorder": 0
                 },
                 {
                     "config": null,
@@ -1537,48 +1588,6 @@
                 },
                 {
                     "config": null,
-                    "datatype": "date",
-                    "description": "Represents a single node in a graph",
-                    "exportable": true,
-                    "fieldname": "VisitDate",
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0",
-                    "is_collector": false,
-                    "isrequired": true,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "Scout Visit Date",
-                    "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0",
-                    "nodeid": "a72bbb25-bd5d-11e9-a026-94659cf754d0",
-                    "ontologyclass": null,
-                    "parentproperty": null,
-                    "sortorder": 0
-                },
-                {
-                    "config": {
-                        "graphid": [
-                            "c67216bf-8cc2-11e7-883c-06ed184dc22c",
-                            "73889292-d536-11e7-b3b3-94659cf754d0",
-                            "f212980f-d534-11e7-8ca8-94659cf754d0"
-                        ]
-                    },
-                    "datatype": "resource-instance",
-                    "description": null,
-                    "exportable": true,
-                    "fieldname": "SiteID",
-                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0",
-                    "is_collector": true,
-                    "isrequired": false,
-                    "issearchable": true,
-                    "istopnode": false,
-                    "name": "FMSF Site ID",
-                    "nodegroup_id": "a103e68f-bf7f-11e9-aa39-94659cf754d0",
-                    "nodeid": "a103e68f-bf7f-11e9-aa39-94659cf754d0",
-                    "ontologyclass": null,
-                    "parentproperty": null,
-                    "sortorder": 0
-                },
-                {
-                    "config": null,
                     "datatype": "semantic",
                     "description": "",
                     "exportable": false,
@@ -1593,7 +1602,7 @@
                     "nodeid": "a4261c41-bd5d-11e9-baa9-94659cf754d0",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 4
+                    "sortorder": 0
                 },
                 {
                     "config": {
@@ -1615,7 +1624,63 @@
                     "nodeid": "a7c11d50-bd5d-11e9-9317-94659cf754d0",
                     "ontologyclass": null,
                     "parentproperty": null,
-                    "sortorder": 5
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "graphs": [
+                            {
+                                "graphid": "c67216bf-8cc2-11e7-883c-06ed184dc22c",
+                                "inverseOntologyProperty": "",
+                                "ontologyProperty": ""
+                            },
+                            {
+                                "graphid": "73889292-d536-11e7-b3b3-94659cf754d0",
+                                "inverseOntologyProperty": "",
+                                "ontologyProperty": ""
+                            },
+                            {
+                                "graphid": "f212980f-d534-11e7-8ca8-94659cf754d0",
+                                "inverseOntologyProperty": "",
+                                "ontologyProperty": ""
+                            }
+                        ]
+                    },
+                    "datatype": "resource-instance",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": "SiteID",
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "FMSF Site ID",
+                    "nodegroup_id": "a103e68f-bf7f-11e9-aa39-94659cf754d0",
+                    "nodeid": "a103e68f-bf7f-11e9-aa39-94659cf754d0",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD"
+                    },
+                    "datatype": "date",
+                    "description": "Represents a single node in a graph",
+                    "exportable": true,
+                    "fieldname": "VisitDate",
+                    "graph_id": "14578901-bd5d-11e9-822a-94659cf754d0",
+                    "is_collector": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Scout Visit Date",
+                    "nodegroup_id": "a72bbb22-bd5d-11e9-b9ba-94659cf754d0",
+                    "nodeid": "a72bbb25-bd5d-11e9-a026-94659cf754d0",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
                 }
             ],
             "ontology_id": null,
@@ -1645,9 +1710,9 @@
         }
     ],
     "metadata": {
-        "db": "PostgreSQL 12.2 (Ubuntu 12.2-2.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit",
-        "git hash": "d5d158c 2020-03-29 21:36:10 -0500",
+        "db": "PostgreSQL 12.5 (Ubuntu 12.5-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit",
+        "git hash": "8992df753 2021-01-06 17:06:54 +0000",
         "os": "Linux",
-        "os version": "4.4.0-1107-aws"
+        "os version": "4.15.0-129-generic"
     }
 }
