@@ -1,0 +1,1825 @@
+{
+    "graph": [
+        {
+            "author": " Legion GIS, LLC",
+            "cards": [
+                {
+                    "active": true,
+                    "cardid": "5785d971-e026-11eb-9762-4586dd3a9df8",
+                    "component_id": "f05e4d3a-53c1-11e8-b0ea-784f435179ea",
+                    "config": null,
+                    "constraints": [
+                        {
+                            "card_id": "5785d971-e026-11eb-9762-4586dd3a9df8",
+                            "constraintid": "b153afbd-70dc-461d-9376-51cebed8b94b",
+                            "nodes": [],
+                            "uniquetoallinstances": false
+                        }
+                    ],
+                    "cssclass": null,
+                    "description": "this branch holds management-related information",
+                    "graph_id": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+                    "helpenabled": true,
+                    "helptext": "<p>These fields are used to help determine site access permissions.</p>\n\n<p>If a Land Manager&#39;s account has the <strong>area filter </strong>applied, then they will have access to any sites whose County, FPAN Region, or Management Area values match up with those Management Areas added to their account. While these fields are geographical in nature, in some cases database admins will need to augment their values to handle edge cases.</p>\n\n<p>If a Land Manager&#39;s account has the <strong>agency filter</strong> applied, they will have access to any site whose Management Agency matches the agency that is added to their account.</p>\n",
+                    "helptitle": null,
+                    "instructions": null,
+                    "is_editable": true,
+                    "name": "Site Management",
+                    "nodegroup_id": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "sortorder": null,
+                    "visible": true
+                }
+            ],
+            "cards_x_nodes_x_widgets": [
+                {
+                    "card_id": "5785d971-e026-11eb-9762-4586dd3a9df8",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Management Agency",
+                        "placeholder": "Select an option"
+                    },
+                    "id": "8a593233-ebee-11eb-9328-71ae38d48e30",
+                    "label": "Management Agency",
+                    "node_id": "e3b738e0-e0f0-11eb-9762-4586dd3a9df8",
+                    "sortorder": 3,
+                    "visible": true,
+                    "widget_id": "2d298980-cbd9-abba-b225-94659cf754d0"
+                },
+                {
+                    "card_id": "5785d971-e026-11eb-9762-4586dd3a9df8",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "FPAN Region",
+                        "placeholder": "Select an option"
+                    },
+                    "id": "8a59322d-ebee-11eb-9328-71ae38d48e30",
+                    "label": "FPAN Region",
+                    "node_id": "6ff54788-e0ed-11eb-9762-4586dd3a9df8",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "2d298980-abba-11e7-b225-94659cf754d0"
+                },
+                {
+                    "card_id": "5785d971-e026-11eb-9762-4586dd3a9df8",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "County",
+                        "placeholder": "Select an option"
+                    },
+                    "id": "8a59322f-ebee-11eb-9328-71ae38d48e30",
+                    "label": "County",
+                    "node_id": "8bdfcafe-e0ed-11eb-9762-4586dd3a9df8",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "2d29abba-cbd9-11e7-b225-94659cf754d0"
+                },
+                {
+                    "card_id": "5785d971-e026-11eb-9762-4586dd3a9df8",
+                    "config": {
+                        "defaultValue": "",
+                        "label": "Management Area",
+                        "placeholder": "Select an option"
+                    },
+                    "id": "8a593231-ebee-11eb-9328-71ae38d48e30",
+                    "label": "Management Area",
+                    "node_id": "9b3ff3cc-e0f0-11eb-9762-4586dd3a9df8",
+                    "sortorder": 2,
+                    "visible": true,
+                    "widget_id": "2d298980-cbd9-11e7-b225-94659cf754d0"
+                }
+            ],
+            "color": null,
+            "config": {},
+            "deploymentdate": null,
+            "deploymentfile": null,
+            "description": "this branch holds management-related information",
+            "edges": [
+                {
+                    "description": null,
+                    "domainnode_id": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "edgeid": "e3b738e1-e0f0-11eb-9762-4586dd3a9df8",
+                    "graph_id": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "e3b738e0-e0f0-11eb-9762-4586dd3a9df8"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "edgeid": "8bdfcaff-e0ed-11eb-9762-4586dd3a9df8",
+                    "graph_id": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "8bdfcafe-e0ed-11eb-9762-4586dd3a9df8"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "edgeid": "9b3ff3cd-e0f0-11eb-9762-4586dd3a9df8",
+                    "graph_id": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "9b3ff3cc-e0f0-11eb-9762-4586dd3a9df8"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "edgeid": "6ff54789-e0ed-11eb-9762-4586dd3a9df8",
+                    "graph_id": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "6ff54788-e0ed-11eb-9762-4586dd3a9df8"
+                }
+            ],
+            "functions_x_graphs": [],
+            "graphid": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+            "iconclass": "fa fa-sitemap",
+            "is_editable": true,
+            "isactive": true,
+            "isresource": false,
+            "jsonldcontext": null,
+            "name": "Site Management",
+            "nodegroups": [
+                {
+                    "cardinality": "1",
+                    "legacygroupid": null,
+                    "nodegroupid": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "parentnodegroup_id": null
+                }
+            ],
+            "nodes": [
+                {
+                    "config": {
+                        "options": []
+                    },
+                    "datatype": "management-area-datatype",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "County",
+                    "nodegroup_id": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "nodeid": "8bdfcafe-e0ed-11eb-9762-4586dd3a9df8",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "options": []
+                    },
+                    "datatype": "management-area-datatype",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Management Agency",
+                    "nodegroup_id": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "nodeid": "e3b738e0-e0f0-11eb-9762-4586dd3a9df8",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "options": [
+                            {
+                                "id": "9",
+                                "selected": "false",
+                                "text": "Sunnyhill Restoration Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "10",
+                                "selected": "false",
+                                "text": "Lochloosa Wildlife Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "11",
+                                "selected": "false",
+                                "text": "Bayard Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "12",
+                                "selected": "false",
+                                "text": "Lake Jesup Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "13",
+                                "selected": "false",
+                                "text": "SJRWMD Campus Parcels | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "14",
+                                "selected": "false",
+                                "text": "Thomas Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "15",
+                                "selected": "false",
+                                "text": "Murphy Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "16",
+                                "selected": "false",
+                                "text": "Wekiva River Buffer Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "17",
+                                "selected": "false",
+                                "text": "Black Sink Prairie | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "18",
+                                "selected": "false",
+                                "text": "Gourd Island Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "19",
+                                "selected": "false",
+                                "text": "Micco Water Management Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "20",
+                                "selected": "false",
+                                "text": "River Lakes Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "21",
+                                "selected": "false",
+                                "text": "Lake Apopka North Shore | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "22",
+                                "selected": "false",
+                                "text": "Lake Apopka North Shore | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "23",
+                                "selected": "false",
+                                "text": "Rice Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "24",
+                                "selected": "false",
+                                "text": "Fisheating Creek/Lykes Brothers Conservation Easement | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "25",
+                                "selected": "false",
+                                "text": "Blackwater River State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "26",
+                                "selected": "false",
+                                "text": "Rice Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "27",
+                                "selected": "false",
+                                "text": "Holey Land Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "28",
+                                "selected": "false",
+                                "text": "Emeralda Marsh Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "29",
+                                "selected": "false",
+                                "text": "HDS - Clay County Monitoring Well Site | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "30",
+                                "selected": "false",
+                                "text": "Dade Battlefield Historic State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "31",
+                                "selected": "false",
+                                "text": "Lignumvitae Key Botanical State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "32",
+                                "selected": "false",
+                                "text": "Orman House Historic State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "33",
+                                "selected": "false",
+                                "text": "Fellsmere Water Management Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "34",
+                                "selected": "false",
+                                "text": "Indian River Lagoon Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "35",
+                                "selected": "false",
+                                "text": "Terra Ceia Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "36",
+                                "selected": "false",
+                                "text": "Edward Ball Wakulla Springs State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "37",
+                                "selected": "false",
+                                "text": "Indian Key Historic State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "38",
+                                "selected": "false",
+                                "text": "St. Sebastian River Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "39",
+                                "selected": "false",
+                                "text": "Koreshan State Historic Site | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "40",
+                                "selected": "false",
+                                "text": "Dunns Creek State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "41",
+                                "selected": "false",
+                                "text": "Roberts Property | Aquatic Preserve | Florida Coastal Office"
+                            },
+                            {
+                                "id": "63",
+                                "selected": "false",
+                                "text": "Fanning Springs State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "43",
+                                "selected": "false",
+                                "text": "Carl Duval Moore State Forest and Park | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "44",
+                                "selected": "false",
+                                "text": "GTMNERR - Guana River Site | Aquatic Preserve | Florida Coastal Office"
+                            },
+                            {
+                                "id": "45",
+                                "selected": "false",
+                                "text": "Charles H. Bronson State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "46",
+                                "selected": "false",
+                                "text": "North Peninsula State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "47",
+                                "selected": "false",
+                                "text": "Fort George Island Cultural State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "48",
+                                "selected": "false",
+                                "text": "Cayo Costa State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "42",
+                                "selected": "false",
+                                "text": "Pine Log State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "49",
+                                "selected": "false",
+                                "text": "Adams Ranch Agricultural and Conservation Easement #1 | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "50",
+                                "selected": "false",
+                                "text": "Cary State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "51",
+                                "selected": "false",
+                                "text": "Cockroach Bay Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "52",
+                                "selected": "false",
+                                "text": "Nature Coast State Trail | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "64",
+                                "selected": "false",
+                                "text": "Jonathan Dickinson State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "53",
+                                "selected": "false",
+                                "text": "Addison Blockhouse Historic State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "65",
+                                "selected": "false",
+                                "text": "Osprey Unit | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "66",
+                                "selected": "false",
+                                "text": "Lake Kissimmee State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "54",
+                                "selected": "false",
+                                "text": "Deep Creek State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "55",
+                                "selected": "false",
+                                "text": "Grayton Beach State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "56",
+                                "selected": "false",
+                                "text": "Faver-Dykes State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "60",
+                                "selected": "false",
+                                "text": "Guana River Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "61",
+                                "selected": "false",
+                                "text": "Okeechobee Battlefield Historic State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "62",
+                                "selected": "false",
+                                "text": "Stump Pass Beach State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "57",
+                                "selected": "false",
+                                "text": "Okaloacoochee Slough State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "58",
+                                "selected": "false",
+                                "text": "Four Creeks State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "59",
+                                "selected": "false",
+                                "text": "Guana Tolomato Matanzas National Estuarine Research Reserve | Aquatic Preserve | Florida Coastal Office"
+                            },
+                            {
+                                "id": "67",
+                                "selected": "false",
+                                "text": "Marsh View Preserve | Aquatic Preserve | Florida Coastal Office"
+                            },
+                            {
+                                "id": "68",
+                                "selected": "false",
+                                "text": "St. Joseph Bay State Buffer Preserve | Aquatic Preserve | Florida Coastal Office"
+                            },
+                            {
+                                "id": "69",
+                                "selected": "false",
+                                "text": "Matanzas State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "70",
+                                "selected": "false",
+                                "text": "Indian Lake State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "71",
+                                "selected": "false",
+                                "text": "John C. and Mariana Jones/Hungryland Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "72",
+                                "selected": "false",
+                                "text": "Tarkiln Bayou Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "73",
+                                "selected": "false",
+                                "text": "Kissimmee Prairie Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "74",
+                                "selected": "false",
+                                "text": "General James A. Van Fleet State Trail | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "75",
+                                "selected": "false",
+                                "text": "Pellicer Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "76",
+                                "selected": "false",
+                                "text": "Rookery Bay Reserve Lands | Aquatic Preserve | Florida Coastal Office"
+                            },
+                            {
+                                "id": "77",
+                                "selected": "false",
+                                "text": "Chassahowitzka Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "78",
+                                "selected": "false",
+                                "text": "Judges Cave Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "79",
+                                "selected": "false",
+                                "text": "Atlantic Ridge Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "80",
+                                "selected": "false",
+                                "text": "Bald Point State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "81",
+                                "selected": "false",
+                                "text": "Cedar Key Museum State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "82",
+                                "selected": "false",
+                                "text": "John M. Bethea State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "83",
+                                "selected": "false",
+                                "text": "Tiger Bay State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "84",
+                                "selected": "false",
+                                "text": "Ross Prairie State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "133",
+                                "selected": "false",
+                                "text": "Peace River State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "85",
+                                "selected": "false",
+                                "text": "Ybor City Museum State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "86",
+                                "selected": "false",
+                                "text": "Tomoka State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "87",
+                                "selected": "false",
+                                "text": "Bulow Creek State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "88",
+                                "selected": "false",
+                                "text": "Little Manatee River State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "89",
+                                "selected": "false",
+                                "text": "Withlacoochee State Trail | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "90",
+                                "selected": "false",
+                                "text": "Silver Springs State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "91",
+                                "selected": "false",
+                                "text": "Big Shoals State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "100",
+                                "selected": "false",
+                                "text": "Chinquapin Farm Phase 1B Gopher Tortoise Recipient Site | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "101",
+                                "selected": "false",
+                                "text": "Big Bend Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "102",
+                                "selected": "false",
+                                "text": "Anastasia State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "103",
+                                "selected": "false",
+                                "text": "Dr. Von D. Mizell-Eula Johnson State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "104",
+                                "selected": "false",
+                                "text": "Allen David Broussard Catfish Creek Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "105",
+                                "selected": "false",
+                                "text": "Palatka-to-St. Augustine State Trail | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "106",
+                                "selected": "false",
+                                "text": "Tate's Hell State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "107",
+                                "selected": "false",
+                                "text": "Cape St. George State Reserve | Aquatic Preserve | Florida Coastal Office"
+                            },
+                            {
+                                "id": "108",
+                                "selected": "false",
+                                "text": "Apalachicola National Estuarine Research Reserve | Aquatic Preserve | Florida Coastal Office"
+                            },
+                            {
+                                "id": "109",
+                                "selected": "false",
+                                "text": "Tate's Hell Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "110",
+                                "selected": "false",
+                                "text": "Andrews Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "111",
+                                "selected": "false",
+                                "text": "Rock Springs Run State Reserve | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "134",
+                                "selected": "false",
+                                "text": "Fred C. Babcock-Cecil M. Webb Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "112",
+                                "selected": "false",
+                                "text": "Evans Agricultural and Conservation Easement | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "113",
+                                "selected": "false",
+                                "text": "Crystal River Archaeological State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "114",
+                                "selected": "false",
+                                "text": "Aucilla Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "135",
+                                "selected": "false",
+                                "text": "Lake Wales Ridge Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "136",
+                                "selected": "false",
+                                "text": "Charlotte Harbor Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "92",
+                                "selected": "false",
+                                "text": "Belmore State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "93",
+                                "selected": "false",
+                                "text": "Lake George State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "94",
+                                "selected": "false",
+                                "text": "Grissom Parkway | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "95",
+                                "selected": "false",
+                                "text": "Apalachee Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "96",
+                                "selected": "false",
+                                "text": "Crystal River Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "97",
+                                "selected": "false",
+                                "text": "Stephen Foster Folk Culture Center State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "98",
+                                "selected": "false",
+                                "text": "Suwannee River State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "99",
+                                "selected": "false",
+                                "text": "Hilochee Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "137",
+                                "selected": "false",
+                                "text": "Etoniah Creek State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "115",
+                                "selected": "false",
+                                "text": "Crescent Lake Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "116",
+                                "selected": "false",
+                                "text": "Twin Rivers State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "117",
+                                "selected": "false",
+                                "text": "Blackwater Heritage State Trail | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "118",
+                                "selected": "false",
+                                "text": "Econfina River State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "119",
+                                "selected": "false",
+                                "text": "Cedar Key Scrub State Reserve | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "122",
+                                "selected": "false",
+                                "text": "FWC Mitigation Parcel | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "123",
+                                "selected": "false",
+                                "text": "Waccasassa Bay Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "124",
+                                "selected": "false",
+                                "text": "Manatee Springs State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "125",
+                                "selected": "false",
+                                "text": "John D. MacArthur Beach State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "126",
+                                "selected": "false",
+                                "text": "Southfork State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "127",
+                                "selected": "false",
+                                "text": "Torreya State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "128",
+                                "selected": "false",
+                                "text": "K-Rocker Agricultural and Conservation Easement | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "129",
+                                "selected": "false",
+                                "text": "Blackwater River State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "130",
+                                "selected": "false",
+                                "text": "River Rise Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "131",
+                                "selected": "false",
+                                "text": "Paynes Prairie Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "120",
+                                "selected": "false",
+                                "text": "Wakulla State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "121",
+                                "selected": "false",
+                                "text": "XL Ranch Agricultural and Conservation Easement | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "132",
+                                "selected": "false",
+                                "text": "Gainesville-to-Hawthorne State Trail | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "138",
+                                "selected": "false",
+                                "text": "JB Ranch Agricultural and Conservation Easement | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "139",
+                                "selected": "false",
+                                "text": "Jahreis Ranch Agricultural and Conservation Easement | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "140",
+                                "selected": "false",
+                                "text": "Palatka-to-Lake Butler State Trail | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "141",
+                                "selected": "false",
+                                "text": "Camp Lonesome Agricultural and Conservation Easement #1 | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "142",
+                                "selected": "false",
+                                "text": "Withlacoochee State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "147",
+                                "selected": "false",
+                                "text": "T. H. Stone Memorial St. Joseph Peninsula State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "148",
+                                "selected": "false",
+                                "text": "Estero Bay Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "149",
+                                "selected": "false",
+                                "text": "Clark Bay Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "143",
+                                "selected": "false",
+                                "text": "Smith Family Farms Agricultural and Conservation Easements | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "144",
+                                "selected": "false",
+                                "text": "Marjorie Harris Carr Cross Florida Greenway State Recreation and Conservation Area | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "145",
+                                "selected": "false",
+                                "text": "Myakka River State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "146",
+                                "selected": "false",
+                                "text": "Lake Louisa State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "150",
+                                "selected": "false",
+                                "text": "S. Y. Hartt Agricultural and Conservation Easement North | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "151",
+                                "selected": "false",
+                                "text": "S. Y. Hartt Agricultural and Conservation Easement South | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "152",
+                                "selected": "false",
+                                "text": "Escribano Point Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "153",
+                                "selected": "false",
+                                "text": "Topsail Hill Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "154",
+                                "selected": "false",
+                                "text": "Kilbee Ranch Agricultural and Conservation Easement | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "155",
+                                "selected": "false",
+                                "text": "Little Big Econ State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "156",
+                                "selected": "false",
+                                "text": "Lake Wales Ridge State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "157",
+                                "selected": "false",
+                                "text": "Jennings State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "166",
+                                "selected": "false",
+                                "text": "Seminole State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "158",
+                                "selected": "false",
+                                "text": "Circle Pines Farm Agricultural and Conservation Easement | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "159",
+                                "selected": "false",
+                                "text": "Spirit of the Wild Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "160",
+                                "selected": "false",
+                                "text": "Lake Talquin State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "161",
+                                "selected": "false",
+                                "text": "Joe Budd Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "162",
+                                "selected": "false",
+                                "text": "Lake Talquin State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "167",
+                                "selected": "false",
+                                "text": "Rookery Bay National Estuarine Research Reserve | Aquatic Preserve | Florida Coastal Office"
+                            },
+                            {
+                                "id": "168",
+                                "selected": "false",
+                                "text": "Fakahatchee Strand Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "163",
+                                "selected": "false",
+                                "text": "Newnans Lake State Forest | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "169",
+                                "selected": "false",
+                                "text": "Savannas Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "164",
+                                "selected": "false",
+                                "text": "Babcock Ranch Preserve | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "165",
+                                "selected": "false",
+                                "text": "Phillips Mathis Agricultural and Conservation Easement | State Forest | Florida Forest Service"
+                            },
+                            {
+                                "id": "170",
+                                "selected": "false",
+                                "text": "Panther Passage Conservation Bank Conservation Easement | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "171",
+                                "selected": "false",
+                                "text": "Rotenberger Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "172",
+                                "selected": "false",
+                                "text": "Sand Lakes Restoration Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "173",
+                                "selected": "false",
+                                "text": "Makinson Island Conservation Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "175",
+                                "selected": "false",
+                                "text": "Okaloacoochee Slough Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "176",
+                                "selected": "false",
+                                "text": "Lake Stone Fish Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "178",
+                                "selected": "false",
+                                "text": "Suwannee Ridge Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "174",
+                                "selected": "false",
+                                "text": "Ten Mile Ridge | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "215",
+                                "selected": "false",
+                                "text": "Henderson Beach State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "180",
+                                "selected": "false",
+                                "text": "Morgan Lake Wales Preserve Conservation Bank Conservation Easement | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "177",
+                                "selected": "false",
+                                "text": "Micco Expansion | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "181",
+                                "selected": "false",
+                                "text": "Little Gator Creek Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "182",
+                                "selected": "false",
+                                "text": "Three Lakes Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "218",
+                                "selected": "false",
+                                "text": "Fort Zachary Taylor Historic State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "184",
+                                "selected": "false",
+                                "text": "Platt Branch Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "179",
+                                "selected": "false",
+                                "text": "L. Kirk Edwards Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "187",
+                                "selected": "false",
+                                "text": "Bullfrog Creek Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "188",
+                                "selected": "false",
+                                "text": "Fisheating Creek Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "183",
+                                "selected": "false",
+                                "text": "J. W. Corbett Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "185",
+                                "selected": "false",
+                                "text": "Paradise Island | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "219",
+                                "selected": "false",
+                                "text": "SJRWMD Campus Parcels | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "186",
+                                "selected": "false",
+                                "text": "Salt Lake Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "223",
+                                "selected": "false",
+                                "text": "Troy Spring State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "189",
+                                "selected": "false",
+                                "text": "Split Oak Forest Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "190",
+                                "selected": "false",
+                                "text": "Half Moon Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "191",
+                                "selected": "false",
+                                "text": "Chinquapin Farm Phase 1A Gopher Tortoise Recipient Site | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "193",
+                                "selected": "false",
+                                "text": "Perry Oldenburg Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "192",
+                                "selected": "false",
+                                "text": "Everglades and Francis S. Taylor Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "194",
+                                "selected": "false",
+                                "text": "Longbranch Crossing Gopher Tortoise Recipient Site | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "195",
+                                "selected": "false",
+                                "text": "Lafayette Forest Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "198",
+                                "selected": "false",
+                                "text": "Moody Branch Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "199",
+                                "selected": "false",
+                                "text": "Bell Ridge Longleaf Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "203",
+                                "selected": "false",
+                                "text": "Caravelle Ranch Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "196",
+                                "selected": "false",
+                                "text": "Fort White Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "197",
+                                "selected": "false",
+                                "text": "Heritage Ranch Section 12 Gopher Tortoise Recipient Sites | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "200",
+                                "selected": "false",
+                                "text": "Chinsegut Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "201",
+                                "selected": "false",
+                                "text": "Hatchineha Ranch Conservation Bank Conservation Easements | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "202",
+                                "selected": "false",
+                                "text": "Florida Keys Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "204",
+                                "selected": "false",
+                                "text": "Hickey Creek Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "208",
+                                "selected": "false",
+                                "text": "Crooked Lake Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "205",
+                                "selected": "false",
+                                "text": "Janet Butterfield Brooks Preserve Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "206",
+                                "selected": "false",
+                                "text": "Apalachicola River Wildlife and Environmental Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "207",
+                                "selected": "false",
+                                "text": "Triple N Ranch Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "209",
+                                "selected": "false",
+                                "text": "Fort Drum Marsh Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "210",
+                                "selected": "false",
+                                "text": "Herky Huffman/Bull Creek Wildlife Management Area | Fish and Wildlife Conservation Commission | Fish and Wildlife Conservation Commission"
+                            },
+                            {
+                                "id": "211",
+                                "selected": "false",
+                                "text": "Hull Swamp Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "212",
+                                "selected": "false",
+                                "text": "Deer Lake State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "213",
+                                "selected": "false",
+                                "text": "Fernandina Plaza Historic State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "214",
+                                "selected": "false",
+                                "text": "Hillsborough River State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "216",
+                                "selected": "false",
+                                "text": "Lake Griffin State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "217",
+                                "selected": "false",
+                                "text": "Windley Key Fossil Reef Geological State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "220",
+                                "selected": "false",
+                                "text": "Little Talbot Island State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "222",
+                                "selected": "false",
+                                "text": "De Leon Springs State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "221",
+                                "selected": "false",
+                                "text": "George Crady Bridge Fishing Pier State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "224",
+                                "selected": "false",
+                                "text": "Seabranch Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "225",
+                                "selected": "false",
+                                "text": "Ochlockonee River State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "230",
+                                "selected": "false",
+                                "text": "Natural Bridge Battlefield Historic State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "247",
+                                "selected": "false",
+                                "text": "Marjorie Kinnan Rawlings Historic State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "260",
+                                "selected": "false",
+                                "text": "Stokes Landing Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "226",
+                                "selected": "false",
+                                "text": "Colt Creek State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "297",
+                                "selected": "false",
+                                "text": "Lake Harris Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "227",
+                                "selected": "false",
+                                "text": "Weeki Wachee Springs State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "228",
+                                "selected": "false",
+                                "text": "Florida Caverns State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "229",
+                                "selected": "false",
+                                "text": "Long Key State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "231",
+                                "selected": "false",
+                                "text": "Bulow Plantation Ruins Historic State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "232",
+                                "selected": "false",
+                                "text": "Ponce de Leon Springs State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "235",
+                                "selected": "false",
+                                "text": "Hontoon Island State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "233",
+                                "selected": "false",
+                                "text": "Palm Bluff Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "234",
+                                "selected": "false",
+                                "text": "Blue Spring State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "236",
+                                "selected": "false",
+                                "text": "Avalon State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "237",
+                                "selected": "false",
+                                "text": "Lake June-in-Winter Scrub State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "238",
+                                "selected": "false",
+                                "text": "Fort Cooper State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "240",
+                                "selected": "false",
+                                "text": "Blue Cypress Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "243",
+                                "selected": "false",
+                                "text": "Bill Baggs Cape Florida State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "239",
+                                "selected": "false",
+                                "text": "St. Lucie Inlet Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "244",
+                                "selected": "false",
+                                "text": "Delnor-Wiggins Pass State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "241",
+                                "selected": "false",
+                                "text": "Alafia River State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "246",
+                                "selected": "false",
+                                "text": "Madira Bickel Mound State Archaeological Site | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "242",
+                                "selected": "false",
+                                "text": "Alfred B. Maclay Gardens State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "245",
+                                "selected": "false",
+                                "text": "Gamble Rogers Memorial State Recreation Area at Flagler Beach | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "250",
+                                "selected": "false",
+                                "text": "Madison Blue Spring | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "251",
+                                "selected": "false",
+                                "text": "Dagny Johnson Key Largo Hammock Botanical State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "248",
+                                "selected": "false",
+                                "text": "Ravine Gardens State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "249",
+                                "selected": "false",
+                                "text": "St. Andrews State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "256",
+                                "selected": "false",
+                                "text": "Lovers Key State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "257",
+                                "selected": "false",
+                                "text": "Lower Wekiva River Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "252",
+                                "selected": "false",
+                                "text": "Tallahassee-St. Marks Historic Railroad State Trail | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "253",
+                                "selected": "false",
+                                "text": "Eden Gardens State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "254",
+                                "selected": "false",
+                                "text": "Ichetucknee Springs State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "255",
+                                "selected": "false",
+                                "text": "Fort Pierce Inlet State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "259",
+                                "selected": "false",
+                                "text": "Ichetucknee Trace | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "258",
+                                "selected": "false",
+                                "text": "Wingate Creek State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "261",
+                                "selected": "false",
+                                "text": "O'leno State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "262",
+                                "selected": "false",
+                                "text": "Suwannee River Wilderness State Trail | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "270",
+                                "selected": "false",
+                                "text": "Hal Scott Regional Preserve and Park | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "271",
+                                "selected": "false",
+                                "text": "Lake Monroe Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "272",
+                                "selected": "false",
+                                "text": "Seminole Ranch Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "273",
+                                "selected": "false",
+                                "text": "Julington-Durbin Preserve | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "274",
+                                "selected": "false",
+                                "text": "Buck Lake Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "263",
+                                "selected": "false",
+                                "text": "Skyway Fishing Pier State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "277",
+                                "selected": "false",
+                                "text": "Wekiwa Springs State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "278",
+                                "selected": "false",
+                                "text": "John Pennekamp Coral Reef State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "279",
+                                "selected": "false",
+                                "text": "Florida Keys Overseas Heritage State Trail | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "264",
+                                "selected": "false",
+                                "text": "Yellow River Marsh Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "265",
+                                "selected": "false",
+                                "text": "Curry Hammock State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "285",
+                                "selected": "false",
+                                "text": "Turnbull Hammock Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "266",
+                                "selected": "false",
+                                "text": "Lake Jackson Mounds Archaeological State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "267",
+                                "selected": "false",
+                                "text": "Caladesi Island State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "268",
+                                "selected": "false",
+                                "text": "San Felasco Hammock Preserve State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "269",
+                                "selected": "false",
+                                "text": "Fort Clinch State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "275",
+                                "selected": "false",
+                                "text": "Honeymoon Island State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "276",
+                                "selected": "false",
+                                "text": "Sebastian Inlet State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "280",
+                                "selected": "false",
+                                "text": "Lafayette Blue Springs State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "281",
+                                "selected": "false",
+                                "text": "Black Creek Ravines Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "282",
+                                "selected": "false",
+                                "text": "Collier-Seminole State Park | State Park | Florida State Parks"
+                            },
+                            {
+                                "id": "283",
+                                "selected": "false",
+                                "text": "Canaveral Marshes Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "288",
+                                "selected": "false",
+                                "text": "Lake Norris Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "284",
+                                "selected": "false",
+                                "text": "Silver Springs Forest Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "286",
+                                "selected": "false",
+                                "text": "Murphy Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "287",
+                                "selected": "false",
+                                "text": "Moses Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "290",
+                                "selected": "false",
+                                "text": "Longleaf Flatwoods Reserve | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "289",
+                                "selected": "false",
+                                "text": "North Region Mitigation Archipelago | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "292",
+                                "selected": "false",
+                                "text": "Thomas Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "291",
+                                "selected": "false",
+                                "text": "Moss Bluff Lock and Dam | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "293",
+                                "selected": "false",
+                                "text": "Ocklawaha Prairie Restoration Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "295",
+                                "selected": "false",
+                                "text": "C-54 Canal | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "294",
+                                "selected": "false",
+                                "text": "Rice Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "296",
+                                "selected": "false",
+                                "text": "Dunns Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "299",
+                                "selected": "false",
+                                "text": "Econlockhatchee Sandhills Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "298",
+                                "selected": "false",
+                                "text": "Three Forks Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "300",
+                                "selected": "false",
+                                "text": "Blue Cypress Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "301",
+                                "selected": "false",
+                                "text": "Lake George Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "302",
+                                "selected": "false",
+                                "text": "Heart Island Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "303",
+                                "selected": "false",
+                                "text": "Newnans Lake Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "304",
+                                "selected": "false",
+                                "text": "Orange Creek Restoration Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "305",
+                                "selected": "false",
+                                "text": "Murphy Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "306",
+                                "selected": "false",
+                                "text": "Pellicer Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "307",
+                                "selected": "false",
+                                "text": "Twelve Mile Swamp Conservation Area | Conservation Area | Office of Water Policy"
+                            },
+                            {
+                                "id": "308",
+                                "selected": "false",
+                                "text": "Deep Creek Conservation Area | Conservation Area | Office of Water Policy"
+                            }
+                        ]
+                    },
+                    "datatype": "management-area-datatype",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Management Area",
+                    "nodegroup_id": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "nodeid": "9b3ff3cc-e0f0-11eb-9762-4586dd3a9df8",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "config": {},
+                    "datatype": "semantic",
+                    "description": "",
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+                    "is_collector": true,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": true,
+                    "name": "Site Management",
+                    "nodegroup_id": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "nodeid": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "ontologyclass": null,
+                    "parentproperty": "",
+                    "sortorder": 0
+                },
+                {
+                    "config": {
+                        "dateFormat": "YYYY-MM-DD",
+                        "options": [
+                            {
+                                "id": "1",
+                                "selected": "false",
+                                "text": "FPAN Central Region"
+                            },
+                            {
+                                "id": "2",
+                                "selected": "false",
+                                "text": "FPAN East Central Region"
+                            },
+                            {
+                                "id": "3",
+                                "selected": "false",
+                                "text": "FPAN North Central Region"
+                            },
+                            {
+                                "id": "4",
+                                "selected": "false",
+                                "text": "FPAN Northeast Region"
+                            },
+                            {
+                                "id": "5",
+                                "selected": "false",
+                                "text": "FPAN Northwest Region"
+                            },
+                            {
+                                "id": "6",
+                                "selected": "false",
+                                "text": "FPAN Southeast Region"
+                            },
+                            {
+                                "id": "7",
+                                "selected": "false",
+                                "text": "FPAN Southwest Region"
+                            },
+                            {
+                                "id": "8",
+                                "selected": "false",
+                                "text": "FPAN West Central Region"
+                            }
+                        ]
+                    },
+                    "datatype": "management-area-datatype",
+                    "description": null,
+                    "exportable": false,
+                    "fieldname": null,
+                    "graph_id": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "FPAN Region",
+                    "nodegroup_id": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                    "nodeid": "6ff54788-e0ed-11eb-9762-4586dd3a9df8",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                }
+            ],
+            "ontology_id": null,
+            "relatable_resource_model_ids": [],
+            "resource_2_resource_constraints": [],
+            "root": {
+                "config": {},
+                "datatype": "semantic",
+                "description": "",
+                "exportable": false,
+                "fieldname": null,
+                "graph_id": "5785d96f-e026-11eb-9762-4586dd3a9df8",
+                "is_collector": true,
+                "isrequired": false,
+                "issearchable": true,
+                "istopnode": true,
+                "name": "Site Management",
+                "nodegroup_id": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                "nodeid": "5785d96e-e026-11eb-9762-4586dd3a9df8",
+                "ontologyclass": null,
+                "sortorder": 0
+            },
+            "slug": null,
+            "subtitle": "",
+            "template_id": "50000000-0000-0000-0000-000000000001",
+            "version": ""
+        }
+    ],
+    "metadata": {
+        "db": "PostgreSQL 12.7 (Ubuntu 12.7-1.pgdg20.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0, 64-bit",
+        "git hash": "ca65e7f47 2021-06-23 16:07:54 -0500",
+        "os": "Linux",
+        "os version": "5.8.0-63-generic"
+    }
+}
