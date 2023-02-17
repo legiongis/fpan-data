@@ -1,3 +1,7 @@
+### Deprecation Notice
+
+> **Note** This repository [has been deprecated](https://github.com/legiongis/fpan/issues/251), and its contents transferred to the [main repo](https://github.com/legiongis/fpan/) for this Arches implementation.
+
 #### Intro
 
 This is an Arches v4 package (4.0.1) built for the FPAN HMS database. To install this package, please see the main project repo: [legiongis/fpan](https://github.com/legiongis/fpan).
